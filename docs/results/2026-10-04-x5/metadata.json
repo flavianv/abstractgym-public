@@ -1,0 +1,367 @@
+{
+  "plan": {
+    "models": {
+      "14b": {
+        "model": "Qwen/Qwen3-14B",
+        "revision": "40c069824f4251a91eefaf281ebe4c544efd3e18",
+        "checkpoint": "e2-14b",
+        "baseline": "e2-14b"
+      },
+      "1.7b": {
+        "model": "Qwen/Qwen3-1.7B",
+        "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+        "checkpoint": "e2-native",
+        "baseline": "e2-lora-pdl-off"
+      }
+    },
+    "held_out_hash": "d2c7202ea08da83ad5398723a2cc4ce9d3175b7e5f7b84ce40aa529103e0d6e2",
+    "temperature": 0,
+    "thinking": false,
+    "step_tokens": 128,
+    "trace_tokens": 2048,
+    "batch_size": 32,
+    "context": 8192,
+    "injection_counts": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "injection": "first k PUSH values flipped within four-action assistant prefix; oracle suffix retained as diagnostic target",
+    "injection_subset": "depth >= 4; 48 balanced cases; matched k=0 correct-prefix control",
+    "inherited": "A6 live scores for four models; X2 LoRA oracle states reused",
+    "source_sha256": {
+      "src/abstractgym/a6_trace.py": "328a1d922e0d6dda421406f2e332b14ab9a127ad0a1fa0e1ebf3b3948c55fe94"
+    }
+  },
+  "tiny": [
+    {
+      "seed": 0,
+      "p": 0.805668016194332,
+      "eos_accuracy": 1.0,
+      "predicted": 0.22208611614666818,
+      "measured": 0.6521739130434783,
+      "by_length": [
+        {
+          "length": 2,
+          "total": 4,
+          "predicted": 0.6491009523185105,
+          "measured": 1
+        },
+        {
+          "length": 3,
+          "total": 4,
+          "predicted": 0.5229598765643061,
+          "measured": 1
+        },
+        {
+          "length": 4,
+          "total": 12,
+          "predicted": 0.4213320463007972,
+          "measured": 1
+        },
+        {
+          "length": 5,
+          "total": 8,
+          "predicted": 0.33945375390226173,
+          "measured": 1
+        },
+        {
+          "length": 6,
+          "total": 16,
+          "predicted": 0.2734870324961542,
+          "measured": 1
+        },
+        {
+          "length": 8,
+          "total": 8,
+          "predicted": 0.17752069324001712,
+          "measured": 1
+        },
+        {
+          "length": 10,
+          "total": 16,
+          "predicted": 0.11522885103833727,
+          "measured": 0.5
+        },
+        {
+          "length": 18,
+          "total": 16,
+          "predicted": 0.0204555055175763,
+          "measured": 0
+        },
+        {
+          "length": 34,
+          "total": 8,
+          "predicted": 0.0006446265476656921,
+          "measured": 0
+        }
+      ],
+      "injection": {
+        "0": {
+          "exact": [
+            16,
+            48
+          ],
+          "action_accuracy": [
+            266,
+            576
+          ],
+          "post_prefix_error_rate": 0.5381944444444444
+        },
+        "1": {
+          "exact": [
+            8,
+            48
+          ],
+          "action_accuracy": [
+            246,
+            576
+          ],
+          "post_prefix_error_rate": 0.5729166666666667
+        },
+        "2": {
+          "exact": [
+            10,
+            48
+          ],
+          "action_accuracy": [
+            246,
+            576
+          ],
+          "post_prefix_error_rate": 0.5729166666666667
+        },
+        "4": {
+          "exact": [
+            0,
+            48
+          ],
+          "action_accuracy": [
+            176,
+            576
+          ],
+          "post_prefix_error_rate": 0.6944444444444444
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "p": 0.8299595141700404,
+      "eos_accuracy": 1.0,
+      "predicted": 0.2605577438065053,
+      "measured": 0.6521739130434783,
+      "by_length": [
+        {
+          "length": 2,
+          "total": 4,
+          "predicted": 0.6888327951613695,
+          "measured": 1
+        },
+        {
+          "length": 3,
+          "total": 4,
+          "predicted": 0.5717033320165212,
+          "measured": 1
+        },
+        {
+          "length": 4,
+          "total": 12,
+          "predicted": 0.4744906196898253,
+          "measured": 1
+        },
+        {
+          "length": 5,
+          "total": 8,
+          "predicted": 0.3938080041960088,
+          "measured": 1
+        },
+        {
+          "length": 6,
+          "total": 16,
+          "predicted": 0.3268446998387927,
+          "measured": 1
+        },
+        {
+          "length": 8,
+          "total": 8,
+          "predicted": 0.22514134817363443,
+          "measured": 1
+        },
+        {
+          "length": 10,
+          "total": 16,
+          "predicted": 0.1550847441688437,
+          "measured": 0.5
+        },
+        {
+          "length": 18,
+          "total": 16,
+          "predicted": 0.03491598838333666,
+          "measured": 0
+        },
+        {
+          "length": 34,
+          "total": 8,
+          "predicted": 0.0017698434995385229,
+          "measured": 0
+        }
+      ],
+      "injection": {
+        "0": {
+          "exact": [
+            16,
+            48
+          ],
+          "action_accuracy": [
+            314,
+            576
+          ],
+          "post_prefix_error_rate": 0.45486111111111116
+        },
+        "1": {
+          "exact": [
+            12,
+            48
+          ],
+          "action_accuracy": [
+            296,
+            576
+          ],
+          "post_prefix_error_rate": 0.48611111111111116
+        },
+        "2": {
+          "exact": [
+            12,
+            48
+          ],
+          "action_accuracy": [
+            274,
+            576
+          ],
+          "post_prefix_error_rate": 0.5243055555555556
+        },
+        "4": {
+          "exact": [
+            6,
+            48
+          ],
+          "action_accuracy": [
+            212,
+            576
+          ],
+          "post_prefix_error_rate": 0.6319444444444444
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "p": 0.8036437246963563,
+      "eos_accuracy": 1.0,
+      "predicted": 0.21917424325080354,
+      "measured": 0.6521739130434783,
+      "by_length": [
+        {
+          "length": 2,
+          "total": 4,
+          "predicted": 0.6458432362438329,
+          "measured": 1
+        },
+        {
+          "length": 3,
+          "total": 4,
+          "predicted": 0.5190278639449426,
+          "measured": 1
+        },
+        {
+          "length": 4,
+          "total": 12,
+          "predicted": 0.41711348580190727,
+          "measured": 1
+        },
+        {
+          "length": 5,
+          "total": 8,
+          "predicted": 0.3352106353509255,
+          "measured": 1
+        },
+        {
+          "length": 6,
+          "total": 16,
+          "predicted": 0.2693899235512498,
+          "measured": 1
+        },
+        {
+          "length": 8,
+          "total": 8,
+          "predicted": 0.1739836600378179,
+          "measured": 1
+        },
+        {
+          "length": 10,
+          "total": 16,
+          "predicted": 0.11236617005237114,
+          "measured": 0.5
+        },
+        {
+          "length": 18,
+          "total": 16,
+          "predicted": 0.019549877530143374,
+          "measured": 0
+        },
+        {
+          "length": 34,
+          "total": 8,
+          "predicted": 0.0005917809307200195,
+          "measured": 0
+        }
+      ],
+      "injection": {
+        "0": {
+          "exact": [
+            16,
+            48
+          ],
+          "action_accuracy": [
+            244,
+            576
+          ],
+          "post_prefix_error_rate": 0.5763888888888888
+        },
+        "1": {
+          "exact": [
+            8,
+            48
+          ],
+          "action_accuracy": [
+            220,
+            576
+          ],
+          "post_prefix_error_rate": 0.6180555555555556
+        },
+        "2": {
+          "exact": [
+            8,
+            48
+          ],
+          "action_accuracy": [
+            210,
+            576
+          ],
+          "post_prefix_error_rate": 0.6354166666666667
+        },
+        "4": {
+          "exact": [
+            0,
+            48
+          ],
+          "action_accuracy": [
+            172,
+            576
+          ],
+          "post_prefix_error_rate": 0.7013888888888888
+        }
+      }
+    }
+  ],
+  "interpretation": "Descriptive pooled p^n null fitted to the same oracle cases; action-stratified sensitivity. Forced wrong prefixes are a separate history-continuation intervention, not live state corruption."
+}

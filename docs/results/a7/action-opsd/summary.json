@@ -1,0 +1,6042 @@
+{
+  "historical": {
+    "all_raw_calls_replayed": true,
+    "dataset": {
+      "cases": 240,
+      "families": {
+        "alternatives": 40,
+        "chain_depth": 40,
+        "nesting": 40,
+        "recursion": 40,
+        "sequence": 40,
+        "terminal_length": 40
+      },
+      "labels": {
+        "accept": 120,
+        "reject": 120
+      },
+      "unique_cases": 217,
+      "unique_grammars": 115
+    },
+    "direct": {
+      "cases": 240,
+      "cost": {
+        "amortized_inference_seconds": 1.3951490698382258,
+        "calls": 240,
+        "completion_tokens": 1440,
+        "malformed_json": 0,
+        "prompt_tokens": 47088,
+        "reasoning_tokens": 0,
+        "truncated": 0
+      },
+      "successes": 236
+    },
+    "external_state": {
+      "by_family": {
+        "alternatives": {
+          "cases": 40,
+          "correct_actions": 26,
+          "cost": {
+            "amortized_inference_seconds": 0.5289579799646162,
+            "calls": 62,
+            "completion_tokens": 631,
+            "malformed_json": 0,
+            "prompt_tokens": 33660,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 36
+          },
+          "first_error_histogram": {
+            "0": 22,
+            "1": 10,
+            "2": 4
+          },
+          "successes": 4,
+          "target_actions": 744,
+          "visited_calls": 62
+        },
+        "chain_depth": {
+          "cases": 40,
+          "correct_actions": 92,
+          "cost": {
+            "amortized_inference_seconds": 1.1074764679797227,
+            "calls": 128,
+            "completion_tokens": 1388,
+            "malformed_json": 0,
+            "prompt_tokens": 75568,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 36
+          },
+          "first_error_histogram": {
+            "1": 8,
+            "2": 16,
+            "3": 12
+          },
+          "successes": 4,
+          "target_actions": 616,
+          "visited_calls": 128
+        },
+        "nesting": {
+          "cases": 40,
+          "correct_actions": 202,
+          "cost": {
+            "amortized_inference_seconds": 3.900810141995499,
+            "calls": 242,
+            "completion_tokens": 2662,
+            "malformed_json": 0,
+            "prompt_tokens": 175631,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 40
+          },
+          "first_error_histogram": {
+            "1": 18,
+            "11": 1,
+            "13": 1,
+            "17": 3,
+            "3": 3,
+            "5": 6,
+            "7": 1,
+            "9": 7
+          },
+          "successes": 0,
+          "target_actions": 1108,
+          "visited_calls": 242
+        },
+        "recursion": {
+          "cases": 40,
+          "correct_actions": 191,
+          "cost": {
+            "amortized_inference_seconds": 3.150014020954788,
+            "calls": 231,
+            "completion_tokens": 2536,
+            "malformed_json": 0,
+            "prompt_tokens": 151200,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 40
+          },
+          "first_error_histogram": {
+            "0": 1,
+            "1": 19,
+            "11": 1,
+            "16": 6,
+            "2": 4,
+            "4": 4,
+            "8": 4,
+            "9": 1
+          },
+          "successes": 0,
+          "target_actions": 968,
+          "visited_calls": 231
+        },
+        "sequence": {
+          "cases": 40,
+          "correct_actions": 72,
+          "cost": {
+            "amortized_inference_seconds": 0.9314669433880899,
+            "calls": 106,
+            "completion_tokens": 1131,
+            "malformed_json": 0,
+            "prompt_tokens": 54242,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 34
+          },
+          "first_error_histogram": {
+            "1": 28,
+            "2": 6
+          },
+          "successes": 6,
+          "target_actions": 304,
+          "visited_calls": 106
+        },
+        "terminal_length": {
+          "cases": 40,
+          "correct_actions": 82,
+          "cost": {
+            "amortized_inference_seconds": 0.8841581465458148,
+            "calls": 102,
+            "completion_tokens": 968,
+            "malformed_json": 0,
+            "prompt_tokens": 48820,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 20
+          },
+          "first_error_histogram": {
+            "0": 2,
+            "1": 4,
+            "2": 4,
+            "3": 10
+          },
+          "successes": 20,
+          "target_actions": 120,
+          "visited_calls": 102
+        }
+      },
+      "by_level": {
+        "1": {
+          "cases": 48,
+          "correct_actions": 55,
+          "cost": {
+            "amortized_inference_seconds": 0.8461086955485371,
+            "calls": 95,
+            "completion_tokens": 1000,
+            "malformed_json": 0,
+            "prompt_tokens": 42920,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 40
+          },
+          "first_error_histogram": {
+            "0": 5,
+            "1": 31,
+            "2": 4
+          },
+          "successes": 8,
+          "target_actions": 252,
+          "visited_calls": 95
+        },
+        "16": {
+          "cases": 48,
+          "correct_actions": 254,
+          "cost": {
+            "amortized_inference_seconds": 5.419260306783906,
+            "calls": 298,
+            "completion_tokens": 3238,
+            "malformed_json": 0,
+            "prompt_tokens": 238494,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 44
+          },
+          "first_error_histogram": {
+            "0": 8,
+            "1": 8,
+            "11": 2,
+            "13": 1,
+            "16": 6,
+            "17": 3,
+            "2": 2,
+            "3": 12,
+            "7": 1,
+            "9": 1
+          },
+          "successes": 4,
+          "target_actions": 1752,
+          "visited_calls": 298
+        },
+        "2": {
+          "cases": 48,
+          "correct_actions": 85,
+          "cost": {
+            "amortized_inference_seconds": 1.0305221950602572,
+            "calls": 123,
+            "completion_tokens": 1278,
+            "malformed_json": 0,
+            "prompt_tokens": 58253,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 38
+          },
+          "first_error_histogram": {
+            "0": 3,
+            "1": 24,
+            "2": 4,
+            "3": 7
+          },
+          "successes": 10,
+          "target_actions": 352,
+          "visited_calls": 123
+        },
+        "4": {
+          "cases": 48,
+          "correct_actions": 122,
+          "cost": {
+            "amortized_inference_seconds": 1.3729572869870026,
+            "calls": 162,
+            "completion_tokens": 1722,
+            "malformed_json": 0,
+            "prompt_tokens": 83041,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 40
+          },
+          "first_error_histogram": {
+            "0": 3,
+            "1": 13,
+            "2": 11,
+            "3": 3,
+            "4": 4,
+            "5": 6
+          },
+          "successes": 8,
+          "target_actions": 552,
+          "visited_calls": 162
+        },
+        "8": {
+          "cases": 48,
+          "correct_actions": 149,
+          "cost": {
+            "amortized_inference_seconds": 1.8340352164488274,
+            "calls": 193,
+            "completion_tokens": 2078,
+            "malformed_json": 0,
+            "prompt_tokens": 116413,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 44
+          },
+          "first_error_histogram": {
+            "0": 6,
+            "1": 11,
+            "2": 13,
+            "3": 3,
+            "8": 4,
+            "9": 7
+          },
+          "successes": 4,
+          "target_actions": 952,
+          "visited_calls": 193
+        }
+      },
+      "cells": [
+        {
+          "cases": 8,
+          "correct_actions": 10,
+          "cost": {
+            "amortized_inference_seconds": 0.12778466437885072,
+            "calls": 14,
+            "completion_tokens": 134,
+            "malformed_json": 0,
+            "prompt_tokens": 6118,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 4
+          },
+          "family": "alternatives",
+          "first_error_histogram": {
+            "0": 2,
+            "1": 2
+          },
+          "level": 1,
+          "successes": 4,
+          "target_actions": 24,
+          "visited_calls": 14
+        },
+        {
+          "cases": 8,
+          "correct_actions": 5,
+          "cost": {
+            "amortized_inference_seconds": 0.1068394603444176,
+            "calls": 13,
+            "completion_tokens": 118,
+            "malformed_json": 0,
+            "prompt_tokens": 5838,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "alternatives",
+          "first_error_histogram": {
+            "0": 3,
+            "1": 5
+          },
+          "level": 2,
+          "successes": 0,
+          "target_actions": 48,
+          "visited_calls": 13
+        },
+        {
+          "cases": 8,
+          "correct_actions": 8,
+          "cost": {
+            "amortized_inference_seconds": 0.12860937330515299,
+            "calls": 16,
+            "completion_tokens": 171,
+            "malformed_json": 0,
+            "prompt_tokens": 7733,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "alternatives",
+          "first_error_histogram": {
+            "0": 3,
+            "1": 2,
+            "2": 3
+          },
+          "level": 4,
+          "successes": 0,
+          "target_actions": 96,
+          "visited_calls": 16
+        },
+        {
+          "cases": 8,
+          "correct_actions": 3,
+          "cost": {
+            "amortized_inference_seconds": 0.08895236744137947,
+            "calls": 11,
+            "completion_tokens": 116,
+            "malformed_json": 0,
+            "prompt_tokens": 6459,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "alternatives",
+          "first_error_histogram": {
+            "0": 6,
+            "1": 1,
+            "2": 1
+          },
+          "level": 8,
+          "successes": 0,
+          "target_actions": 192,
+          "visited_calls": 11
+        },
+        {
+          "cases": 8,
+          "correct_actions": 0,
+          "cost": {
+            "amortized_inference_seconds": 0.07677211449481547,
+            "calls": 8,
+            "completion_tokens": 92,
+            "malformed_json": 0,
+            "prompt_tokens": 7512,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "alternatives",
+          "first_error_histogram": {
+            "0": 8
+          },
+          "level": 16,
+          "successes": 0,
+          "target_actions": 384,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 8,
+          "cost": {
+            "amortized_inference_seconds": 0.14607994600373786,
+            "calls": 16,
+            "completion_tokens": 176,
+            "malformed_json": 0,
+            "prompt_tokens": 7328,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "chain_depth",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 1,
+          "successes": 0,
+          "target_actions": 40,
+          "visited_calls": 16
+        },
+        {
+          "cases": 8,
+          "correct_actions": 28,
+          "cost": {
+            "amortized_inference_seconds": 0.27332461150945164,
+            "calls": 32,
+            "completion_tokens": 332,
+            "malformed_json": 0,
+            "prompt_tokens": 15960,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 4
+          },
+          "family": "chain_depth",
+          "first_error_histogram": {
+            "3": 4
+          },
+          "level": 2,
+          "successes": 4,
+          "target_actions": 56,
+          "visited_calls": 32
+        },
+        {
+          "cases": 8,
+          "correct_actions": 16,
+          "cost": {
+            "amortized_inference_seconds": 0.19578716649266426,
+            "calls": 24,
+            "completion_tokens": 264,
+            "malformed_json": 0,
+            "prompt_tokens": 12624,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "chain_depth",
+          "first_error_histogram": {
+            "2": 8
+          },
+          "level": 4,
+          "successes": 0,
+          "target_actions": 88,
+          "visited_calls": 24
+        },
+        {
+          "cases": 8,
+          "correct_actions": 16,
+          "cost": {
+            "amortized_inference_seconds": 0.20449638574791607,
+            "calls": 24,
+            "completion_tokens": 264,
+            "malformed_json": 0,
+            "prompt_tokens": 14472,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "chain_depth",
+          "first_error_histogram": {
+            "2": 8
+          },
+          "level": 8,
+          "successes": 0,
+          "target_actions": 152,
+          "visited_calls": 24
+        },
+        {
+          "cases": 8,
+          "correct_actions": 24,
+          "cost": {
+            "amortized_inference_seconds": 0.28778835822595283,
+            "calls": 32,
+            "completion_tokens": 352,
+            "malformed_json": 0,
+            "prompt_tokens": 25184,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "chain_depth",
+          "first_error_histogram": {
+            "3": 8
+          },
+          "level": 16,
+          "successes": 0,
+          "target_actions": 280,
+          "visited_calls": 32
+        },
+        {
+          "cases": 8,
+          "correct_actions": 8,
+          "cost": {
+            "amortized_inference_seconds": 0.13506453775335103,
+            "calls": 16,
+            "completion_tokens": 176,
+            "malformed_json": 0,
+            "prompt_tokens": 7464,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "nesting",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 1,
+          "successes": 0,
+          "target_actions": 76,
+          "visited_calls": 16
+        },
+        {
+          "cases": 8,
+          "correct_actions": 14,
+          "cost": {
+            "amortized_inference_seconds": 0.18322439465191565,
+            "calls": 22,
+            "completion_tokens": 242,
+            "malformed_json": 0,
+            "prompt_tokens": 10791,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "nesting",
+          "first_error_histogram": {
+            "1": 5,
+            "3": 3
+          },
+          "level": 2,
+          "successes": 0,
+          "target_actions": 104,
+          "visited_calls": 22
+        },
+        {
+          "cases": 8,
+          "correct_actions": 32,
+          "cost": {
+            "amortized_inference_seconds": 0.35420749166223686,
+            "calls": 40,
+            "completion_tokens": 440,
+            "malformed_json": 0,
+            "prompt_tokens": 22044,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "nesting",
+          "first_error_histogram": {
+            "1": 2,
+            "5": 6
+          },
+          "level": 4,
+          "successes": 0,
+          "target_actions": 160,
+          "visited_calls": 40
+        },
+        {
+          "cases": 8,
+          "correct_actions": 64,
+          "cost": {
+            "amortized_inference_seconds": 0.7579656392371545,
+            "calls": 72,
+            "completion_tokens": 792,
+            "malformed_json": 0,
+            "prompt_tokens": 49284,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "nesting",
+          "first_error_histogram": {
+            "1": 1,
+            "9": 7
+          },
+          "level": 8,
+          "successes": 0,
+          "target_actions": 272,
+          "visited_calls": 72
+        },
+        {
+          "cases": 8,
+          "correct_actions": 84,
+          "cost": {
+            "amortized_inference_seconds": 2.470348078690842,
+            "calls": 92,
+            "completion_tokens": 1012,
+            "malformed_json": 0,
+            "prompt_tokens": 86048,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "nesting",
+          "first_error_histogram": {
+            "1": 2,
+            "11": 1,
+            "13": 1,
+            "17": 3,
+            "7": 1
+          },
+          "level": 16,
+          "successes": 0,
+          "target_actions": 496,
+          "visited_calls": 92
+        },
+        {
+          "cases": 8,
+          "correct_actions": 11,
+          "cost": {
+            "amortized_inference_seconds": 0.16331493703000888,
+            "calls": 19,
+            "completion_tokens": 204,
+            "malformed_json": 0,
+            "prompt_tokens": 8620,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "recursion",
+          "first_error_histogram": {
+            "0": 1,
+            "1": 3,
+            "2": 4
+          },
+          "level": 1,
+          "successes": 0,
+          "target_actions": 48,
+          "visited_calls": 19
+        },
+        {
+          "cases": 8,
+          "correct_actions": 8,
+          "cost": {
+            "amortized_inference_seconds": 0.13137686699337792,
+            "calls": 16,
+            "completion_tokens": 176,
+            "malformed_json": 0,
+            "prompt_tokens": 7344,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "recursion",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 2,
+          "successes": 0,
+          "target_actions": 76,
+          "visited_calls": 16
+        },
+        {
+          "cases": 8,
+          "correct_actions": 20,
+          "cost": {
+            "amortized_inference_seconds": 0.23839235600462416,
+            "calls": 28,
+            "completion_tokens": 308,
+            "malformed_json": 0,
+            "prompt_tokens": 13860,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "recursion",
+          "first_error_histogram": {
+            "1": 4,
+            "4": 4
+          },
+          "level": 4,
+          "successes": 0,
+          "target_actions": 132,
+          "visited_calls": 28
+        },
+        {
+          "cases": 8,
+          "correct_actions": 36,
+          "cost": {
+            "amortized_inference_seconds": 0.42966030077353934,
+            "calls": 44,
+            "completion_tokens": 484,
+            "malformed_json": 0,
+            "prompt_tokens": 25064,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "recursion",
+          "first_error_histogram": {
+            "1": 4,
+            "8": 4
+          },
+          "level": 8,
+          "successes": 0,
+          "target_actions": 244,
+          "visited_calls": 44
+        },
+        {
+          "cases": 8,
+          "correct_actions": 116,
+          "cost": {
+            "amortized_inference_seconds": 2.1872695601532386,
+            "calls": 124,
+            "completion_tokens": 1364,
+            "malformed_json": 0,
+            "prompt_tokens": 96312,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "recursion",
+          "first_error_histogram": {
+            "11": 1,
+            "16": 6,
+            "9": 1
+          },
+          "level": 16,
+          "successes": 0,
+          "target_actions": 468,
+          "visited_calls": 124
+        },
+        {
+          "cases": 8,
+          "correct_actions": 8,
+          "cost": {
+            "amortized_inference_seconds": 0.14607994600373786,
+            "calls": 16,
+            "completion_tokens": 176,
+            "malformed_json": 0,
+            "prompt_tokens": 7272,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "sequence",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 1,
+          "successes": 0,
+          "target_actions": 40,
+          "visited_calls": 16
+        },
+        {
+          "cases": 8,
+          "correct_actions": 14,
+          "cost": {
+            "amortized_inference_seconds": 0.16594188543240307,
+            "calls": 20,
+            "completion_tokens": 210,
+            "malformed_json": 0,
+            "prompt_tokens": 9432,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 6
+          },
+          "family": "sequence",
+          "first_error_histogram": {
+            "1": 6
+          },
+          "level": 2,
+          "successes": 2,
+          "target_actions": 44,
+          "visited_calls": 20
+        },
+        {
+          "cases": 8,
+          "correct_actions": 28,
+          "cost": {
+            "amortized_inference_seconds": 0.27351259662100347,
+            "calls": 32,
+            "completion_tokens": 332,
+            "malformed_json": 0,
+            "prompt_tokens": 16704,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 4
+          },
+          "family": "sequence",
+          "first_error_histogram": {
+            "1": 4
+          },
+          "level": 4,
+          "successes": 4,
+          "target_actions": 52,
+          "visited_calls": 32
+        },
+        {
+          "cases": 8,
+          "correct_actions": 12,
+          "cost": {
+            "amortized_inference_seconds": 0.16598827734378574,
+            "calls": 20,
+            "completion_tokens": 215,
+            "malformed_json": 0,
+            "prompt_tokens": 10412,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "sequence",
+          "first_error_histogram": {
+            "1": 4,
+            "2": 4
+          },
+          "level": 8,
+          "successes": 0,
+          "target_actions": 68,
+          "visited_calls": 20
+        },
+        {
+          "cases": 8,
+          "correct_actions": 10,
+          "cost": {
+            "amortized_inference_seconds": 0.17994423798715975,
+            "calls": 18,
+            "completion_tokens": 198,
+            "malformed_json": 0,
+            "prompt_tokens": 10422,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "sequence",
+          "first_error_histogram": {
+            "1": 6,
+            "2": 2
+          },
+          "level": 16,
+          "successes": 0,
+          "target_actions": 100,
+          "visited_calls": 18
+        },
+        {
+          "cases": 8,
+          "correct_actions": 10,
+          "cost": {
+            "amortized_inference_seconds": 0.12778466437885072,
+            "calls": 14,
+            "completion_tokens": 134,
+            "malformed_json": 0,
+            "prompt_tokens": 6118,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 4
+          },
+          "family": "terminal_length",
+          "first_error_histogram": {
+            "0": 2,
+            "1": 2
+          },
+          "level": 1,
+          "successes": 4,
+          "target_actions": 24,
+          "visited_calls": 14
+        },
+        {
+          "cases": 8,
+          "correct_actions": 16,
+          "cost": {
+            "amortized_inference_seconds": 0.16981497612869134,
+            "calls": 20,
+            "completion_tokens": 200,
+            "malformed_json": 0,
+            "prompt_tokens": 8888,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 4
+          },
+          "family": "terminal_length",
+          "first_error_histogram": {
+            "2": 4
+          },
+          "level": 2,
+          "successes": 4,
+          "target_actions": 24,
+          "visited_calls": 20
+        },
+        {
+          "cases": 8,
+          "correct_actions": 18,
+          "cost": {
+            "amortized_inference_seconds": 0.18244830290132086,
+            "calls": 22,
+            "completion_tokens": 207,
+            "malformed_json": 0,
+            "prompt_tokens": 10076,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 4
+          },
+          "family": "terminal_length",
+          "first_error_histogram": {
+            "1": 1,
+            "3": 3
+          },
+          "level": 4,
+          "successes": 4,
+          "target_actions": 24,
+          "visited_calls": 22
+        },
+        {
+          "cases": 8,
+          "correct_actions": 18,
+          "cost": {
+            "amortized_inference_seconds": 0.18697224590505357,
+            "calls": 22,
+            "completion_tokens": 207,
+            "malformed_json": 0,
+            "prompt_tokens": 10722,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 4
+          },
+          "family": "terminal_length",
+          "first_error_histogram": {
+            "1": 1,
+            "3": 3
+          },
+          "level": 8,
+          "successes": 4,
+          "target_actions": 24,
+          "visited_calls": 22
+        },
+        {
+          "cases": 8,
+          "correct_actions": 20,
+          "cost": {
+            "amortized_inference_seconds": 0.21713795723189833,
+            "calls": 24,
+            "completion_tokens": 220,
+            "malformed_json": 0,
+            "prompt_tokens": 13016,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 4
+          },
+          "family": "terminal_length",
+          "first_error_histogram": {
+            "3": 4
+          },
+          "level": 16,
+          "successes": 4,
+          "target_actions": 24,
+          "visited_calls": 24
+        }
+      ],
+      "overall": {
+        "cases": 240,
+        "correct_actions": 665,
+        "cost": {
+          "amortized_inference_seconds": 10.502883700828527,
+          "calls": 871,
+          "completion_tokens": 9316,
+          "malformed_json": 0,
+          "prompt_tokens": 539121,
+          "reasoning_tokens": 0,
+          "truncated": 0
+        },
+        "failures": {
+          "invalid_action": 206
+        },
+        "first_error_histogram": {
+          "0": 25,
+          "1": 87,
+          "11": 2,
+          "13": 1,
+          "16": 6,
+          "17": 3,
+          "2": 34,
+          "3": 25,
+          "4": 4,
+          "5": 6,
+          "7": 1,
+          "8": 4,
+          "9": 8
+        },
+        "successes": 34,
+        "target_actions": 3860,
+        "visited_calls": 871
+      }
+    },
+    "full_trace": {
+      "by_family": {
+        "alternatives": {
+          "cases": 40,
+          "correct_actions": 494,
+          "cost": {
+            "amortized_inference_seconds": 35.85853439399216,
+            "calls": 40,
+            "completion_tokens": 5645,
+            "malformed_json": 0,
+            "prompt_tokens": 23016,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 28
+          },
+          "first_error_histogram": {
+            "1": 16,
+            "11": 1,
+            "13": 3,
+            "23": 2,
+            "49": 2,
+            "5": 4
+          },
+          "successes": 12,
+          "target_actions": 744,
+          "visited_calls": 40
+        },
+        "chain_depth": {
+          "cases": 40,
+          "correct_actions": 42,
+          "cost": {
+            "amortized_inference_seconds": 16.61473723175004,
+            "calls": 40,
+            "completion_tokens": 1410,
+            "malformed_json": 0,
+            "prompt_tokens": 22096,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 39
+          },
+          "first_error_histogram": {
+            "1": 39
+          },
+          "successes": 1,
+          "target_actions": 616,
+          "visited_calls": 40
+        },
+        "nesting": {
+          "cases": 40,
+          "correct_actions": 32,
+          "cost": {
+            "amortized_inference_seconds": 61.30666969822778,
+            "calls": 40,
+            "completion_tokens": 34423,
+            "malformed_json": 8,
+            "prompt_tokens": 19464,
+            "reasoning_tokens": 0,
+            "truncated": 8
+          },
+          "failures": {
+            "call_or_parse_error": 8,
+            "invalid_or_trailing_action": 32
+          },
+          "first_error_histogram": {
+            "1": 32
+          },
+          "successes": 0,
+          "target_actions": 1108,
+          "visited_calls": 40
+        },
+        "recursion": {
+          "cases": 40,
+          "correct_actions": 68,
+          "cost": {
+            "amortized_inference_seconds": 61.30666969822778,
+            "calls": 40,
+            "completion_tokens": 38432,
+            "malformed_json": 9,
+            "prompt_tokens": 18480,
+            "reasoning_tokens": 0,
+            "truncated": 9
+          },
+          "failures": {
+            "call_or_parse_error": 9,
+            "invalid_or_trailing_action": 31
+          },
+          "first_error_histogram": {
+            "1": 23,
+            "4": 1,
+            "5": 4,
+            "7": 3
+          },
+          "successes": 0,
+          "target_actions": 968,
+          "visited_calls": 40
+        },
+        "sequence": {
+          "cases": 40,
+          "correct_actions": 47,
+          "cost": {
+            "amortized_inference_seconds": 35.85853439399216,
+            "calls": 40,
+            "completion_tokens": 9551,
+            "malformed_json": 2,
+            "prompt_tokens": 19104,
+            "reasoning_tokens": 0,
+            "truncated": 2
+          },
+          "failures": {
+            "call_or_parse_error": 2,
+            "invalid_or_trailing_action": 38
+          },
+          "first_error_histogram": {
+            "1": 29,
+            "2": 9
+          },
+          "successes": 0,
+          "target_actions": 304,
+          "visited_calls": 40
+        },
+        "terminal_length": {
+          "cases": 40,
+          "correct_actions": 69,
+          "cost": {
+            "amortized_inference_seconds": 16.61473723175004,
+            "calls": 40,
+            "completion_tokens": 760,
+            "malformed_json": 0,
+            "prompt_tokens": 18464,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "incomplete_trace": 9,
+            "invalid_or_trailing_action": 11
+          },
+          "first_error_histogram": {
+            "1": 11,
+            "2": 9
+          },
+          "successes": 20,
+          "target_actions": 120,
+          "visited_calls": 40
+        }
+      },
+      "by_level": {
+        "1": {
+          "cases": 48,
+          "correct_actions": 95,
+          "cost": {
+            "amortized_inference_seconds": 52.28988662399934,
+            "calls": 48,
+            "completion_tokens": 1404,
+            "malformed_json": 0,
+            "prompt_tokens": 21248,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 39
+          },
+          "first_error_histogram": {
+            "1": 31,
+            "4": 1,
+            "5": 4,
+            "7": 3
+          },
+          "successes": 9,
+          "target_actions": 252,
+          "visited_calls": 48
+        },
+        "16": {
+          "cases": 48,
+          "correct_actions": 324,
+          "cost": {
+            "amortized_inference_seconds": 87.03452317899792,
+            "calls": 48,
+            "completion_tokens": 48818,
+            "malformed_json": 11,
+            "prompt_tokens": 30344,
+            "reasoning_tokens": 0,
+            "truncated": 11
+          },
+          "failures": {
+            "call_or_parse_error": 11,
+            "incomplete_trace": 2,
+            "invalid_or_trailing_action": 27
+          },
+          "first_error_histogram": {
+            "1": 24,
+            "2": 3,
+            "49": 2
+          },
+          "successes": 8,
+          "target_actions": 1752,
+          "visited_calls": 48
+        },
+        "2": {
+          "cases": 48,
+          "correct_actions": 76,
+          "cost": {
+            "amortized_inference_seconds": 2.5765650849498343,
+            "calls": 48,
+            "completion_tokens": 1934,
+            "malformed_json": 0,
+            "prompt_tokens": 21672,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "incomplete_trace": 4,
+            "invalid_or_trailing_action": 40
+          },
+          "first_error_histogram": {
+            "1": 32,
+            "2": 8,
+            "5": 4
+          },
+          "successes": 4,
+          "target_actions": 352,
+          "visited_calls": 48
+        },
+        "4": {
+          "cases": 48,
+          "correct_actions": 124,
+          "cost": {
+            "amortized_inference_seconds": 3.9398340220213868,
+            "calls": 48,
+            "completion_tokens": 2718,
+            "malformed_json": 0,
+            "prompt_tokens": 22592,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "incomplete_trace": 2,
+            "invalid_or_trailing_action": 40
+          },
+          "first_error_histogram": {
+            "1": 32,
+            "11": 1,
+            "13": 3,
+            "2": 6
+          },
+          "successes": 6,
+          "target_actions": 552,
+          "visited_calls": 48
+        },
+        "8": {
+          "cases": 48,
+          "correct_actions": 133,
+          "cost": {
+            "amortized_inference_seconds": 81.71907373797148,
+            "calls": 48,
+            "completion_tokens": 35347,
+            "malformed_json": 8,
+            "prompt_tokens": 24768,
+            "reasoning_tokens": 0,
+            "truncated": 8
+          },
+          "failures": {
+            "call_or_parse_error": 8,
+            "incomplete_trace": 1,
+            "invalid_or_trailing_action": 33
+          },
+          "first_error_histogram": {
+            "1": 31,
+            "2": 1,
+            "23": 2
+          },
+          "successes": 6,
+          "target_actions": 952,
+          "visited_calls": 48
+        }
+      },
+      "cells": [
+        {
+          "cases": 8,
+          "correct_actions": 12,
+          "cost": {
+            "amortized_inference_seconds": 12.845437677751761,
+            "calls": 8,
+            "completion_tokens": 156,
+            "malformed_json": 0,
+            "prompt_tokens": 3440,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 4
+          },
+          "family": "alternatives",
+          "first_error_histogram": {
+            "1": 4
+          },
+          "level": 1,
+          "successes": 4,
+          "target_actions": 24,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 24,
+          "cost": {
+            "amortized_inference_seconds": 0.4171072929893853,
+            "calls": 8,
+            "completion_tokens": 380,
+            "malformed_json": 0,
+            "prompt_tokens": 3544,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "family": "alternatives",
+          "first_error_histogram": {
+            "1": 4,
+            "5": 4
+          },
+          "level": 2,
+          "successes": 0,
+          "target_actions": 48,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 74,
+          "cost": {
+            "amortized_inference_seconds": 0.6019549692573491,
+            "calls": 8,
+            "completion_tokens": 751,
+            "malformed_json": 0,
+            "prompt_tokens": 3824,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 6
+          },
+          "family": "alternatives",
+          "first_error_histogram": {
+            "1": 2,
+            "11": 1,
+            "13": 3
+          },
+          "level": 4,
+          "successes": 2,
+          "target_actions": 96,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 96,
+          "cost": {
+            "amortized_inference_seconds": 20.046764898244874,
+            "calls": 8,
+            "completion_tokens": 1452,
+            "malformed_json": 0,
+            "prompt_tokens": 4680,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 6
+          },
+          "family": "alternatives",
+          "first_error_histogram": {
+            "1": 4,
+            "23": 2
+          },
+          "level": 8,
+          "successes": 2,
+          "target_actions": 192,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 288,
+          "cost": {
+            "amortized_inference_seconds": 1.9472695557487896,
+            "calls": 8,
+            "completion_tokens": 2906,
+            "malformed_json": 0,
+            "prompt_tokens": 7528,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 4
+          },
+          "family": "alternatives",
+          "first_error_histogram": {
+            "1": 2,
+            "49": 2
+          },
+          "level": 16,
+          "successes": 4,
+          "target_actions": 384,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 10,
+          "cost": {
+            "amortized_inference_seconds": 12.845437677751761,
+            "calls": 8,
+            "completion_tokens": 165,
+            "malformed_json": 0,
+            "prompt_tokens": 3592,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 7
+          },
+          "family": "chain_depth",
+          "first_error_histogram": {
+            "1": 7
+          },
+          "level": 1,
+          "successes": 1,
+          "target_actions": 40,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 8,
+          "cost": {
+            "amortized_inference_seconds": 0.4540679564961465,
+            "calls": 8,
+            "completion_tokens": 316,
+            "malformed_json": 0,
+            "prompt_tokens": 3744,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "family": "chain_depth",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 2,
+          "successes": 0,
+          "target_actions": 56,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 8,
+          "cost": {
+            "amortized_inference_seconds": 0.6019549692573491,
+            "calls": 8,
+            "completion_tokens": 460,
+            "malformed_json": 0,
+            "prompt_tokens": 4048,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "family": "chain_depth",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 4,
+          "successes": 0,
+          "target_actions": 88,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 8,
+          "cost": {
+            "amortized_inference_seconds": 0.7660070724959951,
+            "calls": 8,
+            "completion_tokens": 313,
+            "malformed_json": 0,
+            "prompt_tokens": 4664,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "family": "chain_depth",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 8,
+          "successes": 0,
+          "target_actions": 152,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 8,
+          "cost": {
+            "amortized_inference_seconds": 1.9472695557487896,
+            "calls": 8,
+            "completion_tokens": 156,
+            "malformed_json": 0,
+            "prompt_tokens": 6048,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "family": "chain_depth",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 16,
+          "successes": 0,
+          "target_actions": 280,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 8,
+          "cost": {
+            "amortized_inference_seconds": 0.4540679564961465,
+            "calls": 8,
+            "completion_tokens": 360,
+            "malformed_json": 0,
+            "prompt_tokens": 3640,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "family": "nesting",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 1,
+          "successes": 0,
+          "target_actions": 76,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 8,
+          "cost": {
+            "amortized_inference_seconds": 0.4171072929893853,
+            "calls": 8,
+            "completion_tokens": 445,
+            "malformed_json": 0,
+            "prompt_tokens": 3688,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "family": "nesting",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 2,
+          "successes": 0,
+          "target_actions": 104,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 8,
+          "cost": {
+            "amortized_inference_seconds": 0.7660070724959951,
+            "calls": 8,
+            "completion_tokens": 425,
+            "malformed_json": 0,
+            "prompt_tokens": 3784,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "family": "nesting",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 4,
+          "successes": 0,
+          "target_actions": 160,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 6,
+          "cost": {
+            "amortized_inference_seconds": 20.046764898244874,
+            "calls": 8,
+            "completion_tokens": 8504,
+            "malformed_json": 2,
+            "prompt_tokens": 3984,
+            "reasoning_tokens": 0,
+            "truncated": 2
+          },
+          "failures": {
+            "call_or_parse_error": 2,
+            "invalid_or_trailing_action": 6
+          },
+          "family": "nesting",
+          "first_error_histogram": {
+            "1": 6
+          },
+          "level": 8,
+          "successes": 0,
+          "target_actions": 272,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 2,
+          "cost": {
+            "amortized_inference_seconds": 39.62272247800138,
+            "calls": 8,
+            "completion_tokens": 24689,
+            "malformed_json": 6,
+            "prompt_tokens": 4368,
+            "reasoning_tokens": 0,
+            "truncated": 6
+          },
+          "failures": {
+            "call_or_parse_error": 6,
+            "invalid_or_trailing_action": 2
+          },
+          "family": "nesting",
+          "first_error_histogram": {
+            "1": 2
+          },
+          "level": 16,
+          "successes": 0,
+          "target_actions": 496,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 45,
+          "cost": {
+            "amortized_inference_seconds": 0.4540679564961465,
+            "calls": 8,
+            "completion_tokens": 416,
+            "malformed_json": 0,
+            "prompt_tokens": 3568,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "family": "recursion",
+          "first_error_histogram": {
+            "4": 1,
+            "5": 4,
+            "7": 3
+          },
+          "level": 1,
+          "successes": 0,
+          "target_actions": 48,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 8,
+          "cost": {
+            "amortized_inference_seconds": 0.4171072929893853,
+            "calls": 8,
+            "completion_tokens": 329,
+            "malformed_json": 0,
+            "prompt_tokens": 3592,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "family": "recursion",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 2,
+          "successes": 0,
+          "target_actions": 76,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 8,
+          "cost": {
+            "amortized_inference_seconds": 0.7660070724959951,
+            "calls": 8,
+            "completion_tokens": 446,
+            "malformed_json": 0,
+            "prompt_tokens": 3640,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "family": "recursion",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 4,
+          "successes": 0,
+          "target_actions": 132,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 4,
+          "cost": {
+            "amortized_inference_seconds": 20.046764898244874,
+            "calls": 8,
+            "completion_tokens": 16592,
+            "malformed_json": 4,
+            "prompt_tokens": 3744,
+            "reasoning_tokens": 0,
+            "truncated": 4
+          },
+          "failures": {
+            "call_or_parse_error": 4,
+            "invalid_or_trailing_action": 4
+          },
+          "family": "recursion",
+          "first_error_histogram": {
+            "1": 4
+          },
+          "level": 8,
+          "successes": 0,
+          "target_actions": 244,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 3,
+          "cost": {
+            "amortized_inference_seconds": 39.62272247800138,
+            "calls": 8,
+            "completion_tokens": 20649,
+            "malformed_json": 5,
+            "prompt_tokens": 3936,
+            "reasoning_tokens": 0,
+            "truncated": 5
+          },
+          "failures": {
+            "call_or_parse_error": 5,
+            "invalid_or_trailing_action": 3
+          },
+          "family": "recursion",
+          "first_error_histogram": {
+            "1": 3
+          },
+          "level": 16,
+          "successes": 0,
+          "target_actions": 468,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 8,
+          "cost": {
+            "amortized_inference_seconds": 12.845437677751761,
+            "calls": 8,
+            "completion_tokens": 151,
+            "malformed_json": 0,
+            "prompt_tokens": 3568,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "family": "sequence",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 1,
+          "successes": 0,
+          "target_actions": 40,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 12,
+          "cost": {
+            "amortized_inference_seconds": 0.4171072929893853,
+            "calls": 8,
+            "completion_tokens": 308,
+            "malformed_json": 0,
+            "prompt_tokens": 3616,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "family": "sequence",
+          "first_error_histogram": {
+            "1": 4,
+            "2": 4
+          },
+          "level": 2,
+          "successes": 0,
+          "target_actions": 44,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 12,
+          "cost": {
+            "amortized_inference_seconds": 0.6019549692573491,
+            "calls": 8,
+            "completion_tokens": 480,
+            "malformed_json": 0,
+            "prompt_tokens": 3712,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "family": "sequence",
+          "first_error_histogram": {
+            "1": 4,
+            "2": 4
+          },
+          "level": 4,
+          "successes": 0,
+          "target_actions": 52,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 6,
+          "cost": {
+            "amortized_inference_seconds": 20.046764898244874,
+            "calls": 8,
+            "completion_tokens": 8340,
+            "malformed_json": 2,
+            "prompt_tokens": 3912,
+            "reasoning_tokens": 0,
+            "truncated": 2
+          },
+          "failures": {
+            "call_or_parse_error": 2,
+            "invalid_or_trailing_action": 6
+          },
+          "family": "sequence",
+          "first_error_histogram": {
+            "1": 6
+          },
+          "level": 8,
+          "successes": 0,
+          "target_actions": 68,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 9,
+          "cost": {
+            "amortized_inference_seconds": 1.9472695557487896,
+            "calls": 8,
+            "completion_tokens": 272,
+            "malformed_json": 0,
+            "prompt_tokens": 4296,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "family": "sequence",
+          "first_error_histogram": {
+            "1": 7,
+            "2": 1
+          },
+          "level": 16,
+          "successes": 0,
+          "target_actions": 100,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 12,
+          "cost": {
+            "amortized_inference_seconds": 12.845437677751761,
+            "calls": 8,
+            "completion_tokens": 156,
+            "malformed_json": 0,
+            "prompt_tokens": 3440,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 4
+          },
+          "family": "terminal_length",
+          "first_error_histogram": {
+            "1": 4
+          },
+          "level": 1,
+          "successes": 4,
+          "target_actions": 24,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 16,
+          "cost": {
+            "amortized_inference_seconds": 0.4540679564961465,
+            "calls": 8,
+            "completion_tokens": 156,
+            "malformed_json": 0,
+            "prompt_tokens": 3488,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "incomplete_trace": 4
+          },
+          "family": "terminal_length",
+          "first_error_histogram": {
+            "2": 4
+          },
+          "level": 2,
+          "successes": 4,
+          "target_actions": 24,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 14,
+          "cost": {
+            "amortized_inference_seconds": 0.6019549692573491,
+            "calls": 8,
+            "completion_tokens": 156,
+            "malformed_json": 0,
+            "prompt_tokens": 3584,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "incomplete_trace": 2,
+            "invalid_or_trailing_action": 2
+          },
+          "family": "terminal_length",
+          "first_error_histogram": {
+            "1": 2,
+            "2": 2
+          },
+          "level": 4,
+          "successes": 4,
+          "target_actions": 24,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 13,
+          "cost": {
+            "amortized_inference_seconds": 0.7660070724959951,
+            "calls": 8,
+            "completion_tokens": 146,
+            "malformed_json": 0,
+            "prompt_tokens": 3784,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "incomplete_trace": 1,
+            "invalid_or_trailing_action": 3
+          },
+          "family": "terminal_length",
+          "first_error_histogram": {
+            "1": 3,
+            "2": 1
+          },
+          "level": 8,
+          "successes": 4,
+          "target_actions": 24,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 14,
+          "cost": {
+            "amortized_inference_seconds": 1.9472695557487896,
+            "calls": 8,
+            "completion_tokens": 146,
+            "malformed_json": 0,
+            "prompt_tokens": 4168,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "incomplete_trace": 2,
+            "invalid_or_trailing_action": 2
+          },
+          "family": "terminal_length",
+          "first_error_histogram": {
+            "1": 2,
+            "2": 2
+          },
+          "level": 16,
+          "successes": 4,
+          "target_actions": 24,
+          "visited_calls": 8
+        }
+      ],
+      "overall": {
+        "cases": 240,
+        "correct_actions": 752,
+        "cost": {
+          "amortized_inference_seconds": 227.55988264793996,
+          "calls": 240,
+          "completion_tokens": 90221,
+          "malformed_json": 19,
+          "prompt_tokens": 120624,
+          "reasoning_tokens": 0,
+          "truncated": 19
+        },
+        "failures": {
+          "call_or_parse_error": 19,
+          "incomplete_trace": 9,
+          "invalid_or_trailing_action": 179
+        },
+        "first_error_histogram": {
+          "1": 150,
+          "11": 1,
+          "13": 3,
+          "2": 18,
+          "23": 2,
+          "4": 1,
+          "49": 2,
+          "5": 8,
+          "7": 3
+        },
+        "successes": 33,
+        "target_actions": 3860,
+        "visited_calls": 240
+      }
+    },
+    "oracle_step": {
+      "by_family": {
+        "alternatives": {
+          "cases": 40,
+          "correct_actions": 186,
+          "cost": {
+            "amortized_inference_seconds": 7.309235060485662,
+            "calls": 744,
+            "completion_tokens": 7963,
+            "malformed_json": 0,
+            "prompt_tokens": 574920,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 36
+          },
+          "first_error_histogram": {
+            "0": 21,
+            "1": 10,
+            "2": 5
+          },
+          "successes": 4,
+          "target_actions": 744,
+          "visited_calls": 744
+        },
+        "chain_depth": {
+          "cases": 40,
+          "correct_actions": 229,
+          "cost": {
+            "amortized_inference_seconds": 6.252097309807141,
+            "calls": 616,
+            "completion_tokens": 6604,
+            "malformed_json": 0,
+            "prompt_tokens": 461928,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 36
+          },
+          "first_error_histogram": {
+            "1": 8,
+            "2": 16,
+            "3": 12
+          },
+          "successes": 4,
+          "target_actions": 616,
+          "visited_calls": 616
+        },
+        "nesting": {
+          "cases": 40,
+          "correct_actions": 505,
+          "cost": {
+            "amortized_inference_seconds": 11.388807969146015,
+            "calls": 1108,
+            "completion_tokens": 11453,
+            "malformed_json": 0,
+            "prompt_tokens": 884824,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 40
+          },
+          "first_error_histogram": {
+            "1": 18,
+            "11": 1,
+            "13": 1,
+            "17": 3,
+            "3": 3,
+            "5": 6,
+            "7": 1,
+            "9": 7
+          },
+          "successes": 0,
+          "target_actions": 1108,
+          "visited_calls": 1108
+        },
+        "recursion": {
+          "cases": 40,
+          "correct_actions": 439,
+          "cost": {
+            "amortized_inference_seconds": 9.274223415297456,
+            "calls": 968,
+            "completion_tokens": 9939,
+            "malformed_json": 0,
+            "prompt_tokens": 645824,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 40
+          },
+          "first_error_histogram": {
+            "0": 1,
+            "1": 19,
+            "11": 1,
+            "16": 6,
+            "2": 4,
+            "4": 4,
+            "8": 4,
+            "9": 1
+          },
+          "successes": 0,
+          "target_actions": 968,
+          "visited_calls": 968
+        },
+        "sequence": {
+          "cases": 40,
+          "correct_actions": 196,
+          "cost": {
+            "amortized_inference_seconds": 2.9937037187919486,
+            "calls": 304,
+            "completion_tokens": 3104,
+            "malformed_json": 0,
+            "prompt_tokens": 202792,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 34
+          },
+          "first_error_histogram": {
+            "1": 28,
+            "2": 6
+          },
+          "successes": 6,
+          "target_actions": 304,
+          "visited_calls": 304
+        },
+        "terminal_length": {
+          "cases": 40,
+          "correct_actions": 84,
+          "cost": {
+            "amortized_inference_seconds": 1.1591113951581065,
+            "calls": 120,
+            "completion_tokens": 1156,
+            "malformed_json": 0,
+            "prompt_tokens": 56776,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 20
+          },
+          "first_error_histogram": {
+            "0": 2,
+            "1": 5,
+            "2": 3,
+            "3": 10
+          },
+          "successes": 20,
+          "target_actions": 120,
+          "visited_calls": 120
+        }
+      },
+      "by_level": {
+        "1": {
+          "cases": 48,
+          "correct_actions": 127,
+          "cost": {
+            "amortized_inference_seconds": 2.319623884453904,
+            "calls": 252,
+            "completion_tokens": 2397,
+            "malformed_json": 0,
+            "prompt_tokens": 116504,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 40
+          },
+          "first_error_histogram": {
+            "0": 5,
+            "1": 31,
+            "2": 4
+          },
+          "successes": 8,
+          "target_actions": 252,
+          "visited_calls": 252
+        },
+        "16": {
+          "cases": 48,
+          "correct_actions": 656,
+          "cost": {
+            "amortized_inference_seconds": 18.198171667034345,
+            "calls": 1752,
+            "completion_tokens": 19071,
+            "malformed_json": 0,
+            "prompt_tokens": 1645604,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 44
+          },
+          "first_error_histogram": {
+            "0": 7,
+            "1": 8,
+            "11": 2,
+            "13": 1,
+            "16": 6,
+            "17": 3,
+            "2": 3,
+            "3": 12,
+            "7": 1,
+            "9": 1
+          },
+          "successes": 4,
+          "target_actions": 1752,
+          "visited_calls": 1752
+        },
+        "2": {
+          "cases": 48,
+          "correct_actions": 190,
+          "cost": {
+            "amortized_inference_seconds": 3.323158359671652,
+            "calls": 352,
+            "completion_tokens": 3372,
+            "malformed_json": 0,
+            "prompt_tokens": 169488,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 38
+          },
+          "first_error_histogram": {
+            "0": 3,
+            "1": 25,
+            "2": 3,
+            "3": 7
+          },
+          "successes": 10,
+          "target_actions": 352,
+          "visited_calls": 352
+        },
+        "4": {
+          "cases": 48,
+          "correct_actions": 259,
+          "cost": {
+            "amortized_inference_seconds": 5.245459996207501,
+            "calls": 552,
+            "completion_tokens": 5557,
+            "malformed_json": 0,
+            "prompt_tokens": 290172,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 40
+          },
+          "first_error_histogram": {
+            "0": 3,
+            "1": 13,
+            "2": 11,
+            "3": 3,
+            "4": 4,
+            "5": 6
+          },
+          "successes": 8,
+          "target_actions": 552,
+          "visited_calls": 552
+        },
+        "8": {
+          "cases": 48,
+          "correct_actions": 407,
+          "cost": {
+            "amortized_inference_seconds": 9.290764961318928,
+            "calls": 952,
+            "completion_tokens": 9822,
+            "malformed_json": 0,
+            "prompt_tokens": 605296,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 44
+          },
+          "first_error_histogram": {
+            "0": 6,
+            "1": 11,
+            "2": 13,
+            "3": 3,
+            "8": 4,
+            "9": 7
+          },
+          "successes": 4,
+          "target_actions": 952,
+          "visited_calls": 952
+        }
+      },
+      "cells": [
+        {
+          "cases": 8,
+          "correct_actions": 11,
+          "cost": {
+            "amortized_inference_seconds": 0.20631485398916993,
+            "calls": 24,
+            "completion_tokens": 244,
+            "malformed_json": 0,
+            "prompt_tokens": 10472,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 4
+          },
+          "family": "alternatives",
+          "first_error_histogram": {
+            "0": 2,
+            "1": 2
+          },
+          "level": 1,
+          "successes": 4,
+          "target_actions": 24,
+          "visited_calls": 24
+        },
+        {
+          "cases": 8,
+          "correct_actions": 21,
+          "cost": {
+            "amortized_inference_seconds": 0.41919461658835644,
+            "calls": 48,
+            "completion_tokens": 408,
+            "malformed_json": 0,
+            "prompt_tokens": 21672,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "alternatives",
+          "first_error_histogram": {
+            "0": 3,
+            "1": 5
+          },
+          "level": 2,
+          "successes": 0,
+          "target_actions": 48,
+          "visited_calls": 48
+        },
+        {
+          "cases": 8,
+          "correct_actions": 31,
+          "cost": {
+            "amortized_inference_seconds": 0.8814011924114311,
+            "calls": 96,
+            "completion_tokens": 946,
+            "malformed_json": 0,
+            "prompt_tokens": 47184,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "alternatives",
+          "first_error_histogram": {
+            "0": 3,
+            "1": 2,
+            "2": 3
+          },
+          "level": 4,
+          "successes": 0,
+          "target_actions": 96,
+          "visited_calls": 96
+        },
+        {
+          "cases": 8,
+          "correct_actions": 40,
+          "cost": {
+            "amortized_inference_seconds": 1.7958548627211712,
+            "calls": 192,
+            "completion_tokens": 2012,
+            "malformed_json": 0,
+            "prompt_tokens": 116896,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "alternatives",
+          "first_error_histogram": {
+            "0": 6,
+            "1": 1,
+            "2": 1
+          },
+          "level": 8,
+          "successes": 0,
+          "target_actions": 192,
+          "visited_calls": 192
+        },
+        {
+          "cases": 8,
+          "correct_actions": 83,
+          "cost": {
+            "amortized_inference_seconds": 4.006469534775533,
+            "calls": 384,
+            "completion_tokens": 4353,
+            "malformed_json": 0,
+            "prompt_tokens": 378696,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "alternatives",
+          "first_error_histogram": {
+            "0": 7,
+            "2": 1
+          },
+          "level": 16,
+          "successes": 0,
+          "target_actions": 384,
+          "visited_calls": 384
+        },
+        {
+          "cases": 8,
+          "correct_actions": 16,
+          "cost": {
+            "amortized_inference_seconds": 0.3749412942561321,
+            "calls": 40,
+            "completion_tokens": 380,
+            "malformed_json": 0,
+            "prompt_tokens": 18640,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "chain_depth",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 1,
+          "successes": 0,
+          "target_actions": 40,
+          "visited_calls": 40
+        },
+        {
+          "cases": 8,
+          "correct_actions": 39,
+          "cost": {
+            "amortized_inference_seconds": 0.5112582692381693,
+            "calls": 56,
+            "completion_tokens": 541,
+            "malformed_json": 0,
+            "prompt_tokens": 27768,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 4
+          },
+          "family": "chain_depth",
+          "first_error_histogram": {
+            "3": 4
+          },
+          "level": 2,
+          "successes": 4,
+          "target_actions": 56,
+          "visited_calls": 56
+        },
+        {
+          "cases": 8,
+          "correct_actions": 34,
+          "cost": {
+            "amortized_inference_seconds": 0.8813179622229654,
+            "calls": 88,
+            "completion_tokens": 918,
+            "malformed_json": 0,
+            "prompt_tokens": 48928,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "chain_depth",
+          "first_error_histogram": {
+            "2": 8
+          },
+          "level": 4,
+          "successes": 0,
+          "target_actions": 88,
+          "visited_calls": 88
+        },
+        {
+          "cases": 8,
+          "correct_actions": 59,
+          "cost": {
+            "amortized_inference_seconds": 1.4885193824666203,
+            "calls": 152,
+            "completion_tokens": 1617,
+            "malformed_json": 0,
+            "prompt_tokens": 102920,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "chain_depth",
+          "first_error_histogram": {
+            "2": 8
+          },
+          "level": 8,
+          "successes": 0,
+          "target_actions": 152,
+          "visited_calls": 152
+        },
+        {
+          "cases": 8,
+          "correct_actions": 81,
+          "cost": {
+            "amortized_inference_seconds": 2.9960604016232537,
+            "calls": 280,
+            "completion_tokens": 3148,
+            "malformed_json": 0,
+            "prompt_tokens": 263672,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "chain_depth",
+          "first_error_histogram": {
+            "3": 8
+          },
+          "level": 16,
+          "successes": 0,
+          "target_actions": 280,
+          "visited_calls": 280
+        },
+        {
+          "cases": 8,
+          "correct_actions": 46,
+          "cost": {
+            "amortized_inference_seconds": 0.6994875629898161,
+            "calls": 76,
+            "completion_tokens": 696,
+            "malformed_json": 0,
+            "prompt_tokens": 36584,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "nesting",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 1,
+          "successes": 0,
+          "target_actions": 76,
+          "visited_calls": 76
+        },
+        {
+          "cases": 8,
+          "correct_actions": 53,
+          "cost": {
+            "amortized_inference_seconds": 1.0134786188282305,
+            "calls": 104,
+            "completion_tokens": 1009,
+            "malformed_json": 0,
+            "prompt_tokens": 52576,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "nesting",
+          "first_error_histogram": {
+            "1": 5,
+            "3": 3
+          },
+          "level": 2,
+          "successes": 0,
+          "target_actions": 104,
+          "visited_calls": 104
+        },
+        {
+          "cases": 8,
+          "correct_actions": 76,
+          "cost": {
+            "amortized_inference_seconds": 1.5733221251211944,
+            "calls": 160,
+            "completion_tokens": 1630,
+            "malformed_json": 0,
+            "prompt_tokens": 89444,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "nesting",
+          "first_error_histogram": {
+            "1": 2,
+            "5": 6
+          },
+          "level": 4,
+          "successes": 0,
+          "target_actions": 160,
+          "visited_calls": 160
+        },
+        {
+          "cases": 8,
+          "correct_actions": 129,
+          "cost": {
+            "amortized_inference_seconds": 2.8132674209045945,
+            "calls": 272,
+            "completion_tokens": 2822,
+            "malformed_json": 0,
+            "prompt_tokens": 187704,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "nesting",
+          "first_error_histogram": {
+            "1": 1,
+            "9": 7
+          },
+          "level": 8,
+          "successes": 0,
+          "target_actions": 272,
+          "visited_calls": 272
+        },
+        {
+          "cases": 8,
+          "correct_actions": 201,
+          "cost": {
+            "amortized_inference_seconds": 5.289252241302162,
+            "calls": 496,
+            "completion_tokens": 5296,
+            "malformed_json": 0,
+            "prompt_tokens": 518516,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "nesting",
+          "first_error_histogram": {
+            "1": 2,
+            "11": 1,
+            "13": 1,
+            "17": 3,
+            "7": 1
+          },
+          "level": 16,
+          "successes": 0,
+          "target_actions": 496,
+          "visited_calls": 496
+        },
+        {
+          "cases": 8,
+          "correct_actions": 27,
+          "cost": {
+            "amortized_inference_seconds": 0.46465276047820225,
+            "calls": 48,
+            "completion_tokens": 448,
+            "malformed_json": 0,
+            "prompt_tokens": 21840,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "recursion",
+          "first_error_histogram": {
+            "0": 1,
+            "1": 3,
+            "2": 4
+          },
+          "level": 1,
+          "successes": 0,
+          "target_actions": 48,
+          "visited_calls": 48
+        },
+        {
+          "cases": 8,
+          "correct_actions": 38,
+          "cost": {
+            "amortized_inference_seconds": 0.6835317481236416,
+            "calls": 76,
+            "completion_tokens": 721,
+            "malformed_json": 0,
+            "prompt_tokens": 35912,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "recursion",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 2,
+          "successes": 0,
+          "target_actions": 76,
+          "visited_calls": 76
+        },
+        {
+          "cases": 8,
+          "correct_actions": 65,
+          "cost": {
+            "amortized_inference_seconds": 1.2088798813492758,
+            "calls": 132,
+            "completion_tokens": 1312,
+            "malformed_json": 0,
+            "prompt_tokens": 67152,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "recursion",
+          "first_error_histogram": {
+            "1": 4,
+            "4": 4
+          },
+          "level": 4,
+          "successes": 0,
+          "target_actions": 132,
+          "visited_calls": 132
+        },
+        {
+          "cases": 8,
+          "correct_actions": 114,
+          "cost": {
+            "amortized_inference_seconds": 2.283100378677773,
+            "calls": 244,
+            "completion_tokens": 2464,
+            "malformed_json": 0,
+            "prompt_tokens": 144524,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "recursion",
+          "first_error_histogram": {
+            "1": 4,
+            "8": 4
+          },
+          "level": 8,
+          "successes": 0,
+          "target_actions": 244,
+          "visited_calls": 244
+        },
+        {
+          "cases": 8,
+          "correct_actions": 195,
+          "cost": {
+            "amortized_inference_seconds": 4.634058646668564,
+            "calls": 468,
+            "completion_tokens": 4994,
+            "malformed_json": 0,
+            "prompt_tokens": 376396,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "recursion",
+          "first_error_histogram": {
+            "11": 1,
+            "16": 6,
+            "9": 1
+          },
+          "level": 16,
+          "successes": 0,
+          "target_actions": 468,
+          "visited_calls": 468
+        },
+        {
+          "cases": 8,
+          "correct_actions": 16,
+          "cost": {
+            "amortized_inference_seconds": 0.35066519198880997,
+            "calls": 40,
+            "completion_tokens": 385,
+            "malformed_json": 0,
+            "prompt_tokens": 18496,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "sequence",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 1,
+          "successes": 0,
+          "target_actions": 40,
+          "visited_calls": 40
+        },
+        {
+          "cases": 8,
+          "correct_actions": 24,
+          "cost": {
+            "amortized_inference_seconds": 0.4770899957511574,
+            "calls": 44,
+            "completion_tokens": 449,
+            "malformed_json": 0,
+            "prompt_tokens": 20920,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 6
+          },
+          "family": "sequence",
+          "first_error_histogram": {
+            "1": 6
+          },
+          "level": 2,
+          "successes": 2,
+          "target_actions": 44,
+          "visited_calls": 44
+        },
+        {
+          "cases": 8,
+          "correct_actions": 34,
+          "cost": {
+            "amortized_inference_seconds": 0.47209081637265626,
+            "calls": 52,
+            "completion_tokens": 527,
+            "malformed_json": 0,
+            "prompt_tokens": 26488,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 4
+          },
+          "family": "sequence",
+          "first_error_histogram": {
+            "1": 4
+          },
+          "level": 4,
+          "successes": 4,
+          "target_actions": 52,
+          "visited_calls": 52
+        },
+        {
+          "cases": 8,
+          "correct_actions": 46,
+          "cost": {
+            "amortized_inference_seconds": 0.6739193255198188,
+            "calls": 68,
+            "completion_tokens": 683,
+            "malformed_json": 0,
+            "prompt_tokens": 41580,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "sequence",
+          "first_error_histogram": {
+            "1": 4,
+            "2": 4
+          },
+          "level": 8,
+          "successes": 0,
+          "target_actions": 68,
+          "visited_calls": 68
+        },
+        {
+          "cases": 8,
+          "correct_actions": 76,
+          "cost": {
+            "amortized_inference_seconds": 1.0199383891595062,
+            "calls": 100,
+            "completion_tokens": 1060,
+            "malformed_json": 0,
+            "prompt_tokens": 95308,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "sequence",
+          "first_error_histogram": {
+            "1": 6,
+            "2": 2
+          },
+          "level": 16,
+          "successes": 0,
+          "target_actions": 100,
+          "visited_calls": 100
+        },
+        {
+          "cases": 8,
+          "correct_actions": 11,
+          "cost": {
+            "amortized_inference_seconds": 0.22356222075177357,
+            "calls": 24,
+            "completion_tokens": 244,
+            "malformed_json": 0,
+            "prompt_tokens": 10472,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 4
+          },
+          "family": "terminal_length",
+          "first_error_histogram": {
+            "0": 2,
+            "1": 2
+          },
+          "level": 1,
+          "successes": 4,
+          "target_actions": 24,
+          "visited_calls": 24
+        },
+        {
+          "cases": 8,
+          "correct_actions": 15,
+          "cost": {
+            "amortized_inference_seconds": 0.21860511114209658,
+            "calls": 24,
+            "completion_tokens": 244,
+            "malformed_json": 0,
+            "prompt_tokens": 10640,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 4
+          },
+          "family": "terminal_length",
+          "first_error_histogram": {
+            "1": 1,
+            "2": 3
+          },
+          "level": 2,
+          "successes": 4,
+          "target_actions": 24,
+          "visited_calls": 24
+        },
+        {
+          "cases": 8,
+          "correct_actions": 19,
+          "cost": {
+            "amortized_inference_seconds": 0.22844801872997778,
+            "calls": 24,
+            "completion_tokens": 224,
+            "malformed_json": 0,
+            "prompt_tokens": 10976,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 4
+          },
+          "family": "terminal_length",
+          "first_error_histogram": {
+            "1": 1,
+            "3": 3
+          },
+          "level": 4,
+          "successes": 4,
+          "target_actions": 24,
+          "visited_calls": 24
+        },
+        {
+          "cases": 8,
+          "correct_actions": 19,
+          "cost": {
+            "amortized_inference_seconds": 0.23610359102895018,
+            "calls": 24,
+            "completion_tokens": 224,
+            "malformed_json": 0,
+            "prompt_tokens": 11672,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 4
+          },
+          "family": "terminal_length",
+          "first_error_histogram": {
+            "1": 1,
+            "3": 3
+          },
+          "level": 8,
+          "successes": 4,
+          "target_actions": 24,
+          "visited_calls": 24
+        },
+        {
+          "cases": 8,
+          "correct_actions": 20,
+          "cost": {
+            "amortized_inference_seconds": 0.25239245350530837,
+            "calls": 24,
+            "completion_tokens": 220,
+            "malformed_json": 0,
+            "prompt_tokens": 13016,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 4
+          },
+          "family": "terminal_length",
+          "first_error_histogram": {
+            "3": 4
+          },
+          "level": 16,
+          "successes": 4,
+          "target_actions": 24,
+          "visited_calls": 24
+        }
+      ],
+      "overall": {
+        "cases": 240,
+        "correct_actions": 1639,
+        "cost": {
+          "amortized_inference_seconds": 38.37717886868626,
+          "calls": 3860,
+          "completion_tokens": 40219,
+          "malformed_json": 0,
+          "prompt_tokens": 2827064,
+          "reasoning_tokens": 0,
+          "truncated": 0
+        },
+        "failures": {
+          "invalid_action": 206
+        },
+        "first_error_histogram": {
+          "0": 24,
+          "1": 88,
+          "11": 2,
+          "13": 1,
+          "16": 6,
+          "17": 3,
+          "2": 34,
+          "3": 25,
+          "4": 4,
+          "5": 6,
+          "7": 1,
+          "8": 4,
+          "9": 8
+        },
+        "successes": 34,
+        "target_actions": 3860,
+        "visited_calls": 3860
+      }
+    },
+    "teacher_by_action": {
+      "ACC": [
+        107,
+        120
+      ],
+      "BT": [
+        183,
+        1008
+      ],
+      "DONE": [
+        22,
+        492
+      ],
+      "PRN": [
+        297,
+        636
+      ],
+      "TRY": [
+        1030,
+        1604
+      ]
+    }
+  },
+  "shifted": {
+    "all_raw_calls_replayed": true,
+    "dataset": {
+      "cases": 192,
+      "families": {
+        "alternatives": 32,
+        "chain_depth": 32,
+        "nesting": 32,
+        "recursion": 32,
+        "sequence": 32,
+        "terminal_length": 32
+      },
+      "labels": {
+        "accept": 96,
+        "reject": 96
+      },
+      "unique_cases": 180,
+      "unique_grammars": 103
+    },
+    "direct": {
+      "cases": 192,
+      "cost": {
+        "amortized_inference_seconds": 1.18777385604335,
+        "calls": 192,
+        "completion_tokens": 1152,
+        "malformed_json": 0,
+        "prompt_tokens": 52088,
+        "reasoning_tokens": 0,
+        "truncated": 0
+      },
+      "successes": 191
+    },
+    "external_state": {
+      "by_family": {
+        "alternatives": {
+          "cases": 32,
+          "correct_actions": 15,
+          "cost": {
+            "amortized_inference_seconds": 0.47922113840650127,
+            "calls": 47,
+            "completion_tokens": 525,
+            "malformed_json": 0,
+            "prompt_tokens": 35019,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 32
+          },
+          "first_error_histogram": {
+            "0": 24,
+            "1": 1,
+            "2": 7
+          },
+          "successes": 0,
+          "target_actions": 1080,
+          "visited_calls": 47
+        },
+        "chain_depth": {
+          "cases": 32,
+          "correct_actions": 61,
+          "cost": {
+            "amortized_inference_seconds": 0.8710589274560334,
+            "calls": 89,
+            "completion_tokens": 959,
+            "malformed_json": 0,
+            "prompt_tokens": 56395,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 28
+          },
+          "first_error_histogram": {
+            "1": 23,
+            "2": 1,
+            "4": 4
+          },
+          "successes": 4,
+          "target_actions": 816,
+          "visited_calls": 89
+        },
+        "nesting": {
+          "cases": 32,
+          "correct_actions": 277,
+          "cost": {
+            "amortized_inference_seconds": 4.6956017585854255,
+            "calls": 309,
+            "completion_tokens": 3400,
+            "malformed_json": 0,
+            "prompt_tokens": 288305,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 32
+          },
+          "first_error_histogram": {
+            "1": 8,
+            "11": 1,
+            "13": 7,
+            "21": 5,
+            "4": 5,
+            "7": 6
+          },
+          "successes": 0,
+          "target_actions": 1452,
+          "visited_calls": 309
+        },
+        "recursion": {
+          "cases": 32,
+          "correct_actions": 282,
+          "cost": {
+            "amortized_inference_seconds": 4.484442329827194,
+            "calls": 314,
+            "completion_tokens": 3455,
+            "malformed_json": 0,
+            "prompt_tokens": 237376,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 32
+          },
+          "first_error_histogram": {
+            "1": 6,
+            "11": 1,
+            "12": 2,
+            "15": 2,
+            "18": 2,
+            "20": 3,
+            "24": 1,
+            "3": 4,
+            "6": 6,
+            "8": 2,
+            "9": 3
+          },
+          "successes": 0,
+          "target_actions": 1340,
+          "visited_calls": 314
+        },
+        "sequence": {
+          "cases": 32,
+          "correct_actions": 32,
+          "cost": {
+            "amortized_inference_seconds": 0.6270087418015464,
+            "calls": 64,
+            "completion_tokens": 704,
+            "malformed_json": 0,
+            "prompt_tokens": 35264,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 32
+          },
+          "first_error_histogram": {
+            "1": 32
+          },
+          "successes": 0,
+          "target_actions": 324,
+          "visited_calls": 64
+        },
+        "terminal_length": {
+          "cases": 32,
+          "correct_actions": 56,
+          "cost": {
+            "amortized_inference_seconds": 0.7797448592064029,
+            "calls": 79,
+            "completion_tokens": 713,
+            "malformed_json": 0,
+            "prompt_tokens": 39277,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 23
+          },
+          "first_error_histogram": {
+            "0": 7,
+            "1": 5,
+            "3": 11
+          },
+          "successes": 9,
+          "target_actions": 96,
+          "visited_calls": 79
+        }
+      },
+      "by_level": {
+        "12": {
+          "cases": 48,
+          "correct_actions": 196,
+          "cost": {
+            "amortized_inference_seconds": 2.562323210886694,
+            "calls": 244,
+            "completion_tokens": 2653,
+            "malformed_json": 0,
+            "prompt_tokens": 174672,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 48
+          },
+          "first_error_histogram": {
+            "0": 12,
+            "1": 18,
+            "11": 1,
+            "12": 2,
+            "13": 7,
+            "3": 3,
+            "8": 2,
+            "9": 3
+          },
+          "successes": 0,
+          "target_actions": 1352,
+          "visited_calls": 244
+        },
+        "24": {
+          "cases": 48,
+          "correct_actions": 300,
+          "cost": {
+            "amortized_inference_seconds": 6.3345183329927215,
+            "calls": 346,
+            "completion_tokens": 3770,
+            "malformed_json": 0,
+            "prompt_tokens": 354471,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 46
+          },
+          "first_error_histogram": {
+            "0": 9,
+            "1": 21,
+            "11": 1,
+            "15": 2,
+            "18": 2,
+            "2": 1,
+            "20": 3,
+            "21": 5,
+            "24": 1,
+            "7": 1
+          },
+          "successes": 2,
+          "target_actions": 2552,
+          "visited_calls": 346
+        },
+        "3": {
+          "cases": 48,
+          "correct_actions": 112,
+          "cost": {
+            "amortized_inference_seconds": 1.4719960920465383,
+            "calls": 152,
+            "completion_tokens": 1612,
+            "malformed_json": 0,
+            "prompt_tokens": 75132,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 40
+          },
+          "first_error_histogram": {
+            "0": 3,
+            "1": 16,
+            "2": 4,
+            "3": 8,
+            "4": 9
+          },
+          "successes": 8,
+          "target_actions": 452,
+          "visited_calls": 152
+        },
+        "6": {
+          "cases": 48,
+          "correct_actions": 115,
+          "cost": {
+            "amortized_inference_seconds": 1.5682401193571422,
+            "calls": 160,
+            "completion_tokens": 1721,
+            "malformed_json": 0,
+            "prompt_tokens": 87361,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 45
+          },
+          "first_error_histogram": {
+            "0": 7,
+            "1": 20,
+            "2": 3,
+            "3": 4,
+            "6": 6,
+            "7": 5
+          },
+          "successes": 3,
+          "target_actions": 752,
+          "visited_calls": 160
+        }
+      },
+      "cells": [
+        {
+          "cases": 8,
+          "correct_actions": 9,
+          "cost": {
+            "amortized_inference_seconds": 0.16472401508508483,
+            "calls": 17,
+            "completion_tokens": 187,
+            "malformed_json": 0,
+            "prompt_tokens": 7890,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "alternatives",
+          "first_error_histogram": {
+            "0": 3,
+            "1": 1,
+            "2": 4
+          },
+          "level": 3,
+          "successes": 0,
+          "target_actions": 72,
+          "visited_calls": 17
+        },
+        {
+          "cases": 8,
+          "correct_actions": 4,
+          "cost": {
+            "amortized_inference_seconds": 0.11866783413279336,
+            "calls": 12,
+            "completion_tokens": 132,
+            "malformed_json": 0,
+            "prompt_tokens": 6338,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "alternatives",
+          "first_error_histogram": {
+            "0": 6,
+            "2": 2
+          },
+          "level": 6,
+          "successes": 0,
+          "target_actions": 144,
+          "visited_calls": 12
+        },
+        {
+          "cases": 8,
+          "correct_actions": 0,
+          "cost": {
+            "amortized_inference_seconds": 0.09756860774359666,
+            "calls": 8,
+            "completion_tokens": 92,
+            "malformed_json": 0,
+            "prompt_tokens": 5896,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "alternatives",
+          "first_error_histogram": {
+            "0": 8
+          },
+          "level": 12,
+          "successes": 0,
+          "target_actions": 288,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 2,
+          "cost": {
+            "amortized_inference_seconds": 0.09826068144502642,
+            "calls": 10,
+            "completion_tokens": 114,
+            "malformed_json": 0,
+            "prompt_tokens": 14895,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "alternatives",
+          "first_error_histogram": {
+            "0": 7,
+            "2": 1
+          },
+          "level": 24,
+          "successes": 0,
+          "target_actions": 576,
+          "visited_calls": 10
+        },
+        {
+          "cases": 8,
+          "correct_actions": 36,
+          "cost": {
+            "amortized_inference_seconds": 0.38022743599140085,
+            "calls": 40,
+            "completion_tokens": 420,
+            "malformed_json": 0,
+            "prompt_tokens": 21152,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 4
+          },
+          "family": "chain_depth",
+          "first_error_histogram": {
+            "4": 4
+          },
+          "level": 3,
+          "successes": 4,
+          "target_actions": 72,
+          "visited_calls": 40
+        },
+        {
+          "cases": 8,
+          "correct_actions": 9,
+          "cost": {
+            "amortized_inference_seconds": 0.17554103959264467,
+            "calls": 17,
+            "completion_tokens": 187,
+            "malformed_json": 0,
+            "prompt_tokens": 9451,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "chain_depth",
+          "first_error_histogram": {
+            "1": 7,
+            "2": 1
+          },
+          "level": 6,
+          "successes": 0,
+          "target_actions": 120,
+          "visited_calls": 17
+        },
+        {
+          "cases": 8,
+          "correct_actions": 8,
+          "cost": {
+            "amortized_inference_seconds": 0.17123608187102946,
+            "calls": 16,
+            "completion_tokens": 176,
+            "malformed_json": 0,
+            "prompt_tokens": 10784,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "chain_depth",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 12,
+          "successes": 0,
+          "target_actions": 216,
+          "visited_calls": 16
+        },
+        {
+          "cases": 8,
+          "correct_actions": 8,
+          "cost": {
+            "amortized_inference_seconds": 0.14405437000095844,
+            "calls": 16,
+            "completion_tokens": 176,
+            "malformed_json": 0,
+            "prompt_tokens": 15008,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "chain_depth",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 24,
+          "successes": 0,
+          "target_actions": 408,
+          "visited_calls": 16
+        },
+        {
+          "cases": 8,
+          "correct_actions": 23,
+          "cost": {
+            "amortized_inference_seconds": 0.3069778188782948,
+            "calls": 31,
+            "completion_tokens": 342,
+            "malformed_json": 0,
+            "prompt_tokens": 16146,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "nesting",
+          "first_error_histogram": {
+            "1": 3,
+            "4": 5
+          },
+          "level": 3,
+          "successes": 0,
+          "target_actions": 132,
+          "visited_calls": 31
+        },
+        {
+          "cases": 8,
+          "correct_actions": 38,
+          "cost": {
+            "amortized_inference_seconds": 0.4434320224700059,
+            "calls": 46,
+            "completion_tokens": 506,
+            "malformed_json": 0,
+            "prompt_tokens": 27805,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "nesting",
+          "first_error_histogram": {
+            "1": 3,
+            "7": 5
+          },
+          "level": 6,
+          "successes": 0,
+          "target_actions": 216,
+          "visited_calls": 46
+        },
+        {
+          "cases": 8,
+          "correct_actions": 92,
+          "cost": {
+            "amortized_inference_seconds": 1.0747977238641555,
+            "calls": 100,
+            "completion_tokens": 1100,
+            "malformed_json": 0,
+            "prompt_tokens": 84542,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "nesting",
+          "first_error_histogram": {
+            "1": 1,
+            "13": 7
+          },
+          "level": 12,
+          "successes": 0,
+          "target_actions": 384,
+          "visited_calls": 100
+        },
+        {
+          "cases": 8,
+          "correct_actions": 124,
+          "cost": {
+            "amortized_inference_seconds": 2.870394193372969,
+            "calls": 132,
+            "completion_tokens": 1452,
+            "malformed_json": 0,
+            "prompt_tokens": 159812,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "nesting",
+          "first_error_histogram": {
+            "1": 1,
+            "11": 1,
+            "21": 5,
+            "7": 1
+          },
+          "level": 24,
+          "successes": 0,
+          "target_actions": 720,
+          "visited_calls": 132
+        },
+        {
+          "cases": 8,
+          "correct_actions": 16,
+          "cost": {
+            "amortized_inference_seconds": 0.23619311737274984,
+            "calls": 24,
+            "completion_tokens": 264,
+            "malformed_json": 0,
+            "prompt_tokens": 11520,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "recursion",
+          "first_error_histogram": {
+            "1": 4,
+            "3": 4
+          },
+          "level": 3,
+          "successes": 0,
+          "target_actions": 104,
+          "visited_calls": 24
+        },
+        {
+          "cases": 8,
+          "correct_actions": 38,
+          "cost": {
+            "amortized_inference_seconds": 0.44480341130838497,
+            "calls": 46,
+            "completion_tokens": 507,
+            "malformed_json": 0,
+            "prompt_tokens": 24862,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "recursion",
+          "first_error_histogram": {
+            "1": 2,
+            "6": 6
+          },
+          "level": 6,
+          "successes": 0,
+          "target_actions": 188,
+          "visited_calls": 46
+        },
+        {
+          "cases": 8,
+          "correct_actions": 78,
+          "cost": {
+            "amortized_inference_seconds": 0.8587277702303614,
+            "calls": 86,
+            "completion_tokens": 946,
+            "malformed_json": 0,
+            "prompt_tokens": 55372,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "recursion",
+          "first_error_histogram": {
+            "11": 1,
+            "12": 2,
+            "8": 2,
+            "9": 3
+          },
+          "level": 12,
+          "successes": 0,
+          "target_actions": 356,
+          "visited_calls": 86
+        },
+        {
+          "cases": 8,
+          "correct_actions": 150,
+          "cost": {
+            "amortized_inference_seconds": 2.944718030915694,
+            "calls": 158,
+            "completion_tokens": 1738,
+            "malformed_json": 0,
+            "prompt_tokens": 145622,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "recursion",
+          "first_error_histogram": {
+            "15": 2,
+            "18": 2,
+            "20": 3,
+            "24": 1
+          },
+          "level": 24,
+          "successes": 0,
+          "target_actions": 692,
+          "visited_calls": 158
+        },
+        {
+          "cases": 8,
+          "correct_actions": 8,
+          "cost": {
+            "amortized_inference_seconds": 0.15523579098226037,
+            "calls": 16,
+            "completion_tokens": 176,
+            "malformed_json": 0,
+            "prompt_tokens": 7616,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "sequence",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 3,
+          "successes": 0,
+          "target_actions": 48,
+          "visited_calls": 16
+        },
+        {
+          "cases": 8,
+          "correct_actions": 8,
+          "cost": {
+            "amortized_inference_seconds": 0.15630592082015937,
+            "calls": 16,
+            "completion_tokens": 176,
+            "malformed_json": 0,
+            "prompt_tokens": 8064,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "sequence",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 6,
+          "successes": 0,
+          "target_actions": 60,
+          "visited_calls": 16
+        },
+        {
+          "cases": 8,
+          "correct_actions": 8,
+          "cost": {
+            "amortized_inference_seconds": 0.16822216674336232,
+            "calls": 16,
+            "completion_tokens": 176,
+            "malformed_json": 0,
+            "prompt_tokens": 8928,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "sequence",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 12,
+          "successes": 0,
+          "target_actions": 84,
+          "visited_calls": 16
+        },
+        {
+          "cases": 8,
+          "correct_actions": 8,
+          "cost": {
+            "amortized_inference_seconds": 0.14724486325576436,
+            "calls": 16,
+            "completion_tokens": 176,
+            "malformed_json": 0,
+            "prompt_tokens": 10656,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "sequence",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 24,
+          "successes": 0,
+          "target_actions": 132,
+          "visited_calls": 16
+        },
+        {
+          "cases": 8,
+          "correct_actions": 20,
+          "cost": {
+            "amortized_inference_seconds": 0.22863791373674758,
+            "calls": 24,
+            "completion_tokens": 223,
+            "malformed_json": 0,
+            "prompt_tokens": 10808,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 4
+          },
+          "family": "terminal_length",
+          "first_error_histogram": {
+            "3": 4
+          },
+          "level": 3,
+          "successes": 4,
+          "target_actions": 24,
+          "visited_calls": 24
+        },
+        {
+          "cases": 8,
+          "correct_actions": 18,
+          "cost": {
+            "amortized_inference_seconds": 0.22948989103315398,
+            "calls": 23,
+            "completion_tokens": 213,
+            "malformed_json": 0,
+            "prompt_tokens": 10841,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 5
+          },
+          "family": "terminal_length",
+          "first_error_histogram": {
+            "0": 1,
+            "3": 4
+          },
+          "level": 6,
+          "successes": 3,
+          "target_actions": 24,
+          "visited_calls": 23
+        },
+        {
+          "cases": 8,
+          "correct_actions": 10,
+          "cost": {
+            "amortized_inference_seconds": 0.19177086043418967,
+            "calls": 18,
+            "completion_tokens": 163,
+            "malformed_json": 0,
+            "prompt_tokens": 9150,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "terminal_length",
+          "first_error_histogram": {
+            "0": 4,
+            "1": 1,
+            "3": 3
+          },
+          "level": 12,
+          "successes": 0,
+          "target_actions": 24,
+          "visited_calls": 18
+        },
+        {
+          "cases": 8,
+          "correct_actions": 8,
+          "cost": {
+            "amortized_inference_seconds": 0.12984619400231168,
+            "calls": 14,
+            "completion_tokens": 114,
+            "malformed_json": 0,
+            "prompt_tokens": 8478,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 6
+          },
+          "family": "terminal_length",
+          "first_error_histogram": {
+            "0": 2,
+            "1": 4
+          },
+          "level": 24,
+          "successes": 2,
+          "target_actions": 24,
+          "visited_calls": 14
+        }
+      ],
+      "overall": {
+        "cases": 192,
+        "correct_actions": 723,
+        "cost": {
+          "amortized_inference_seconds": 11.937077755283116,
+          "calls": 902,
+          "completion_tokens": 9756,
+          "malformed_json": 0,
+          "prompt_tokens": 691636,
+          "reasoning_tokens": 0,
+          "truncated": 0
+        },
+        "failures": {
+          "invalid_action": 179
+        },
+        "first_error_histogram": {
+          "0": 31,
+          "1": 75,
+          "11": 2,
+          "12": 2,
+          "13": 7,
+          "15": 2,
+          "18": 2,
+          "2": 8,
+          "20": 3,
+          "21": 5,
+          "24": 1,
+          "3": 15,
+          "4": 9,
+          "6": 6,
+          "7": 6,
+          "8": 2,
+          "9": 3
+        },
+        "successes": 13,
+        "target_actions": 5108,
+        "visited_calls": 902
+      }
+    },
+    "full_trace": {
+      "by_family": {
+        "alternatives": {
+          "cases": 32,
+          "correct_actions": 583,
+          "cost": {
+            "amortized_inference_seconds": 79.57733215102053,
+            "calls": 32,
+            "completion_tokens": 8413,
+            "malformed_json": 0,
+            "prompt_tokens": 25704,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "incomplete_trace": 1,
+            "invalid_or_trailing_action": 23
+          },
+          "first_error_histogram": {
+            "0": 1,
+            "1": 3,
+            "10": 4,
+            "17": 2,
+            "2": 7,
+            "36": 1,
+            "72": 3,
+            "8": 3
+          },
+          "successes": 8,
+          "target_actions": 1080,
+          "visited_calls": 32
+        },
+        "chain_depth": {
+          "cases": 32,
+          "correct_actions": 32,
+          "cost": {
+            "amortized_inference_seconds": 79.82030126075551,
+            "calls": 32,
+            "completion_tokens": 906,
+            "malformed_json": 0,
+            "prompt_tokens": 21008,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 32
+          },
+          "first_error_histogram": {
+            "1": 32
+          },
+          "successes": 0,
+          "target_actions": 816,
+          "visited_calls": 32
+        },
+        "nesting": {
+          "cases": 32,
+          "correct_actions": 10,
+          "cost": {
+            "amortized_inference_seconds": 80.66310840524966,
+            "calls": 32,
+            "completion_tokens": 91599,
+            "malformed_json": 22,
+            "prompt_tokens": 16552,
+            "reasoning_tokens": 0,
+            "truncated": 22
+          },
+          "failures": {
+            "call_or_parse_error": 22,
+            "invalid_or_trailing_action": 10
+          },
+          "first_error_histogram": {
+            "1": 10
+          },
+          "successes": 0,
+          "target_actions": 1452,
+          "visited_calls": 32
+        },
+        "recursion": {
+          "cases": 32,
+          "correct_actions": 28,
+          "cost": {
+            "amortized_inference_seconds": 80.66310840524966,
+            "calls": 32,
+            "completion_tokens": 17808,
+            "malformed_json": 4,
+            "prompt_tokens": 15280,
+            "reasoning_tokens": 0,
+            "truncated": 4
+          },
+          "failures": {
+            "call_or_parse_error": 4,
+            "invalid_or_trailing_action": 28
+          },
+          "first_error_histogram": {
+            "1": 28
+          },
+          "successes": 0,
+          "target_actions": 1340,
+          "visited_calls": 32
+        },
+        "sequence": {
+          "cases": 32,
+          "correct_actions": 32,
+          "cost": {
+            "amortized_inference_seconds": 79.57733215102053,
+            "calls": 32,
+            "completion_tokens": 53815,
+            "malformed_json": 13,
+            "prompt_tokens": 16688,
+            "reasoning_tokens": 0,
+            "truncated": 13
+          },
+          "failures": {
+            "call_or_parse_error": 13,
+            "incomplete_trace": 2,
+            "invalid_or_trailing_action": 17
+          },
+          "first_error_histogram": {
+            "1": 12,
+            "2": 5,
+            "5": 2
+          },
+          "successes": 0,
+          "target_actions": 324,
+          "visited_calls": 32
+        },
+        "terminal_length": {
+          "cases": 32,
+          "correct_actions": 56,
+          "cost": {
+            "amortized_inference_seconds": 79.82030126075551,
+            "calls": 32,
+            "completion_tokens": 603,
+            "malformed_json": 0,
+            "prompt_tokens": 15752,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "incomplete_trace": 7,
+            "invalid_or_trailing_action": 9
+          },
+          "first_error_histogram": {
+            "0": 1,
+            "1": 8,
+            "2": 7
+          },
+          "successes": 16,
+          "target_actions": 96,
+          "visited_calls": 32
+        }
+      },
+      "by_level": {
+        "12": {
+          "cases": 48,
+          "correct_actions": 216,
+          "cost": {
+            "amortized_inference_seconds": 121.27049733450986,
+            "calls": 48,
+            "completion_tokens": 56190,
+            "malformed_json": 13,
+            "prompt_tokens": 27440,
+            "reasoning_tokens": 0,
+            "truncated": 13
+          },
+          "failures": {
+            "call_or_parse_error": 13,
+            "incomplete_trace": 2,
+            "invalid_or_trailing_action": 25
+          },
+          "first_error_histogram": {
+            "0": 1,
+            "1": 22,
+            "2": 3,
+            "36": 1
+          },
+          "successes": 8,
+          "target_actions": 1352,
+          "visited_calls": 48
+        },
+        "24": {
+          "cases": 48,
+          "correct_actions": 266,
+          "cost": {
+            "amortized_inference_seconds": 123.604222454509,
+            "calls": 48,
+            "completion_tokens": 62929,
+            "malformed_json": 14,
+            "prompt_tokens": 37664,
+            "reasoning_tokens": 0,
+            "truncated": 14
+          },
+          "failures": {
+            "call_or_parse_error": 14,
+            "incomplete_trace": 2,
+            "invalid_or_trailing_action": 28
+          },
+          "first_error_histogram": {
+            "1": 18,
+            "2": 7,
+            "5": 2,
+            "72": 3
+          },
+          "successes": 4,
+          "target_actions": 2552,
+          "visited_calls": 48
+        },
+        "3": {
+          "cases": 48,
+          "correct_actions": 111,
+          "cost": {
+            "amortized_inference_seconds": 117.10463019352756,
+            "calls": 48,
+            "completion_tokens": 23053,
+            "malformed_json": 5,
+            "prompt_tokens": 22160,
+            "reasoning_tokens": 0,
+            "truncated": 5
+          },
+          "failures": {
+            "call_or_parse_error": 5,
+            "incomplete_trace": 4,
+            "invalid_or_trailing_action": 35
+          },
+          "first_error_histogram": {
+            "1": 25,
+            "10": 4,
+            "2": 7,
+            "8": 3
+          },
+          "successes": 4,
+          "target_actions": 452,
+          "visited_calls": 48
+        },
+        "6": {
+          "cases": 48,
+          "correct_actions": 148,
+          "cost": {
+            "amortized_inference_seconds": 118.14213365150499,
+            "calls": 48,
+            "completion_tokens": 30972,
+            "malformed_json": 7,
+            "prompt_tokens": 23720,
+            "reasoning_tokens": 0,
+            "truncated": 7
+          },
+          "failures": {
+            "call_or_parse_error": 7,
+            "incomplete_trace": 2,
+            "invalid_or_trailing_action": 31
+          },
+          "first_error_histogram": {
+            "0": 1,
+            "1": 28,
+            "17": 2,
+            "2": 2
+          },
+          "successes": 8,
+          "target_actions": 752,
+          "visited_calls": 48
+        }
+      },
+      "cells": [
+        {
+          "cases": 8,
+          "correct_actions": 65,
+          "cost": {
+            "amortized_inference_seconds": 19.74577551925904,
+            "calls": 8,
+            "completion_tokens": 592,
+            "malformed_json": 0,
+            "prompt_tokens": 3672,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "family": "alternatives",
+          "first_error_histogram": {
+            "1": 1,
+            "10": 4,
+            "8": 3
+          },
+          "level": 3,
+          "successes": 0,
+          "target_actions": 72,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 110,
+          "cost": {
+            "amortized_inference_seconds": 20.0051513837534,
+            "calls": 8,
+            "completion_tokens": 849,
+            "malformed_json": 0,
+            "prompt_tokens": 4208,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "incomplete_trace": 1,
+            "invalid_or_trailing_action": 3
+          },
+          "family": "alternatives",
+          "first_error_histogram": {
+            "0": 1,
+            "17": 2,
+            "2": 1
+          },
+          "level": 6,
+          "successes": 4,
+          "target_actions": 144,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 182,
+          "cost": {
+            "amortized_inference_seconds": 19.62148698400415,
+            "calls": 8,
+            "completion_tokens": 2119,
+            "malformed_json": 0,
+            "prompt_tokens": 5912,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 4
+          },
+          "family": "alternatives",
+          "first_error_histogram": {
+            "1": 2,
+            "2": 1,
+            "36": 1
+          },
+          "level": 12,
+          "successes": 4,
+          "target_actions": 288,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 226,
+          "cost": {
+            "amortized_inference_seconds": 20.204918264003936,
+            "calls": 8,
+            "completion_tokens": 4853,
+            "malformed_json": 0,
+            "prompt_tokens": 11912,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "family": "alternatives",
+          "first_error_histogram": {
+            "2": 5,
+            "72": 3
+          },
+          "level": 24,
+          "successes": 0,
+          "target_actions": 576,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 8,
+          "cost": {
+            "amortized_inference_seconds": 19.74577551925904,
+            "calls": 8,
+            "completion_tokens": 346,
+            "malformed_json": 0,
+            "prompt_tokens": 3896,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "family": "chain_depth",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 3,
+          "successes": 0,
+          "target_actions": 72,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 8,
+          "cost": {
+            "amortized_inference_seconds": 19.060764058245695,
+            "calls": 8,
+            "completion_tokens": 208,
+            "malformed_json": 0,
+            "prompt_tokens": 4360,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "family": "chain_depth",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 6,
+          "successes": 0,
+          "target_actions": 120,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 8,
+          "cost": {
+            "amortized_inference_seconds": 19.62148698400415,
+            "calls": 8,
+            "completion_tokens": 208,
+            "malformed_json": 0,
+            "prompt_tokens": 5320,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "family": "chain_depth",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 12,
+          "successes": 0,
+          "target_actions": 216,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 8,
+          "cost": {
+            "amortized_inference_seconds": 21.392274699246627,
+            "calls": 8,
+            "completion_tokens": 144,
+            "malformed_json": 0,
+            "prompt_tokens": 7432,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "family": "chain_depth",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 24,
+          "successes": 0,
+          "target_actions": 408,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 7,
+          "cost": {
+            "amortized_inference_seconds": 19.060764058245695,
+            "calls": 8,
+            "completion_tokens": 5011,
+            "malformed_json": 1,
+            "prompt_tokens": 3736,
+            "reasoning_tokens": 0,
+            "truncated": 1
+          },
+          "failures": {
+            "call_or_parse_error": 1,
+            "invalid_or_trailing_action": 7
+          },
+          "family": "nesting",
+          "first_error_histogram": {
+            "1": 7
+          },
+          "level": 3,
+          "successes": 0,
+          "target_actions": 132,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 2,
+          "cost": {
+            "amortized_inference_seconds": 20.0051513837534,
+            "calls": 8,
+            "completion_tokens": 25096,
+            "malformed_json": 6,
+            "prompt_tokens": 3888,
+            "reasoning_tokens": 0,
+            "truncated": 6
+          },
+          "failures": {
+            "call_or_parse_error": 6,
+            "invalid_or_trailing_action": 2
+          },
+          "family": "nesting",
+          "first_error_histogram": {
+            "1": 2
+          },
+          "level": 6,
+          "successes": 0,
+          "target_actions": 216,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 1,
+          "cost": {
+            "amortized_inference_seconds": 21.392274699246627,
+            "calls": 8,
+            "completion_tokens": 28724,
+            "malformed_json": 7,
+            "prompt_tokens": 4176,
+            "reasoning_tokens": 0,
+            "truncated": 7
+          },
+          "failures": {
+            "call_or_parse_error": 7,
+            "invalid_or_trailing_action": 1
+          },
+          "family": "nesting",
+          "first_error_histogram": {
+            "1": 1
+          },
+          "level": 12,
+          "successes": 0,
+          "target_actions": 384,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 0,
+          "cost": {
+            "amortized_inference_seconds": 20.204918264003936,
+            "calls": 8,
+            "completion_tokens": 32768,
+            "malformed_json": 8,
+            "prompt_tokens": 4752,
+            "reasoning_tokens": 0,
+            "truncated": 8
+          },
+          "failures": {
+            "call_or_parse_error": 8
+          },
+          "family": "nesting",
+          "first_error_histogram": {},
+          "level": 24,
+          "successes": 0,
+          "target_actions": 720,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 8,
+          "cost": {
+            "amortized_inference_seconds": 19.060764058245695,
+            "calls": 8,
+            "completion_tokens": 384,
+            "malformed_json": 0,
+            "prompt_tokens": 3616,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "family": "recursion",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 3,
+          "successes": 0,
+          "target_actions": 104,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 8,
+          "cost": {
+            "amortized_inference_seconds": 20.0051513837534,
+            "calls": 8,
+            "completion_tokens": 416,
+            "malformed_json": 0,
+            "prompt_tokens": 3696,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "family": "recursion",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 6,
+          "successes": 0,
+          "target_actions": 188,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 6,
+          "cost": {
+            "amortized_inference_seconds": 21.392274699246627,
+            "calls": 8,
+            "completion_tokens": 8504,
+            "malformed_json": 2,
+            "prompt_tokens": 3840,
+            "reasoning_tokens": 0,
+            "truncated": 2
+          },
+          "failures": {
+            "call_or_parse_error": 2,
+            "invalid_or_trailing_action": 6
+          },
+          "family": "recursion",
+          "first_error_histogram": {
+            "1": 6
+          },
+          "level": 12,
+          "successes": 0,
+          "target_actions": 356,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 6,
+          "cost": {
+            "amortized_inference_seconds": 20.204918264003936,
+            "calls": 8,
+            "completion_tokens": 8504,
+            "malformed_json": 2,
+            "prompt_tokens": 4128,
+            "reasoning_tokens": 0,
+            "truncated": 2
+          },
+          "failures": {
+            "call_or_parse_error": 2,
+            "invalid_or_trailing_action": 6
+          },
+          "family": "recursion",
+          "first_error_histogram": {
+            "1": 6
+          },
+          "level": 24,
+          "successes": 0,
+          "target_actions": 692,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 7,
+          "cost": {
+            "amortized_inference_seconds": 19.74577551925904,
+            "calls": 8,
+            "completion_tokens": 16564,
+            "malformed_json": 4,
+            "prompt_tokens": 3704,
+            "reasoning_tokens": 0,
+            "truncated": 4
+          },
+          "failures": {
+            "call_or_parse_error": 4,
+            "invalid_or_trailing_action": 4
+          },
+          "family": "sequence",
+          "first_error_histogram": {
+            "1": 1,
+            "2": 3
+          },
+          "level": 3,
+          "successes": 0,
+          "target_actions": 48,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 7,
+          "cost": {
+            "amortized_inference_seconds": 20.0051513837534,
+            "calls": 8,
+            "completion_tokens": 4247,
+            "malformed_json": 1,
+            "prompt_tokens": 3880,
+            "reasoning_tokens": 0,
+            "truncated": 1
+          },
+          "failures": {
+            "call_or_parse_error": 1,
+            "invalid_or_trailing_action": 7
+          },
+          "family": "sequence",
+          "first_error_histogram": {
+            "1": 7
+          },
+          "level": 6,
+          "successes": 0,
+          "target_actions": 60,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 4,
+          "cost": {
+            "amortized_inference_seconds": 19.62148698400415,
+            "calls": 8,
+            "completion_tokens": 16480,
+            "malformed_json": 4,
+            "prompt_tokens": 4216,
+            "reasoning_tokens": 0,
+            "truncated": 4
+          },
+          "failures": {
+            "call_or_parse_error": 4,
+            "invalid_or_trailing_action": 4
+          },
+          "family": "sequence",
+          "first_error_histogram": {
+            "1": 4
+          },
+          "level": 12,
+          "successes": 0,
+          "target_actions": 84,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 14,
+          "cost": {
+            "amortized_inference_seconds": 20.204918264003936,
+            "calls": 8,
+            "completion_tokens": 16524,
+            "malformed_json": 4,
+            "prompt_tokens": 4888,
+            "reasoning_tokens": 0,
+            "truncated": 4
+          },
+          "failures": {
+            "call_or_parse_error": 4,
+            "incomplete_trace": 2,
+            "invalid_or_trailing_action": 2
+          },
+          "family": "sequence",
+          "first_error_histogram": {
+            "2": 2,
+            "5": 2
+          },
+          "level": 24,
+          "successes": 0,
+          "target_actions": 132,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 16,
+          "cost": {
+            "amortized_inference_seconds": 19.74577551925904,
+            "calls": 8,
+            "completion_tokens": 156,
+            "malformed_json": 0,
+            "prompt_tokens": 3536,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "incomplete_trace": 4
+          },
+          "family": "terminal_length",
+          "first_error_histogram": {
+            "2": 4
+          },
+          "level": 3,
+          "successes": 4,
+          "target_actions": 24,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 13,
+          "cost": {
+            "amortized_inference_seconds": 19.060764058245695,
+            "calls": 8,
+            "completion_tokens": 156,
+            "malformed_json": 0,
+            "prompt_tokens": 3688,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "incomplete_trace": 1,
+            "invalid_or_trailing_action": 3
+          },
+          "family": "terminal_length",
+          "first_error_histogram": {
+            "1": 3,
+            "2": 1
+          },
+          "level": 6,
+          "successes": 4,
+          "target_actions": 24,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 15,
+          "cost": {
+            "amortized_inference_seconds": 19.62148698400415,
+            "calls": 8,
+            "completion_tokens": 155,
+            "malformed_json": 0,
+            "prompt_tokens": 3976,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "incomplete_trace": 2,
+            "invalid_or_trailing_action": 2
+          },
+          "family": "terminal_length",
+          "first_error_histogram": {
+            "0": 1,
+            "1": 1,
+            "2": 2
+          },
+          "level": 12,
+          "successes": 4,
+          "target_actions": 24,
+          "visited_calls": 8
+        },
+        {
+          "cases": 8,
+          "correct_actions": 12,
+          "cost": {
+            "amortized_inference_seconds": 21.392274699246627,
+            "calls": 8,
+            "completion_tokens": 136,
+            "malformed_json": 0,
+            "prompt_tokens": 4552,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_or_trailing_action": 4
+          },
+          "family": "terminal_length",
+          "first_error_histogram": {
+            "1": 4
+          },
+          "level": 24,
+          "successes": 4,
+          "target_actions": 24,
+          "visited_calls": 8
+        }
+      ],
+      "overall": {
+        "cases": 192,
+        "correct_actions": 741,
+        "cost": {
+          "amortized_inference_seconds": 480.1214836340514,
+          "calls": 192,
+          "completion_tokens": 173144,
+          "malformed_json": 39,
+          "prompt_tokens": 110984,
+          "reasoning_tokens": 0,
+          "truncated": 39
+        },
+        "failures": {
+          "call_or_parse_error": 39,
+          "incomplete_trace": 10,
+          "invalid_or_trailing_action": 119
+        },
+        "first_error_histogram": {
+          "0": 2,
+          "1": 93,
+          "10": 4,
+          "17": 2,
+          "2": 19,
+          "36": 1,
+          "5": 2,
+          "72": 3,
+          "8": 3
+        },
+        "successes": 24,
+        "target_actions": 5108,
+        "visited_calls": 192
+      }
+    },
+    "oracle_step": {
+      "by_family": {
+        "alternatives": {
+          "cases": 32,
+          "correct_actions": 305,
+          "cost": {
+            "amortized_inference_seconds": 11.155933880079829,
+            "calls": 1080,
+            "completion_tokens": 12055,
+            "malformed_json": 0,
+            "prompt_tokens": 1231904,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 32
+          },
+          "first_error_histogram": {
+            "0": 22,
+            "1": 1,
+            "2": 9
+          },
+          "successes": 0,
+          "target_actions": 1080,
+          "visited_calls": 1080
+        },
+        "chain_depth": {
+          "cases": 32,
+          "correct_actions": 223,
+          "cost": {
+            "amortized_inference_seconds": 8.002066774162813,
+            "calls": 816,
+            "completion_tokens": 9151,
+            "malformed_json": 0,
+            "prompt_tokens": 779868,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 28
+          },
+          "first_error_histogram": {
+            "1": 24,
+            "4": 4
+          },
+          "successes": 4,
+          "target_actions": 816,
+          "visited_calls": 816
+        },
+        "nesting": {
+          "cases": 32,
+          "correct_actions": 636,
+          "cost": {
+            "amortized_inference_seconds": 15.527070717907904,
+            "calls": 1452,
+            "completion_tokens": 15353,
+            "malformed_json": 0,
+            "prompt_tokens": 1632036,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 32
+          },
+          "first_error_histogram": {
+            "1": 8,
+            "11": 1,
+            "13": 6,
+            "17": 1,
+            "21": 4,
+            "4": 6,
+            "7": 5,
+            "8": 1
+          },
+          "successes": 0,
+          "target_actions": 1452,
+          "visited_calls": 1452
+        },
+        "recursion": {
+          "cases": 32,
+          "correct_actions": 554,
+          "cost": {
+            "amortized_inference_seconds": 13.389030989113962,
+            "calls": 1340,
+            "completion_tokens": 14242,
+            "malformed_json": 0,
+            "prompt_tokens": 1147456,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 32
+          },
+          "first_error_histogram": {
+            "1": 6,
+            "11": 1,
+            "12": 2,
+            "15": 2,
+            "18": 2,
+            "20": 3,
+            "24": 1,
+            "3": 4,
+            "6": 6,
+            "7": 1,
+            "8": 1,
+            "9": 3
+          },
+          "successes": 0,
+          "target_actions": 1340,
+          "visited_calls": 1340
+        },
+        "sequence": {
+          "cases": 32,
+          "correct_actions": 241,
+          "cost": {
+            "amortized_inference_seconds": 3.4192280421048054,
+            "calls": 324,
+            "completion_tokens": 3404,
+            "malformed_json": 0,
+            "prompt_tokens": 346964,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 32
+          },
+          "first_error_histogram": {
+            "1": 32
+          },
+          "successes": 0,
+          "target_actions": 324,
+          "visited_calls": 324
+        },
+        "terminal_length": {
+          "cases": 32,
+          "correct_actions": 66,
+          "cost": {
+            "amortized_inference_seconds": 1.0361893530134694,
+            "calls": 96,
+            "completion_tokens": 861,
+            "malformed_json": 0,
+            "prompt_tokens": 48848,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 22
+          },
+          "first_error_histogram": {
+            "0": 6,
+            "1": 5,
+            "3": 11
+          },
+          "successes": 10,
+          "target_actions": 96,
+          "visited_calls": 96
+        }
+      },
+      "by_level": {
+        "12": {
+          "cases": 48,
+          "correct_actions": 511,
+          "cost": {
+            "amortized_inference_seconds": 14.038421884273703,
+            "calls": 1352,
+            "completion_tokens": 14611,
+            "malformed_json": 0,
+            "prompt_tokens": 1049684,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 47
+          },
+          "first_error_histogram": {
+            "0": 10,
+            "1": 18,
+            "11": 1,
+            "12": 2,
+            "13": 6,
+            "2": 1,
+            "3": 3,
+            "7": 1,
+            "8": 2,
+            "9": 3
+          },
+          "successes": 1,
+          "target_actions": 1352,
+          "visited_calls": 1352
+        },
+        "24": {
+          "cases": 48,
+          "correct_actions": 960,
+          "cost": {
+            "amortized_inference_seconds": 27.266903374773378,
+            "calls": 2552,
+            "completion_tokens": 28098,
+            "malformed_json": 0,
+            "prompt_tokens": 3474220,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 46
+          },
+          "first_error_histogram": {
+            "0": 9,
+            "1": 22,
+            "11": 1,
+            "15": 2,
+            "17": 1,
+            "18": 2,
+            "2": 1,
+            "20": 3,
+            "21": 4,
+            "24": 1
+          },
+          "successes": 2,
+          "target_actions": 2552,
+          "visited_calls": 2552
+        },
+        "3": {
+          "cases": 48,
+          "correct_actions": 244,
+          "cost": {
+            "amortized_inference_seconds": 4.118083760040463,
+            "calls": 452,
+            "completion_tokens": 4534,
+            "malformed_json": 0,
+            "prompt_tokens": 227588,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 40
+          },
+          "first_error_histogram": {
+            "0": 3,
+            "1": 15,
+            "2": 4,
+            "3": 8,
+            "4": 10
+          },
+          "successes": 8,
+          "target_actions": 452,
+          "visited_calls": 452
+        },
+        "6": {
+          "cases": 48,
+          "correct_actions": 310,
+          "cost": {
+            "amortized_inference_seconds": 7.106110737295239,
+            "calls": 752,
+            "completion_tokens": 7823,
+            "malformed_json": 0,
+            "prompt_tokens": 435584,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 45
+          },
+          "first_error_histogram": {
+            "0": 6,
+            "1": 21,
+            "2": 3,
+            "3": 4,
+            "6": 6,
+            "7": 5
+          },
+          "successes": 3,
+          "target_actions": 752,
+          "visited_calls": 752
+        }
+      },
+      "cells": [
+        {
+          "cases": 8,
+          "correct_actions": 34,
+          "cost": {
+            "amortized_inference_seconds": 0.6524788829410682,
+            "calls": 72,
+            "completion_tokens": 712,
+            "malformed_json": 0,
+            "prompt_tokens": 33832,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "alternatives",
+          "first_error_histogram": {
+            "0": 3,
+            "1": 1,
+            "2": 4
+          },
+          "level": 3,
+          "successes": 0,
+          "target_actions": 72,
+          "visited_calls": 72
+        },
+        {
+          "cases": 8,
+          "correct_actions": 36,
+          "cost": {
+            "amortized_inference_seconds": 1.3145871309825452,
+            "calls": 144,
+            "completion_tokens": 1489,
+            "malformed_json": 0,
+            "prompt_tokens": 78440,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "alternatives",
+          "first_error_histogram": {
+            "0": 5,
+            "2": 3
+          },
+          "level": 6,
+          "successes": 0,
+          "target_actions": 144,
+          "visited_calls": 144
+        },
+        {
+          "cases": 8,
+          "correct_actions": 65,
+          "cost": {
+            "amortized_inference_seconds": 2.882175767379522,
+            "calls": 288,
+            "completion_tokens": 3301,
+            "malformed_json": 0,
+            "prompt_tokens": 222664,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "alternatives",
+          "first_error_histogram": {
+            "0": 7,
+            "2": 1
+          },
+          "level": 12,
+          "successes": 0,
+          "target_actions": 288,
+          "visited_calls": 288
+        },
+        {
+          "cases": 8,
+          "correct_actions": 170,
+          "cost": {
+            "amortized_inference_seconds": 6.3066920987766935,
+            "calls": 576,
+            "completion_tokens": 6553,
+            "malformed_json": 0,
+            "prompt_tokens": 896968,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "alternatives",
+          "first_error_histogram": {
+            "0": 7,
+            "2": 1
+          },
+          "level": 24,
+          "successes": 0,
+          "target_actions": 576,
+          "visited_calls": 576
+        },
+        {
+          "cases": 8,
+          "correct_actions": 42,
+          "cost": {
+            "amortized_inference_seconds": 0.6450968012650264,
+            "calls": 72,
+            "completion_tokens": 742,
+            "malformed_json": 0,
+            "prompt_tokens": 37868,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 4
+          },
+          "family": "chain_depth",
+          "first_error_histogram": {
+            "4": 4
+          },
+          "level": 3,
+          "successes": 4,
+          "target_actions": 72,
+          "visited_calls": 72
+        },
+        {
+          "cases": 8,
+          "correct_actions": 20,
+          "cost": {
+            "amortized_inference_seconds": 1.0947975881499588,
+            "calls": 120,
+            "completion_tokens": 1300,
+            "malformed_json": 0,
+            "prompt_tokens": 74048,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "chain_depth",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 6,
+          "successes": 0,
+          "target_actions": 120,
+          "visited_calls": 120
+        },
+        {
+          "cases": 8,
+          "correct_actions": 51,
+          "cost": {
+            "amortized_inference_seconds": 2.1180185479461215,
+            "calls": 216,
+            "completion_tokens": 2401,
+            "malformed_json": 0,
+            "prompt_tokens": 173752,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "chain_depth",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 12,
+          "successes": 0,
+          "target_actions": 216,
+          "visited_calls": 216
+        },
+        {
+          "cases": 8,
+          "correct_actions": 110,
+          "cost": {
+            "amortized_inference_seconds": 4.144153836801706,
+            "calls": 408,
+            "completion_tokens": 4708,
+            "malformed_json": 0,
+            "prompt_tokens": 494200,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "chain_depth",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 24,
+          "successes": 0,
+          "target_actions": 408,
+          "visited_calls": 408
+        },
+        {
+          "cases": 8,
+          "correct_actions": 69,
+          "cost": {
+            "amortized_inference_seconds": 1.214002527136472,
+            "calls": 132,
+            "completion_tokens": 1338,
+            "malformed_json": 0,
+            "prompt_tokens": 70140,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "nesting",
+          "first_error_histogram": {
+            "1": 2,
+            "4": 6
+          },
+          "level": 3,
+          "successes": 0,
+          "target_actions": 132,
+          "visited_calls": 132
+        },
+        {
+          "cases": 8,
+          "correct_actions": 103,
+          "cost": {
+            "amortized_inference_seconds": 2.187617990632134,
+            "calls": 216,
+            "completion_tokens": 2251,
+            "malformed_json": 0,
+            "prompt_tokens": 134164,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "nesting",
+          "first_error_histogram": {
+            "1": 3,
+            "7": 5
+          },
+          "level": 6,
+          "successes": 0,
+          "target_actions": 216,
+          "visited_calls": 216
+        },
+        {
+          "cases": 8,
+          "correct_actions": 168,
+          "cost": {
+            "amortized_inference_seconds": 4.10339357500925,
+            "calls": 384,
+            "completion_tokens": 4049,
+            "malformed_json": 0,
+            "prompt_tokens": 327088,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "nesting",
+          "first_error_histogram": {
+            "1": 1,
+            "13": 6,
+            "8": 1
+          },
+          "level": 12,
+          "successes": 0,
+          "target_actions": 384,
+          "visited_calls": 384
+        },
+        {
+          "cases": 8,
+          "correct_actions": 296,
+          "cost": {
+            "amortized_inference_seconds": 8.022056625130064,
+            "calls": 720,
+            "completion_tokens": 7715,
+            "malformed_json": 0,
+            "prompt_tokens": 1100644,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "nesting",
+          "first_error_histogram": {
+            "1": 2,
+            "11": 1,
+            "17": 1,
+            "21": 4
+          },
+          "level": 24,
+          "successes": 0,
+          "target_actions": 720,
+          "visited_calls": 720
+        },
+        {
+          "cases": 8,
+          "correct_actions": 52,
+          "cost": {
+            "amortized_inference_seconds": 0.9492715839442099,
+            "calls": 104,
+            "completion_tokens": 1025,
+            "malformed_json": 0,
+            "prompt_tokens": 50992,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "recursion",
+          "first_error_histogram": {
+            "1": 4,
+            "3": 4
+          },
+          "level": 3,
+          "successes": 0,
+          "target_actions": 104,
+          "visited_calls": 104
+        },
+        {
+          "cases": 8,
+          "correct_actions": 92,
+          "cost": {
+            "amortized_inference_seconds": 1.7214942607897683,
+            "calls": 188,
+            "completion_tokens": 1949,
+            "malformed_json": 0,
+            "prompt_tokens": 103236,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "recursion",
+          "first_error_histogram": {
+            "1": 2,
+            "6": 6
+          },
+          "level": 6,
+          "successes": 0,
+          "target_actions": 188,
+          "visited_calls": 188
+        },
+        {
+          "cases": 8,
+          "correct_actions": 149,
+          "cost": {
+            "amortized_inference_seconds": 3.763110319021507,
+            "calls": 356,
+            "completion_tokens": 3767,
+            "malformed_json": 0,
+            "prompt_tokens": 245772,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "recursion",
+          "first_error_histogram": {
+            "11": 1,
+            "12": 2,
+            "7": 1,
+            "8": 1,
+            "9": 3
+          },
+          "level": 12,
+          "successes": 0,
+          "target_actions": 356,
+          "visited_calls": 356
+        },
+        {
+          "cases": 8,
+          "correct_actions": 261,
+          "cost": {
+            "amortized_inference_seconds": 6.955154825358477,
+            "calls": 692,
+            "completion_tokens": 7501,
+            "malformed_json": 0,
+            "prompt_tokens": 747456,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "recursion",
+          "first_error_histogram": {
+            "15": 2,
+            "18": 2,
+            "20": 3,
+            "24": 1
+          },
+          "level": 24,
+          "successes": 0,
+          "target_actions": 692,
+          "visited_calls": 692
+        },
+        {
+          "cases": 8,
+          "correct_actions": 27,
+          "cost": {
+            "amortized_inference_seconds": 0.43263245999696665,
+            "calls": 48,
+            "completion_tokens": 493,
+            "malformed_json": 0,
+            "prompt_tokens": 23948,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "sequence",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 3,
+          "successes": 0,
+          "target_actions": 48,
+          "visited_calls": 48
+        },
+        {
+          "cases": 8,
+          "correct_actions": 40,
+          "cost": {
+            "amortized_inference_seconds": 0.5465286840117187,
+            "calls": 60,
+            "completion_tokens": 615,
+            "malformed_json": 0,
+            "prompt_tokens": 34360,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "sequence",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 6,
+          "successes": 0,
+          "target_actions": 60,
+          "visited_calls": 60
+        },
+        {
+          "cases": 8,
+          "correct_actions": 62,
+          "cost": {
+            "amortized_inference_seconds": 0.9136837250334793,
+            "calls": 84,
+            "completion_tokens": 884,
+            "malformed_json": 0,
+            "prompt_tokens": 68064,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "sequence",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 12,
+          "successes": 0,
+          "target_actions": 84,
+          "visited_calls": 84
+        },
+        {
+          "cases": 8,
+          "correct_actions": 112,
+          "cost": {
+            "amortized_inference_seconds": 1.5263831730626407,
+            "calls": 132,
+            "completion_tokens": 1412,
+            "malformed_json": 0,
+            "prompt_tokens": 220592,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 8
+          },
+          "family": "sequence",
+          "first_error_histogram": {
+            "1": 8
+          },
+          "level": 24,
+          "successes": 0,
+          "target_actions": 132,
+          "visited_calls": 132
+        },
+        {
+          "cases": 8,
+          "correct_actions": 20,
+          "cost": {
+            "amortized_inference_seconds": 0.2246015047567198,
+            "calls": 24,
+            "completion_tokens": 224,
+            "malformed_json": 0,
+            "prompt_tokens": 10808,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 4
+          },
+          "family": "terminal_length",
+          "first_error_histogram": {
+            "3": 4
+          },
+          "level": 3,
+          "successes": 4,
+          "target_actions": 24,
+          "visited_calls": 24
+        },
+        {
+          "cases": 8,
+          "correct_actions": 19,
+          "cost": {
+            "amortized_inference_seconds": 0.24108508272911422,
+            "calls": 24,
+            "completion_tokens": 219,
+            "malformed_json": 0,
+            "prompt_tokens": 11336,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 5
+          },
+          "family": "terminal_length",
+          "first_error_histogram": {
+            "0": 1,
+            "3": 4
+          },
+          "level": 6,
+          "successes": 3,
+          "target_actions": 24,
+          "visited_calls": 24
+        },
+        {
+          "cases": 8,
+          "correct_actions": 16,
+          "cost": {
+            "amortized_inference_seconds": 0.2580399498838233,
+            "calls": 24,
+            "completion_tokens": 209,
+            "malformed_json": 0,
+            "prompt_tokens": 12344,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 7
+          },
+          "family": "terminal_length",
+          "first_error_histogram": {
+            "0": 3,
+            "1": 1,
+            "3": 3
+          },
+          "level": 12,
+          "successes": 1,
+          "target_actions": 24,
+          "visited_calls": 24
+        },
+        {
+          "cases": 8,
+          "correct_actions": 11,
+          "cost": {
+            "amortized_inference_seconds": 0.31246281564381206,
+            "calls": 24,
+            "completion_tokens": 209,
+            "malformed_json": 0,
+            "prompt_tokens": 14360,
+            "reasoning_tokens": 0,
+            "truncated": 0
+          },
+          "failures": {
+            "invalid_action": 6
+          },
+          "family": "terminal_length",
+          "first_error_histogram": {
+            "0": 2,
+            "1": 4
+          },
+          "level": 24,
+          "successes": 2,
+          "target_actions": 24,
+          "visited_calls": 24
+        }
+      ],
+      "overall": {
+        "cases": 192,
+        "correct_actions": 2025,
+        "cost": {
+          "amortized_inference_seconds": 52.529519756382854,
+          "calls": 5108,
+          "completion_tokens": 55066,
+          "malformed_json": 0,
+          "prompt_tokens": 5187076,
+          "reasoning_tokens": 0,
+          "truncated": 0
+        },
+        "failures": {
+          "invalid_action": 178
+        },
+        "first_error_histogram": {
+          "0": 28,
+          "1": 76,
+          "11": 2,
+          "12": 2,
+          "13": 6,
+          "15": 2,
+          "17": 1,
+          "18": 2,
+          "2": 9,
+          "20": 3,
+          "21": 4,
+          "24": 1,
+          "3": 15,
+          "4": 10,
+          "6": 6,
+          "7": 6,
+          "8": 2,
+          "9": 3
+        },
+        "successes": 14,
+        "target_actions": 5108,
+        "visited_calls": 5108
+      }
+    },
+    "teacher_by_action": {
+      "ACC": [
+        82,
+        96
+      ],
+      "BT": [
+        133,
+        1372
+      ],
+      "DONE": [
+        18,
+        636
+      ],
+      "PRN": [
+        532,
+        832
+      ],
+      "TRY": [
+        1260,
+        2172
+      ]
+    }
+  }
+}

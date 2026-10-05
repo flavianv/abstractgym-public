@@ -1,0 +1,1505 @@
+{
+  "zeroshot": {
+    "direct": {
+      "exact": [
+        62,
+        92
+      ],
+      "by_label": {
+        "True": [
+          24,
+          46
+        ],
+        "False": [
+          38,
+          46
+        ]
+      },
+      "by_cell": {
+        "([)]#": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            8,
+            8
+          ],
+          "3": [
+            6,
+            8
+          ],
+          "4": [
+            6,
+            8
+          ],
+          "8": [
+            6,
+            8
+          ],
+          "16": [
+            6,
+            8
+          ]
+        },
+        "abcde": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            2,
+            4
+          ],
+          "2": [
+            4,
+            8
+          ],
+          "3": [
+            4,
+            8
+          ],
+          "4": [
+            4,
+            8
+          ],
+          "8": [
+            4,
+            8
+          ],
+          "16": [
+            4,
+            8
+          ]
+        }
+      },
+      "usage": {
+        "calls": 92,
+        "truncated": 0,
+        "prompt_tokens": 14898,
+        "completion_tokens": 552,
+        "reasoning_tokens": 0,
+        "answer_tokens": 552
+      },
+      "label_blind": {
+        "always_accept": [
+          46,
+          92
+        ],
+        "always_reject": [
+          46,
+          92
+        ],
+        "by_cell": {
+          "([)]#": {
+            "0": {
+              "always_accept": [
+                1,
+                2
+              ],
+              "always_reject": [
+                1,
+                2
+              ]
+            },
+            "1": {
+              "always_accept": [
+                2,
+                4
+              ],
+              "always_reject": [
+                2,
+                4
+              ]
+            },
+            "2": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "3": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "4": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "8": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "16": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            }
+          },
+          "abcde": {
+            "0": {
+              "always_accept": [
+                1,
+                2
+              ],
+              "always_reject": [
+                1,
+                2
+              ]
+            },
+            "1": {
+              "always_accept": [
+                2,
+                4
+              ],
+              "always_reject": [
+                2,
+                4
+              ]
+            },
+            "2": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "3": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "4": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "8": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "16": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            }
+          }
+        }
+      }
+    },
+    "live": {
+      "held_out": {
+        "letters": {
+          "by_depth": {
+            "0": [
+              2,
+              2
+            ],
+            "1": [
+              4,
+              4
+            ],
+            "2": [
+              4,
+              8
+            ],
+            "3": [
+              5,
+              8
+            ],
+            "4": [
+              5,
+              8
+            ],
+            "8": [
+              5,
+              8
+            ],
+            "16": [
+              4,
+              8
+            ]
+          },
+          "interpretation": {
+            "0": "beats both label-blind baselines",
+            "1": "beats both label-blind baselines",
+            "2": "chance / label-blind",
+            "3": "beats both label-blind baselines",
+            "4": "beats both label-blind baselines",
+            "8": "beats both label-blind baselines",
+            "16": "chance / label-blind"
+          }
+        },
+        "brackets": {
+          "by_depth": {
+            "0": [
+              2,
+              2
+            ],
+            "1": [
+              2,
+              4
+            ],
+            "2": [
+              2,
+              8
+            ],
+            "3": [
+              2,
+              8
+            ],
+            "4": [
+              2,
+              8
+            ],
+            "8": [
+              2,
+              8
+            ],
+            "16": [
+              2,
+              8
+            ]
+          },
+          "interpretation": {
+            "0": "beats both label-blind baselines",
+            "1": "chance / label-blind",
+            "2": "below label-blind",
+            "3": "below label-blind",
+            "4": "below label-blind",
+            "8": "below label-blind",
+            "16": "below label-blind"
+          }
+        },
+        "total": [
+          43,
+          92
+        ]
+      },
+      "action_accuracy": [
+        488,
+        537
+      ],
+      "first_error_median": 2,
+      "push_value_errors": 32,
+      "label_blind": {
+        "always_accept": [
+          46,
+          92
+        ],
+        "always_reject": [
+          46,
+          92
+        ],
+        "by_cell": {
+          "letters": {
+            "0": {
+              "always_accept": [
+                1,
+                2
+              ],
+              "always_reject": [
+                1,
+                2
+              ]
+            },
+            "1": {
+              "always_accept": [
+                2,
+                4
+              ],
+              "always_reject": [
+                2,
+                4
+              ]
+            },
+            "2": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "3": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "4": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "8": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "16": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            }
+          },
+          "brackets": {
+            "0": {
+              "always_accept": [
+                1,
+                2
+              ],
+              "always_reject": [
+                1,
+                2
+              ]
+            },
+            "1": {
+              "always_accept": [
+                2,
+                4
+              ],
+              "always_reject": [
+                2,
+                4
+              ]
+            },
+            "2": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "3": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "4": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "8": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "16": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            }
+          }
+        }
+      },
+      "invalid_action_calls": 0,
+      "usage": {
+        "prompt_tokens": 101653,
+        "completion_tokens": 4803
+      }
+    }
+  },
+  "step_lora": {
+    "direct": {
+      "exact": [
+        62,
+        92
+      ],
+      "by_label": {
+        "True": [
+          24,
+          46
+        ],
+        "False": [
+          38,
+          46
+        ]
+      },
+      "by_cell": {
+        "([)]#": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            8,
+            8
+          ],
+          "3": [
+            6,
+            8
+          ],
+          "4": [
+            6,
+            8
+          ],
+          "8": [
+            6,
+            8
+          ],
+          "16": [
+            6,
+            8
+          ]
+        },
+        "abcde": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            2,
+            4
+          ],
+          "2": [
+            4,
+            8
+          ],
+          "3": [
+            4,
+            8
+          ],
+          "4": [
+            4,
+            8
+          ],
+          "8": [
+            4,
+            8
+          ],
+          "16": [
+            4,
+            8
+          ]
+        }
+      },
+      "usage": {
+        "calls": 92,
+        "truncated": 0,
+        "prompt_tokens": 14898,
+        "completion_tokens": 552,
+        "reasoning_tokens": 0,
+        "answer_tokens": 552
+      },
+      "label_blind": {
+        "always_accept": [
+          46,
+          92
+        ],
+        "always_reject": [
+          46,
+          92
+        ],
+        "by_cell": {
+          "([)]#": {
+            "0": {
+              "always_accept": [
+                1,
+                2
+              ],
+              "always_reject": [
+                1,
+                2
+              ]
+            },
+            "1": {
+              "always_accept": [
+                2,
+                4
+              ],
+              "always_reject": [
+                2,
+                4
+              ]
+            },
+            "2": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "3": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "4": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "8": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "16": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            }
+          },
+          "abcde": {
+            "0": {
+              "always_accept": [
+                1,
+                2
+              ],
+              "always_reject": [
+                1,
+                2
+              ]
+            },
+            "1": {
+              "always_accept": [
+                2,
+                4
+              ],
+              "always_reject": [
+                2,
+                4
+              ]
+            },
+            "2": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "3": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "4": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "8": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "16": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            }
+          }
+        }
+      }
+    },
+    "live": {
+      "held_out": {
+        "letters": {
+          "by_depth": {
+            "0": [
+              2,
+              2
+            ],
+            "1": [
+              4,
+              4
+            ],
+            "2": [
+              8,
+              8
+            ],
+            "3": [
+              8,
+              8
+            ],
+            "4": [
+              8,
+              8
+            ],
+            "8": [
+              8,
+              8
+            ],
+            "16": [
+              8,
+              8
+            ]
+          },
+          "interpretation": {
+            "0": "beats both label-blind baselines",
+            "1": "beats both label-blind baselines",
+            "2": "beats both label-blind baselines",
+            "3": "beats both label-blind baselines",
+            "4": "beats both label-blind baselines",
+            "8": "beats both label-blind baselines",
+            "16": "beats both label-blind baselines"
+          }
+        },
+        "brackets": {
+          "by_depth": {
+            "0": [
+              2,
+              2
+            ],
+            "1": [
+              2,
+              4
+            ],
+            "2": [
+              2,
+              8
+            ],
+            "3": [
+              2,
+              8
+            ],
+            "4": [
+              2,
+              8
+            ],
+            "8": [
+              2,
+              8
+            ],
+            "16": [
+              2,
+              8
+            ]
+          },
+          "interpretation": {
+            "0": "beats both label-blind baselines",
+            "1": "chance / label-blind",
+            "2": "below label-blind",
+            "3": "below label-blind",
+            "4": "below label-blind",
+            "8": "below label-blind",
+            "16": "below label-blind"
+          }
+        },
+        "total": [
+          60,
+          92
+        ]
+      },
+      "action_accuracy": [
+        634,
+        666
+      ],
+      "first_error_median": 1.0,
+      "push_value_errors": 32,
+      "label_blind": {
+        "always_accept": [
+          46,
+          92
+        ],
+        "always_reject": [
+          46,
+          92
+        ],
+        "by_cell": {
+          "letters": {
+            "0": {
+              "always_accept": [
+                1,
+                2
+              ],
+              "always_reject": [
+                1,
+                2
+              ]
+            },
+            "1": {
+              "always_accept": [
+                2,
+                4
+              ],
+              "always_reject": [
+                2,
+                4
+              ]
+            },
+            "2": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "3": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "4": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "8": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "16": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            }
+          },
+          "brackets": {
+            "0": {
+              "always_accept": [
+                1,
+                2
+              ],
+              "always_reject": [
+                1,
+                2
+              ]
+            },
+            "1": {
+              "always_accept": [
+                2,
+                4
+              ],
+              "always_reject": [
+                2,
+                4
+              ]
+            },
+            "2": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "3": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "4": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "8": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "16": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            }
+          }
+        }
+      },
+      "invalid_action_calls": 0,
+      "usage": {
+        "prompt_tokens": 127603,
+        "completion_tokens": 5916
+      }
+    }
+  },
+  "membership_lora": {
+    "direct": {
+      "exact": [
+        82,
+        92
+      ],
+      "by_label": {
+        "True": [
+          42,
+          46
+        ],
+        "False": [
+          40,
+          46
+        ]
+      },
+      "by_cell": {
+        "([)]#": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            8,
+            8
+          ],
+          "3": [
+            6,
+            8
+          ],
+          "4": [
+            8,
+            8
+          ],
+          "8": [
+            6,
+            8
+          ],
+          "16": [
+            6,
+            8
+          ]
+        },
+        "abcde": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            8,
+            8
+          ],
+          "3": [
+            8,
+            8
+          ],
+          "4": [
+            7,
+            8
+          ],
+          "8": [
+            7,
+            8
+          ],
+          "16": [
+            6,
+            8
+          ]
+        }
+      },
+      "usage": {
+        "calls": 92,
+        "truncated": 0,
+        "prompt_tokens": 14898,
+        "completion_tokens": 552,
+        "reasoning_tokens": 0,
+        "answer_tokens": 552
+      },
+      "label_blind": {
+        "always_accept": [
+          46,
+          92
+        ],
+        "always_reject": [
+          46,
+          92
+        ],
+        "by_cell": {
+          "([)]#": {
+            "0": {
+              "always_accept": [
+                1,
+                2
+              ],
+              "always_reject": [
+                1,
+                2
+              ]
+            },
+            "1": {
+              "always_accept": [
+                2,
+                4
+              ],
+              "always_reject": [
+                2,
+                4
+              ]
+            },
+            "2": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "3": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "4": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "8": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "16": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            }
+          },
+          "abcde": {
+            "0": {
+              "always_accept": [
+                1,
+                2
+              ],
+              "always_reject": [
+                1,
+                2
+              ]
+            },
+            "1": {
+              "always_accept": [
+                2,
+                4
+              ],
+              "always_reject": [
+                2,
+                4
+              ]
+            },
+            "2": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "3": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "4": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "8": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "16": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            }
+          }
+        }
+      }
+    },
+    "live": {
+      "held_out": {
+        "letters": {
+          "by_depth": {
+            "0": [
+              1,
+              2
+            ],
+            "1": [
+              2,
+              4
+            ],
+            "2": [
+              1,
+              8
+            ],
+            "3": [
+              2,
+              8
+            ],
+            "4": [
+              1,
+              8
+            ],
+            "8": [
+              1,
+              8
+            ],
+            "16": [
+              0,
+              8
+            ]
+          },
+          "interpretation": {
+            "0": "chance / label-blind",
+            "1": "chance / label-blind",
+            "2": "below label-blind",
+            "3": "below label-blind",
+            "4": "below label-blind",
+            "8": "below label-blind",
+            "16": "below label-blind"
+          }
+        },
+        "brackets": {
+          "by_depth": {
+            "0": [
+              2,
+              2
+            ],
+            "1": [
+              1,
+              4
+            ],
+            "2": [
+              0,
+              8
+            ],
+            "3": [
+              0,
+              8
+            ],
+            "4": [
+              0,
+              8
+            ],
+            "8": [
+              0,
+              8
+            ],
+            "16": [
+              0,
+              8
+            ]
+          },
+          "interpretation": {
+            "0": "beats both label-blind baselines",
+            "1": "below label-blind",
+            "2": "below label-blind",
+            "3": "below label-blind",
+            "4": "below label-blind",
+            "8": "below label-blind",
+            "16": "below label-blind"
+          }
+        },
+        "total": [
+          11,
+          92
+        ]
+      },
+      "action_accuracy": [
+        216,
+        297
+      ],
+      "first_error_median": 2,
+      "push_value_errors": 42,
+      "label_blind": {
+        "always_accept": [
+          46,
+          92
+        ],
+        "always_reject": [
+          46,
+          92
+        ],
+        "by_cell": {
+          "letters": {
+            "0": {
+              "always_accept": [
+                1,
+                2
+              ],
+              "always_reject": [
+                1,
+                2
+              ]
+            },
+            "1": {
+              "always_accept": [
+                2,
+                4
+              ],
+              "always_reject": [
+                2,
+                4
+              ]
+            },
+            "2": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "3": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "4": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "8": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "16": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            }
+          },
+          "brackets": {
+            "0": {
+              "always_accept": [
+                1,
+                2
+              ],
+              "always_reject": [
+                1,
+                2
+              ]
+            },
+            "1": {
+              "always_accept": [
+                2,
+                4
+              ],
+              "always_reject": [
+                2,
+                4
+              ]
+            },
+            "2": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "3": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "4": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "8": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            },
+            "16": {
+              "always_accept": [
+                4,
+                8
+              ],
+              "always_reject": [
+                4,
+                8
+              ]
+            }
+          }
+        }
+      },
+      "invalid_action_calls": 2,
+      "usage": {
+        "prompt_tokens": 55100,
+        "completion_tokens": 2843
+      }
+    }
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "action-opsd": {
+    "action": {
+      "correct_action": 211,
+      "exact_target": 211,
+      "rows": 512,
+      "tokens": 5195,
+      "truncated": 0,
+      "valid_json": 512
+    },
+    "action:updates_1_32": {
+      "correct_action": 46,
+      "exact_target": 46,
+      "rows": 124,
+      "tokens": 1261,
+      "truncated": 0,
+      "valid_json": 124
+    },
+    "action:updates_33_64": {
+      "correct_action": 52,
+      "exact_target": 52,
+      "rows": 125,
+      "tokens": 1282,
+      "truncated": 0,
+      "valid_json": 125
+    },
+    "action:updates_65_96": {
+      "correct_action": 58,
+      "exact_target": 58,
+      "rows": 130,
+      "tokens": 1285,
+      "truncated": 0,
+      "valid_json": 130
+    },
+    "action:updates_97_128": {
+      "correct_action": 55,
+      "exact_target": 55,
+      "rows": 133,
+      "tokens": 1367,
+      "truncated": 0,
+      "valid_json": 133
+    },
+    "action_repeat": {
+      "correct_action": 206,
+      "exact_target": 206,
+      "rows": 512,
+      "tokens": 5213,
+      "truncated": 0,
+      "valid_json": 512
+    },
+    "action_repeat:updates_1_32": {
+      "correct_action": 46,
+      "exact_target": 46,
+      "rows": 132,
+      "tokens": 1323,
+      "truncated": 0,
+      "valid_json": 132
+    },
+    "action_repeat:updates_33_64": {
+      "correct_action": 56,
+      "exact_target": 56,
+      "rows": 131,
+      "tokens": 1378,
+      "truncated": 0,
+      "valid_json": 131
+    },
+    "action_repeat:updates_65_96": {
+      "correct_action": 49,
+      "exact_target": 49,
+      "rows": 126,
+      "tokens": 1266,
+      "truncated": 0,
+      "valid_json": 126
+    },
+    "action_repeat:updates_97_128": {
+      "correct_action": 55,
+      "exact_target": 55,
+      "rows": 123,
+      "tokens": 1246,
+      "truncated": 0,
+      "valid_json": 123
+    }
+  },
+  "branches-opsd": {
+    "action": {
+      "correct_action": 217,
+      "exact_target": 217,
+      "rows": 512,
+      "tokens": 5181,
+      "truncated": 0,
+      "valid_json": 512
+    },
+    "action:updates_1_32": {
+      "correct_action": 45,
+      "exact_target": 45,
+      "rows": 124,
+      "tokens": 1260,
+      "truncated": 0,
+      "valid_json": 124
+    },
+    "action:updates_33_64": {
+      "correct_action": 49,
+      "exact_target": 49,
+      "rows": 125,
+      "tokens": 1282,
+      "truncated": 0,
+      "valid_json": 125
+    },
+    "action:updates_65_96": {
+      "correct_action": 62,
+      "exact_target": 62,
+      "rows": 130,
+      "tokens": 1300,
+      "truncated": 0,
+      "valid_json": 130
+    },
+    "action:updates_97_128": {
+      "correct_action": 61,
+      "exact_target": 61,
+      "rows": 133,
+      "tokens": 1339,
+      "truncated": 0,
+      "valid_json": 133
+    },
+    "branches": {
+      "correct_action": 16,
+      "exact_target": 0,
+      "rows": 512,
+      "tokens": 387651,
+      "truncated": 210,
+      "valid_json": 50
+    },
+    "branches:updates_1_32": {
+      "correct_action": 3,
+      "exact_target": 0,
+      "rows": 132,
+      "tokens": 102947,
+      "truncated": 58,
+      "valid_json": 17
+    },
+    "branches:updates_33_64": {
+      "correct_action": 5,
+      "exact_target": 0,
+      "rows": 131,
+      "tokens": 104865,
+      "truncated": 60,
+      "valid_json": 13
+    },
+    "branches:updates_65_96": {
+      "correct_action": 5,
+      "exact_target": 0,
+      "rows": 126,
+      "tokens": 89158,
+      "truncated": 43,
+      "valid_json": 15
+    },
+    "branches:updates_97_128": {
+      "correct_action": 3,
+      "exact_target": 0,
+      "rows": 123,
+      "tokens": 90681,
+      "truncated": 49,
+      "valid_json": 5
+    }
+  },
+  "successor-opsd": {
+    "action": {
+      "correct_action": 196,
+      "exact_target": 196,
+      "rows": 512,
+      "tokens": 5224,
+      "truncated": 0,
+      "valid_json": 512
+    },
+    "action:updates_1_32": {
+      "correct_action": 42,
+      "exact_target": 42,
+      "rows": 124,
+      "tokens": 1269,
+      "truncated": 0,
+      "valid_json": 124
+    },
+    "action:updates_33_64": {
+      "correct_action": 45,
+      "exact_target": 45,
+      "rows": 125,
+      "tokens": 1289,
+      "truncated": 0,
+      "valid_json": 125
+    },
+    "action:updates_65_96": {
+      "correct_action": 52,
+      "exact_target": 52,
+      "rows": 130,
+      "tokens": 1307,
+      "truncated": 0,
+      "valid_json": 130
+    },
+    "action:updates_97_128": {
+      "correct_action": 57,
+      "exact_target": 57,
+      "rows": 133,
+      "tokens": 1359,
+      "truncated": 0,
+      "valid_json": 133
+    },
+    "successor": {
+      "correct_action": 5,
+      "exact_target": 1,
+      "rows": 512,
+      "tokens": 196830,
+      "truncated": 11,
+      "valid_json": 24
+    },
+    "successor:updates_1_32": {
+      "correct_action": 0,
+      "exact_target": 0,
+      "rows": 132,
+      "tokens": 51164,
+      "truncated": 2,
+      "valid_json": 8
+    },
+    "successor:updates_33_64": {
+      "correct_action": 1,
+      "exact_target": 0,
+      "rows": 131,
+      "tokens": 49024,
+      "truncated": 2,
+      "valid_json": 7
+    },
+    "successor:updates_65_96": {
+      "correct_action": 3,
+      "exact_target": 1,
+      "rows": 126,
+      "tokens": 47694,
+      "truncated": 2,
+      "valid_json": 7
+    },
+    "successor:updates_97_128": {
+      "correct_action": 1,
+      "exact_target": 0,
+      "rows": 123,
+      "tokens": 48948,
+      "truncated": 5,
+      "valid_json": 2
+    }
+  }
+}

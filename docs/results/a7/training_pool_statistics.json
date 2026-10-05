@@ -1,0 +1,17 @@
+{
+  "actions": {
+    "ACC": 32,
+    "BT": 143,
+    "DONE": 87,
+    "PRN": 118,
+    "TRY": 132
+  },
+  "branch_status": {
+    "accept": 2,
+    "failed": 91,
+    "unresolved": 144
+  },
+  "states": 512,
+  "states_with_two_branches": 105,
+  "trajectories": 64
+}

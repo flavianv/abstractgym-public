@@ -1,0 +1,5186 @@
+[
+  {
+    "model": "14b",
+    "seed": 17,
+    "test_set": "original",
+    "held_out": {
+      "letters": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            8,
+            8
+          ],
+          "3": [
+            8,
+            8
+          ],
+          "4": [
+            8,
+            8
+          ],
+          "8": [
+            8,
+            8
+          ],
+          "16": [
+            8,
+            8
+          ]
+        },
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "beats both label-blind baselines",
+          "16": "beats both label-blind baselines"
+        }
+      },
+      "brackets": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            2,
+            4
+          ],
+          "2": [
+            2,
+            8
+          ],
+          "3": [
+            2,
+            8
+          ],
+          "4": [
+            2,
+            8
+          ],
+          "8": [
+            2,
+            8
+          ],
+          "16": [
+            2,
+            8
+          ]
+        },
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "chance / label-blind",
+          "2": "below label-blind",
+          "3": "below label-blind",
+          "4": "below label-blind",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      },
+      "total": [
+        60,
+        92
+      ]
+    },
+    "action_accuracy": [
+      634,
+      666
+    ],
+    "first_error_median": 1.0,
+    "push_value_errors": 32,
+    "label_blind": {
+      "always_accept": [
+        46,
+        92
+      ],
+      "always_reject": [
+        46,
+        92
+      ],
+      "by_cell": {
+        "([)]#": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "4": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "8": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "16": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          }
+        },
+        "abcde": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "4": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "8": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "16": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          }
+        }
+      }
+    },
+    "invalid_action_calls": 0,
+    "usage": {
+      "prompt_tokens": 127603,
+      "completion_tokens": 5916
+    },
+    "by_alphabet": {
+      "([)]#": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            2,
+            4
+          ],
+          "2": [
+            2,
+            8
+          ],
+          "3": [
+            2,
+            8
+          ],
+          "4": [
+            2,
+            8
+          ],
+          "8": [
+            2,
+            8
+          ],
+          "16": [
+            2,
+            8
+          ]
+        },
+        "total": [
+          14,
+          46
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "chance / label-blind",
+          "2": "below label-blind",
+          "3": "below label-blind",
+          "4": "below label-blind",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      },
+      "abcde": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            8,
+            8
+          ],
+          "3": [
+            8,
+            8
+          ],
+          "4": [
+            8,
+            8
+          ],
+          "8": [
+            8,
+            8
+          ],
+          "16": [
+            8,
+            8
+          ]
+        },
+        "total": [
+          46,
+          46
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "beats both label-blind baselines",
+          "16": "beats both label-blind baselines"
+        }
+      }
+    }
+  },
+  {
+    "model": "14b",
+    "seed": 17,
+    "test_set": "fresh",
+    "held_out": {
+      "letters": {
+        "by_depth": {},
+        "interpretation": {}
+      },
+      "brackets": {
+        "by_depth": {},
+        "interpretation": {}
+      },
+      "total": [
+        166,
+        312
+      ]
+    },
+    "action_accuracy": [
+      2681,
+      2827
+    ],
+    "first_error_median": 3.0,
+    "push_value_errors": 68,
+    "label_blind": {
+      "always_accept": [
+        156,
+        312
+      ],
+      "always_reject": [
+        156,
+        312
+      ],
+      "by_cell": {
+        "56789": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "4": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "8": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "16": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          }
+        },
+        "PQRST": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "4": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "8": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "16": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          }
+        },
+        "klmno": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "4": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "8": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "16": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          }
+        },
+        "{<}>@": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "4": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "8": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "16": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          }
+        }
+      }
+    },
+    "invalid_action_calls": 0,
+    "usage": {
+      "prompt_tokens": 552084,
+      "completion_tokens": 25523
+    },
+    "by_alphabet": {
+      "56789": {
+        "by_depth": {
+          "0": [
+            0,
+            2
+          ],
+          "1": [
+            0,
+            4
+          ],
+          "2": [
+            4,
+            8
+          ],
+          "3": [
+            0,
+            16
+          ],
+          "4": [
+            0,
+            16
+          ],
+          "8": [
+            9,
+            16
+          ],
+          "16": [
+            4,
+            16
+          ]
+        },
+        "total": [
+          17,
+          78
+        ],
+        "interpretation": {
+          "0": "below label-blind",
+          "1": "below label-blind",
+          "2": "chance / label-blind",
+          "3": "below label-blind",
+          "4": "below label-blind",
+          "8": "beats both label-blind baselines",
+          "16": "below label-blind"
+        }
+      },
+      "PQRST": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            8,
+            8
+          ],
+          "3": [
+            16,
+            16
+          ],
+          "4": [
+            16,
+            16
+          ],
+          "8": [
+            13,
+            16
+          ],
+          "16": [
+            9,
+            16
+          ]
+        },
+        "total": [
+          68,
+          78
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "beats both label-blind baselines",
+          "16": "beats both label-blind baselines"
+        }
+      },
+      "klmno": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            8,
+            8
+          ],
+          "3": [
+            16,
+            16
+          ],
+          "4": [
+            16,
+            16
+          ],
+          "8": [
+            16,
+            16
+          ],
+          "16": [
+            9,
+            16
+          ]
+        },
+        "total": [
+          71,
+          78
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "beats both label-blind baselines",
+          "16": "beats both label-blind baselines"
+        }
+      },
+      "{<}>@": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            2,
+            4
+          ],
+          "2": [
+            2,
+            8
+          ],
+          "3": [
+            2,
+            16
+          ],
+          "4": [
+            2,
+            16
+          ],
+          "8": [
+            0,
+            16
+          ],
+          "16": [
+            0,
+            16
+          ]
+        },
+        "total": [
+          10,
+          78
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "chance / label-blind",
+          "2": "below label-blind",
+          "3": "below label-blind",
+          "4": "below label-blind",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      }
+    }
+  },
+  {
+    "model": "14b",
+    "seed": 18,
+    "test_set": "original",
+    "held_out": {
+      "letters": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            6,
+            8
+          ],
+          "3": [
+            6,
+            8
+          ],
+          "4": [
+            6,
+            8
+          ],
+          "8": [
+            4,
+            8
+          ],
+          "16": [
+            4,
+            8
+          ]
+        },
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "chance / label-blind",
+          "16": "chance / label-blind"
+        }
+      },
+      "brackets": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            2,
+            4
+          ],
+          "2": [
+            0,
+            8
+          ],
+          "3": [
+            0,
+            8
+          ],
+          "4": [
+            0,
+            8
+          ],
+          "8": [
+            0,
+            8
+          ],
+          "16": [
+            0,
+            8
+          ]
+        },
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "chance / label-blind",
+          "2": "below label-blind",
+          "3": "below label-blind",
+          "4": "below label-blind",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      },
+      "total": [
+        36,
+        92
+      ]
+    },
+    "action_accuracy": [
+      360,
+      416
+    ],
+    "first_error_median": 2.0,
+    "push_value_errors": 27,
+    "label_blind": {
+      "always_accept": [
+        46,
+        92
+      ],
+      "always_reject": [
+        46,
+        92
+      ],
+      "by_cell": {
+        "([)]#": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "4": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "8": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "16": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          }
+        },
+        "abcde": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "4": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "8": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "16": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          }
+        }
+      }
+    },
+    "invalid_action_calls": 5,
+    "usage": {
+      "prompt_tokens": 78750,
+      "completion_tokens": 3748
+    },
+    "by_alphabet": {
+      "([)]#": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            2,
+            4
+          ],
+          "2": [
+            0,
+            8
+          ],
+          "3": [
+            0,
+            8
+          ],
+          "4": [
+            0,
+            8
+          ],
+          "8": [
+            0,
+            8
+          ],
+          "16": [
+            0,
+            8
+          ]
+        },
+        "total": [
+          4,
+          46
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "chance / label-blind",
+          "2": "below label-blind",
+          "3": "below label-blind",
+          "4": "below label-blind",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      },
+      "abcde": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            6,
+            8
+          ],
+          "3": [
+            6,
+            8
+          ],
+          "4": [
+            6,
+            8
+          ],
+          "8": [
+            4,
+            8
+          ],
+          "16": [
+            4,
+            8
+          ]
+        },
+        "total": [
+          32,
+          46
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "chance / label-blind",
+          "16": "chance / label-blind"
+        }
+      }
+    }
+  },
+  {
+    "model": "14b",
+    "seed": 18,
+    "test_set": "fresh",
+    "held_out": {
+      "letters": {
+        "by_depth": {},
+        "interpretation": {}
+      },
+      "brackets": {
+        "by_depth": {},
+        "interpretation": {}
+      },
+      "total": [
+        175,
+        312
+      ]
+    },
+    "action_accuracy": [
+      2339,
+      2476
+    ],
+    "first_error_median": 2,
+    "push_value_errors": 68,
+    "label_blind": {
+      "always_accept": [
+        156,
+        312
+      ],
+      "always_reject": [
+        156,
+        312
+      ],
+      "by_cell": {
+        "56789": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "4": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "8": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "16": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          }
+        },
+        "PQRST": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "4": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "8": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "16": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          }
+        },
+        "klmno": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "4": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "8": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "16": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          }
+        },
+        "{<}>@": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "4": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "8": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "16": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          }
+        }
+      }
+    },
+    "invalid_action_calls": 0,
+    "usage": {
+      "prompt_tokens": 480067,
+      "completion_tokens": 21465
+    },
+    "by_alphabet": {
+      "56789": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            6,
+            8
+          ],
+          "3": [
+            12,
+            16
+          ],
+          "4": [
+            12,
+            16
+          ],
+          "8": [
+            12,
+            16
+          ],
+          "16": [
+            9,
+            16
+          ]
+        },
+        "total": [
+          57,
+          78
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "beats both label-blind baselines",
+          "16": "beats both label-blind baselines"
+        }
+      },
+      "PQRST": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            6,
+            8
+          ],
+          "3": [
+            12,
+            16
+          ],
+          "4": [
+            12,
+            16
+          ],
+          "8": [
+            14,
+            16
+          ],
+          "16": [
+            11,
+            16
+          ]
+        },
+        "total": [
+          61,
+          78
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "beats both label-blind baselines",
+          "16": "beats both label-blind baselines"
+        }
+      },
+      "klmno": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            6,
+            8
+          ],
+          "3": [
+            10,
+            16
+          ],
+          "4": [
+            10,
+            16
+          ],
+          "8": [
+            8,
+            16
+          ],
+          "16": [
+            7,
+            16
+          ]
+        },
+        "total": [
+          47,
+          78
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "chance / label-blind",
+          "16": "below label-blind"
+        }
+      },
+      "{<}>@": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            2,
+            4
+          ],
+          "2": [
+            2,
+            8
+          ],
+          "3": [
+            2,
+            16
+          ],
+          "4": [
+            2,
+            16
+          ],
+          "8": [
+            0,
+            16
+          ],
+          "16": [
+            0,
+            16
+          ]
+        },
+        "total": [
+          10,
+          78
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "chance / label-blind",
+          "2": "below label-blind",
+          "3": "below label-blind",
+          "4": "below label-blind",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      }
+    }
+  },
+  {
+    "model": "14b",
+    "seed": 19,
+    "test_set": "original",
+    "held_out": {
+      "letters": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            8,
+            8
+          ],
+          "3": [
+            8,
+            8
+          ],
+          "4": [
+            8,
+            8
+          ],
+          "8": [
+            8,
+            8
+          ],
+          "16": [
+            8,
+            8
+          ]
+        },
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "beats both label-blind baselines",
+          "16": "beats both label-blind baselines"
+        }
+      },
+      "brackets": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            2,
+            4
+          ],
+          "2": [
+            2,
+            8
+          ],
+          "3": [
+            2,
+            8
+          ],
+          "4": [
+            2,
+            8
+          ],
+          "8": [
+            2,
+            8
+          ],
+          "16": [
+            2,
+            8
+          ]
+        },
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "chance / label-blind",
+          "2": "below label-blind",
+          "3": "below label-blind",
+          "4": "below label-blind",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      },
+      "total": [
+        60,
+        92
+      ]
+    },
+    "action_accuracy": [
+      634,
+      666
+    ],
+    "first_error_median": 1.0,
+    "push_value_errors": 21,
+    "label_blind": {
+      "always_accept": [
+        46,
+        92
+      ],
+      "always_reject": [
+        46,
+        92
+      ],
+      "by_cell": {
+        "([)]#": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "4": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "8": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "16": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          }
+        },
+        "abcde": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "4": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "8": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "16": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          }
+        }
+      }
+    },
+    "invalid_action_calls": 11,
+    "usage": {
+      "prompt_tokens": 127603,
+      "completion_tokens": 5916
+    },
+    "by_alphabet": {
+      "([)]#": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            2,
+            4
+          ],
+          "2": [
+            2,
+            8
+          ],
+          "3": [
+            2,
+            8
+          ],
+          "4": [
+            2,
+            8
+          ],
+          "8": [
+            2,
+            8
+          ],
+          "16": [
+            2,
+            8
+          ]
+        },
+        "total": [
+          14,
+          46
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "chance / label-blind",
+          "2": "below label-blind",
+          "3": "below label-blind",
+          "4": "below label-blind",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      },
+      "abcde": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            8,
+            8
+          ],
+          "3": [
+            8,
+            8
+          ],
+          "4": [
+            8,
+            8
+          ],
+          "8": [
+            8,
+            8
+          ],
+          "16": [
+            8,
+            8
+          ]
+        },
+        "total": [
+          46,
+          46
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "beats both label-blind baselines",
+          "16": "beats both label-blind baselines"
+        }
+      }
+    }
+  },
+  {
+    "model": "14b",
+    "seed": 19,
+    "test_set": "fresh",
+    "held_out": {
+      "letters": {
+        "by_depth": {},
+        "interpretation": {}
+      },
+      "brackets": {
+        "by_depth": {},
+        "interpretation": {}
+      },
+      "total": [
+        231,
+        312
+      ]
+    },
+    "action_accuracy": [
+      3152,
+      3233
+    ],
+    "first_error_median": 2,
+    "push_value_errors": 34,
+    "label_blind": {
+      "always_accept": [
+        156,
+        312
+      ],
+      "always_reject": [
+        156,
+        312
+      ],
+      "by_cell": {
+        "56789": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "4": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "8": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "16": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          }
+        },
+        "PQRST": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "4": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "8": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "16": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          }
+        },
+        "klmno": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "4": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "8": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "16": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          }
+        },
+        "{<}>@": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "4": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "8": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "16": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          }
+        }
+      }
+    },
+    "invalid_action_calls": 0,
+    "usage": {
+      "prompt_tokens": 632069,
+      "completion_tokens": 27670
+    },
+    "by_alphabet": {
+      "56789": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            8,
+            8
+          ],
+          "3": [
+            16,
+            16
+          ],
+          "4": [
+            16,
+            16
+          ],
+          "8": [
+            14,
+            16
+          ],
+          "16": [
+            16,
+            16
+          ]
+        },
+        "total": [
+          76,
+          78
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "beats both label-blind baselines",
+          "16": "beats both label-blind baselines"
+        }
+      },
+      "PQRST": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            8,
+            8
+          ],
+          "3": [
+            16,
+            16
+          ],
+          "4": [
+            16,
+            16
+          ],
+          "8": [
+            16,
+            16
+          ],
+          "16": [
+            13,
+            16
+          ]
+        },
+        "total": [
+          75,
+          78
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "beats both label-blind baselines",
+          "16": "beats both label-blind baselines"
+        }
+      },
+      "klmno": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            8,
+            8
+          ],
+          "3": [
+            16,
+            16
+          ],
+          "4": [
+            16,
+            16
+          ],
+          "8": [
+            16,
+            16
+          ],
+          "16": [
+            14,
+            16
+          ]
+        },
+        "total": [
+          76,
+          78
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "beats both label-blind baselines",
+          "16": "beats both label-blind baselines"
+        }
+      },
+      "{<}>@": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            2,
+            4
+          ],
+          "2": [
+            0,
+            8
+          ],
+          "3": [
+            0,
+            16
+          ],
+          "4": [
+            0,
+            16
+          ],
+          "8": [
+            0,
+            16
+          ],
+          "16": [
+            0,
+            16
+          ]
+        },
+        "total": [
+          4,
+          78
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "chance / label-blind",
+          "2": "below label-blind",
+          "3": "below label-blind",
+          "4": "below label-blind",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      }
+    }
+  },
+  {
+    "model": "1.7b",
+    "seed": 17,
+    "test_set": "original",
+    "held_out": {
+      "letters": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            8,
+            8
+          ],
+          "3": [
+            8,
+            8
+          ],
+          "4": [
+            8,
+            8
+          ],
+          "8": [
+            6,
+            8
+          ],
+          "16": [
+            6,
+            8
+          ]
+        },
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "beats both label-blind baselines",
+          "16": "beats both label-blind baselines"
+        }
+      },
+      "brackets": {
+        "by_depth": {
+          "0": [
+            1,
+            2
+          ],
+          "1": [
+            0,
+            4
+          ],
+          "2": [
+            0,
+            8
+          ],
+          "3": [
+            0,
+            8
+          ],
+          "4": [
+            0,
+            8
+          ],
+          "8": [
+            0,
+            8
+          ],
+          "16": [
+            0,
+            8
+          ]
+        },
+        "interpretation": {
+          "0": "chance / label-blind",
+          "1": "below label-blind",
+          "2": "below label-blind",
+          "3": "below label-blind",
+          "4": "below label-blind",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      },
+      "total": [
+        43,
+        92
+      ]
+    },
+    "action_accuracy": [
+      445,
+      494
+    ],
+    "first_error_median": 1,
+    "push_value_errors": 0,
+    "label_blind": {
+      "always_accept": [
+        46,
+        92
+      ],
+      "always_reject": [
+        46,
+        92
+      ],
+      "by_cell": {
+        "([)]#": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "4": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "8": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "16": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          }
+        },
+        "abcde": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "4": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "8": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "16": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          }
+        }
+      }
+    },
+    "invalid_action_calls": 44,
+    "usage": {
+      "prompt_tokens": 95135,
+      "completion_tokens": 4573
+    },
+    "by_alphabet": {
+      "([)]#": {
+        "by_depth": {
+          "0": [
+            1,
+            2
+          ],
+          "1": [
+            0,
+            4
+          ],
+          "2": [
+            0,
+            8
+          ],
+          "3": [
+            0,
+            8
+          ],
+          "4": [
+            0,
+            8
+          ],
+          "8": [
+            0,
+            8
+          ],
+          "16": [
+            0,
+            8
+          ]
+        },
+        "total": [
+          1,
+          46
+        ],
+        "interpretation": {
+          "0": "chance / label-blind",
+          "1": "below label-blind",
+          "2": "below label-blind",
+          "3": "below label-blind",
+          "4": "below label-blind",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      },
+      "abcde": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            8,
+            8
+          ],
+          "3": [
+            8,
+            8
+          ],
+          "4": [
+            8,
+            8
+          ],
+          "8": [
+            6,
+            8
+          ],
+          "16": [
+            6,
+            8
+          ]
+        },
+        "total": [
+          42,
+          46
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "beats both label-blind baselines",
+          "16": "beats both label-blind baselines"
+        }
+      }
+    }
+  },
+  {
+    "model": "1.7b",
+    "seed": 17,
+    "test_set": "fresh",
+    "held_out": {
+      "letters": {
+        "by_depth": {},
+        "interpretation": {}
+      },
+      "brackets": {
+        "by_depth": {},
+        "interpretation": {}
+      },
+      "total": [
+        156,
+        312
+      ]
+    },
+    "action_accuracy": [
+      2255,
+      2411
+    ],
+    "first_error_median": 2.0,
+    "push_value_errors": 0,
+    "label_blind": {
+      "always_accept": [
+        156,
+        312
+      ],
+      "always_reject": [
+        156,
+        312
+      ],
+      "by_cell": {
+        "56789": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "4": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "8": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "16": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          }
+        },
+        "PQRST": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "4": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "8": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "16": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          }
+        },
+        "klmno": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "4": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "8": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "16": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          }
+        },
+        "{<}>@": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "4": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "8": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "16": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          }
+        }
+      }
+    },
+    "invalid_action_calls": 42,
+    "usage": {
+      "prompt_tokens": 468040,
+      "completion_tokens": 22012
+    },
+    "by_alphabet": {
+      "56789": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            8,
+            8
+          ],
+          "3": [
+            16,
+            16
+          ],
+          "4": [
+            16,
+            16
+          ],
+          "8": [
+            5,
+            16
+          ],
+          "16": [
+            0,
+            16
+          ]
+        },
+        "total": [
+          51,
+          78
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      },
+      "PQRST": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            8,
+            8
+          ],
+          "3": [
+            16,
+            16
+          ],
+          "4": [
+            16,
+            16
+          ],
+          "8": [
+            5,
+            16
+          ],
+          "16": [
+            2,
+            16
+          ]
+        },
+        "total": [
+          53,
+          78
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      },
+      "klmno": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            6,
+            8
+          ],
+          "3": [
+            12,
+            16
+          ],
+          "4": [
+            14,
+            16
+          ],
+          "8": [
+            10,
+            16
+          ],
+          "16": [
+            3,
+            16
+          ]
+        },
+        "total": [
+          51,
+          78
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "beats both label-blind baselines",
+          "16": "below label-blind"
+        }
+      },
+      "{<}>@": {
+        "by_depth": {
+          "0": [
+            1,
+            2
+          ],
+          "1": [
+            0,
+            4
+          ],
+          "2": [
+            0,
+            8
+          ],
+          "3": [
+            0,
+            16
+          ],
+          "4": [
+            0,
+            16
+          ],
+          "8": [
+            0,
+            16
+          ],
+          "16": [
+            0,
+            16
+          ]
+        },
+        "total": [
+          1,
+          78
+        ],
+        "interpretation": {
+          "0": "chance / label-blind",
+          "1": "below label-blind",
+          "2": "below label-blind",
+          "3": "below label-blind",
+          "4": "below label-blind",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      }
+    }
+  },
+  {
+    "model": "1.7b",
+    "seed": 18,
+    "test_set": "original",
+    "held_out": {
+      "letters": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            8,
+            8
+          ],
+          "3": [
+            8,
+            8
+          ],
+          "4": [
+            8,
+            8
+          ],
+          "8": [
+            8,
+            8
+          ],
+          "16": [
+            8,
+            8
+          ]
+        },
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "beats both label-blind baselines",
+          "16": "beats both label-blind baselines"
+        }
+      },
+      "brackets": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            2,
+            4
+          ],
+          "2": [
+            2,
+            8
+          ],
+          "3": [
+            2,
+            8
+          ],
+          "4": [
+            0,
+            8
+          ],
+          "8": [
+            0,
+            8
+          ],
+          "16": [
+            0,
+            8
+          ]
+        },
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "chance / label-blind",
+          "2": "below label-blind",
+          "3": "below label-blind",
+          "4": "below label-blind",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      },
+      "total": [
+        54,
+        92
+      ]
+    },
+    "action_accuracy": [
+      556,
+      594
+    ],
+    "first_error_median": 1.0,
+    "push_value_errors": 0,
+    "label_blind": {
+      "always_accept": [
+        46,
+        92
+      ],
+      "always_reject": [
+        46,
+        92
+      ],
+      "by_cell": {
+        "([)]#": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "4": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "8": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "16": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          }
+        },
+        "abcde": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "4": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "8": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "16": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          }
+        }
+      }
+    },
+    "invalid_action_calls": 38,
+    "usage": {
+      "prompt_tokens": 113927,
+      "completion_tokens": 5347
+    },
+    "by_alphabet": {
+      "([)]#": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            2,
+            4
+          ],
+          "2": [
+            2,
+            8
+          ],
+          "3": [
+            2,
+            8
+          ],
+          "4": [
+            0,
+            8
+          ],
+          "8": [
+            0,
+            8
+          ],
+          "16": [
+            0,
+            8
+          ]
+        },
+        "total": [
+          8,
+          46
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "chance / label-blind",
+          "2": "below label-blind",
+          "3": "below label-blind",
+          "4": "below label-blind",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      },
+      "abcde": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            8,
+            8
+          ],
+          "3": [
+            8,
+            8
+          ],
+          "4": [
+            8,
+            8
+          ],
+          "8": [
+            8,
+            8
+          ],
+          "16": [
+            8,
+            8
+          ]
+        },
+        "total": [
+          46,
+          46
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "beats both label-blind baselines",
+          "16": "beats both label-blind baselines"
+        }
+      }
+    }
+  },
+  {
+    "model": "1.7b",
+    "seed": 18,
+    "test_set": "fresh",
+    "held_out": {
+      "letters": {
+        "by_depth": {},
+        "interpretation": {}
+      },
+      "brackets": {
+        "by_depth": {},
+        "interpretation": {}
+      },
+      "total": [
+        152,
+        312
+      ]
+    },
+    "action_accuracy": [
+      2220,
+      2380
+    ],
+    "first_error_median": 2.0,
+    "push_value_errors": 0,
+    "label_blind": {
+      "always_accept": [
+        156,
+        312
+      ],
+      "always_reject": [
+        156,
+        312
+      ],
+      "by_cell": {
+        "56789": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "4": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "8": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "16": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          }
+        },
+        "PQRST": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "4": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "8": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "16": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          }
+        },
+        "klmno": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "4": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "8": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "16": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          }
+        },
+        "{<}>@": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "4": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "8": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "16": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          }
+        }
+      }
+    },
+    "invalid_action_calls": 42,
+    "usage": {
+      "prompt_tokens": 461605,
+      "completion_tokens": 21726
+    },
+    "by_alphabet": {
+      "56789": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            7,
+            8
+          ],
+          "3": [
+            16,
+            16
+          ],
+          "4": [
+            16,
+            16
+          ],
+          "8": [
+            8,
+            16
+          ],
+          "16": [
+            1,
+            16
+          ]
+        },
+        "total": [
+          54,
+          78
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "chance / label-blind",
+          "16": "below label-blind"
+        }
+      },
+      "PQRST": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            8,
+            8
+          ],
+          "3": [
+            16,
+            16
+          ],
+          "4": [
+            16,
+            16
+          ],
+          "8": [
+            2,
+            16
+          ],
+          "16": [
+            1,
+            16
+          ]
+        },
+        "total": [
+          49,
+          78
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      },
+      "klmno": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            6,
+            8
+          ],
+          "3": [
+            12,
+            16
+          ],
+          "4": [
+            14,
+            16
+          ],
+          "8": [
+            8,
+            16
+          ],
+          "16": [
+            1,
+            16
+          ]
+        },
+        "total": [
+          47,
+          78
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "chance / label-blind",
+          "16": "below label-blind"
+        }
+      },
+      "{<}>@": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            0,
+            4
+          ],
+          "2": [
+            0,
+            8
+          ],
+          "3": [
+            0,
+            16
+          ],
+          "4": [
+            0,
+            16
+          ],
+          "8": [
+            0,
+            16
+          ],
+          "16": [
+            0,
+            16
+          ]
+        },
+        "total": [
+          2,
+          78
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "below label-blind",
+          "2": "below label-blind",
+          "3": "below label-blind",
+          "4": "below label-blind",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      }
+    }
+  },
+  {
+    "model": "1.7b",
+    "seed": 19,
+    "test_set": "original",
+    "held_out": {
+      "letters": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            8,
+            8
+          ],
+          "3": [
+            8,
+            8
+          ],
+          "4": [
+            8,
+            8
+          ],
+          "8": [
+            6,
+            8
+          ],
+          "16": [
+            6,
+            8
+          ]
+        },
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "beats both label-blind baselines",
+          "16": "beats both label-blind baselines"
+        }
+      },
+      "brackets": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            2,
+            4
+          ],
+          "2": [
+            0,
+            8
+          ],
+          "3": [
+            0,
+            8
+          ],
+          "4": [
+            0,
+            8
+          ],
+          "8": [
+            0,
+            8
+          ],
+          "16": [
+            0,
+            8
+          ]
+        },
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "chance / label-blind",
+          "2": "below label-blind",
+          "3": "below label-blind",
+          "4": "below label-blind",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      },
+      "total": [
+        46,
+        92
+      ]
+    },
+    "action_accuracy": [
+      474,
+      520
+    ],
+    "first_error_median": 2.0,
+    "push_value_errors": 0,
+    "label_blind": {
+      "always_accept": [
+        46,
+        92
+      ],
+      "always_reject": [
+        46,
+        92
+      ],
+      "by_cell": {
+        "([)]#": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "4": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "8": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "16": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          }
+        },
+        "abcde": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "4": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "8": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "16": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          }
+        }
+      }
+    },
+    "invalid_action_calls": 42,
+    "usage": {
+      "prompt_tokens": 99759,
+      "completion_tokens": 4767
+    },
+    "by_alphabet": {
+      "([)]#": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            2,
+            4
+          ],
+          "2": [
+            0,
+            8
+          ],
+          "3": [
+            0,
+            8
+          ],
+          "4": [
+            0,
+            8
+          ],
+          "8": [
+            0,
+            8
+          ],
+          "16": [
+            0,
+            8
+          ]
+        },
+        "total": [
+          4,
+          46
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "chance / label-blind",
+          "2": "below label-blind",
+          "3": "below label-blind",
+          "4": "below label-blind",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      },
+      "abcde": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            8,
+            8
+          ],
+          "3": [
+            8,
+            8
+          ],
+          "4": [
+            8,
+            8
+          ],
+          "8": [
+            6,
+            8
+          ],
+          "16": [
+            6,
+            8
+          ]
+        },
+        "total": [
+          42,
+          46
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "beats both label-blind baselines",
+          "16": "beats both label-blind baselines"
+        }
+      }
+    }
+  },
+  {
+    "model": "1.7b",
+    "seed": 19,
+    "test_set": "fresh",
+    "held_out": {
+      "letters": {
+        "by_depth": {},
+        "interpretation": {}
+      },
+      "brackets": {
+        "by_depth": {},
+        "interpretation": {}
+      },
+      "total": [
+        170,
+        312
+      ]
+    },
+    "action_accuracy": [
+      2457,
+      2599
+    ],
+    "first_error_median": 10.0,
+    "push_value_errors": 0,
+    "label_blind": {
+      "always_accept": [
+        156,
+        312
+      ],
+      "always_reject": [
+        156,
+        312
+      ],
+      "by_cell": {
+        "56789": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "4": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "8": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "16": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          }
+        },
+        "PQRST": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "4": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "8": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "16": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          }
+        },
+        "klmno": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "4": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "8": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "16": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          }
+        },
+        "{<}>@": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "4": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "8": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          },
+          "16": {
+            "always_accept": [
+              8,
+              16
+            ],
+            "always_reject": [
+              8,
+              16
+            ]
+          }
+        }
+      }
+    },
+    "invalid_action_calls": 70,
+    "usage": {
+      "prompt_tokens": 503578,
+      "completion_tokens": 24072
+    },
+    "by_alphabet": {
+      "56789": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            8,
+            8
+          ],
+          "3": [
+            16,
+            16
+          ],
+          "4": [
+            16,
+            16
+          ],
+          "8": [
+            5,
+            16
+          ],
+          "16": [
+            0,
+            16
+          ]
+        },
+        "total": [
+          51,
+          78
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      },
+      "PQRST": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            8,
+            8
+          ],
+          "3": [
+            16,
+            16
+          ],
+          "4": [
+            16,
+            16
+          ],
+          "8": [
+            4,
+            16
+          ],
+          "16": [
+            2,
+            16
+          ]
+        },
+        "total": [
+          52,
+          78
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      },
+      "klmno": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            8,
+            8
+          ],
+          "3": [
+            16,
+            16
+          ],
+          "4": [
+            16,
+            16
+          ],
+          "8": [
+            12,
+            16
+          ],
+          "16": [
+            1,
+            16
+          ]
+        },
+        "total": [
+          59,
+          78
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "beats both label-blind baselines",
+          "16": "below label-blind"
+        }
+      },
+      "{<}>@": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            2,
+            4
+          ],
+          "2": [
+            2,
+            8
+          ],
+          "3": [
+            2,
+            16
+          ],
+          "4": [
+            0,
+            16
+          ],
+          "8": [
+            0,
+            16
+          ],
+          "16": [
+            0,
+            16
+          ]
+        },
+        "total": [
+          8,
+          78
+        ],
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "chance / label-blind",
+          "2": "below label-blind",
+          "3": "below label-blind",
+          "4": "below label-blind",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      }
+    }
+  }
+]

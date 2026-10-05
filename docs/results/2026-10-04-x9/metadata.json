@@ -1,0 +1,14 @@
+{
+  "source_hashes": {
+    "build/a6-x7-v3-2026-10-04/evaluation/records.jsonl": "22e9c572e2171f0607736ead3c400619d98ae40c61d9758ffb1361ca1c12bb75",
+    "build/a6-x7-v3-2026-10-04/membership.json": "618b9e472f465df032841ddc5941d3297f1945ff9dcd0fd2dab2b751945f7fa0",
+    "build/a6-x10-v3-2026-10-04/complexity/records.jsonl": "d6c6ea4bebf1255c254aea0353ebfc0dc7c4593adcf38ddc0cf7107780b9dc27",
+    "build/a6-x10-v3-2026-10-04/complexity/membership.json": "d4c4eb9ef6cf5f4ee2754a5efa6df4d7b7c97a027f1c21be8ec04ee50b4b27eb"
+  },
+  "rank_correlations": {
+    "full_trace": -1.0,
+    "oracle_step": 1.0,
+    "external_state": 1.0
+  },
+  "interpretation": "Separate direct-answer and canonical trace invocations on identical cases; systems/configurations, not external benchmark rankings; null correlation means fewer than two systems or a constant ranking."
+}

@@ -1,0 +1,12 @@
+{
+  "held_out_hash": "22111497547715c6ba59d7544e0bbe2e51339d4189111f42e74c6d42d8e63e3e",
+  "cases": 312,
+  "generation_seed": 20261004,
+  "training_seeds": [
+    17,
+    18,
+    19
+  ],
+  "freeze_before_replication_training": true,
+  "low_depth_note": "All binary opening templates already covered at depths 0-2; fresh maps and negative mutation distinguish this set."
+}

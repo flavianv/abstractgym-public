@@ -1,0 +1,1598 @@
+[
+  {
+    "condition": "explicit",
+    "split": "development",
+    "alphabet": "uvwxy",
+    "depth": 0,
+    "total": 2,
+    "correct": 2,
+    "decision": 2,
+    "by_label": {
+      "True": {
+        "total": 1,
+        "correct": 1
+      },
+      "False": {
+        "total": 1,
+        "correct": 1
+      }
+    }
+  },
+  {
+    "condition": "explicit",
+    "split": "development",
+    "alphabet": "uvwxy",
+    "depth": 1,
+    "total": 4,
+    "correct": 2,
+    "decision": 2,
+    "by_label": {
+      "True": {
+        "total": 2,
+        "correct": 0
+      },
+      "False": {
+        "total": 2,
+        "correct": 2
+      }
+    }
+  },
+  {
+    "condition": "explicit",
+    "split": "development",
+    "alphabet": "uvwxy",
+    "depth": 2,
+    "total": 8,
+    "correct": 4,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 4
+      }
+    }
+  },
+  {
+    "condition": "explicit",
+    "split": "development",
+    "alphabet": "uvwxy",
+    "depth": 3,
+    "total": 8,
+    "correct": 4,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 4
+      }
+    }
+  },
+  {
+    "condition": "explicit",
+    "split": "development",
+    "alphabet": "uvwxy",
+    "depth": 4,
+    "total": 8,
+    "correct": 4,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 4
+      }
+    }
+  },
+  {
+    "condition": "explicit",
+    "split": "development",
+    "alphabet": "uvwxy",
+    "depth": 8,
+    "total": 8,
+    "correct": 4,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 4
+      }
+    }
+  },
+  {
+    "condition": "explicit",
+    "split": "development",
+    "alphabet": "uvwxy",
+    "depth": 16,
+    "total": 8,
+    "correct": 4,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 4
+      }
+    }
+  },
+  {
+    "condition": "explicit",
+    "split": "test",
+    "alphabet": "([)]#",
+    "depth": 0,
+    "total": 2,
+    "correct": 2,
+    "decision": 2,
+    "by_label": {
+      "True": {
+        "total": 1,
+        "correct": 1
+      },
+      "False": {
+        "total": 1,
+        "correct": 1
+      }
+    }
+  },
+  {
+    "condition": "explicit",
+    "split": "test",
+    "alphabet": "([)]#",
+    "depth": 1,
+    "total": 4,
+    "correct": 4,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 2,
+        "correct": 2
+      },
+      "False": {
+        "total": 2,
+        "correct": 2
+      }
+    }
+  },
+  {
+    "condition": "explicit",
+    "split": "test",
+    "alphabet": "([)]#",
+    "depth": 2,
+    "total": 8,
+    "correct": 8,
+    "decision": 8,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 4
+      },
+      "False": {
+        "total": 4,
+        "correct": 4
+      }
+    }
+  },
+  {
+    "condition": "explicit",
+    "split": "test",
+    "alphabet": "([)]#",
+    "depth": 3,
+    "total": 8,
+    "correct": 6,
+    "decision": 6,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 4
+      },
+      "False": {
+        "total": 4,
+        "correct": 2
+      }
+    }
+  },
+  {
+    "condition": "explicit",
+    "split": "test",
+    "alphabet": "([)]#",
+    "depth": 4,
+    "total": 8,
+    "correct": 6,
+    "decision": 6,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 4
+      },
+      "False": {
+        "total": 4,
+        "correct": 2
+      }
+    }
+  },
+  {
+    "condition": "explicit",
+    "split": "test",
+    "alphabet": "([)]#",
+    "depth": 8,
+    "total": 8,
+    "correct": 6,
+    "decision": 6,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 4
+      },
+      "False": {
+        "total": 4,
+        "correct": 2
+      }
+    }
+  },
+  {
+    "condition": "explicit",
+    "split": "test",
+    "alphabet": "([)]#",
+    "depth": 16,
+    "total": 8,
+    "correct": 6,
+    "decision": 6,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 4
+      },
+      "False": {
+        "total": 4,
+        "correct": 2
+      }
+    }
+  },
+  {
+    "condition": "explicit",
+    "split": "test",
+    "alphabet": "abcde",
+    "depth": 0,
+    "total": 2,
+    "correct": 2,
+    "decision": 2,
+    "by_label": {
+      "True": {
+        "total": 1,
+        "correct": 1
+      },
+      "False": {
+        "total": 1,
+        "correct": 1
+      }
+    }
+  },
+  {
+    "condition": "explicit",
+    "split": "test",
+    "alphabet": "abcde",
+    "depth": 1,
+    "total": 4,
+    "correct": 2,
+    "decision": 2,
+    "by_label": {
+      "True": {
+        "total": 2,
+        "correct": 0
+      },
+      "False": {
+        "total": 2,
+        "correct": 2
+      }
+    }
+  },
+  {
+    "condition": "explicit",
+    "split": "test",
+    "alphabet": "abcde",
+    "depth": 2,
+    "total": 8,
+    "correct": 4,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 4
+      }
+    }
+  },
+  {
+    "condition": "explicit",
+    "split": "test",
+    "alphabet": "abcde",
+    "depth": 3,
+    "total": 8,
+    "correct": 4,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 4
+      }
+    }
+  },
+  {
+    "condition": "explicit",
+    "split": "test",
+    "alphabet": "abcde",
+    "depth": 4,
+    "total": 8,
+    "correct": 4,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 4
+      }
+    }
+  },
+  {
+    "condition": "explicit",
+    "split": "test",
+    "alphabet": "abcde",
+    "depth": 8,
+    "total": 8,
+    "correct": 4,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 4
+      }
+    }
+  },
+  {
+    "condition": "explicit",
+    "split": "test",
+    "alphabet": "abcde",
+    "depth": 16,
+    "total": 8,
+    "correct": 4,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 4
+      }
+    }
+  },
+  {
+    "condition": "external_stack",
+    "split": "development",
+    "alphabet": "uvwxy",
+    "depth": 0,
+    "total": 2,
+    "correct": 2,
+    "decision": 2,
+    "by_label": {
+      "True": {
+        "total": 1,
+        "correct": 1
+      },
+      "False": {
+        "total": 1,
+        "correct": 1
+      }
+    }
+  },
+  {
+    "condition": "external_stack",
+    "split": "development",
+    "alphabet": "uvwxy",
+    "depth": 1,
+    "total": 4,
+    "correct": 3,
+    "decision": 3,
+    "by_label": {
+      "True": {
+        "total": 2,
+        "correct": 2
+      },
+      "False": {
+        "total": 2,
+        "correct": 1
+      }
+    }
+  },
+  {
+    "condition": "external_stack",
+    "split": "development",
+    "alphabet": "uvwxy",
+    "depth": 2,
+    "total": 8,
+    "correct": 5,
+    "decision": 5,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 4
+      },
+      "False": {
+        "total": 4,
+        "correct": 1
+      }
+    }
+  },
+  {
+    "condition": "external_stack",
+    "split": "development",
+    "alphabet": "uvwxy",
+    "depth": 3,
+    "total": 8,
+    "correct": 5,
+    "decision": 5,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 4
+      },
+      "False": {
+        "total": 4,
+        "correct": 1
+      }
+    }
+  },
+  {
+    "condition": "external_stack",
+    "split": "development",
+    "alphabet": "uvwxy",
+    "depth": 4,
+    "total": 8,
+    "correct": 6,
+    "decision": 6,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 4
+      },
+      "False": {
+        "total": 4,
+        "correct": 2
+      }
+    }
+  },
+  {
+    "condition": "external_stack",
+    "split": "development",
+    "alphabet": "uvwxy",
+    "depth": 8,
+    "total": 8,
+    "correct": 6,
+    "decision": 6,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 4
+      },
+      "False": {
+        "total": 4,
+        "correct": 2
+      }
+    }
+  },
+  {
+    "condition": "external_stack",
+    "split": "development",
+    "alphabet": "uvwxy",
+    "depth": 16,
+    "total": 8,
+    "correct": 6,
+    "decision": 6,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 4
+      },
+      "False": {
+        "total": 4,
+        "correct": 2
+      }
+    }
+  },
+  {
+    "condition": "external_stack",
+    "split": "test",
+    "alphabet": "([)]#",
+    "depth": 0,
+    "total": 2,
+    "correct": 2,
+    "decision": 2,
+    "by_label": {
+      "True": {
+        "total": 1,
+        "correct": 1
+      },
+      "False": {
+        "total": 1,
+        "correct": 1
+      }
+    }
+  },
+  {
+    "condition": "external_stack",
+    "split": "test",
+    "alphabet": "([)]#",
+    "depth": 1,
+    "total": 4,
+    "correct": 2,
+    "decision": 2,
+    "by_label": {
+      "True": {
+        "total": 2,
+        "correct": 1
+      },
+      "False": {
+        "total": 2,
+        "correct": 1
+      }
+    }
+  },
+  {
+    "condition": "external_stack",
+    "split": "test",
+    "alphabet": "([)]#",
+    "depth": 2,
+    "total": 8,
+    "correct": 2,
+    "decision": 2,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 1
+      },
+      "False": {
+        "total": 4,
+        "correct": 1
+      }
+    }
+  },
+  {
+    "condition": "external_stack",
+    "split": "test",
+    "alphabet": "([)]#",
+    "depth": 3,
+    "total": 8,
+    "correct": 2,
+    "decision": 2,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 1
+      },
+      "False": {
+        "total": 4,
+        "correct": 1
+      }
+    }
+  },
+  {
+    "condition": "external_stack",
+    "split": "test",
+    "alphabet": "([)]#",
+    "depth": 4,
+    "total": 8,
+    "correct": 2,
+    "decision": 2,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 1
+      },
+      "False": {
+        "total": 4,
+        "correct": 1
+      }
+    }
+  },
+  {
+    "condition": "external_stack",
+    "split": "test",
+    "alphabet": "([)]#",
+    "depth": 8,
+    "total": 8,
+    "correct": 2,
+    "decision": 2,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 1
+      },
+      "False": {
+        "total": 4,
+        "correct": 1
+      }
+    }
+  },
+  {
+    "condition": "external_stack",
+    "split": "test",
+    "alphabet": "([)]#",
+    "depth": 16,
+    "total": 8,
+    "correct": 2,
+    "decision": 2,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 1
+      },
+      "False": {
+        "total": 4,
+        "correct": 1
+      }
+    }
+  },
+  {
+    "condition": "external_stack",
+    "split": "test",
+    "alphabet": "abcde",
+    "depth": 0,
+    "total": 2,
+    "correct": 2,
+    "decision": 2,
+    "by_label": {
+      "True": {
+        "total": 1,
+        "correct": 1
+      },
+      "False": {
+        "total": 1,
+        "correct": 1
+      }
+    }
+  },
+  {
+    "condition": "external_stack",
+    "split": "test",
+    "alphabet": "abcde",
+    "depth": 1,
+    "total": 4,
+    "correct": 4,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 2,
+        "correct": 2
+      },
+      "False": {
+        "total": 2,
+        "correct": 2
+      }
+    }
+  },
+  {
+    "condition": "external_stack",
+    "split": "test",
+    "alphabet": "abcde",
+    "depth": 2,
+    "total": 8,
+    "correct": 4,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 3
+      },
+      "False": {
+        "total": 4,
+        "correct": 1
+      }
+    }
+  },
+  {
+    "condition": "external_stack",
+    "split": "test",
+    "alphabet": "abcde",
+    "depth": 3,
+    "total": 8,
+    "correct": 5,
+    "decision": 5,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 3
+      },
+      "False": {
+        "total": 4,
+        "correct": 2
+      }
+    }
+  },
+  {
+    "condition": "external_stack",
+    "split": "test",
+    "alphabet": "abcde",
+    "depth": 4,
+    "total": 8,
+    "correct": 5,
+    "decision": 5,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 3
+      },
+      "False": {
+        "total": 4,
+        "correct": 2
+      }
+    }
+  },
+  {
+    "condition": "external_stack",
+    "split": "test",
+    "alphabet": "abcde",
+    "depth": 8,
+    "total": 8,
+    "correct": 5,
+    "decision": 5,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 3
+      },
+      "False": {
+        "total": 4,
+        "correct": 2
+      }
+    }
+  },
+  {
+    "condition": "external_stack",
+    "split": "test",
+    "alphabet": "abcde",
+    "depth": 16,
+    "total": 8,
+    "correct": 4,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 2
+      },
+      "False": {
+        "total": 4,
+        "correct": 2
+      }
+    }
+  },
+  {
+    "condition": "grammar",
+    "split": "development",
+    "alphabet": "uvwxy",
+    "depth": 0,
+    "total": 2,
+    "correct": 2,
+    "decision": 2,
+    "by_label": {
+      "True": {
+        "total": 1,
+        "correct": 1
+      },
+      "False": {
+        "total": 1,
+        "correct": 1
+      }
+    }
+  },
+  {
+    "condition": "grammar",
+    "split": "development",
+    "alphabet": "uvwxy",
+    "depth": 1,
+    "total": 4,
+    "correct": 2,
+    "decision": 2,
+    "by_label": {
+      "True": {
+        "total": 2,
+        "correct": 0
+      },
+      "False": {
+        "total": 2,
+        "correct": 2
+      }
+    }
+  },
+  {
+    "condition": "grammar",
+    "split": "development",
+    "alphabet": "uvwxy",
+    "depth": 2,
+    "total": 8,
+    "correct": 4,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 4
+      }
+    }
+  },
+  {
+    "condition": "grammar",
+    "split": "development",
+    "alphabet": "uvwxy",
+    "depth": 3,
+    "total": 8,
+    "correct": 4,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 4
+      }
+    }
+  },
+  {
+    "condition": "grammar",
+    "split": "development",
+    "alphabet": "uvwxy",
+    "depth": 4,
+    "total": 8,
+    "correct": 4,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 4
+      }
+    }
+  },
+  {
+    "condition": "grammar",
+    "split": "development",
+    "alphabet": "uvwxy",
+    "depth": 8,
+    "total": 8,
+    "correct": 4,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 4
+      }
+    }
+  },
+  {
+    "condition": "grammar",
+    "split": "development",
+    "alphabet": "uvwxy",
+    "depth": 16,
+    "total": 8,
+    "correct": 4,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 4
+      }
+    }
+  },
+  {
+    "condition": "grammar",
+    "split": "test",
+    "alphabet": "([)]#",
+    "depth": 0,
+    "total": 2,
+    "correct": 2,
+    "decision": 2,
+    "by_label": {
+      "True": {
+        "total": 1,
+        "correct": 1
+      },
+      "False": {
+        "total": 1,
+        "correct": 1
+      }
+    }
+  },
+  {
+    "condition": "grammar",
+    "split": "test",
+    "alphabet": "([)]#",
+    "depth": 1,
+    "total": 4,
+    "correct": 4,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 2,
+        "correct": 2
+      },
+      "False": {
+        "total": 2,
+        "correct": 2
+      }
+    }
+  },
+  {
+    "condition": "grammar",
+    "split": "test",
+    "alphabet": "([)]#",
+    "depth": 2,
+    "total": 8,
+    "correct": 8,
+    "decision": 8,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 4
+      },
+      "False": {
+        "total": 4,
+        "correct": 4
+      }
+    }
+  },
+  {
+    "condition": "grammar",
+    "split": "test",
+    "alphabet": "([)]#",
+    "depth": 3,
+    "total": 8,
+    "correct": 6,
+    "decision": 6,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 4
+      },
+      "False": {
+        "total": 4,
+        "correct": 2
+      }
+    }
+  },
+  {
+    "condition": "grammar",
+    "split": "test",
+    "alphabet": "([)]#",
+    "depth": 4,
+    "total": 8,
+    "correct": 6,
+    "decision": 6,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 4
+      },
+      "False": {
+        "total": 4,
+        "correct": 2
+      }
+    }
+  },
+  {
+    "condition": "grammar",
+    "split": "test",
+    "alphabet": "([)]#",
+    "depth": 8,
+    "total": 8,
+    "correct": 6,
+    "decision": 6,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 4
+      },
+      "False": {
+        "total": 4,
+        "correct": 2
+      }
+    }
+  },
+  {
+    "condition": "grammar",
+    "split": "test",
+    "alphabet": "([)]#",
+    "depth": 16,
+    "total": 8,
+    "correct": 6,
+    "decision": 6,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 4
+      },
+      "False": {
+        "total": 4,
+        "correct": 2
+      }
+    }
+  },
+  {
+    "condition": "grammar",
+    "split": "test",
+    "alphabet": "abcde",
+    "depth": 0,
+    "total": 2,
+    "correct": 2,
+    "decision": 2,
+    "by_label": {
+      "True": {
+        "total": 1,
+        "correct": 1
+      },
+      "False": {
+        "total": 1,
+        "correct": 1
+      }
+    }
+  },
+  {
+    "condition": "grammar",
+    "split": "test",
+    "alphabet": "abcde",
+    "depth": 1,
+    "total": 4,
+    "correct": 2,
+    "decision": 2,
+    "by_label": {
+      "True": {
+        "total": 2,
+        "correct": 0
+      },
+      "False": {
+        "total": 2,
+        "correct": 2
+      }
+    }
+  },
+  {
+    "condition": "grammar",
+    "split": "test",
+    "alphabet": "abcde",
+    "depth": 2,
+    "total": 8,
+    "correct": 4,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 4
+      }
+    }
+  },
+  {
+    "condition": "grammar",
+    "split": "test",
+    "alphabet": "abcde",
+    "depth": 3,
+    "total": 8,
+    "correct": 4,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 4
+      }
+    }
+  },
+  {
+    "condition": "grammar",
+    "split": "test",
+    "alphabet": "abcde",
+    "depth": 4,
+    "total": 8,
+    "correct": 4,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 4
+      }
+    }
+  },
+  {
+    "condition": "grammar",
+    "split": "test",
+    "alphabet": "abcde",
+    "depth": 8,
+    "total": 8,
+    "correct": 4,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 4
+      }
+    }
+  },
+  {
+    "condition": "grammar",
+    "split": "test",
+    "alphabet": "abcde",
+    "depth": 16,
+    "total": 8,
+    "correct": 4,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 4
+      }
+    }
+  },
+  {
+    "condition": "witness",
+    "split": "development",
+    "alphabet": "uvwxy",
+    "depth": 0,
+    "total": 2,
+    "correct": 2,
+    "decision": 2,
+    "by_label": {
+      "True": {
+        "total": 1,
+        "correct": 1
+      },
+      "False": {
+        "total": 1,
+        "correct": 1
+      }
+    }
+  },
+  {
+    "condition": "witness",
+    "split": "development",
+    "alphabet": "uvwxy",
+    "depth": 1,
+    "total": 4,
+    "correct": 2,
+    "decision": 2,
+    "by_label": {
+      "True": {
+        "total": 2,
+        "correct": 0
+      },
+      "False": {
+        "total": 2,
+        "correct": 2
+      }
+    }
+  },
+  {
+    "condition": "witness",
+    "split": "development",
+    "alphabet": "uvwxy",
+    "depth": 2,
+    "total": 8,
+    "correct": 5,
+    "decision": 6,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 2
+      },
+      "False": {
+        "total": 4,
+        "correct": 3
+      }
+    }
+  },
+  {
+    "condition": "witness",
+    "split": "development",
+    "alphabet": "uvwxy",
+    "depth": 3,
+    "total": 8,
+    "correct": 2,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 2
+      }
+    }
+  },
+  {
+    "condition": "witness",
+    "split": "development",
+    "alphabet": "uvwxy",
+    "depth": 4,
+    "total": 8,
+    "correct": 3,
+    "decision": 6,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 3
+      }
+    }
+  },
+  {
+    "condition": "witness",
+    "split": "development",
+    "alphabet": "uvwxy",
+    "depth": 8,
+    "total": 8,
+    "correct": 0,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 0
+      }
+    }
+  },
+  {
+    "condition": "witness",
+    "split": "development",
+    "alphabet": "uvwxy",
+    "depth": 16,
+    "total": 8,
+    "correct": 0,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 0
+      }
+    }
+  },
+  {
+    "condition": "witness",
+    "split": "test",
+    "alphabet": "([)]#",
+    "depth": 0,
+    "total": 2,
+    "correct": 2,
+    "decision": 2,
+    "by_label": {
+      "True": {
+        "total": 1,
+        "correct": 1
+      },
+      "False": {
+        "total": 1,
+        "correct": 1
+      }
+    }
+  },
+  {
+    "condition": "witness",
+    "split": "test",
+    "alphabet": "([)]#",
+    "depth": 1,
+    "total": 4,
+    "correct": 3,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 2,
+        "correct": 1
+      },
+      "False": {
+        "total": 2,
+        "correct": 2
+      }
+    }
+  },
+  {
+    "condition": "witness",
+    "split": "test",
+    "alphabet": "([)]#",
+    "depth": 2,
+    "total": 8,
+    "correct": 4,
+    "decision": 6,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 2
+      },
+      "False": {
+        "total": 4,
+        "correct": 2
+      }
+    }
+  },
+  {
+    "condition": "witness",
+    "split": "test",
+    "alphabet": "([)]#",
+    "depth": 3,
+    "total": 8,
+    "correct": 2,
+    "decision": 6,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 2
+      }
+    }
+  },
+  {
+    "condition": "witness",
+    "split": "test",
+    "alphabet": "([)]#",
+    "depth": 4,
+    "total": 8,
+    "correct": 1,
+    "decision": 5,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 1
+      }
+    }
+  },
+  {
+    "condition": "witness",
+    "split": "test",
+    "alphabet": "([)]#",
+    "depth": 8,
+    "total": 8,
+    "correct": 2,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 1
+      },
+      "False": {
+        "total": 4,
+        "correct": 1
+      }
+    }
+  },
+  {
+    "condition": "witness",
+    "split": "test",
+    "alphabet": "([)]#",
+    "depth": 16,
+    "total": 8,
+    "correct": 0,
+    "decision": 3,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 0
+      }
+    }
+  },
+  {
+    "condition": "witness",
+    "split": "test",
+    "alphabet": "abcde",
+    "depth": 0,
+    "total": 2,
+    "correct": 2,
+    "decision": 2,
+    "by_label": {
+      "True": {
+        "total": 1,
+        "correct": 1
+      },
+      "False": {
+        "total": 1,
+        "correct": 1
+      }
+    }
+  },
+  {
+    "condition": "witness",
+    "split": "test",
+    "alphabet": "abcde",
+    "depth": 1,
+    "total": 4,
+    "correct": 2,
+    "decision": 3,
+    "by_label": {
+      "True": {
+        "total": 2,
+        "correct": 0
+      },
+      "False": {
+        "total": 2,
+        "correct": 2
+      }
+    }
+  },
+  {
+    "condition": "witness",
+    "split": "test",
+    "alphabet": "abcde",
+    "depth": 2,
+    "total": 8,
+    "correct": 1,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 1
+      },
+      "False": {
+        "total": 4,
+        "correct": 0
+      }
+    }
+  },
+  {
+    "condition": "witness",
+    "split": "test",
+    "alphabet": "abcde",
+    "depth": 3,
+    "total": 8,
+    "correct": 1,
+    "decision": 5,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 1
+      }
+    }
+  },
+  {
+    "condition": "witness",
+    "split": "test",
+    "alphabet": "abcde",
+    "depth": 4,
+    "total": 8,
+    "correct": 0,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 0
+      }
+    }
+  },
+  {
+    "condition": "witness",
+    "split": "test",
+    "alphabet": "abcde",
+    "depth": 8,
+    "total": 8,
+    "correct": 0,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 0
+      }
+    }
+  },
+  {
+    "condition": "witness",
+    "split": "test",
+    "alphabet": "abcde",
+    "depth": 16,
+    "total": 8,
+    "correct": 0,
+    "decision": 4,
+    "by_label": {
+      "True": {
+        "total": 4,
+        "correct": 0
+      },
+      "False": {
+        "total": 4,
+        "correct": 0
+      }
+    }
+  }
+]

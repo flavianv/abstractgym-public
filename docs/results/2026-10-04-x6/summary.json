@@ -1,0 +1,851 @@
+[
+  {
+    "held_out": {
+      "letters": {
+        "by_depth": {
+          "0": [
+            0,
+            2
+          ],
+          "1": [
+            0,
+            4
+          ],
+          "2": [
+            0,
+            8
+          ],
+          "3": [
+            0,
+            8
+          ],
+          "4": [
+            0,
+            8
+          ],
+          "8": [
+            0,
+            8
+          ],
+          "16": [
+            0,
+            8
+          ]
+        },
+        "interpretation": {
+          "0": "below label-blind",
+          "1": "below label-blind",
+          "2": "below label-blind",
+          "3": "below label-blind",
+          "4": "below label-blind",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      },
+      "brackets": {
+        "by_depth": {
+          "0": [
+            0,
+            2
+          ],
+          "1": [
+            0,
+            4
+          ],
+          "2": [
+            0,
+            8
+          ],
+          "3": [
+            0,
+            8
+          ],
+          "4": [
+            0,
+            8
+          ],
+          "8": [
+            0,
+            8
+          ],
+          "16": [
+            0,
+            8
+          ]
+        },
+        "interpretation": {
+          "0": "below label-blind",
+          "1": "below label-blind",
+          "2": "below label-blind",
+          "3": "below label-blind",
+          "4": "below label-blind",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      },
+      "total": [
+        0,
+        92
+      ]
+    },
+    "action_accuracy": [
+      0,
+      92
+    ],
+    "first_error_median": 1.0,
+    "push_value_errors": 66,
+    "label_blind": {
+      "always_accept": [
+        46,
+        92
+      ],
+      "always_reject": [
+        46,
+        92
+      ],
+      "by_cell": {
+        "letters": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "4": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "8": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "16": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          }
+        },
+        "brackets": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "4": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "8": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "16": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          }
+        }
+      }
+    },
+    "invalid_action_calls": 0,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+    },
+    "seed": 0,
+    "condition": "tiny_raw_autoregressive",
+    "training": {
+      "seed": 0,
+      "loss": 0.0016285243909806013,
+      "parameters": 81004,
+      "train_accuracy": [
+        36,
+        36
+      ],
+      "seconds": 2.2738583749996906
+    },
+    "exhaustive": {
+      "uvwxy": [
+        36,
+        36
+      ],
+      "abcde": [
+        15,
+        36
+      ],
+      "([)]#": [
+        12,
+        36
+      ]
+    }
+  },
+  {
+    "held_out": {
+      "letters": {
+        "by_depth": {
+          "0": [
+            0,
+            2
+          ],
+          "1": [
+            0,
+            4
+          ],
+          "2": [
+            0,
+            8
+          ],
+          "3": [
+            0,
+            8
+          ],
+          "4": [
+            0,
+            8
+          ],
+          "8": [
+            0,
+            8
+          ],
+          "16": [
+            0,
+            8
+          ]
+        },
+        "interpretation": {
+          "0": "below label-blind",
+          "1": "below label-blind",
+          "2": "below label-blind",
+          "3": "below label-blind",
+          "4": "below label-blind",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      },
+      "brackets": {
+        "by_depth": {
+          "0": [
+            0,
+            2
+          ],
+          "1": [
+            0,
+            4
+          ],
+          "2": [
+            0,
+            8
+          ],
+          "3": [
+            0,
+            8
+          ],
+          "4": [
+            0,
+            8
+          ],
+          "8": [
+            0,
+            8
+          ],
+          "16": [
+            0,
+            8
+          ]
+        },
+        "interpretation": {
+          "0": "below label-blind",
+          "1": "below label-blind",
+          "2": "below label-blind",
+          "3": "below label-blind",
+          "4": "below label-blind",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      },
+      "total": [
+        0,
+        92
+      ]
+    },
+    "action_accuracy": [
+      0,
+      92
+    ],
+    "first_error_median": 1.0,
+    "push_value_errors": 22,
+    "label_blind": {
+      "always_accept": [
+        46,
+        92
+      ],
+      "always_reject": [
+        46,
+        92
+      ],
+      "by_cell": {
+        "letters": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "4": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "8": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "16": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          }
+        },
+        "brackets": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "4": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "8": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "16": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          }
+        }
+      }
+    },
+    "invalid_action_calls": 0,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+    },
+    "seed": 1,
+    "condition": "tiny_raw_autoregressive",
+    "training": {
+      "seed": 1,
+      "loss": 0.0016210851026698947,
+      "parameters": 81004,
+      "train_accuracy": [
+        36,
+        36
+      ],
+      "seconds": 1.9787468750000698
+    },
+    "exhaustive": {
+      "uvwxy": [
+        36,
+        36
+      ],
+      "abcde": [
+        23,
+        36
+      ],
+      "([)]#": [
+        23,
+        36
+      ]
+    }
+  },
+  {
+    "held_out": {
+      "letters": {
+        "by_depth": {
+          "0": [
+            0,
+            2
+          ],
+          "1": [
+            0,
+            4
+          ],
+          "2": [
+            0,
+            8
+          ],
+          "3": [
+            0,
+            8
+          ],
+          "4": [
+            0,
+            8
+          ],
+          "8": [
+            0,
+            8
+          ],
+          "16": [
+            0,
+            8
+          ]
+        },
+        "interpretation": {
+          "0": "below label-blind",
+          "1": "below label-blind",
+          "2": "below label-blind",
+          "3": "below label-blind",
+          "4": "below label-blind",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      },
+      "brackets": {
+        "by_depth": {
+          "0": [
+            0,
+            2
+          ],
+          "1": [
+            0,
+            4
+          ],
+          "2": [
+            0,
+            8
+          ],
+          "3": [
+            0,
+            8
+          ],
+          "4": [
+            0,
+            8
+          ],
+          "8": [
+            0,
+            8
+          ],
+          "16": [
+            0,
+            8
+          ]
+        },
+        "interpretation": {
+          "0": "below label-blind",
+          "1": "below label-blind",
+          "2": "below label-blind",
+          "3": "below label-blind",
+          "4": "below label-blind",
+          "8": "below label-blind",
+          "16": "below label-blind"
+        }
+      },
+      "total": [
+        0,
+        92
+      ]
+    },
+    "action_accuracy": [
+      0,
+      92
+    ],
+    "first_error_median": 1.0,
+    "push_value_errors": 22,
+    "label_blind": {
+      "always_accept": [
+        46,
+        92
+      ],
+      "always_reject": [
+        46,
+        92
+      ],
+      "by_cell": {
+        "letters": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "4": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "8": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "16": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          }
+        },
+        "brackets": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "4": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "8": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "16": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          }
+        }
+      }
+    },
+    "invalid_action_calls": 0,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0
+    },
+    "seed": 2,
+    "condition": "tiny_raw_autoregressive",
+    "training": {
+      "seed": 2,
+      "loss": 0.001583919976837933,
+      "parameters": 81004,
+      "train_accuracy": [
+        36,
+        36
+      ],
+      "seconds": 1.9714072089991532
+    },
+    "exhaustive": {
+      "uvwxy": [
+        36,
+        36
+      ],
+      "abcde": [
+        20,
+        36
+      ],
+      "([)]#": [
+        23,
+        36
+      ]
+    }
+  }
+]

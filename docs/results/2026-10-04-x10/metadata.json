@@ -1,0 +1,36 @@
+{
+  "plan": {
+    "model": {
+      "model": "Qwen/Qwen3-14B",
+      "revision": "40c069824f4251a91eefaf281ebe4c544efd3e18",
+      "checkpoint": "e2-14b",
+      "baseline": "e2-14b"
+    },
+    "thinking": true,
+    "preserve_prompt": true,
+    "temperature": 0,
+    "top_p": 1,
+    "top_k": -1,
+    "seed": 17,
+    "lora_engine": {
+      "brackets": true,
+      "complexity": false
+    },
+    "lora_adapter": null,
+    "step_tokens": 128,
+    "bracket_full_tokens": 2048,
+    "bracket_direct_tokens": 512,
+    "complexity_full_tokens": 4096,
+    "complexity_direct_tokens": 128,
+    "interpretation": "fixed-cap thinking intervention; not optimized thinking or an expanded-budget test; reasoning consumes the same completion budget",
+    "bracket_hash": "d2c7202ea08da83ad5398723a2cc4ce9d3175b7e5f7b84ce40aa529103e0d6e2",
+    "complexity_hash": "aec8913e52dba7eb058594dd5040c07d2ffbd20b66d452cd1d02d535fb8505ad",
+    "source_sha256": {
+      "src/abstractgym/a6_trace.py": "328a1d922e0d6dda421406f2e332b14ab9a127ad0a1fa0e1ebf3b3948c55fe94"
+    }
+  },
+  "completion": {
+    "completed": true,
+    "seconds": 6897.597289677011
+  }
+}

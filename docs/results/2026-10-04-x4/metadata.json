@@ -1,0 +1,411 @@
+{
+  "batch_consistency": {
+    "14b_zeroshot": {
+      "compared_calls": 537,
+      "different_calls": 0,
+      "differences": []
+    },
+    "14b_lora": {
+      "compared_calls": 666,
+      "different_calls": 1,
+      "differences": [
+        {
+          "id": "test-([)]#-2-1-False",
+          "call": 2,
+          "teacher": null,
+          "live": {
+            "op": "PUSH",
+            "value": "/]"
+          }
+        }
+      ]
+    },
+    "1.7b_zeroshot": {
+      "compared_calls": 92,
+      "different_calls": 0,
+      "differences": []
+    },
+    "1.7b_lora": {
+      "compared_calls": 494,
+      "different_calls": 0,
+      "differences": []
+    }
+  },
+  "plan": {
+    "models": {
+      "14b": {
+        "model": "Qwen/Qwen3-14B",
+        "revision": "40c069824f4251a91eefaf281ebe4c544efd3e18",
+        "checkpoint": "e2-14b",
+        "baseline": "e2-14b"
+      },
+      "1.7b": {
+        "model": "Qwen/Qwen3-1.7B",
+        "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+        "checkpoint": "e2-native",
+        "baseline": "e2-lora-pdl-off"
+      }
+    },
+    "held_out_hash": "d2c7202ea08da83ad5398723a2cc4ce9d3175b7e5f7b84ce40aa529103e0d6e2",
+    "temperature": 0,
+    "thinking": false,
+    "step_tokens": 128,
+    "trace_tokens": 2048,
+    "batch_size": 32,
+    "context": 8192,
+    "injection_counts": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "injection": "first k PUSH values flipped within four-action assistant prefix; oracle suffix retained as diagnostic target",
+    "injection_subset": "depth >= 4; 48 balanced cases; matched k=0 correct-prefix control",
+    "inherited": "A6 live scores for four models; X2 LoRA oracle states reused",
+    "source_sha256": {
+      "src/abstractgym/a6_trace.py": "328a1d922e0d6dda421406f2e332b14ab9a127ad0a1fa0e1ebf3b3948c55fe94"
+    }
+  },
+  "completion": {
+    "completed": true,
+    "seconds": 1213.0680508560035
+  },
+  "rankings": {
+    "full": {
+      "14b_zeroshot": 1.0,
+      "14b_lora": 2.0,
+      "1.7b_zeroshot": 3.5,
+      "1.7b_lora": 3.5
+    },
+    "oracle": {
+      "14b_zeroshot": 2.5,
+      "14b_lora": 1.0,
+      "1.7b_zeroshot": 4.0,
+      "1.7b_lora": 2.5
+    },
+    "live": {
+      "14b_zeroshot": 2.5,
+      "14b_lora": 1.0,
+      "1.7b_zeroshot": 4.0,
+      "1.7b_lora": 2.5
+    }
+  },
+  "strict_rank_inversions": [
+    {
+      "left": "14b_zeroshot",
+      "right": "14b_lora",
+      "rank_differences": {
+        "full": -1.0,
+        "oracle": 1.5,
+        "live": 1.5
+      }
+    }
+  ],
+  "correction": "Primary full-trace prompts explicitly specify action-object schemas. Earlier x45 run omitted schemas; stopped and excluded; kept only as a diagnostic.",
+  "tiny": {
+    "plan": {
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "vocab": [
+        "PAD",
+        "CLS",
+        "END",
+        "SEP",
+        "EOS",
+        "OPEN_0",
+        "OPEN_1",
+        "CLOSE_0",
+        "CLOSE_1",
+        "PUSH_0",
+        "PUSH_1",
+        "CENTER",
+        "POP",
+        "ACCEPT",
+        "REJECT"
+      ],
+      "steps": 1500,
+      "batch_size": 64,
+      "balanced_membership_sampling": true,
+      "architecture": "separate 2-layer causal Transformer, width 64, 4 heads, full role input to role action sequence",
+      "lr": 0.001,
+      "weight_decay": 0.01,
+      "clip": 1,
+      "cosine_end": 1e-05,
+      "held_out_hash": "d2c7202ea08da83ad5398723a2cc4ce9d3175b7e5f7b84ce40aa529103e0d6e2",
+      "training_hash": "f146a4ccaaa9c058c20403702b73e57e417f835dba57f14776af4e0affd2a544",
+      "caveat": "not the A6 step checkpoint; no same-checkpoint full/live ranking for tiny",
+      "source_sha256": "bcf51be1ed79826cf8fc82c265e08b0953f2e5c51e1446aa9c065e0e5c012ee4"
+    },
+    "checkpoints": {
+      "model-2.pt": "9d37e58d30e65b26f07be763d8317a9d0b15708168995f27cca34f82f03b3ae1",
+      "model-0.pt": "bca522a8d4ac96fc3f10464784c96ecb182f505efeb5a73b41ac9cf71f0337eb",
+      "model-1.pt": "9dce9b0be1f134480d716b8eba49ddaa0cc382daaa5eacf460cba888366ec442"
+    },
+    "summary": [
+      {
+        "seed": 0,
+        "full": [
+          60,
+          92
+        ],
+        "oracle_sequence": [
+          60,
+          92
+        ],
+        "teacher_actions": [
+          796,
+          988
+        ],
+        "by_depth": {
+          "0": {
+            "success": [
+              4,
+              4
+            ],
+            "teacher_success": [
+              4,
+              4
+            ]
+          },
+          "1": {
+            "success": [
+              8,
+              8
+            ],
+            "teacher_success": [
+              8,
+              8
+            ]
+          },
+          "2": {
+            "success": [
+              16,
+              16
+            ],
+            "teacher_success": [
+              16,
+              16
+            ]
+          },
+          "3": {
+            "success": [
+              16,
+              16
+            ],
+            "teacher_success": [
+              16,
+              16
+            ]
+          },
+          "4": {
+            "success": [
+              16,
+              16
+            ],
+            "teacher_success": [
+              16,
+              16
+            ]
+          },
+          "8": {
+            "success": [
+              0,
+              16
+            ],
+            "teacher_success": [
+              0,
+              16
+            ]
+          },
+          "16": {
+            "success": [
+              0,
+              16
+            ],
+            "teacher_success": [
+              0,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "seed": 1,
+        "full": [
+          60,
+          92
+        ],
+        "oracle_sequence": [
+          60,
+          92
+        ],
+        "teacher_actions": [
+          820,
+          988
+        ],
+        "by_depth": {
+          "0": {
+            "success": [
+              4,
+              4
+            ],
+            "teacher_success": [
+              4,
+              4
+            ]
+          },
+          "1": {
+            "success": [
+              8,
+              8
+            ],
+            "teacher_success": [
+              8,
+              8
+            ]
+          },
+          "2": {
+            "success": [
+              16,
+              16
+            ],
+            "teacher_success": [
+              16,
+              16
+            ]
+          },
+          "3": {
+            "success": [
+              16,
+              16
+            ],
+            "teacher_success": [
+              16,
+              16
+            ]
+          },
+          "4": {
+            "success": [
+              16,
+              16
+            ],
+            "teacher_success": [
+              16,
+              16
+            ]
+          },
+          "8": {
+            "success": [
+              0,
+              16
+            ],
+            "teacher_success": [
+              0,
+              16
+            ]
+          },
+          "16": {
+            "success": [
+              0,
+              16
+            ],
+            "teacher_success": [
+              0,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "seed": 2,
+        "full": [
+          60,
+          92
+        ],
+        "oracle_sequence": [
+          60,
+          92
+        ],
+        "teacher_actions": [
+          794,
+          988
+        ],
+        "by_depth": {
+          "0": {
+            "success": [
+              4,
+              4
+            ],
+            "teacher_success": [
+              4,
+              4
+            ]
+          },
+          "1": {
+            "success": [
+              8,
+              8
+            ],
+            "teacher_success": [
+              8,
+              8
+            ]
+          },
+          "2": {
+            "success": [
+              16,
+              16
+            ],
+            "teacher_success": [
+              16,
+              16
+            ]
+          },
+          "3": {
+            "success": [
+              16,
+              16
+            ],
+            "teacher_success": [
+              16,
+              16
+            ]
+          },
+          "4": {
+            "success": [
+              16,
+              16
+            ],
+            "teacher_success": [
+              16,
+              16
+            ]
+          },
+          "8": {
+            "success": [
+              0,
+              16
+            ],
+            "teacher_success": [
+              0,
+              16
+            ]
+          },
+          "16": {
+            "success": [
+              0,
+              16
+            ],
+            "teacher_success": [
+              0,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

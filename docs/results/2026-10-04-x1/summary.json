@@ -1,0 +1,518 @@
+[
+  {
+    "condition": "constrained_json",
+    "held_out": {
+      "letters": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            8,
+            8
+          ],
+          "3": [
+            8,
+            8
+          ],
+          "4": [
+            8,
+            8
+          ],
+          "8": [
+            8,
+            8
+          ],
+          "16": [
+            8,
+            8
+          ]
+        },
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "beats both label-blind baselines",
+          "16": "beats both label-blind baselines"
+        }
+      },
+      "brackets": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            7,
+            8
+          ],
+          "3": [
+            7,
+            8
+          ],
+          "4": [
+            6,
+            8
+          ],
+          "8": [
+            5,
+            8
+          ],
+          "16": [
+            5,
+            8
+          ]
+        },
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "beats both label-blind baselines",
+          "16": "beats both label-blind baselines"
+        }
+      },
+      "total": [
+        82,
+        92
+      ]
+    },
+    "action_accuracy": [
+      962,
+      972
+    ],
+    "first_error_median": 10.0,
+    "push_value_errors": 0,
+    "label_blind": {
+      "always_accept": [
+        46,
+        92
+      ],
+      "always_reject": [
+        46,
+        92
+      ],
+      "by_cell": {
+        "letters": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "4": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "8": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "16": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          }
+        },
+        "brackets": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "4": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "8": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "16": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          }
+        }
+      }
+    },
+    "invalid_action_calls": 0,
+    "usage": {
+      "prompt_tokens": 184737,
+      "completion_tokens": 8558
+    }
+  },
+  {
+    "condition": "role_id",
+    "held_out": {
+      "letters": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            8,
+            8
+          ],
+          "3": [
+            8,
+            8
+          ],
+          "4": [
+            8,
+            8
+          ],
+          "8": [
+            7,
+            8
+          ],
+          "16": [
+            7,
+            8
+          ]
+        },
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "beats both label-blind baselines",
+          "16": "beats both label-blind baselines"
+        }
+      },
+      "brackets": {
+        "by_depth": {
+          "0": [
+            2,
+            2
+          ],
+          "1": [
+            4,
+            4
+          ],
+          "2": [
+            6,
+            8
+          ],
+          "3": [
+            7,
+            8
+          ],
+          "4": [
+            6,
+            8
+          ],
+          "8": [
+            5,
+            8
+          ],
+          "16": [
+            5,
+            8
+          ]
+        },
+        "interpretation": {
+          "0": "beats both label-blind baselines",
+          "1": "beats both label-blind baselines",
+          "2": "beats both label-blind baselines",
+          "3": "beats both label-blind baselines",
+          "4": "beats both label-blind baselines",
+          "8": "beats both label-blind baselines",
+          "16": "beats both label-blind baselines"
+        }
+      },
+      "total": [
+        79,
+        92
+      ]
+    },
+    "action_accuracy": [
+      965,
+      978
+    ],
+    "first_error_median": 10,
+    "push_value_errors": 0,
+    "label_blind": {
+      "always_accept": [
+        46,
+        92
+      ],
+      "always_reject": [
+        46,
+        92
+      ],
+      "by_cell": {
+        "letters": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "4": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "8": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "16": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          }
+        },
+        "brackets": {
+          "0": {
+            "always_accept": [
+              1,
+              2
+            ],
+            "always_reject": [
+              1,
+              2
+            ]
+          },
+          "1": {
+            "always_accept": [
+              2,
+              4
+            ],
+            "always_reject": [
+              2,
+              4
+            ]
+          },
+          "2": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "3": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "4": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "8": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "16": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          }
+        }
+      }
+    },
+    "invalid_action_calls": 0,
+    "usage": {
+      "prompt_tokens": 191695,
+      "completion_tokens": 3607
+    }
+  }
+]

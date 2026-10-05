@@ -1,0 +1,126 @@
+{
+  "plan": {
+    "objective": "dfs",
+    "model": {
+      "model": "Qwen/Qwen3-14B",
+      "revision": "40c069824f4251a91eefaf281ebe4c544efd3e18",
+      "checkpoint": "e2-14b",
+      "baseline": "e2-14b"
+    },
+    "seed": 17,
+    "training_examples": 11002,
+    "training_hash": "d458e98967eeaf3622da11fbd1f44de5fa3e7b75cdb4bc82cb3cac604a4033cd",
+    "held_out_hash": "aec8913e52dba7eb058594dd5040c07d2ffbd20b66d452cd1d02d535fb8505ad",
+    "training_trajectories": 64,
+    "actions": {
+      "TRY": 3710,
+      "PRN": 2618,
+      "BT": 3614,
+      "DONE": 1028,
+      "ACC": 32
+    },
+    "protocol": "original canonical DFS",
+    "budget": "3 epochs, all train-prefix examples",
+    "source_sha256": {
+      "src/abstractgym/a6_objectives.py": "4bd171c13f85361aba114585cef342e7d5c9bc415379808edad11d9cf07bc8ed"
+    }
+  },
+  "completion": {
+    "completed": true,
+    "seconds": 10941.906428791
+  },
+  "training": {
+    "training": {
+      "model": "Qwen/Qwen3-14B",
+      "revision": "40c069824f4251a91eefaf281ebe4c544efd3e18",
+      "seed": 17,
+      "initialization": "lora",
+      "lora_rank": 16,
+      "lora_alpha": 32,
+      "lora_dropout": 0,
+      "target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ],
+      "epochs": 3,
+      "micro_batch": 8,
+      "gradient_accumulation": 4,
+      "effective_batch": 32,
+      "lr": 0.0002,
+      "weight_decay": 0.01,
+      "gradient_clip": 1.0,
+      "warmup_fraction": 0.05,
+      "schedule": "cosine",
+      "dtype": "bfloat16",
+      "optimizer": "AdamW",
+      "attention": "sdpa",
+      "gradient_checkpointing": true,
+      "training_examples": 11002,
+      "unique_prompts": 10450,
+      "training_hash": "d458e98967eeaf3622da11fbd1f44de5fa3e7b75cdb4bc82cb3cac604a4033cd",
+      "max_length": 1125,
+      "prompt_tokens_per_epoch": 9151740,
+      "supervised_tokens_per_epoch": 98363,
+      "tokenized_hash": "2451b2fe22253ed848c115614143cf58c1ff008800ec1bff3d20eaa3fb078923",
+      "response_only_loss": true,
+      "training_task": "dfs",
+      "processed_token_budget": null,
+      "scheduled_processed_tokens": 27750309,
+      "scheduled_supervised_tokens": 295089,
+      "balanced_membership_sampling": false,
+      "trainable_parameters": 64225280,
+      "total_parameters": 14832532480,
+      "training_seconds": 6957.176677954965,
+      "optimizer_updates": 1032,
+      "last_train_loss": 1.0246359920529358e-06,
+      "serving": "native adapter on original base (LoRA) or matching residual base (PiSSA)",
+      "adapter_parameter_dtypes": [
+        "torch.float32"
+      ]
+    },
+    "reload_parity": {
+      "mean_abs": 0.0,
+      "max_abs": 0.0,
+      "allclose": true,
+      "adapter_parameter_dtypes": [
+        "torch.float32"
+      ]
+    },
+    "initialization_parity": {
+      "mean_abs": 0.0,
+      "max_abs": 0.0,
+      "allclose": true,
+      "token_argmax_agreement": 1.0
+    },
+    "checkpoint_hashes": {
+      "training.json": "5550ae822545c33bf905547d14e6bafe2993e9cd701cd6d4f3f74eb829d30473",
+      "initialization_parity.json": "7b9d059038da75d89aee8a34de16ef8b4e9bc079181db8e632e2a1276876505f",
+      "reload_parity.json": "4bab238fa4d13d7b29d0d98a7e5c2171047bf77afc76df060db74f126eccc284",
+      "initial_adapter/README.md": "71f8f42bc1f4a0baad711d6a1a3b0354ad67b190664c5302947fefbf0927372d",
+      "initial_adapter/adapter_model.safetensors": "b49c03e94d8d74cfb48942ca3c3d849d34f1c8f24499d1b9d005af037d761e63",
+      "initial_adapter/adapter_config.json": "f5afbea07a988f552e973e481dd985d74045472a968952bec5487e51af5f29c7",
+      "initial_adapter/chat_template.jinja": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+      "initial_adapter/tokenizer_config.json": "443bfa629eb16387a12edbf92a76f6a6f10b2af3b53d87ba1550adfcf45f7fa0",
+      "initial_adapter/special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+      "initial_adapter/added_tokens.json": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+      "initial_adapter/vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "initial_adapter/merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+      "initial_adapter/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+      "final_adapter/README.md": "71f8f42bc1f4a0baad711d6a1a3b0354ad67b190664c5302947fefbf0927372d",
+      "final_adapter/adapter_model.safetensors": "37b90a6c4ecf14438e51dbd216e30333ff16fc391d46dc4c58257fc0062d86a5",
+      "final_adapter/adapter_config.json": "f5afbea07a988f552e973e481dd985d74045472a968952bec5487e51af5f29c7",
+      "final_adapter/chat_template.jinja": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+      "final_adapter/tokenizer_config.json": "443bfa629eb16387a12edbf92a76f6a6f10b2af3b53d87ba1550adfcf45f7fa0",
+      "final_adapter/special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+      "final_adapter/added_tokens.json": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+      "final_adapter/vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "final_adapter/merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+      "final_adapter/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+    }
+  }
+}

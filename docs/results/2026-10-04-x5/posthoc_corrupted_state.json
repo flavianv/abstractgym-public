@@ -1,0 +1,4799 @@
+{
+  "label": "post-hoc diagnostic; primary X5 scores unchanged",
+  "results": [
+    {
+      "model": "1.7b_lora",
+      "k": 0,
+      "total": 48,
+      "targets_differ": 0,
+      "original_correct": 0,
+      "corrupted_correct": 0,
+      "corrupted_only": [],
+      "cases": [
+        {
+          "id": "test-abcde-4-0-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-1-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-2-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-0-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-1-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-0-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        }
+      ]
+    },
+    {
+      "model": "1.7b_lora",
+      "k": 1,
+      "total": 48,
+      "targets_differ": 24,
+      "original_correct": 0,
+      "corrupted_correct": 0,
+      "corrupted_only": [],
+      "cases": [
+        {
+          "id": "test-abcde-4-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        }
+      ]
+    },
+    {
+      "model": "1.7b_lora",
+      "k": 2,
+      "total": 48,
+      "targets_differ": 24,
+      "original_correct": 0,
+      "corrupted_correct": 0,
+      "corrupted_only": [],
+      "cases": [
+        {
+          "id": "test-abcde-4-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        }
+      ]
+    },
+    {
+      "model": "1.7b_lora",
+      "k": 4,
+      "total": 48,
+      "targets_differ": 32,
+      "original_correct": 0,
+      "corrupted_correct": 0,
+      "corrupted_only": [],
+      "cases": [
+        {
+          "id": "test-abcde-4-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-0-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-1-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-2-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-0-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-1-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        }
+      ]
+    },
+    {
+      "model": "1.7b_zeroshot",
+      "k": 0,
+      "total": 48,
+      "targets_differ": 0,
+      "original_correct": 0,
+      "corrupted_correct": 0,
+      "corrupted_only": [],
+      "cases": [
+        {
+          "id": "test-abcde-4-0-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-1-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-2-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-0-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-1-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-0-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        }
+      ]
+    },
+    {
+      "model": "1.7b_zeroshot",
+      "k": 1,
+      "total": 48,
+      "targets_differ": 24,
+      "original_correct": 0,
+      "corrupted_correct": 0,
+      "corrupted_only": [],
+      "cases": [
+        {
+          "id": "test-abcde-4-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        }
+      ]
+    },
+    {
+      "model": "1.7b_zeroshot",
+      "k": 2,
+      "total": 48,
+      "targets_differ": 24,
+      "original_correct": 0,
+      "corrupted_correct": 0,
+      "corrupted_only": [],
+      "cases": [
+        {
+          "id": "test-abcde-4-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        }
+      ]
+    },
+    {
+      "model": "1.7b_zeroshot",
+      "k": 4,
+      "total": 48,
+      "targets_differ": 32,
+      "original_correct": 0,
+      "corrupted_correct": 0,
+      "corrupted_only": [],
+      "cases": [
+        {
+          "id": "test-abcde-4-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-0-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-1-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-2-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-0-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-1-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        }
+      ]
+    },
+    {
+      "model": "14b_lora",
+      "k": 0,
+      "total": 48,
+      "targets_differ": 0,
+      "original_correct": 20,
+      "corrupted_correct": 20,
+      "corrupted_only": [],
+      "cases": [
+        {
+          "id": "test-abcde-4-0-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-abcde-4-0-False",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-abcde-4-1-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-abcde-4-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-2-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-abcde-4-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-abcde-8-0-False",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-abcde-8-1-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-abcde-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-abcde-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-abcde-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-0-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-([)]#-4-0-False",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-([)]#-4-1-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-([)]#-4-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-([)]#-4-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-([)]#-4-3-False",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-([)]#-8-0-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-([)]#-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-([)]#-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-([)]#-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-([)]#-8-3-False",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-([)]#-16-0-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        }
+      ]
+    },
+    {
+      "model": "14b_lora",
+      "k": 1,
+      "total": 48,
+      "targets_differ": 24,
+      "original_correct": 12,
+      "corrupted_correct": 5,
+      "corrupted_only": [
+        "test-abcde-4-1-True"
+      ],
+      "cases": [
+        {
+          "id": "test-abcde-4-0-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-abcde-4-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-0-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-0-False",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-([)]#-4-1-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-False",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-([)]#-8-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-False",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-([)]#-16-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-False",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        }
+      ]
+    },
+    {
+      "model": "14b_lora",
+      "k": 2,
+      "total": 48,
+      "targets_differ": 24,
+      "original_correct": 12,
+      "corrupted_correct": 3,
+      "corrupted_only": [
+        "test-abcde-4-2-True"
+      ],
+      "cases": [
+        {
+          "id": "test-abcde-4-0-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-abcde-4-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-0-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-1-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-False",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-([)]#-8-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-False",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-([)]#-16-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        }
+      ]
+    },
+    {
+      "model": "14b_lora",
+      "k": 4,
+      "total": 48,
+      "targets_differ": 32,
+      "original_correct": 8,
+      "corrupted_correct": 2,
+      "corrupted_only": [
+        "test-abcde-4-1-False",
+        "test-abcde-4-2-False"
+      ],
+      "cases": [
+        {
+          "id": "test-abcde-4-0-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-0-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-1-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-1-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-abcde-4-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-2-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-abcde-4-3-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-0-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-0-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-1-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-1-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-False",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        }
+      ]
+    },
+    {
+      "model": "14b_zeroshot",
+      "k": 0,
+      "total": 48,
+      "targets_differ": 0,
+      "original_correct": 18,
+      "corrupted_correct": 18,
+      "corrupted_only": [],
+      "cases": [
+        {
+          "id": "test-abcde-4-0-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-abcde-4-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-1-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-abcde-4-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-2-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-abcde-4-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-abcde-4-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-False",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-abcde-8-1-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-abcde-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-abcde-16-0-False",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-abcde-16-1-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-abcde-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-abcde-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-0-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-([)]#-4-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-1-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-([)]#-4-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-([)]#-4-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-([)]#-4-3-False",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-([)]#-8-0-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-([)]#-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-([)]#-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-True",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-([)]#-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-True",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        }
+      ]
+    },
+    {
+      "model": "14b_zeroshot",
+      "k": 1,
+      "total": 48,
+      "targets_differ": 24,
+      "original_correct": 16,
+      "corrupted_correct": 2,
+      "corrupted_only": [],
+      "cases": [
+        {
+          "id": "test-abcde-4-0-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-1-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-2-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-False",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-([)]#-4-0-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-1-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-False",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-([)]#-8-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        }
+      ]
+    },
+    {
+      "model": "14b_zeroshot",
+      "k": 2,
+      "total": 48,
+      "targets_differ": 24,
+      "original_correct": 18,
+      "corrupted_correct": 4,
+      "corrupted_only": [],
+      "cases": [
+        {
+          "id": "test-abcde-4-0-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-1-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-2-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-False",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-abcde-8-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-False",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-abcde-16-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-False",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-([)]#-4-0-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-1-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-False",
+          "targets_differ": false,
+          "original_correct": true,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-([)]#-8-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        }
+      ]
+    },
+    {
+      "model": "14b_zeroshot",
+      "k": 4,
+      "total": 48,
+      "targets_differ": 32,
+      "original_correct": 9,
+      "corrupted_correct": 2,
+      "corrupted_only": [
+        "test-abcde-4-0-False",
+        "test-abcde-4-1-False"
+      ],
+      "cases": [
+        {
+          "id": "test-abcde-4-0-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-0-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-abcde-4-1-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-1-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": true
+        },
+        {
+          "id": "test-abcde-4-2-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-2-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-4-3-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-abcde-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-0-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-0-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-1-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-1-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-2-False",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-True",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-4-3-False",
+          "targets_differ": true,
+          "original_correct": true,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-8-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-0-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-1-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-2-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-True",
+          "targets_differ": true,
+          "original_correct": false,
+          "corrupted_correct": false
+        },
+        {
+          "id": "test-([)]#-16-3-False",
+          "targets_differ": false,
+          "original_correct": false,
+          "corrupted_correct": false
+        }
+      ]
+    }
+  ]
+}

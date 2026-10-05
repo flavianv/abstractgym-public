@@ -1,0 +1,74 @@
+{
+  "plan": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "architecture": {
+      "layers": 2,
+      "width": 64,
+      "heads": 4,
+      "feedforward": 128,
+      "dropout": 0,
+      "position": "fixed sinusoidal",
+      "attention": "bidirectional encoder, CLS readout"
+    },
+    "optimizer": {
+      "name": "AdamW",
+      "lr": 0.001,
+      "weight_decay": 0.01,
+      "schedule": "cosine to 1e-5",
+      "clip_norm": 1.0
+    },
+    "dtype": "float32",
+    "device": "cpu",
+    "threads": 2,
+    "training": {
+      "symbols": "uvwxy",
+      "max_depth": 4,
+      "trajectories": 367,
+      "raw_step_examples": 2305,
+      "deduplicated_step_examples": 36,
+      "direct_examples": 367,
+      "direct_positive": 31,
+      "direct_sampling": "balanced labels, replacement; separate matched model"
+    },
+    "training_hash": "8fa8728efdda11e741e8ec16c2e0267cf0fd321e849119caea177055d15e5df0",
+    "packages": {
+      "torch": "2.14.1"
+    },
+    "python": "3.12.13",
+    "platform": "macOS-26.7-arm64-arm-64bit",
+    "hardware": "arm",
+    "git_revision": "39bca8d1f7dd0324010f76d6eb44a68ea719d572",
+    "source_sha256": {
+      "scripts/run_a6_tiny.py": "62a632c65003a10c5f35b1a586f7a62cfae3605db0c39d9ae48914367ea7aa1e",
+      "src/abstractgym/a6.py": "975b3d76fc9503e11e8f0ad8c57aa27162250298d4316d949145e6df80dbbfe2",
+      "src/abstractgym/a6_model.py": "d13c0b913ba39cd3c8371147d2495b185c24d8d15225cd68bc11e1aa2ebd72f7",
+      "src/abstractgym/brackets.py": "9fa8b835c0aac8fa26177b032f1fc07e1bb0964f7ec01fd0f83ad11b74e0550f"
+    }
+  },
+  "frozen_checkpoints": {
+    "direct-2.pt": "5e14beeb2d5e742967d56c86677e37a4b0b8d2a1097d3c1d50f78d71fe29a782",
+    "step-2.pt": "e70093585cce216028e40d2ff4648b6bf356383d96e1706ffb5a2e86f656ca30",
+    "step-1.pt": "341d85d422c11d1d34345d65e05cef12e2ee0a4d1608e065857eb64cda564a77",
+    "step-0.pt": "a6949c9c2a8679152cd71b1a64c68a5147cf8cc3c6dca94bcfd52c5820ae478e",
+    "direct-1.pt": "07445f6621896c71053a5e64ba61b78c430954a840575bba113e7aeaef462a43",
+    "direct-0.pt": "39bf28b49785115db3ca0b58a584230aff6db09361ee79619ba6e7fca8bcb8cd"
+  },
+  "held_out_hash": "d2c7202ea08da83ad5398723a2cc4ce9d3175b7e5f7b84ce40aa529103e0d6e2",
+  "extra_hash": "836c47490da2f023a856d2c9a46e3ed36ad34173df40f1ab01cb4f27ef05c43e",
+  "first_error_convention": "1-based failing call, median among failures only; null means no failures",
+  "action_accuracy_convention": "live calls only, including the first incorrect call; not teacher-state accuracy",
+  "exhaustive_convention": "all 36 abstract inputs, all covered by development training; not unseen-rule generalization",
+  "tiny_token_convention": "role-token IDs and classification decisions; not comparable to Qwen text tokens",
+  "direct_answer_convention": "Tiny: separate matched model trained on dev membership labels; Qwen: same checkpoint with grammar-only prompt",
+  "optional_e2": "measured conditions are included in a6_summary.json; see a6_e2*_metadata.json for each model, completed conditions, and initialization exclusions",
+  "means": {
+    "action_accuracy": 1.0,
+    "exhaustive_check": 1.0,
+    "direct_answer": 0.8405797101449275
+  },
+  "mean_execution": 1.0
+}

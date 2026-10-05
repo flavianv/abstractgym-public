@@ -1,0 +1,169 @@
+{
+  "plan": {
+    "model": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "seed": 17,
+    "conditions": [
+      "zeroshot",
+      "lora"
+    ],
+    "frozen_held_out_hash": "d2c7202ea08da83ad5398723a2cc4ce9d3175b7e5f7b84ce40aa529103e0d6e2",
+    "training_hash": "3f13158d5f150513d6e1af5aed489d2254cca05677b3597fb8764fa9cf7c7352",
+    "training_examples": 2305,
+    "prompt": "unchanged abstractgym.brackets.stack_prompt / direct_prompt",
+    "step_max_tokens": 128,
+    "direct_max_tokens": 512,
+    "temperature": 0,
+    "thinking": false,
+    "batch_size": 32,
+    "max_model_len": 8192,
+    "serving": "vLLM native LoRA; LoRA engine enabled for all three conditions",
+    "packages": {
+      "torch": "2.9.0",
+      "transformers": "4.57.6",
+      "peft": "0.17.1",
+      "vllm": "0.11.2",
+      "huggingface_hub": "0.36.0"
+    },
+    "hardware": "NVIDIA B200, 183359 MiB, 610.43.02",
+    "source_sha256": {
+      "scripts/run_ray_a6_e2.py": "5dc2ead2b617dcb7fc39c37945eb2d7dd7962b4948406b3d30447c7a2770564f",
+      "src/abstractgym/a6_sft.py": "631b2c5f6add86b9520e2c29ea9f5e09fc457850437cafb246aa055d145d2762",
+      "src/abstractgym/a6.py": "975b3d76fc9503e11e8f0ad8c57aa27162250298d4316d949145e6df80dbbfe2",
+      "src/abstractgym/brackets.py": "9fa8b835c0aac8fa26177b032f1fc07e1bb0964f7ec01fd0f83ad11b74e0550f",
+      "scripts/run_ray_cfg.py": "e0cc8a8f17be0b21bba65acfb71957e727e67c8b283c9bb7af24432c230d6b0d",
+      "scripts/run_ray_a6_e2.sh": "100c6832cd70e74c2d94e400b3c1d291d004b0a1efeec00d40a2582547aafa18"
+    },
+    "excluded_condition": "PiSSA failed pre-training initialization-preservation check; no held-out evaluation",
+    "continuation_sha256": "768fec7fc1a317851c2afece8d4f7ccbef7994534bd58a119ca5bde5b6b681eb",
+    "runtime_workaround": "vLLM 0.11.2 LoRA PDL/GDC disabled after compiler failure before first adapted completion; no arithmetic or prompt/scoring change",
+    "workaround_sha256": "ab7a3b210d44895e75977739a723bdd226ea9cff2e74fe7d0675522866762a19"
+  },
+  "completion": {
+    "completed": true,
+    "seconds": 95.93619476800086,
+    "conditions": [
+      "lora"
+    ],
+    "baseline_reused": true
+  },
+  "conditions": {
+    "qwen17b_zeroshot": {
+      "training": null,
+      "prompt_audit": {
+        "direct_prompts": 92,
+        "live_step_prompts": 92,
+        "exact_frozen_prompts": true,
+        "first_error_stopping": true,
+        "step_max_tokens": 128,
+        "direct_max_tokens": 512
+      },
+      "checkpoint_hashes": null,
+      "initialization_parity": null,
+      "reload_parity": null
+    },
+    "qwen17b_lora": {
+      "training": {
+        "model": "Qwen/Qwen3-1.7B",
+        "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+        "seed": 17,
+        "initialization": "lora",
+        "lora_rank": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0,
+        "target_modules": [
+          "q_proj",
+          "k_proj",
+          "v_proj",
+          "o_proj",
+          "gate_proj",
+          "up_proj",
+          "down_proj"
+        ],
+        "epochs": 3,
+        "micro_batch": 8,
+        "gradient_accumulation": 4,
+        "effective_batch": 32,
+        "lr": 0.0002,
+        "weight_decay": 0.01,
+        "gradient_clip": 1.0,
+        "warmup_fraction": 0.05,
+        "schedule": "cosine",
+        "dtype": "bfloat16",
+        "optimizer": "AdamW",
+        "attention": "sdpa",
+        "gradient_checkpointing": false,
+        "training_examples": 2305,
+        "unique_prompts": 148,
+        "training_hash": "3f13158d5f150513d6e1af5aed489d2254cca05677b3597fb8764fa9cf7c7352",
+        "max_length": 200,
+        "prompt_tokens_per_epoch": 430005,
+        "supervised_tokens_per_epoch": 20536,
+        "tokenized_hash": "2a7aba7baad8dade24b79bf3147614a614490e07ef83e3d8cfbd98f8e14051ee",
+        "response_only_loss": true,
+        "trainable_parameters": 17432576,
+        "total_parameters": 1738007552,
+        "training_seconds": 78.26104640198173,
+        "optimizer_updates": 219,
+        "last_train_loss": 2.351667944822111e-06,
+        "serving": "native adapter on original base (LoRA) or matching residual base (PiSSA)",
+        "adapter_parameter_dtypes": [
+          "torch.float32"
+        ]
+      },
+      "prompt_audit": {
+        "direct_prompts": 92,
+        "live_step_prompts": 494,
+        "exact_frozen_prompts": true,
+        "first_error_stopping": true,
+        "step_max_tokens": 128,
+        "direct_max_tokens": 512
+      },
+      "checkpoint_hashes": {
+        "training.json": "a5625f0dd1086cd2232f3a6d55b990fcb75f412ae4baa0ebbb1a2e25ebea0acd",
+        "initialization_parity.json": "7b9d059038da75d89aee8a34de16ef8b4e9bc079181db8e632e2a1276876505f",
+        "reload_parity.json": "4bab238fa4d13d7b29d0d98a7e5c2171047bf77afc76df060db74f126eccc284",
+        "initial_adapter/README.md": "cceef457421fb9623f3e1766da9431f57d25f22deec953e13b07ca5790a38829",
+        "initial_adapter/adapter_model.safetensors": "907c552226028ca3809b2844127509ec1adfd5b5ed83210d33a33b9353593d38",
+        "initial_adapter/adapter_config.json": "91d0f3671b5ba112d34ae35c883f06d6db9bd31025d8abd8b41af294b3d898c8",
+        "initial_adapter/chat_template.jinja": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+        "initial_adapter/tokenizer_config.json": "443bfa629eb16387a12edbf92a76f6a6f10b2af3b53d87ba1550adfcf45f7fa0",
+        "initial_adapter/special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+        "initial_adapter/added_tokens.json": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+        "initial_adapter/vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+        "initial_adapter/merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+        "initial_adapter/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "final_adapter/README.md": "cceef457421fb9623f3e1766da9431f57d25f22deec953e13b07ca5790a38829",
+        "final_adapter/adapter_model.safetensors": "913b4eb3f7821bb8b92a5da8bb1e0df5442c8eabeb5cdd391ff705e30a5ed6d7",
+        "final_adapter/adapter_config.json": "91d0f3671b5ba112d34ae35c883f06d6db9bd31025d8abd8b41af294b3d898c8",
+        "final_adapter/chat_template.jinja": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+        "final_adapter/tokenizer_config.json": "443bfa629eb16387a12edbf92a76f6a6f10b2af3b53d87ba1550adfcf45f7fa0",
+        "final_adapter/special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+        "final_adapter/added_tokens.json": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+        "final_adapter/vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+        "final_adapter/merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+        "final_adapter/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+      },
+      "initialization_parity": {
+        "mean_abs": 0.0,
+        "max_abs": 0.0,
+        "allclose": true,
+        "token_argmax_agreement": 1.0
+      },
+      "reload_parity": {
+        "mean_abs": 0.0,
+        "max_abs": 0.0,
+        "allclose": true,
+        "adapter_parameter_dtypes": [
+          "torch.float32"
+        ]
+      }
+    }
+  },
+  "excluded_pissa_initialization": {
+    "mean_abs": 0.0978333055973053,
+    "max_abs": 3.6875,
+    "allclose": false,
+    "token_argmax_agreement": 0.9861111044883728
+  }
+}

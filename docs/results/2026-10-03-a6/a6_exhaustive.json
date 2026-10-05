@@ -1,0 +1,989 @@
+[
+  {
+    "seed": 0,
+    "states": [
+      {
+        "state": [
+          "opening",
+          "OPEN_0",
+          "EMPTY"
+        ],
+        "expected": 0,
+        "prediction": 0
+      },
+      {
+        "state": [
+          "opening",
+          "OPEN_0",
+          "CLOSE_0"
+        ],
+        "expected": 0,
+        "prediction": 0
+      },
+      {
+        "state": [
+          "opening",
+          "OPEN_0",
+          "CLOSE_1"
+        ],
+        "expected": 0,
+        "prediction": 0
+      },
+      {
+        "state": [
+          "opening",
+          "OPEN_1",
+          "EMPTY"
+        ],
+        "expected": 1,
+        "prediction": 1
+      },
+      {
+        "state": [
+          "opening",
+          "OPEN_1",
+          "CLOSE_0"
+        ],
+        "expected": 1,
+        "prediction": 1
+      },
+      {
+        "state": [
+          "opening",
+          "OPEN_1",
+          "CLOSE_1"
+        ],
+        "expected": 1,
+        "prediction": 1
+      },
+      {
+        "state": [
+          "opening",
+          "CLOSE_0",
+          "EMPTY"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "opening",
+          "CLOSE_0",
+          "CLOSE_0"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "opening",
+          "CLOSE_0",
+          "CLOSE_1"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "opening",
+          "CLOSE_1",
+          "EMPTY"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "opening",
+          "CLOSE_1",
+          "CLOSE_0"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "opening",
+          "CLOSE_1",
+          "CLOSE_1"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "opening",
+          "CENTER",
+          "EMPTY"
+        ],
+        "expected": 2,
+        "prediction": 2
+      },
+      {
+        "state": [
+          "opening",
+          "CENTER",
+          "CLOSE_0"
+        ],
+        "expected": 2,
+        "prediction": 2
+      },
+      {
+        "state": [
+          "opening",
+          "CENTER",
+          "CLOSE_1"
+        ],
+        "expected": 2,
+        "prediction": 2
+      },
+      {
+        "state": [
+          "opening",
+          "END",
+          "EMPTY"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "opening",
+          "END",
+          "CLOSE_0"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "opening",
+          "END",
+          "CLOSE_1"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "OPEN_0",
+          "EMPTY"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "OPEN_0",
+          "CLOSE_0"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "OPEN_0",
+          "CLOSE_1"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "OPEN_1",
+          "EMPTY"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "OPEN_1",
+          "CLOSE_0"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "OPEN_1",
+          "CLOSE_1"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "CLOSE_0",
+          "EMPTY"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "CLOSE_0",
+          "CLOSE_0"
+        ],
+        "expected": 3,
+        "prediction": 3
+      },
+      {
+        "state": [
+          "closing",
+          "CLOSE_0",
+          "CLOSE_1"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "CLOSE_1",
+          "EMPTY"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "CLOSE_1",
+          "CLOSE_0"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "CLOSE_1",
+          "CLOSE_1"
+        ],
+        "expected": 3,
+        "prediction": 3
+      },
+      {
+        "state": [
+          "closing",
+          "CENTER",
+          "EMPTY"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "CENTER",
+          "CLOSE_0"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "CENTER",
+          "CLOSE_1"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "END",
+          "EMPTY"
+        ],
+        "expected": 4,
+        "prediction": 4
+      },
+      {
+        "state": [
+          "closing",
+          "END",
+          "CLOSE_0"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "END",
+          "CLOSE_1"
+        ],
+        "expected": 5,
+        "prediction": 5
+      }
+    ]
+  },
+  {
+    "seed": 1,
+    "states": [
+      {
+        "state": [
+          "opening",
+          "OPEN_0",
+          "EMPTY"
+        ],
+        "expected": 0,
+        "prediction": 0
+      },
+      {
+        "state": [
+          "opening",
+          "OPEN_0",
+          "CLOSE_0"
+        ],
+        "expected": 0,
+        "prediction": 0
+      },
+      {
+        "state": [
+          "opening",
+          "OPEN_0",
+          "CLOSE_1"
+        ],
+        "expected": 0,
+        "prediction": 0
+      },
+      {
+        "state": [
+          "opening",
+          "OPEN_1",
+          "EMPTY"
+        ],
+        "expected": 1,
+        "prediction": 1
+      },
+      {
+        "state": [
+          "opening",
+          "OPEN_1",
+          "CLOSE_0"
+        ],
+        "expected": 1,
+        "prediction": 1
+      },
+      {
+        "state": [
+          "opening",
+          "OPEN_1",
+          "CLOSE_1"
+        ],
+        "expected": 1,
+        "prediction": 1
+      },
+      {
+        "state": [
+          "opening",
+          "CLOSE_0",
+          "EMPTY"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "opening",
+          "CLOSE_0",
+          "CLOSE_0"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "opening",
+          "CLOSE_0",
+          "CLOSE_1"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "opening",
+          "CLOSE_1",
+          "EMPTY"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "opening",
+          "CLOSE_1",
+          "CLOSE_0"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "opening",
+          "CLOSE_1",
+          "CLOSE_1"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "opening",
+          "CENTER",
+          "EMPTY"
+        ],
+        "expected": 2,
+        "prediction": 2
+      },
+      {
+        "state": [
+          "opening",
+          "CENTER",
+          "CLOSE_0"
+        ],
+        "expected": 2,
+        "prediction": 2
+      },
+      {
+        "state": [
+          "opening",
+          "CENTER",
+          "CLOSE_1"
+        ],
+        "expected": 2,
+        "prediction": 2
+      },
+      {
+        "state": [
+          "opening",
+          "END",
+          "EMPTY"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "opening",
+          "END",
+          "CLOSE_0"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "opening",
+          "END",
+          "CLOSE_1"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "OPEN_0",
+          "EMPTY"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "OPEN_0",
+          "CLOSE_0"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "OPEN_0",
+          "CLOSE_1"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "OPEN_1",
+          "EMPTY"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "OPEN_1",
+          "CLOSE_0"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "OPEN_1",
+          "CLOSE_1"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "CLOSE_0",
+          "EMPTY"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "CLOSE_0",
+          "CLOSE_0"
+        ],
+        "expected": 3,
+        "prediction": 3
+      },
+      {
+        "state": [
+          "closing",
+          "CLOSE_0",
+          "CLOSE_1"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "CLOSE_1",
+          "EMPTY"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "CLOSE_1",
+          "CLOSE_0"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "CLOSE_1",
+          "CLOSE_1"
+        ],
+        "expected": 3,
+        "prediction": 3
+      },
+      {
+        "state": [
+          "closing",
+          "CENTER",
+          "EMPTY"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "CENTER",
+          "CLOSE_0"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "CENTER",
+          "CLOSE_1"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "END",
+          "EMPTY"
+        ],
+        "expected": 4,
+        "prediction": 4
+      },
+      {
+        "state": [
+          "closing",
+          "END",
+          "CLOSE_0"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "END",
+          "CLOSE_1"
+        ],
+        "expected": 5,
+        "prediction": 5
+      }
+    ]
+  },
+  {
+    "seed": 2,
+    "states": [
+      {
+        "state": [
+          "opening",
+          "OPEN_0",
+          "EMPTY"
+        ],
+        "expected": 0,
+        "prediction": 0
+      },
+      {
+        "state": [
+          "opening",
+          "OPEN_0",
+          "CLOSE_0"
+        ],
+        "expected": 0,
+        "prediction": 0
+      },
+      {
+        "state": [
+          "opening",
+          "OPEN_0",
+          "CLOSE_1"
+        ],
+        "expected": 0,
+        "prediction": 0
+      },
+      {
+        "state": [
+          "opening",
+          "OPEN_1",
+          "EMPTY"
+        ],
+        "expected": 1,
+        "prediction": 1
+      },
+      {
+        "state": [
+          "opening",
+          "OPEN_1",
+          "CLOSE_0"
+        ],
+        "expected": 1,
+        "prediction": 1
+      },
+      {
+        "state": [
+          "opening",
+          "OPEN_1",
+          "CLOSE_1"
+        ],
+        "expected": 1,
+        "prediction": 1
+      },
+      {
+        "state": [
+          "opening",
+          "CLOSE_0",
+          "EMPTY"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "opening",
+          "CLOSE_0",
+          "CLOSE_0"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "opening",
+          "CLOSE_0",
+          "CLOSE_1"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "opening",
+          "CLOSE_1",
+          "EMPTY"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "opening",
+          "CLOSE_1",
+          "CLOSE_0"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "opening",
+          "CLOSE_1",
+          "CLOSE_1"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "opening",
+          "CENTER",
+          "EMPTY"
+        ],
+        "expected": 2,
+        "prediction": 2
+      },
+      {
+        "state": [
+          "opening",
+          "CENTER",
+          "CLOSE_0"
+        ],
+        "expected": 2,
+        "prediction": 2
+      },
+      {
+        "state": [
+          "opening",
+          "CENTER",
+          "CLOSE_1"
+        ],
+        "expected": 2,
+        "prediction": 2
+      },
+      {
+        "state": [
+          "opening",
+          "END",
+          "EMPTY"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "opening",
+          "END",
+          "CLOSE_0"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "opening",
+          "END",
+          "CLOSE_1"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "OPEN_0",
+          "EMPTY"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "OPEN_0",
+          "CLOSE_0"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "OPEN_0",
+          "CLOSE_1"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "OPEN_1",
+          "EMPTY"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "OPEN_1",
+          "CLOSE_0"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "OPEN_1",
+          "CLOSE_1"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "CLOSE_0",
+          "EMPTY"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "CLOSE_0",
+          "CLOSE_0"
+        ],
+        "expected": 3,
+        "prediction": 3
+      },
+      {
+        "state": [
+          "closing",
+          "CLOSE_0",
+          "CLOSE_1"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "CLOSE_1",
+          "EMPTY"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "CLOSE_1",
+          "CLOSE_0"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "CLOSE_1",
+          "CLOSE_1"
+        ],
+        "expected": 3,
+        "prediction": 3
+      },
+      {
+        "state": [
+          "closing",
+          "CENTER",
+          "EMPTY"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "CENTER",
+          "CLOSE_0"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "CENTER",
+          "CLOSE_1"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "END",
+          "EMPTY"
+        ],
+        "expected": 4,
+        "prediction": 4
+      },
+      {
+        "state": [
+          "closing",
+          "END",
+          "CLOSE_0"
+        ],
+        "expected": 5,
+        "prediction": 5
+      },
+      {
+        "state": [
+          "closing",
+          "END",
+          "CLOSE_1"
+        ],
+        "expected": 5,
+        "prediction": 5
+      }
+    ]
+  }
+]

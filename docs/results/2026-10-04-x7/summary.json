@@ -1,0 +1,7956 @@
+{
+  "zeroshot": {
+    "full_trace": {
+      "overall": {
+        "exact": [
+          28,
+          240
+        ],
+        "label_blind": {
+          "always_accept": [
+            120,
+            240
+          ],
+          "always_reject": [
+            120,
+            240
+          ]
+        },
+        "interpretation": "below label-blind",
+        "unique_cases": 217,
+        "unique_case_mean": 0.08294930875576037,
+        "action_accuracy": [
+          294,
+          3860
+        ],
+        "failures": {
+          "invalid_or_trailing_action": 184,
+          "call_or_parse_error": 26,
+          "incomplete_trace": 2
+        },
+        "usage": {
+          "calls": 240,
+          "truncated": 26,
+          "prompt_tokens": 120624,
+          "completion_tokens": 116452,
+          "reasoning_tokens": 0,
+          "answer_tokens": 116452
+        }
+      },
+      "by_family": {
+        "alternatives": {
+          "exact": [
+            4,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 39,
+          "unique_case_mean": 0.07692307692307693,
+          "action_accuracy": [
+            53,
+            744
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 36
+          },
+          "usage": {
+            "calls": 40,
+            "truncated": 0,
+            "prompt_tokens": 23016,
+            "completion_tokens": 2910,
+            "reasoning_tokens": 0,
+            "answer_tokens": 2910
+          }
+        },
+        "chain_depth": {
+          "exact": [
+            4,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 35,
+          "unique_case_mean": 0.08571428571428572,
+          "action_accuracy": [
+            45,
+            616
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 33,
+            "call_or_parse_error": 3
+          },
+          "usage": {
+            "calls": 40,
+            "truncated": 3,
+            "prompt_tokens": 22096,
+            "completion_tokens": 13463,
+            "reasoning_tokens": 0,
+            "answer_tokens": 13463
+          }
+        },
+        "nesting": {
+          "exact": [
+            0,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 40,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            31,
+            1108
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 31,
+            "call_or_parse_error": 9
+          },
+          "usage": {
+            "calls": 40,
+            "truncated": 9,
+            "prompt_tokens": 19464,
+            "completion_tokens": 38897,
+            "reasoning_tokens": 0,
+            "answer_tokens": 38897
+          }
+        },
+        "recursion": {
+          "exact": [
+            0,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 40,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            56,
+            968
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 31,
+            "call_or_parse_error": 9
+          },
+          "usage": {
+            "calls": 40,
+            "truncated": 9,
+            "prompt_tokens": 18480,
+            "completion_tokens": 38509,
+            "reasoning_tokens": 0,
+            "answer_tokens": 38509
+          }
+        },
+        "sequence": {
+          "exact": [
+            0,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 35,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            46,
+            304
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 35,
+            "call_or_parse_error": 5
+          },
+          "usage": {
+            "calls": 40,
+            "truncated": 5,
+            "prompt_tokens": 19104,
+            "completion_tokens": 21894,
+            "reasoning_tokens": 0,
+            "answer_tokens": 21894
+          }
+        },
+        "terminal_length": {
+          "exact": [
+            20,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 35,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            63,
+            120
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 18,
+            "incomplete_trace": 2
+          },
+          "usage": {
+            "calls": 40,
+            "truncated": 0,
+            "prompt_tokens": 18464,
+            "completion_tokens": 779,
+            "reasoning_tokens": 0,
+            "answer_tokens": 779
+          }
+        }
+      },
+      "cells": [
+        {
+          "family": "alternatives",
+          "level": 1,
+          "exact": [
+            4,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            12,
+            24
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 4
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3440,
+            "completion_tokens": 156,
+            "reasoning_tokens": 0,
+            "answer_tokens": 156
+          }
+        },
+        {
+          "family": "alternatives",
+          "level": 2,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            16,
+            48
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3544,
+            "completion_tokens": 380,
+            "reasoning_tokens": 0,
+            "answer_tokens": 380
+          }
+        },
+        {
+          "family": "alternatives",
+          "level": 4,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            18,
+            96
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3824,
+            "completion_tokens": 527,
+            "reasoning_tokens": 0,
+            "answer_tokens": 527
+          }
+        },
+        {
+          "family": "alternatives",
+          "level": 8,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            3,
+            192
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 4680,
+            "completion_tokens": 610,
+            "reasoning_tokens": 0,
+            "answer_tokens": 610
+          }
+        },
+        {
+          "family": "alternatives",
+          "level": 16,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            4,
+            384
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 7528,
+            "completion_tokens": 1237,
+            "reasoning_tokens": 0,
+            "answer_tokens": 1237
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 1,
+          "exact": [
+            4,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            16,
+            40
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 4
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3592,
+            "completion_tokens": 192,
+            "reasoning_tokens": 0,
+            "answer_tokens": 192
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 2,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            5,
+            56
+          ],
+          "failures": {
+            "call_or_parse_error": 3,
+            "invalid_or_trailing_action": 5
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 3,
+            "prompt_tokens": 3744,
+            "completion_tokens": 12429,
+            "reasoning_tokens": 0,
+            "answer_tokens": 12429
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 4,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            88
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 4048,
+            "completion_tokens": 452,
+            "reasoning_tokens": 0,
+            "answer_tokens": 452
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 8,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            152
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 4664,
+            "completion_tokens": 208,
+            "reasoning_tokens": 0,
+            "answer_tokens": 208
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 16,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            280
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 6048,
+            "completion_tokens": 182,
+            "reasoning_tokens": 0,
+            "answer_tokens": 182
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 1,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            76
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3640,
+            "completion_tokens": 399,
+            "reasoning_tokens": 0,
+            "answer_tokens": 399
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 2,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            104
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3688,
+            "completion_tokens": 486,
+            "reasoning_tokens": 0,
+            "answer_tokens": 486
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 4,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            160
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3784,
+            "completion_tokens": 764,
+            "reasoning_tokens": 0,
+            "answer_tokens": 764
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 8,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            5,
+            272
+          ],
+          "failures": {
+            "call_or_parse_error": 3,
+            "invalid_or_trailing_action": 5
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 3,
+            "prompt_tokens": 3984,
+            "completion_tokens": 12558,
+            "reasoning_tokens": 0,
+            "answer_tokens": 12558
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 16,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            2,
+            496
+          ],
+          "failures": {
+            "call_or_parse_error": 6,
+            "invalid_or_trailing_action": 2
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 6,
+            "prompt_tokens": 4368,
+            "completion_tokens": 24690,
+            "reasoning_tokens": 0,
+            "answer_tokens": 24690
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 1,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            33,
+            48
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3568,
+            "completion_tokens": 416,
+            "reasoning_tokens": 0,
+            "answer_tokens": 416
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 2,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            76
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3592,
+            "completion_tokens": 340,
+            "reasoning_tokens": 0,
+            "answer_tokens": 340
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 4,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            132
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3640,
+            "completion_tokens": 492,
+            "reasoning_tokens": 0,
+            "answer_tokens": 492
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 8,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            3,
+            244
+          ],
+          "failures": {
+            "call_or_parse_error": 5,
+            "invalid_or_trailing_action": 3
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 5,
+            "prompt_tokens": 3744,
+            "completion_tokens": 20656,
+            "reasoning_tokens": 0,
+            "answer_tokens": 20656
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 16,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            4,
+            468
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 4,
+            "call_or_parse_error": 4
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 4,
+            "prompt_tokens": 3936,
+            "completion_tokens": 16605,
+            "reasoning_tokens": 0,
+            "answer_tokens": 16605
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 1,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            40
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3568,
+            "completion_tokens": 156,
+            "reasoning_tokens": 0,
+            "answer_tokens": 156
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 2,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            12,
+            44
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3616,
+            "completion_tokens": 308,
+            "reasoning_tokens": 0,
+            "answer_tokens": 308
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 4,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            12,
+            52
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3712,
+            "completion_tokens": 480,
+            "reasoning_tokens": 0,
+            "answer_tokens": 480
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 8,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            4,
+            68
+          ],
+          "failures": {
+            "call_or_parse_error": 4,
+            "invalid_or_trailing_action": 4
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 4,
+            "prompt_tokens": 3912,
+            "completion_tokens": 16472,
+            "reasoning_tokens": 0,
+            "answer_tokens": 16472
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 16,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            10,
+            100
+          ],
+          "failures": {
+            "call_or_parse_error": 1,
+            "invalid_or_trailing_action": 7
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 1,
+            "prompt_tokens": 4296,
+            "completion_tokens": 4478,
+            "reasoning_tokens": 0,
+            "answer_tokens": 4478
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 1,
+          "exact": [
+            4,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            12,
+            24
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 4
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3440,
+            "completion_tokens": 156,
+            "reasoning_tokens": 0,
+            "answer_tokens": 156
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 2,
+          "exact": [
+            4,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            12,
+            24
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 4
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3488,
+            "completion_tokens": 156,
+            "reasoning_tokens": 0,
+            "answer_tokens": 156
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 4,
+          "exact": [
+            4,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            12,
+            24
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 4
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3584,
+            "completion_tokens": 156,
+            "reasoning_tokens": 0,
+            "answer_tokens": 156
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 8,
+          "exact": [
+            4,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            12,
+            24
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 4
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3784,
+            "completion_tokens": 156,
+            "reasoning_tokens": 0,
+            "answer_tokens": 156
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 16,
+          "exact": [
+            4,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            15,
+            24
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 2,
+            "incomplete_trace": 2
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 4168,
+            "completion_tokens": 155,
+            "reasoning_tokens": 0,
+            "answer_tokens": 155
+          }
+        }
+      ]
+    },
+    "oracle_step": {
+      "overall": {
+        "exact": [
+          40,
+          240
+        ],
+        "label_blind": {
+          "always_accept": [
+            120,
+            240
+          ],
+          "always_reject": [
+            120,
+            240
+          ]
+        },
+        "interpretation": "below label-blind",
+        "unique_cases": 217,
+        "unique_case_mean": 0.12442396313364056,
+        "action_accuracy": [
+          1417,
+          3860
+        ],
+        "failures": {
+          "invalid_action": 200
+        },
+        "usage": {
+          "calls": 3860,
+          "truncated": 0,
+          "prompt_tokens": 2827064,
+          "completion_tokens": 40413,
+          "reasoning_tokens": 0,
+          "answer_tokens": 40413
+        }
+      },
+      "by_family": {
+        "alternatives": {
+          "exact": [
+            4,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 39,
+          "unique_case_mean": 0.07692307692307693,
+          "action_accuracy": [
+            157,
+            744
+          ],
+          "failures": {
+            "invalid_action": 36
+          },
+          "usage": {
+            "calls": 744,
+            "truncated": 0,
+            "prompt_tokens": 574920,
+            "completion_tokens": 7960,
+            "reasoning_tokens": 0,
+            "answer_tokens": 7960
+          }
+        },
+        "chain_depth": {
+          "exact": [
+            4,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 35,
+          "unique_case_mean": 0.08571428571428572,
+          "action_accuracy": [
+            225,
+            616
+          ],
+          "failures": {
+            "invalid_action": 36
+          },
+          "usage": {
+            "calls": 616,
+            "truncated": 0,
+            "prompt_tokens": 461928,
+            "completion_tokens": 6642,
+            "reasoning_tokens": 0,
+            "answer_tokens": 6642
+          }
+        },
+        "nesting": {
+          "exact": [
+            0,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 40,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            426,
+            1108
+          ],
+          "failures": {
+            "invalid_action": 40
+          },
+          "usage": {
+            "calls": 1108,
+            "truncated": 0,
+            "prompt_tokens": 884824,
+            "completion_tokens": 11449,
+            "reasoning_tokens": 0,
+            "answer_tokens": 11449
+          }
+        },
+        "recursion": {
+          "exact": [
+            0,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 40,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            347,
+            968
+          ],
+          "failures": {
+            "invalid_action": 40
+          },
+          "usage": {
+            "calls": 968,
+            "truncated": 0,
+            "prompt_tokens": 645824,
+            "completion_tokens": 9993,
+            "reasoning_tokens": 0,
+            "answer_tokens": 9993
+          }
+        },
+        "sequence": {
+          "exact": [
+            12,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 35,
+          "unique_case_mean": 0.2571428571428571,
+          "action_accuracy": [
+            198,
+            304
+          ],
+          "failures": {
+            "invalid_action": 28
+          },
+          "usage": {
+            "calls": 304,
+            "truncated": 0,
+            "prompt_tokens": 202792,
+            "completion_tokens": 3179,
+            "reasoning_tokens": 0,
+            "answer_tokens": 3179
+          }
+        },
+        "terminal_length": {
+          "exact": [
+            20,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 35,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            64,
+            120
+          ],
+          "failures": {
+            "invalid_action": 20
+          },
+          "usage": {
+            "calls": 120,
+            "truncated": 0,
+            "prompt_tokens": 56776,
+            "completion_tokens": 1190,
+            "reasoning_tokens": 0,
+            "answer_tokens": 1190
+          }
+        }
+      },
+      "cells": [
+        {
+          "family": "alternatives",
+          "level": 1,
+          "exact": [
+            4,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            10,
+            24
+          ],
+          "failures": {
+            "invalid_action": 4
+          },
+          "usage": {
+            "calls": 24,
+            "truncated": 0,
+            "prompt_tokens": 10472,
+            "completion_tokens": 244,
+            "reasoning_tokens": 0,
+            "answer_tokens": 244
+          }
+        },
+        {
+          "family": "alternatives",
+          "level": 2,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            19,
+            48
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 48,
+            "truncated": 0,
+            "prompt_tokens": 21672,
+            "completion_tokens": 408,
+            "reasoning_tokens": 0,
+            "answer_tokens": 408
+          }
+        },
+        {
+          "family": "alternatives",
+          "level": 4,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            22,
+            96
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 96,
+            "truncated": 0,
+            "prompt_tokens": 47184,
+            "completion_tokens": 971,
+            "reasoning_tokens": 0,
+            "answer_tokens": 971
+          }
+        },
+        {
+          "family": "alternatives",
+          "level": 8,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            32,
+            192
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 192,
+            "truncated": 0,
+            "prompt_tokens": 116896,
+            "completion_tokens": 2022,
+            "reasoning_tokens": 0,
+            "answer_tokens": 2022
+          }
+        },
+        {
+          "family": "alternatives",
+          "level": 16,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            74,
+            384
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 384,
+            "truncated": 0,
+            "prompt_tokens": 378696,
+            "completion_tokens": 4315,
+            "reasoning_tokens": 0,
+            "answer_tokens": 4315
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 1,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            17,
+            40
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 40,
+            "truncated": 0,
+            "prompt_tokens": 18640,
+            "completion_tokens": 395,
+            "reasoning_tokens": 0,
+            "answer_tokens": 395
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 2,
+          "exact": [
+            4,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            35,
+            56
+          ],
+          "failures": {
+            "invalid_action": 4
+          },
+          "usage": {
+            "calls": 56,
+            "truncated": 0,
+            "prompt_tokens": 27768,
+            "completion_tokens": 561,
+            "reasoning_tokens": 0,
+            "answer_tokens": 561
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 4,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            33,
+            88
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 88,
+            "truncated": 0,
+            "prompt_tokens": 48928,
+            "completion_tokens": 923,
+            "reasoning_tokens": 0,
+            "answer_tokens": 923
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 8,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            60,
+            152
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 152,
+            "truncated": 0,
+            "prompt_tokens": 102920,
+            "completion_tokens": 1612,
+            "reasoning_tokens": 0,
+            "answer_tokens": 1612
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 16,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            80,
+            280
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 280,
+            "truncated": 0,
+            "prompt_tokens": 263672,
+            "completion_tokens": 3151,
+            "reasoning_tokens": 0,
+            "answer_tokens": 3151
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 1,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            38,
+            76
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 76,
+            "truncated": 0,
+            "prompt_tokens": 36584,
+            "completion_tokens": 716,
+            "reasoning_tokens": 0,
+            "answer_tokens": 716
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 2,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            49,
+            104
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 104,
+            "truncated": 0,
+            "prompt_tokens": 52576,
+            "completion_tokens": 1014,
+            "reasoning_tokens": 0,
+            "answer_tokens": 1014
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 4,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            65,
+            160
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 160,
+            "truncated": 0,
+            "prompt_tokens": 89444,
+            "completion_tokens": 1625,
+            "reasoning_tokens": 0,
+            "answer_tokens": 1625
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 8,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            102,
+            272
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 272,
+            "truncated": 0,
+            "prompt_tokens": 187704,
+            "completion_tokens": 2838,
+            "reasoning_tokens": 0,
+            "answer_tokens": 2838
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 16,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            172,
+            496
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 496,
+            "truncated": 0,
+            "prompt_tokens": 518516,
+            "completion_tokens": 5256,
+            "reasoning_tokens": 0,
+            "answer_tokens": 5256
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 1,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            20,
+            48
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 48,
+            "truncated": 0,
+            "prompt_tokens": 21840,
+            "completion_tokens": 443,
+            "reasoning_tokens": 0,
+            "answer_tokens": 443
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 2,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            33,
+            76
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 76,
+            "truncated": 0,
+            "prompt_tokens": 35912,
+            "completion_tokens": 736,
+            "reasoning_tokens": 0,
+            "answer_tokens": 736
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 4,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            53,
+            132
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 132,
+            "truncated": 0,
+            "prompt_tokens": 67152,
+            "completion_tokens": 1342,
+            "reasoning_tokens": 0,
+            "answer_tokens": 1342
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 8,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            96,
+            244
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 244,
+            "truncated": 0,
+            "prompt_tokens": 144524,
+            "completion_tokens": 2509,
+            "reasoning_tokens": 0,
+            "answer_tokens": 2509
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 16,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            145,
+            468
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 468,
+            "truncated": 0,
+            "prompt_tokens": 376396,
+            "completion_tokens": 4963,
+            "reasoning_tokens": 0,
+            "answer_tokens": 4963
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 1,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            16,
+            40
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 40,
+            "truncated": 0,
+            "prompt_tokens": 18496,
+            "completion_tokens": 400,
+            "reasoning_tokens": 0,
+            "answer_tokens": 400
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 2,
+          "exact": [
+            4,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            23,
+            44
+          ],
+          "failures": {
+            "invalid_action": 4
+          },
+          "usage": {
+            "calls": 44,
+            "truncated": 0,
+            "prompt_tokens": 20920,
+            "completion_tokens": 459,
+            "reasoning_tokens": 0,
+            "answer_tokens": 459
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 4,
+          "exact": [
+            4,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            32,
+            52
+          ],
+          "failures": {
+            "invalid_action": 4
+          },
+          "usage": {
+            "calls": 52,
+            "truncated": 0,
+            "prompt_tokens": 26488,
+            "completion_tokens": 547,
+            "reasoning_tokens": 0,
+            "answer_tokens": 547
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 8,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            44,
+            68
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 68,
+            "truncated": 0,
+            "prompt_tokens": 41580,
+            "completion_tokens": 723,
+            "reasoning_tokens": 0,
+            "answer_tokens": 723
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 16,
+          "exact": [
+            4,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            83,
+            100
+          ],
+          "failures": {
+            "invalid_action": 4
+          },
+          "usage": {
+            "calls": 100,
+            "truncated": 0,
+            "prompt_tokens": 95308,
+            "completion_tokens": 1050,
+            "reasoning_tokens": 0,
+            "answer_tokens": 1050
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 1,
+          "exact": [
+            4,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            10,
+            24
+          ],
+          "failures": {
+            "invalid_action": 4
+          },
+          "usage": {
+            "calls": 24,
+            "truncated": 0,
+            "prompt_tokens": 10472,
+            "completion_tokens": 244,
+            "reasoning_tokens": 0,
+            "answer_tokens": 244
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 2,
+          "exact": [
+            4,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            12,
+            24
+          ],
+          "failures": {
+            "invalid_action": 4
+          },
+          "usage": {
+            "calls": 24,
+            "truncated": 0,
+            "prompt_tokens": 10640,
+            "completion_tokens": 244,
+            "reasoning_tokens": 0,
+            "answer_tokens": 244
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 4,
+          "exact": [
+            4,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            16,
+            24
+          ],
+          "failures": {
+            "invalid_action": 4
+          },
+          "usage": {
+            "calls": 24,
+            "truncated": 0,
+            "prompt_tokens": 10976,
+            "completion_tokens": 224,
+            "reasoning_tokens": 0,
+            "answer_tokens": 224
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 8,
+          "exact": [
+            4,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            13,
+            24
+          ],
+          "failures": {
+            "invalid_action": 4
+          },
+          "usage": {
+            "calls": 24,
+            "truncated": 0,
+            "prompt_tokens": 11672,
+            "completion_tokens": 239,
+            "reasoning_tokens": 0,
+            "answer_tokens": 239
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 16,
+          "exact": [
+            4,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            13,
+            24
+          ],
+          "failures": {
+            "invalid_action": 4
+          },
+          "usage": {
+            "calls": 24,
+            "truncated": 0,
+            "prompt_tokens": 13016,
+            "completion_tokens": 239,
+            "reasoning_tokens": 0,
+            "answer_tokens": 239
+          }
+        }
+      ]
+    },
+    "external_state": {
+      "overall": {
+        "exact": [
+          40,
+          240
+        ],
+        "label_blind": {
+          "always_accept": [
+            120,
+            240
+          ],
+          "always_reject": [
+            120,
+            240
+          ]
+        },
+        "interpretation": "below label-blind",
+        "unique_cases": 217,
+        "unique_case_mean": 0.12442396313364056,
+        "action_accuracy": [
+          730,
+          3860
+        ],
+        "failures": {
+          "invalid_action": 200
+        },
+        "usage": {
+          "calls": 930,
+          "truncated": 0,
+          "prompt_tokens": 623399,
+          "completion_tokens": 10019,
+          "reasoning_tokens": 0,
+          "answer_tokens": 10019
+        }
+      },
+      "by_family": {
+        "alternatives": {
+          "exact": [
+            4,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 39,
+          "unique_case_mean": 0.07692307692307693,
+          "action_accuracy": [
+            14,
+            744
+          ],
+          "failures": {
+            "invalid_action": 36
+          },
+          "usage": {
+            "calls": 50,
+            "truncated": 0,
+            "prompt_tokens": 27544,
+            "completion_tokens": 519,
+            "reasoning_tokens": 0,
+            "answer_tokens": 519
+          }
+        },
+        "chain_depth": {
+          "exact": [
+            4,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 35,
+          "unique_case_mean": 0.08571428571428572,
+          "action_accuracy": [
+            92,
+            616
+          ],
+          "failures": {
+            "invalid_action": 36
+          },
+          "usage": {
+            "calls": 128,
+            "truncated": 0,
+            "prompt_tokens": 75568,
+            "completion_tokens": 1388,
+            "reasoning_tokens": 0,
+            "answer_tokens": 1388
+          }
+        },
+        "nesting": {
+          "exact": [
+            0,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 40,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            205,
+            1108
+          ],
+          "failures": {
+            "invalid_action": 40
+          },
+          "usage": {
+            "calls": 245,
+            "truncated": 0,
+            "prompt_tokens": 186108,
+            "completion_tokens": 2695,
+            "reasoning_tokens": 0,
+            "answer_tokens": 2695
+          }
+        },
+        "recursion": {
+          "exact": [
+            0,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 40,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            216,
+            968
+          ],
+          "failures": {
+            "invalid_action": 40
+          },
+          "usage": {
+            "calls": 256,
+            "truncated": 0,
+            "prompt_tokens": 166757,
+            "completion_tokens": 2816,
+            "reasoning_tokens": 0,
+            "answer_tokens": 2816
+          }
+        },
+        "sequence": {
+          "exact": [
+            12,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 35,
+          "unique_case_mean": 0.2571428571428571,
+          "action_accuracy": [
+            146,
+            304
+          ],
+          "failures": {
+            "invalid_action": 28
+          },
+          "usage": {
+            "calls": 174,
+            "truncated": 0,
+            "prompt_tokens": 130537,
+            "completion_tokens": 1854,
+            "reasoning_tokens": 0,
+            "answer_tokens": 1854
+          }
+        },
+        "terminal_length": {
+          "exact": [
+            20,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 35,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            57,
+            120
+          ],
+          "failures": {
+            "invalid_action": 20
+          },
+          "usage": {
+            "calls": 77,
+            "truncated": 0,
+            "prompt_tokens": 36885,
+            "completion_tokens": 747,
+            "reasoning_tokens": 0,
+            "answer_tokens": 747
+          }
+        }
+      },
+      "cells": [
+        {
+          "family": "alternatives",
+          "level": 1,
+          "exact": [
+            4,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            9,
+            24
+          ],
+          "failures": {
+            "invalid_action": 4
+          },
+          "usage": {
+            "calls": 13,
+            "truncated": 0,
+            "prompt_tokens": 5669,
+            "completion_tokens": 123,
+            "reasoning_tokens": 0,
+            "answer_tokens": 123
+          }
+        },
+        {
+          "family": "alternatives",
+          "level": 2,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            3,
+            48
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 11,
+            "truncated": 0,
+            "prompt_tokens": 4914,
+            "completion_tokens": 106,
+            "reasoning_tokens": 0,
+            "answer_tokens": 106
+          }
+        },
+        {
+          "family": "alternatives",
+          "level": 4,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            2,
+            96
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 10,
+            "truncated": 0,
+            "prompt_tokens": 4785,
+            "completion_tokens": 110,
+            "reasoning_tokens": 0,
+            "answer_tokens": 110
+          }
+        },
+        {
+          "family": "alternatives",
+          "level": 8,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            0,
+            192
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 4664,
+            "completion_tokens": 88,
+            "reasoning_tokens": 0,
+            "answer_tokens": 88
+          }
+        },
+        {
+          "family": "alternatives",
+          "level": 16,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            0,
+            384
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 7512,
+            "completion_tokens": 92,
+            "reasoning_tokens": 0,
+            "answer_tokens": 92
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 1,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            40
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 16,
+            "truncated": 0,
+            "prompt_tokens": 7328,
+            "completion_tokens": 176,
+            "reasoning_tokens": 0,
+            "answer_tokens": 176
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 2,
+          "exact": [
+            4,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            28,
+            56
+          ],
+          "failures": {
+            "invalid_action": 4
+          },
+          "usage": {
+            "calls": 32,
+            "truncated": 0,
+            "prompt_tokens": 15960,
+            "completion_tokens": 332,
+            "reasoning_tokens": 0,
+            "answer_tokens": 332
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 4,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            16,
+            88
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 24,
+            "truncated": 0,
+            "prompt_tokens": 12624,
+            "completion_tokens": 264,
+            "reasoning_tokens": 0,
+            "answer_tokens": 264
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 8,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            16,
+            152
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 24,
+            "truncated": 0,
+            "prompt_tokens": 14472,
+            "completion_tokens": 264,
+            "reasoning_tokens": 0,
+            "answer_tokens": 264
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 16,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            24,
+            280
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 32,
+            "truncated": 0,
+            "prompt_tokens": 25184,
+            "completion_tokens": 352,
+            "reasoning_tokens": 0,
+            "answer_tokens": 352
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 1,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            76
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 16,
+            "truncated": 0,
+            "prompt_tokens": 7464,
+            "completion_tokens": 176,
+            "reasoning_tokens": 0,
+            "answer_tokens": 176
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 2,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            14,
+            104
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 22,
+            "truncated": 0,
+            "prompt_tokens": 10791,
+            "completion_tokens": 242,
+            "reasoning_tokens": 0,
+            "answer_tokens": 242
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 4,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            32,
+            160
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 40,
+            "truncated": 0,
+            "prompt_tokens": 22044,
+            "completion_tokens": 440,
+            "reasoning_tokens": 0,
+            "answer_tokens": 440
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 8,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            63,
+            272
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 71,
+            "truncated": 0,
+            "prompt_tokens": 48329,
+            "completion_tokens": 781,
+            "reasoning_tokens": 0,
+            "answer_tokens": 781
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 16,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            88,
+            496
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 96,
+            "truncated": 0,
+            "prompt_tokens": 97480,
+            "completion_tokens": 1056,
+            "reasoning_tokens": 0,
+            "answer_tokens": 1056
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 1,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            6,
+            48
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 14,
+            "truncated": 0,
+            "prompt_tokens": 6300,
+            "completion_tokens": 154,
+            "reasoning_tokens": 0,
+            "answer_tokens": 154
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 2,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            76
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 16,
+            "truncated": 0,
+            "prompt_tokens": 7344,
+            "completion_tokens": 176,
+            "reasoning_tokens": 0,
+            "answer_tokens": 176
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 4,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            29,
+            132
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 37,
+            "truncated": 0,
+            "prompt_tokens": 18675,
+            "completion_tokens": 407,
+            "reasoning_tokens": 0,
+            "answer_tokens": 407
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 8,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            57,
+            244
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 65,
+            "truncated": 0,
+            "prompt_tokens": 38126,
+            "completion_tokens": 715,
+            "reasoning_tokens": 0,
+            "answer_tokens": 715
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 16,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            116,
+            468
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 124,
+            "truncated": 0,
+            "prompt_tokens": 96312,
+            "completion_tokens": 1364,
+            "reasoning_tokens": 0,
+            "answer_tokens": 1364
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 1,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            40
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 16,
+            "truncated": 0,
+            "prompt_tokens": 7272,
+            "completion_tokens": 176,
+            "reasoning_tokens": 0,
+            "answer_tokens": 176
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 2,
+          "exact": [
+            4,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            20,
+            44
+          ],
+          "failures": {
+            "invalid_action": 4
+          },
+          "usage": {
+            "calls": 24,
+            "truncated": 0,
+            "prompt_tokens": 11472,
+            "completion_tokens": 244,
+            "reasoning_tokens": 0,
+            "answer_tokens": 244
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 4,
+          "exact": [
+            4,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            29,
+            52
+          ],
+          "failures": {
+            "invalid_action": 4
+          },
+          "usage": {
+            "calls": 33,
+            "truncated": 0,
+            "prompt_tokens": 17226,
+            "completion_tokens": 343,
+            "reasoning_tokens": 0,
+            "answer_tokens": 343
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 8,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            12,
+            68
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 20,
+            "truncated": 0,
+            "prompt_tokens": 10412,
+            "completion_tokens": 220,
+            "reasoning_tokens": 0,
+            "answer_tokens": 220
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 16,
+          "exact": [
+            4,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            77,
+            100
+          ],
+          "failures": {
+            "invalid_action": 4
+          },
+          "usage": {
+            "calls": 81,
+            "truncated": 0,
+            "prompt_tokens": 84155,
+            "completion_tokens": 871,
+            "reasoning_tokens": 0,
+            "answer_tokens": 871
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 1,
+          "exact": [
+            4,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            9,
+            24
+          ],
+          "failures": {
+            "invalid_action": 4
+          },
+          "usage": {
+            "calls": 13,
+            "truncated": 0,
+            "prompt_tokens": 5669,
+            "completion_tokens": 123,
+            "reasoning_tokens": 0,
+            "answer_tokens": 123
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 2,
+          "exact": [
+            4,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            12,
+            24
+          ],
+          "failures": {
+            "invalid_action": 4
+          },
+          "usage": {
+            "calls": 16,
+            "truncated": 0,
+            "prompt_tokens": 7136,
+            "completion_tokens": 156,
+            "reasoning_tokens": 0,
+            "answer_tokens": 156
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 4,
+          "exact": [
+            4,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            12,
+            24
+          ],
+          "failures": {
+            "invalid_action": 4
+          },
+          "usage": {
+            "calls": 16,
+            "truncated": 0,
+            "prompt_tokens": 7376,
+            "completion_tokens": 156,
+            "reasoning_tokens": 0,
+            "answer_tokens": 156
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 8,
+          "exact": [
+            4,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            12,
+            24
+          ],
+          "failures": {
+            "invalid_action": 4
+          },
+          "usage": {
+            "calls": 16,
+            "truncated": 0,
+            "prompt_tokens": 7872,
+            "completion_tokens": 156,
+            "reasoning_tokens": 0,
+            "answer_tokens": 156
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 16,
+          "exact": [
+            4,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "chance / label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.42857142857142855,
+          "action_accuracy": [
+            12,
+            24
+          ],
+          "failures": {
+            "invalid_action": 4
+          },
+          "usage": {
+            "calls": 16,
+            "truncated": 0,
+            "prompt_tokens": 8832,
+            "completion_tokens": 156,
+            "reasoning_tokens": 0,
+            "answer_tokens": 156
+          }
+        }
+      ]
+    },
+    "teacher_by_action": {
+      "TRY": [
+        991,
+        1604
+      ],
+      "ACC": [
+        102,
+        120
+      ],
+      "PRN": [
+        182,
+        636
+      ],
+      "BT": [
+        122,
+        1008
+      ],
+      "DONE": [
+        20,
+        492
+      ]
+    }
+  },
+  "dfs_lora": {
+    "full_trace": {
+      "overall": {
+        "exact": [
+          0,
+          240
+        ],
+        "label_blind": {
+          "always_accept": [
+            120,
+            240
+          ],
+          "always_reject": [
+            120,
+            240
+          ]
+        },
+        "interpretation": "below label-blind",
+        "unique_cases": 217,
+        "unique_case_mean": 0.0,
+        "action_accuracy": [
+          231,
+          3860
+        ],
+        "failures": {
+          "incomplete_trace": 142,
+          "invalid_or_trailing_action": 51,
+          "call_or_parse_error": 47
+        },
+        "usage": {
+          "calls": 240,
+          "truncated": 47,
+          "prompt_tokens": 120624,
+          "completion_tokens": 196743,
+          "reasoning_tokens": 0,
+          "answer_tokens": 196743
+        }
+      },
+      "by_family": {
+        "alternatives": {
+          "exact": [
+            0,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 39,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            48,
+            744
+          ],
+          "failures": {
+            "incomplete_trace": 32,
+            "invalid_or_trailing_action": 8
+          },
+          "usage": {
+            "calls": 40,
+            "truncated": 0,
+            "prompt_tokens": 23016,
+            "completion_tokens": 808,
+            "reasoning_tokens": 0,
+            "answer_tokens": 808
+          }
+        },
+        "chain_depth": {
+          "exact": [
+            0,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 35,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            40,
+            616
+          ],
+          "failures": {
+            "incomplete_trace": 40
+          },
+          "usage": {
+            "calls": 40,
+            "truncated": 0,
+            "prompt_tokens": 22096,
+            "completion_tokens": 520,
+            "reasoning_tokens": 0,
+            "answer_tokens": 520
+          }
+        },
+        "nesting": {
+          "exact": [
+            0,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 40,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            20,
+            1108
+          ],
+          "failures": {
+            "call_or_parse_error": 20,
+            "invalid_or_trailing_action": 20
+          },
+          "usage": {
+            "calls": 40,
+            "truncated": 20,
+            "prompt_tokens": 19464,
+            "completion_tokens": 82760,
+            "reasoning_tokens": 0,
+            "answer_tokens": 82760
+          }
+        },
+        "recursion": {
+          "exact": [
+            0,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 40,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            30,
+            968
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 20,
+            "incomplete_trace": 2,
+            "call_or_parse_error": 18
+          },
+          "usage": {
+            "calls": 40,
+            "truncated": 18,
+            "prompt_tokens": 18480,
+            "completion_tokens": 74628,
+            "reasoning_tokens": 0,
+            "answer_tokens": 74628
+          }
+        },
+        "sequence": {
+          "exact": [
+            0,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 35,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            53,
+            304
+          ],
+          "failures": {
+            "incomplete_trace": 28,
+            "invalid_or_trailing_action": 3,
+            "call_or_parse_error": 9
+          },
+          "usage": {
+            "calls": 40,
+            "truncated": 9,
+            "prompt_tokens": 19104,
+            "completion_tokens": 37507,
+            "reasoning_tokens": 0,
+            "answer_tokens": 37507
+          }
+        },
+        "terminal_length": {
+          "exact": [
+            0,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 35,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            40,
+            120
+          ],
+          "failures": {
+            "incomplete_trace": 40
+          },
+          "usage": {
+            "calls": 40,
+            "truncated": 0,
+            "prompt_tokens": 18464,
+            "completion_tokens": 520,
+            "reasoning_tokens": 0,
+            "answer_tokens": 520
+          }
+        }
+      },
+      "cells": [
+        {
+          "family": "alternatives",
+          "level": 1,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            24
+          ],
+          "failures": {
+            "incomplete_trace": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3440,
+            "completion_tokens": 104,
+            "reasoning_tokens": 0,
+            "answer_tokens": 104
+          }
+        },
+        {
+          "family": "alternatives",
+          "level": 2,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            16,
+            48
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3544,
+            "completion_tokens": 392,
+            "reasoning_tokens": 0,
+            "answer_tokens": 392
+          }
+        },
+        {
+          "family": "alternatives",
+          "level": 4,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            96
+          ],
+          "failures": {
+            "incomplete_trace": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3824,
+            "completion_tokens": 104,
+            "reasoning_tokens": 0,
+            "answer_tokens": 104
+          }
+        },
+        {
+          "family": "alternatives",
+          "level": 8,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            192
+          ],
+          "failures": {
+            "incomplete_trace": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 4680,
+            "completion_tokens": 104,
+            "reasoning_tokens": 0,
+            "answer_tokens": 104
+          }
+        },
+        {
+          "family": "alternatives",
+          "level": 16,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            384
+          ],
+          "failures": {
+            "incomplete_trace": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 7528,
+            "completion_tokens": 104,
+            "reasoning_tokens": 0,
+            "answer_tokens": 104
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 1,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            40
+          ],
+          "failures": {
+            "incomplete_trace": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3592,
+            "completion_tokens": 104,
+            "reasoning_tokens": 0,
+            "answer_tokens": 104
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 2,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            56
+          ],
+          "failures": {
+            "incomplete_trace": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3744,
+            "completion_tokens": 104,
+            "reasoning_tokens": 0,
+            "answer_tokens": 104
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 4,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            88
+          ],
+          "failures": {
+            "incomplete_trace": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 4048,
+            "completion_tokens": 104,
+            "reasoning_tokens": 0,
+            "answer_tokens": 104
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 8,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            152
+          ],
+          "failures": {
+            "incomplete_trace": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 4664,
+            "completion_tokens": 104,
+            "reasoning_tokens": 0,
+            "answer_tokens": 104
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 16,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            280
+          ],
+          "failures": {
+            "incomplete_trace": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 6048,
+            "completion_tokens": 104,
+            "reasoning_tokens": 0,
+            "answer_tokens": 104
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 1,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            6,
+            76
+          ],
+          "failures": {
+            "call_or_parse_error": 2,
+            "invalid_or_trailing_action": 6
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 2,
+            "prompt_tokens": 3640,
+            "completion_tokens": 8458,
+            "reasoning_tokens": 0,
+            "answer_tokens": 8458
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 2,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            4,
+            104
+          ],
+          "failures": {
+            "call_or_parse_error": 4,
+            "invalid_or_trailing_action": 4
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 4,
+            "prompt_tokens": 3688,
+            "completion_tokens": 16588,
+            "reasoning_tokens": 0,
+            "answer_tokens": 16588
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 4,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            2,
+            160
+          ],
+          "failures": {
+            "call_or_parse_error": 6,
+            "invalid_or_trailing_action": 2
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 6,
+            "prompt_tokens": 3784,
+            "completion_tokens": 24678,
+            "reasoning_tokens": 0,
+            "answer_tokens": 24678
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 8,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            2,
+            272
+          ],
+          "failures": {
+            "call_or_parse_error": 6,
+            "invalid_or_trailing_action": 2
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 6,
+            "prompt_tokens": 3984,
+            "completion_tokens": 24658,
+            "reasoning_tokens": 0,
+            "answer_tokens": 24658
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 16,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            6,
+            496
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 6,
+            "call_or_parse_error": 2
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 2,
+            "prompt_tokens": 4368,
+            "completion_tokens": 8378,
+            "reasoning_tokens": 0,
+            "answer_tokens": 8378
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 1,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            16,
+            48
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 6,
+            "incomplete_trace": 2
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3568,
+            "completion_tokens": 317,
+            "reasoning_tokens": 0,
+            "answer_tokens": 317
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 2,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            76
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3592,
+            "completion_tokens": 317,
+            "reasoning_tokens": 0,
+            "answer_tokens": 317
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 4,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            0,
+            132
+          ],
+          "failures": {
+            "call_or_parse_error": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 8,
+            "prompt_tokens": 3640,
+            "completion_tokens": 32768,
+            "reasoning_tokens": 0,
+            "answer_tokens": 32768
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 8,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            0,
+            244
+          ],
+          "failures": {
+            "call_or_parse_error": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 8,
+            "prompt_tokens": 3744,
+            "completion_tokens": 32768,
+            "reasoning_tokens": 0,
+            "answer_tokens": 32768
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 16,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            6,
+            468
+          ],
+          "failures": {
+            "invalid_or_trailing_action": 6,
+            "call_or_parse_error": 2
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 2,
+            "prompt_tokens": 3936,
+            "completion_tokens": 8458,
+            "reasoning_tokens": 0,
+            "answer_tokens": 8458
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 1,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            40
+          ],
+          "failures": {
+            "incomplete_trace": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3568,
+            "completion_tokens": 104,
+            "reasoning_tokens": 0,
+            "answer_tokens": 104
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 2,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            18,
+            44
+          ],
+          "failures": {
+            "incomplete_trace": 5,
+            "invalid_or_trailing_action": 3
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3616,
+            "completion_tokens": 236,
+            "reasoning_tokens": 0,
+            "answer_tokens": 236
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 4,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            7,
+            52
+          ],
+          "failures": {
+            "incomplete_trace": 5,
+            "call_or_parse_error": 3
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 3,
+            "prompt_tokens": 3712,
+            "completion_tokens": 12371,
+            "reasoning_tokens": 0,
+            "answer_tokens": 12371
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 8,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            12,
+            68
+          ],
+          "failures": {
+            "call_or_parse_error": 4,
+            "incomplete_trace": 4
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 4,
+            "prompt_tokens": 3912,
+            "completion_tokens": 16508,
+            "reasoning_tokens": 0,
+            "answer_tokens": 16508
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 16,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            100
+          ],
+          "failures": {
+            "call_or_parse_error": 2,
+            "incomplete_trace": 6
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 2,
+            "prompt_tokens": 4296,
+            "completion_tokens": 8288,
+            "reasoning_tokens": 0,
+            "answer_tokens": 8288
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 1,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            24
+          ],
+          "failures": {
+            "incomplete_trace": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3440,
+            "completion_tokens": 104,
+            "reasoning_tokens": 0,
+            "answer_tokens": 104
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 2,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            24
+          ],
+          "failures": {
+            "incomplete_trace": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3488,
+            "completion_tokens": 104,
+            "reasoning_tokens": 0,
+            "answer_tokens": 104
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 4,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            24
+          ],
+          "failures": {
+            "incomplete_trace": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3584,
+            "completion_tokens": 104,
+            "reasoning_tokens": 0,
+            "answer_tokens": 104
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 8,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            24
+          ],
+          "failures": {
+            "incomplete_trace": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 3784,
+            "completion_tokens": 104,
+            "reasoning_tokens": 0,
+            "answer_tokens": 104
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 16,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            24
+          ],
+          "failures": {
+            "incomplete_trace": 8
+          },
+          "usage": {
+            "calls": 8,
+            "truncated": 0,
+            "prompt_tokens": 4168,
+            "completion_tokens": 104,
+            "reasoning_tokens": 0,
+            "answer_tokens": 104
+          }
+        }
+      ]
+    },
+    "oracle_step": {
+      "overall": {
+        "exact": [
+          133,
+          240
+        ],
+        "label_blind": {
+          "always_accept": [
+            120,
+            240
+          ],
+          "always_reject": [
+            120,
+            240
+          ]
+        },
+        "interpretation": "beats both label-blind baselines",
+        "unique_cases": 217,
+        "unique_case_mean": 0.5529953917050692,
+        "action_accuracy": [
+          3593,
+          3860
+        ],
+        "failures": {
+          "invalid_action": 107
+        },
+        "usage": {
+          "calls": 3860,
+          "truncated": 0,
+          "prompt_tokens": 2827064,
+          "completion_tokens": 34829,
+          "reasoning_tokens": 0,
+          "answer_tokens": 34829
+        }
+      },
+      "by_family": {
+        "alternatives": {
+          "exact": [
+            40,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 39,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            744,
+            744
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 744,
+            "truncated": 0,
+            "prompt_tokens": 574920,
+            "completion_tokens": 6892,
+            "reasoning_tokens": 0,
+            "answer_tokens": 6892
+          }
+        },
+        "chain_depth": {
+          "exact": [
+            0,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 35,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            416,
+            616
+          ],
+          "failures": {
+            "invalid_action": 40
+          },
+          "usage": {
+            "calls": 616,
+            "truncated": 0,
+            "prompt_tokens": 461928,
+            "completion_tokens": 5657,
+            "reasoning_tokens": 0,
+            "answer_tokens": 5657
+          }
+        },
+        "nesting": {
+          "exact": [
+            24,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 40,
+          "unique_case_mean": 0.6,
+          "action_accuracy": [
+            1092,
+            1108
+          ],
+          "failures": {
+            "invalid_action": 16
+          },
+          "usage": {
+            "calls": 1108,
+            "truncated": 0,
+            "prompt_tokens": 884824,
+            "completion_tokens": 9828,
+            "reasoning_tokens": 0,
+            "answer_tokens": 9828
+          }
+        },
+        "recursion": {
+          "exact": [
+            29,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 40,
+          "unique_case_mean": 0.725,
+          "action_accuracy": [
+            957,
+            968
+          ],
+          "failures": {
+            "invalid_action": 11
+          },
+          "usage": {
+            "calls": 968,
+            "truncated": 0,
+            "prompt_tokens": 645824,
+            "completion_tokens": 8588,
+            "reasoning_tokens": 0,
+            "answer_tokens": 8588
+          }
+        },
+        "sequence": {
+          "exact": [
+            0,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 35,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            264,
+            304
+          ],
+          "failures": {
+            "invalid_action": 40
+          },
+          "usage": {
+            "calls": 304,
+            "truncated": 0,
+            "prompt_tokens": 202792,
+            "completion_tokens": 2844,
+            "reasoning_tokens": 0,
+            "answer_tokens": 2844
+          }
+        },
+        "terminal_length": {
+          "exact": [
+            40,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 35,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            120,
+            120
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 120,
+            "truncated": 0,
+            "prompt_tokens": 56776,
+            "completion_tokens": 1020,
+            "reasoning_tokens": 0,
+            "answer_tokens": 1020
+          }
+        }
+      },
+      "cells": [
+        {
+          "family": "alternatives",
+          "level": 1,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 7,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            24,
+            24
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 24,
+            "truncated": 0,
+            "prompt_tokens": 10472,
+            "completion_tokens": 204,
+            "reasoning_tokens": 0,
+            "answer_tokens": 204
+          }
+        },
+        {
+          "family": "alternatives",
+          "level": 2,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 8,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            48,
+            48
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 48,
+            "truncated": 0,
+            "prompt_tokens": 21672,
+            "completion_tokens": 428,
+            "reasoning_tokens": 0,
+            "answer_tokens": 428
+          }
+        },
+        {
+          "family": "alternatives",
+          "level": 4,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 8,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            96,
+            96
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 96,
+            "truncated": 0,
+            "prompt_tokens": 47184,
+            "completion_tokens": 876,
+            "reasoning_tokens": 0,
+            "answer_tokens": 876
+          }
+        },
+        {
+          "family": "alternatives",
+          "level": 8,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 8,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            192,
+            192
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 192,
+            "truncated": 0,
+            "prompt_tokens": 116896,
+            "completion_tokens": 1772,
+            "reasoning_tokens": 0,
+            "answer_tokens": 1772
+          }
+        },
+        {
+          "family": "alternatives",
+          "level": 16,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 8,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            384,
+            384
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 384,
+            "truncated": 0,
+            "prompt_tokens": 378696,
+            "completion_tokens": 3612,
+            "reasoning_tokens": 0,
+            "answer_tokens": 3612
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 1,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            32,
+            40
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 40,
+            "truncated": 0,
+            "prompt_tokens": 18640,
+            "completion_tokens": 340,
+            "reasoning_tokens": 0,
+            "answer_tokens": 340
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 2,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            40,
+            56
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 56,
+            "truncated": 0,
+            "prompt_tokens": 27768,
+            "completion_tokens": 476,
+            "reasoning_tokens": 0,
+            "answer_tokens": 476
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 4,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            61,
+            88
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 88,
+            "truncated": 0,
+            "prompt_tokens": 48928,
+            "completion_tokens": 768,
+            "reasoning_tokens": 0,
+            "answer_tokens": 768
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 8,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            101,
+            152
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 152,
+            "truncated": 0,
+            "prompt_tokens": 102920,
+            "completion_tokens": 1392,
+            "reasoning_tokens": 0,
+            "answer_tokens": 1392
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 16,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            182,
+            280
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 280,
+            "truncated": 0,
+            "prompt_tokens": 263672,
+            "completion_tokens": 2681,
+            "reasoning_tokens": 0,
+            "answer_tokens": 2681
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 1,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 8,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            76,
+            76
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 76,
+            "truncated": 0,
+            "prompt_tokens": 36584,
+            "completion_tokens": 676,
+            "reasoning_tokens": 0,
+            "answer_tokens": 676
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 2,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 8,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            104,
+            104
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 104,
+            "truncated": 0,
+            "prompt_tokens": 52576,
+            "completion_tokens": 924,
+            "reasoning_tokens": 0,
+            "answer_tokens": 924
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 4,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 8,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            160,
+            160
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 160,
+            "truncated": 0,
+            "prompt_tokens": 89444,
+            "completion_tokens": 1420,
+            "reasoning_tokens": 0,
+            "answer_tokens": 1420
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 8,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            264,
+            272
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 272,
+            "truncated": 0,
+            "prompt_tokens": 187704,
+            "completion_tokens": 2412,
+            "reasoning_tokens": 0,
+            "answer_tokens": 2412
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 16,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            488,
+            496
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 496,
+            "truncated": 0,
+            "prompt_tokens": 518516,
+            "completion_tokens": 4396,
+            "reasoning_tokens": 0,
+            "answer_tokens": 4396
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 1,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 8,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            48,
+            48
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 48,
+            "truncated": 0,
+            "prompt_tokens": 21840,
+            "completion_tokens": 428,
+            "reasoning_tokens": 0,
+            "answer_tokens": 428
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 2,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 8,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            76,
+            76
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 76,
+            "truncated": 0,
+            "prompt_tokens": 35912,
+            "completion_tokens": 676,
+            "reasoning_tokens": 0,
+            "answer_tokens": 676
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 4,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 8,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            132,
+            132
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 132,
+            "truncated": 0,
+            "prompt_tokens": 67152,
+            "completion_tokens": 1172,
+            "reasoning_tokens": 0,
+            "answer_tokens": 1172
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 8,
+          "exact": [
+            5,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 8,
+          "unique_case_mean": 0.625,
+          "action_accuracy": [
+            241,
+            244
+          ],
+          "failures": {
+            "invalid_action": 3
+          },
+          "usage": {
+            "calls": 244,
+            "truncated": 0,
+            "prompt_tokens": 144524,
+            "completion_tokens": 2164,
+            "reasoning_tokens": 0,
+            "answer_tokens": 2164
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 16,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            460,
+            468
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 468,
+            "truncated": 0,
+            "prompt_tokens": 376396,
+            "completion_tokens": 4148,
+            "reasoning_tokens": 0,
+            "answer_tokens": 4148
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 1,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            32,
+            40
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 40,
+            "truncated": 0,
+            "prompt_tokens": 18496,
+            "completion_tokens": 340,
+            "reasoning_tokens": 0,
+            "answer_tokens": 340
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 2,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            36,
+            44
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 44,
+            "truncated": 0,
+            "prompt_tokens": 20920,
+            "completion_tokens": 384,
+            "reasoning_tokens": 0,
+            "answer_tokens": 384
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 4,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            44,
+            52
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 52,
+            "truncated": 0,
+            "prompt_tokens": 26488,
+            "completion_tokens": 472,
+            "reasoning_tokens": 0,
+            "answer_tokens": 472
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 8,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            60,
+            68
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 68,
+            "truncated": 0,
+            "prompt_tokens": 41580,
+            "completion_tokens": 648,
+            "reasoning_tokens": 0,
+            "answer_tokens": 648
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 16,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            92,
+            100
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 100,
+            "truncated": 0,
+            "prompt_tokens": 95308,
+            "completion_tokens": 1000,
+            "reasoning_tokens": 0,
+            "answer_tokens": 1000
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 1,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 7,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            24,
+            24
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 24,
+            "truncated": 0,
+            "prompt_tokens": 10472,
+            "completion_tokens": 204,
+            "reasoning_tokens": 0,
+            "answer_tokens": 204
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 2,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 7,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            24,
+            24
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 24,
+            "truncated": 0,
+            "prompt_tokens": 10640,
+            "completion_tokens": 204,
+            "reasoning_tokens": 0,
+            "answer_tokens": 204
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 4,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 7,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            24,
+            24
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 24,
+            "truncated": 0,
+            "prompt_tokens": 10976,
+            "completion_tokens": 204,
+            "reasoning_tokens": 0,
+            "answer_tokens": 204
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 8,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 7,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            24,
+            24
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 24,
+            "truncated": 0,
+            "prompt_tokens": 11672,
+            "completion_tokens": 204,
+            "reasoning_tokens": 0,
+            "answer_tokens": 204
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 16,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 7,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            24,
+            24
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 24,
+            "truncated": 0,
+            "prompt_tokens": 13016,
+            "completion_tokens": 204,
+            "reasoning_tokens": 0,
+            "answer_tokens": 204
+          }
+        }
+      ]
+    },
+    "external_state": {
+      "overall": {
+        "exact": [
+          133,
+          240
+        ],
+        "label_blind": {
+          "always_accept": [
+            120,
+            240
+          ],
+          "always_reject": [
+            120,
+            240
+          ]
+        },
+        "interpretation": "beats both label-blind baselines",
+        "unique_cases": 217,
+        "unique_case_mean": 0.5529953917050692,
+        "action_accuracy": [
+          2046,
+          3860
+        ],
+        "failures": {
+          "invalid_action": 107
+        },
+        "usage": {
+          "calls": 2153,
+          "truncated": 0,
+          "prompt_tokens": 1439574,
+          "completion_tokens": 20561,
+          "reasoning_tokens": 0,
+          "answer_tokens": 20561
+        }
+      },
+      "by_family": {
+        "alternatives": {
+          "exact": [
+            40,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 39,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            744,
+            744
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 744,
+            "truncated": 0,
+            "prompt_tokens": 574920,
+            "completion_tokens": 6892,
+            "reasoning_tokens": 0,
+            "answer_tokens": 6892
+          }
+        },
+        "chain_depth": {
+          "exact": [
+            0,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 35,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            52,
+            616
+          ],
+          "failures": {
+            "invalid_action": 40
+          },
+          "usage": {
+            "calls": 92,
+            "truncated": 0,
+            "prompt_tokens": 54304,
+            "completion_tokens": 1012,
+            "reasoning_tokens": 0,
+            "answer_tokens": 1012
+          }
+        },
+        "nesting": {
+          "exact": [
+            24,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 40,
+          "unique_case_mean": 0.6,
+          "action_accuracy": [
+            548,
+            1108
+          ],
+          "failures": {
+            "invalid_action": 16
+          },
+          "usage": {
+            "calls": 564,
+            "truncated": 0,
+            "prompt_tokens": 384380,
+            "completion_tokens": 5484,
+            "reasoning_tokens": 0,
+            "answer_tokens": 5484
+          }
+        },
+        "recursion": {
+          "exact": [
+            29,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 40,
+          "unique_case_mean": 0.725,
+          "action_accuracy": [
+            542,
+            968
+          ],
+          "failures": {
+            "invalid_action": 11
+          },
+          "usage": {
+            "calls": 553,
+            "truncated": 0,
+            "prompt_tokens": 329682,
+            "completion_tokens": 5273,
+            "reasoning_tokens": 0,
+            "answer_tokens": 5273
+          }
+        },
+        "sequence": {
+          "exact": [
+            0,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 35,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            40,
+            304
+          ],
+          "failures": {
+            "invalid_action": 40
+          },
+          "usage": {
+            "calls": 80,
+            "truncated": 0,
+            "prompt_tokens": 39512,
+            "completion_tokens": 880,
+            "reasoning_tokens": 0,
+            "answer_tokens": 880
+          }
+        },
+        "terminal_length": {
+          "exact": [
+            40,
+            40
+          ],
+          "label_blind": {
+            "always_accept": [
+              20,
+              40
+            ],
+            "always_reject": [
+              20,
+              40
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 35,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            120,
+            120
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 120,
+            "truncated": 0,
+            "prompt_tokens": 56776,
+            "completion_tokens": 1020,
+            "reasoning_tokens": 0,
+            "answer_tokens": 1020
+          }
+        }
+      },
+      "cells": [
+        {
+          "family": "alternatives",
+          "level": 1,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 7,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            24,
+            24
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 24,
+            "truncated": 0,
+            "prompt_tokens": 10472,
+            "completion_tokens": 204,
+            "reasoning_tokens": 0,
+            "answer_tokens": 204
+          }
+        },
+        {
+          "family": "alternatives",
+          "level": 2,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 8,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            48,
+            48
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 48,
+            "truncated": 0,
+            "prompt_tokens": 21672,
+            "completion_tokens": 428,
+            "reasoning_tokens": 0,
+            "answer_tokens": 428
+          }
+        },
+        {
+          "family": "alternatives",
+          "level": 4,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 8,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            96,
+            96
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 96,
+            "truncated": 0,
+            "prompt_tokens": 47184,
+            "completion_tokens": 876,
+            "reasoning_tokens": 0,
+            "answer_tokens": 876
+          }
+        },
+        {
+          "family": "alternatives",
+          "level": 8,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 8,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            192,
+            192
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 192,
+            "truncated": 0,
+            "prompt_tokens": 116896,
+            "completion_tokens": 1772,
+            "reasoning_tokens": 0,
+            "answer_tokens": 1772
+          }
+        },
+        {
+          "family": "alternatives",
+          "level": 16,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 8,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            384,
+            384
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 384,
+            "truncated": 0,
+            "prompt_tokens": 378696,
+            "completion_tokens": 3612,
+            "reasoning_tokens": 0,
+            "answer_tokens": 3612
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 1,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            40
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 16,
+            "truncated": 0,
+            "prompt_tokens": 7328,
+            "completion_tokens": 176,
+            "reasoning_tokens": 0,
+            "answer_tokens": 176
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 2,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            56
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 16,
+            "truncated": 0,
+            "prompt_tokens": 7632,
+            "completion_tokens": 176,
+            "reasoning_tokens": 0,
+            "answer_tokens": 176
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 4,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            9,
+            88
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 17,
+            "truncated": 0,
+            "prompt_tokens": 8788,
+            "completion_tokens": 187,
+            "reasoning_tokens": 0,
+            "answer_tokens": 187
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 8,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            152
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 16,
+            "truncated": 0,
+            "prompt_tokens": 9472,
+            "completion_tokens": 176,
+            "reasoning_tokens": 0,
+            "answer_tokens": 176
+          }
+        },
+        {
+          "family": "chain_depth",
+          "level": 16,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            19,
+            280
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 27,
+            "truncated": 0,
+            "prompt_tokens": 21084,
+            "completion_tokens": 297,
+            "reasoning_tokens": 0,
+            "answer_tokens": 297
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 1,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 8,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            76,
+            76
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 76,
+            "truncated": 0,
+            "prompt_tokens": 36584,
+            "completion_tokens": 676,
+            "reasoning_tokens": 0,
+            "answer_tokens": 676
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 2,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 8,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            104,
+            104
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 104,
+            "truncated": 0,
+            "prompt_tokens": 52576,
+            "completion_tokens": 924,
+            "reasoning_tokens": 0,
+            "answer_tokens": 924
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 4,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 8,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            160,
+            160
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 160,
+            "truncated": 0,
+            "prompt_tokens": 89444,
+            "completion_tokens": 1420,
+            "reasoning_tokens": 0,
+            "answer_tokens": 1420
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 8,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            72,
+            272
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 80,
+            "truncated": 0,
+            "prompt_tokens": 55160,
+            "completion_tokens": 880,
+            "reasoning_tokens": 0,
+            "answer_tokens": 880
+          }
+        },
+        {
+          "family": "nesting",
+          "level": 16,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            136,
+            496
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 144,
+            "truncated": 0,
+            "prompt_tokens": 150616,
+            "completion_tokens": 1584,
+            "reasoning_tokens": 0,
+            "answer_tokens": 1584
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 1,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 8,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            48,
+            48
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 48,
+            "truncated": 0,
+            "prompt_tokens": 21840,
+            "completion_tokens": 428,
+            "reasoning_tokens": 0,
+            "answer_tokens": 428
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 2,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 8,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            76,
+            76
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 76,
+            "truncated": 0,
+            "prompt_tokens": 35912,
+            "completion_tokens": 676,
+            "reasoning_tokens": 0,
+            "answer_tokens": 676
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 4,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 8,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            132,
+            132
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 132,
+            "truncated": 0,
+            "prompt_tokens": 67152,
+            "completion_tokens": 1172,
+            "reasoning_tokens": 0,
+            "answer_tokens": 1172
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 8,
+          "exact": [
+            5,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 8,
+          "unique_case_mean": 0.625,
+          "action_accuracy": [
+            158,
+            244
+          ],
+          "failures": {
+            "invalid_action": 3
+          },
+          "usage": {
+            "calls": 161,
+            "truncated": 0,
+            "prompt_tokens": 95650,
+            "completion_tokens": 1501,
+            "reasoning_tokens": 0,
+            "answer_tokens": 1501
+          }
+        },
+        {
+          "family": "recursion",
+          "level": 16,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 8,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            128,
+            468
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 136,
+            "truncated": 0,
+            "prompt_tokens": 109128,
+            "completion_tokens": 1496,
+            "reasoning_tokens": 0,
+            "answer_tokens": 1496
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 1,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            40
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 16,
+            "truncated": 0,
+            "prompt_tokens": 7272,
+            "completion_tokens": 176,
+            "reasoning_tokens": 0,
+            "answer_tokens": 176
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 2,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            44
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 16,
+            "truncated": 0,
+            "prompt_tokens": 7392,
+            "completion_tokens": 176,
+            "reasoning_tokens": 0,
+            "answer_tokens": 176
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 4,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            52
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 16,
+            "truncated": 0,
+            "prompt_tokens": 7632,
+            "completion_tokens": 176,
+            "reasoning_tokens": 0,
+            "answer_tokens": 176
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 8,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            68
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 16,
+            "truncated": 0,
+            "prompt_tokens": 8128,
+            "completion_tokens": 176,
+            "reasoning_tokens": 0,
+            "answer_tokens": 176
+          }
+        },
+        {
+          "family": "sequence",
+          "level": 16,
+          "exact": [
+            0,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "below label-blind",
+          "unique_cases": 7,
+          "unique_case_mean": 0.0,
+          "action_accuracy": [
+            8,
+            100
+          ],
+          "failures": {
+            "invalid_action": 8
+          },
+          "usage": {
+            "calls": 16,
+            "truncated": 0,
+            "prompt_tokens": 9088,
+            "completion_tokens": 176,
+            "reasoning_tokens": 0,
+            "answer_tokens": 176
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 1,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 7,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            24,
+            24
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 24,
+            "truncated": 0,
+            "prompt_tokens": 10472,
+            "completion_tokens": 204,
+            "reasoning_tokens": 0,
+            "answer_tokens": 204
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 2,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 7,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            24,
+            24
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 24,
+            "truncated": 0,
+            "prompt_tokens": 10640,
+            "completion_tokens": 204,
+            "reasoning_tokens": 0,
+            "answer_tokens": 204
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 4,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 7,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            24,
+            24
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 24,
+            "truncated": 0,
+            "prompt_tokens": 10976,
+            "completion_tokens": 204,
+            "reasoning_tokens": 0,
+            "answer_tokens": 204
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 8,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 7,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            24,
+            24
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 24,
+            "truncated": 0,
+            "prompt_tokens": 11672,
+            "completion_tokens": 204,
+            "reasoning_tokens": 0,
+            "answer_tokens": 204
+          }
+        },
+        {
+          "family": "terminal_length",
+          "level": 16,
+          "exact": [
+            8,
+            8
+          ],
+          "label_blind": {
+            "always_accept": [
+              4,
+              8
+            ],
+            "always_reject": [
+              4,
+              8
+            ]
+          },
+          "interpretation": "beats both label-blind baselines",
+          "unique_cases": 7,
+          "unique_case_mean": 1.0,
+          "action_accuracy": [
+            24,
+            24
+          ],
+          "failures": {},
+          "usage": {
+            "calls": 24,
+            "truncated": 0,
+            "prompt_tokens": 13016,
+            "completion_tokens": 204,
+            "reasoning_tokens": 0,
+            "answer_tokens": 204
+          }
+        }
+      ]
+    },
+    "teacher_by_action": {
+      "TRY": [
+        1433,
+        1604
+      ],
+      "ACC": [
+        120,
+        120
+      ],
+      "PRN": [
+        609,
+        636
+      ],
+      "BT": [
+        1008,
+        1008
+      ],
+      "DONE": [
+        423,
+        492
+      ]
+    }
+  }
+}
