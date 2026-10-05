@@ -49,6 +49,18 @@ Every result file is the saved output of a run, with failures kept in every deno
 
 `scripts/` holds the analysis and export code the result tests use. The GPU runs used Qwen3-1.7B and Qwen3-14B with vLLM and greedy decoding; the job launchers are environment-specific and not included.
 
+## How the models were trained
+
+All Qwen3 training is supervised fine-tuning of a small LoRA adapter on the frozen base model; [`scripts/train_step_lora.py`](scripts/train_step_lora.py) reproduces the recipe (`--dry-run` builds and counts the training examples without a GPU).
+
+| Adapter (video) | Training examples | Built by |
+| --- | --- | --- |
+| Bracket step (Q3b) | 2,305 single moves on the development bracket cases | `abstractgym.a6_sft.training_examples` |
+| DFS step, "step-trained" (Q4, atlas) | 11,002 single moves: every state of the canonical search on 64 training grammars (recursive and nested, depth ≤ 4), none from the test suite | `abstractgym.a6_objectives.dfs_examples` |
+| Answers only (Q5) | yes/no examples | `abstractgym.a6_objectives.membership_examples` |
+
+Each step example is the correct-state prompt (grammar, string, current search state, built by `abstractgym.experiment.prompt_for`) and the one correct next move as JSON (from `abstractgym.controller.teacher_trajectory`); the loss covers only the target tokens (`abstractgym.a6_sft.tokenize_example`). Recipe: LoRA rank 16, alpha 32, on the attention and MLP projections; AdamW 2e-4, cosine decay with 5% warmup; effective batch 32; 3 epochs; seed 17. The step adapters never see a prompt asking for a whole written run, which is the format confound discussed in Q4.
+
 ## License
 
 MIT
