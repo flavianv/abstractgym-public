@@ -1,0 +1,202 @@
+{
+  "A": {
+    "direct": {
+      "calls": 240,
+      "completion_tokens": 1440,
+      "fresh_cases": 240,
+      "fresh_completion_tokens": 1440,
+      "fresh_total_tokens": 56984,
+      "inference_seconds": 39.68261239799904,
+      "length_limited_calls": 0,
+      "prompt_tokens": 55544,
+      "reused_cases": 0,
+      "total_tokens": 56984
+    },
+    "external_state": {
+      "calls": 715,
+      "completion_tokens": 7671,
+      "fresh_cases": 240,
+      "fresh_completion_tokens": 7671,
+      "fresh_total_tokens": 445553,
+      "inference_seconds": 58.96777499333257,
+      "length_limited_calls": 0,
+      "prompt_tokens": 437882,
+      "reused_cases": 0,
+      "total_tokens": 445553
+    },
+    "full_trace": {
+      "calls": 240,
+      "completion_tokens": 257442,
+      "fresh_cases": 240,
+      "fresh_completion_tokens": 257442,
+      "fresh_total_tokens": 386562,
+      "inference_seconds": 1937.7113891920308,
+      "length_limited_calls": 60,
+      "prompt_tokens": 129120,
+      "reused_cases": 0,
+      "total_tokens": 386562
+    },
+    "oracle_step": {
+      "calls": 5484,
+      "completion_tokens": 58863,
+      "fresh_cases": 240,
+      "fresh_completion_tokens": 58863,
+      "fresh_total_tokens": 6818423,
+      "inference_seconds": 46.693705762736386,
+      "length_limited_calls": 0,
+      "prompt_tokens": 6759560,
+      "reused_cases": 0,
+      "total_tokens": 6818423
+    }
+  },
+  "B": {
+    "direct": {
+      "calls": 240,
+      "completion_tokens": 1440,
+      "fresh_cases": 240,
+      "fresh_completion_tokens": 1440,
+      "fresh_total_tokens": 92754,
+      "inference_seconds": 41.76491011600014,
+      "length_limited_calls": 0,
+      "prompt_tokens": 91314,
+      "reused_cases": 0,
+      "total_tokens": 92754
+    },
+    "external_state": {
+      "calls": 516,
+      "completion_tokens": 5658,
+      "fresh_cases": 240,
+      "fresh_completion_tokens": 5658,
+      "fresh_total_tokens": 365853,
+      "inference_seconds": 43.16773173600177,
+      "length_limited_calls": 0,
+      "prompt_tokens": 360195,
+      "reused_cases": 0,
+      "total_tokens": 365853
+    },
+    "full_trace": {
+      "calls": 240,
+      "completion_tokens": 639972,
+      "fresh_cases": 240,
+      "fresh_completion_tokens": 639972,
+      "fresh_total_tokens": 804858,
+      "inference_seconds": 4791.345433013996,
+      "length_limited_calls": 155,
+      "prompt_tokens": 164886,
+      "reused_cases": 0,
+      "total_tokens": 804858
+    },
+    "oracle_step": {
+      "calls": 7341,
+      "completion_tokens": 80632,
+      "fresh_cases": 240,
+      "fresh_completion_tokens": 80632,
+      "fresh_total_tokens": 7293432,
+      "inference_seconds": 50.76631413799652,
+      "length_limited_calls": 0,
+      "prompt_tokens": 7212800,
+      "reused_cases": 0,
+      "total_tokens": 7293432
+    }
+  },
+  "cuefree": {
+    "direct": {
+      "calls": 240,
+      "completion_tokens": 1440,
+      "fresh_cases": 0,
+      "fresh_completion_tokens": 0,
+      "fresh_total_tokens": 0,
+      "inference_seconds": 43.38438922603382,
+      "length_limited_calls": 0,
+      "prompt_tokens": 47460,
+      "reused_cases": 240,
+      "total_tokens": 48900
+    },
+    "external_state": {
+      "calls": 981,
+      "completion_tokens": 10474,
+      "fresh_cases": 0,
+      "fresh_completion_tokens": 0,
+      "fresh_total_tokens": 0,
+      "inference_seconds": 78.68577644837205,
+      "length_limited_calls": 0,
+      "prompt_tokens": 678310,
+      "reused_cases": 240,
+      "total_tokens": 688784
+    },
+    "full_trace": {
+      "calls": 240,
+      "completion_tokens": 167077,
+      "fresh_cases": 0,
+      "fresh_completion_tokens": 0,
+      "fresh_total_tokens": 0,
+      "inference_seconds": 1251.4818525605951,
+      "length_limited_calls": 38,
+      "prompt_tokens": 120996,
+      "reused_cases": 240,
+      "total_tokens": 288073
+    },
+    "oracle_step": {
+      "calls": 3632,
+      "completion_tokens": 37959,
+      "fresh_cases": 0,
+      "fresh_completion_tokens": 0,
+      "fresh_total_tokens": 0,
+      "inference_seconds": 32.228764049767065,
+      "length_limited_calls": 0,
+      "prompt_tokens": 2663504,
+      "reused_cases": 240,
+      "total_tokens": 2701463
+    }
+  },
+  "original": {
+    "direct": {
+      "calls": 240,
+      "completion_tokens": 1440,
+      "fresh_cases": 0,
+      "fresh_completion_tokens": 0,
+      "fresh_total_tokens": 0,
+      "inference_seconds": 0.9207964424567763,
+      "length_limited_calls": 0,
+      "prompt_tokens": 47088,
+      "reused_cases": 240,
+      "total_tokens": 48528
+    },
+    "external_state": {
+      "calls": 930,
+      "completion_tokens": 10019,
+      "fresh_cases": 0,
+      "fresh_completion_tokens": 0,
+      "fresh_total_tokens": 0,
+      "inference_seconds": 74.6978038221132,
+      "length_limited_calls": 0,
+      "prompt_tokens": 623399,
+      "reused_cases": 240,
+      "total_tokens": 633418
+    },
+    "full_trace": {
+      "calls": 240,
+      "completion_tokens": 116452,
+      "fresh_cases": 0,
+      "fresh_completion_tokens": 0,
+      "fresh_total_tokens": 0,
+      "inference_seconds": 866.0554832129274,
+      "length_limited_calls": 26,
+      "prompt_tokens": 120624,
+      "reused_cases": 240,
+      "total_tokens": 237076
+    },
+    "oracle_step": {
+      "calls": 3860,
+      "completion_tokens": 40413,
+      "fresh_cases": 0,
+      "fresh_completion_tokens": 0,
+      "fresh_total_tokens": 0,
+      "inference_seconds": 34.06748819234791,
+      "length_limited_calls": 0,
+      "prompt_tokens": 2827064,
+      "reused_cases": 240,
+      "total_tokens": 2867477
+    }
+  }
+}

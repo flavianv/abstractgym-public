@@ -10,16 +10,23 @@ import platform
 import time
 from urllib.request import Request, urlopen
 
-from abstractgym.controller import ControllerEnv, PROTOCOL, teacher_trajectory
+from abstractgym.controller import ControllerEnv, HINT_FIELDS, PROTOCOL, teacher_trajectory
 
 MODES = ("full_trace", "oracle_step", "external_state")
+HINT_SENTENCE = ("When present, untried_rules lists remaining applicable productions in order; "
+                 "prefix_matches compares the terminal prefix with the input; "
+                 "complete_match tests exact terminal equality with the input; "
+                 "next_untried identifies the first untried applicable production or null.")
 
 
 def prompt_for(observation, mode):
     instruction = ("Return one JSON array containing all actions through completion."
                    if mode == "full_trace" else "Return exactly one next-action JSON object.")
     instruction += " Output raw JSON only: no Markdown fences, headings, explanations, or reasoning text."
-    return PROTOCOL + "\n" + instruction + "\nObservation:\n" + json.dumps(observation, sort_keys=True)
+    protocol = PROTOCOL
+    if observation["stack"] and any(name in observation["stack"][-1] for name in HINT_FIELDS):
+        protocol += HINT_SENTENCE + "\n"
+    return protocol + "\n" + instruction + "\nObservation:\n" + json.dumps(observation, sort_keys=True)
 
 
 class ChatCompletionsAdapter:
@@ -49,22 +56,26 @@ class ChatCompletionsAdapter:
                 "finish_reason": choice.get("finish_reason")}
 
 
-def run_case(row, mode, adapter=None, *, reference=False, max_calls=4096):
+def run_case(row, mode, adapter=None, *, reference=False, max_calls=4096,
+             hints=None, legality_guard=False):
     if mode not in MODES or (not reference and adapter is None):
         raise ValueError("select a supported mode and a model adapter or explicit reference control")
     if max_calls < 1:
         raise ValueError("max_calls must be positive")
     env = ControllerEnv(row)
-    gold = teacher_trajectory(row)
+    gold = teacher_trajectory(row, hints=hints)
     calls = []
     failure = None
     first_error = None
     correct_actions = 0
     started = time.perf_counter()
     batch_responses = None
+    guard = {"activations": 0, "reasks": 0, "second_correct": 0, "budget_blocked": 0}
 
-    def call(observation, reference_output):
+    def call(observation, reference_output, note=None):
         prompt = prompt_for(observation, mode)
+        if note is not None:
+            prompt += "\n" + note
         begin = time.perf_counter()
         entry = {"prompt": prompt}
         # The adapter gets only the prompt. reference_output never crosses its
@@ -87,7 +98,7 @@ def run_case(row, mode, adapter=None, *, reference=False, max_calls=4096):
 
     if mode == "full_trace":
         try:
-            actions = call(env.observation(), [step["action"] for step in gold])
+            actions = call(env.observation(hints=hints), [step["action"] for step in gold])
             if not isinstance(actions, list):
                 raise ValueError("expected_action_array")
             for index, action in enumerate(actions):
@@ -133,9 +144,23 @@ def run_case(row, mode, adapter=None, *, reference=False, max_calls=4096):
                 failure = "call_budget_exhausted"
                 break
             try:
-                action = call(env.observation(), env.reference_action() if reference else None)
+                observation = env.observation(hints=hints)
+                action = call(observation, env.reference_action() if reference else None)
+                retried = False
+                if (legality_guard and isinstance(action, dict) and action.get("op") == "TRY"
+                        and action.get("production") in observation["stack"][-1]["tried"]):
+                    guard["activations"] += 1
+                    calls[-1]["guard_rejected"] = True
+                    if len(calls) >= max_calls:
+                        guard["budget_blocked"] += 1
+                        raise ValueError("call_budget_exhausted")
+                    guard["reasks"] += 1
+                    retried = True
+                    action = call(observation, None, action["production"] + " was already tried here")
                 env.step(action)
                 correct_actions += 1
+                if retried:
+                    guard["second_correct"] += 1
             except ValueError as exc:
                 failure = str(exc)
                 first_error = env.steps
@@ -149,7 +174,7 @@ def run_case(row, mode, adapter=None, *, reference=False, max_calls=4096):
         success = failure is None and outcome == row["target_answer"]
         if not success and failure is None:
             failure = "budget_exhausted" if outcome == "unknown" else "wrong_verdict"
-    return {"task_id": row["task_id"], "pair_id": row["pair_id"], "split": row["split"],
+    result = {"task_id": row["task_id"], "pair_id": row["pair_id"], "split": row["split"],
             "family": row["family"], "depth_band": row["depth_band"], "structure_id": row["structure_id"],
             "difficulty": row["difficulty"], "mode": mode,
             "success": success, "outcome": outcome, "target_answer": row["target_answer"],
@@ -157,6 +182,9 @@ def run_case(row, mode, adapter=None, *, reference=False, max_calls=4096):
             "correct_actions": correct_actions, "target_actions": len(gold),
             "action_accuracy": correct_actions / len(gold), "model_calls": 0 if reference else len(calls),
             "controller_calls": len(calls), "seconds": time.perf_counter() - started, "calls": calls}
+    if legality_guard and mode == "external_state":
+        result["guard"] = guard
+    return result
 
 
 def summarize(records):

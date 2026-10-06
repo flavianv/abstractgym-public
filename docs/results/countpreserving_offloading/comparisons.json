@@ -1,0 +1,402 @@
+{
+  "A": {
+    "H0": {
+      "external_state": {
+        "cases": 240,
+        "improved": 0,
+        "output_changed_cases": 0,
+        "regressed": 0
+      },
+      "oracle_step": {
+        "cases": 240,
+        "improved": 0,
+        "output_changed_cases": 0,
+        "regressed": 0
+      }
+    },
+    "H1": {
+      "external_state": {
+        "cases": 240,
+        "improved": 36,
+        "output_changed_cases": 124,
+        "regressed": 0
+      },
+      "oracle_step": {
+        "cases": 240,
+        "improved": 36,
+        "output_changed_cases": 197,
+        "regressed": 0
+      }
+    },
+    "H2": {
+      "external_state": {
+        "cases": 240,
+        "improved": 3,
+        "output_changed_cases": 14,
+        "regressed": 0
+      },
+      "oracle_step": {
+        "cases": 240,
+        "improved": 0,
+        "output_changed_cases": 51,
+        "regressed": 0
+      }
+    },
+    "H3": {
+      "external_state": {
+        "cases": 240,
+        "improved": 36,
+        "output_changed_cases": 124,
+        "regressed": 0
+      },
+      "oracle_step": {
+        "cases": 240,
+        "improved": 36,
+        "output_changed_cases": 197,
+        "regressed": 0
+      }
+    },
+    "H4": {
+      "external_state": {
+        "cases": 240,
+        "improved": 36,
+        "output_changed_cases": 163,
+        "regressed": 0
+      },
+      "oracle_step": {
+        "cases": 240,
+        "improved": 36,
+        "output_changed_cases": 203,
+        "regressed": 0
+      }
+    },
+    "H5": {
+      "external_state": {
+        "cases": 240,
+        "improved": 36,
+        "output_changed_cases": 184,
+        "regressed": 0
+      },
+      "oracle_step": {
+        "cases": 240,
+        "improved": 36,
+        "output_changed_cases": 203,
+        "regressed": 0
+      }
+    },
+    "historical_vs_fresh_H0": {
+      "external_state": {
+        "cases": 240,
+        "improved": 0,
+        "output_changed_cases": 5,
+        "regressed": 0
+      },
+      "oracle_step": {
+        "cases": 240,
+        "improved": 0,
+        "output_changed_cases": 50,
+        "regressed": 0
+      }
+    }
+  },
+  "B": {
+    "H0": {
+      "external_state": {
+        "cases": 240,
+        "improved": 0,
+        "output_changed_cases": 0,
+        "regressed": 0
+      },
+      "oracle_step": {
+        "cases": 240,
+        "improved": 0,
+        "output_changed_cases": 0,
+        "regressed": 0
+      }
+    },
+    "H1": {
+      "external_state": {
+        "cases": 240,
+        "improved": 4,
+        "output_changed_cases": 134,
+        "regressed": 2
+      },
+      "oracle_step": {
+        "cases": 240,
+        "improved": 4,
+        "output_changed_cases": 235,
+        "regressed": 2
+      }
+    },
+    "H2": {
+      "external_state": {
+        "cases": 240,
+        "improved": 0,
+        "output_changed_cases": 0,
+        "regressed": 0
+      },
+      "oracle_step": {
+        "cases": 240,
+        "improved": 0,
+        "output_changed_cases": 39,
+        "regressed": 0
+      }
+    },
+    "H3": {
+      "external_state": {
+        "cases": 240,
+        "improved": 4,
+        "output_changed_cases": 134,
+        "regressed": 2
+      },
+      "oracle_step": {
+        "cases": 240,
+        "improved": 4,
+        "output_changed_cases": 235,
+        "regressed": 2
+      }
+    },
+    "H4": {
+      "external_state": {
+        "cases": 240,
+        "improved": 7,
+        "output_changed_cases": 186,
+        "regressed": 0
+      },
+      "oracle_step": {
+        "cases": 240,
+        "improved": 7,
+        "output_changed_cases": 234,
+        "regressed": 0
+      }
+    },
+    "H5": {
+      "external_state": {
+        "cases": 240,
+        "improved": 7,
+        "output_changed_cases": 211,
+        "regressed": 0
+      },
+      "oracle_step": {
+        "cases": 240,
+        "improved": 7,
+        "output_changed_cases": 236,
+        "regressed": 0
+      }
+    },
+    "historical_vs_fresh_H0": {
+      "external_state": {
+        "cases": 240,
+        "improved": 0,
+        "output_changed_cases": 0,
+        "regressed": 0
+      },
+      "oracle_step": {
+        "cases": 240,
+        "improved": 0,
+        "output_changed_cases": 34,
+        "regressed": 0
+      }
+    }
+  },
+  "cuefree": {
+    "H0": {
+      "external_state": {
+        "cases": 240,
+        "improved": 0,
+        "output_changed_cases": 0,
+        "regressed": 0
+      },
+      "oracle_step": {
+        "cases": 240,
+        "improved": 0,
+        "output_changed_cases": 0,
+        "regressed": 0
+      }
+    },
+    "H1": {
+      "external_state": {
+        "cases": 240,
+        "improved": 22,
+        "output_changed_cases": 101,
+        "regressed": 0
+      },
+      "oracle_step": {
+        "cases": 240,
+        "improved": 22,
+        "output_changed_cases": 182,
+        "regressed": 0
+      }
+    },
+    "H2": {
+      "external_state": {
+        "cases": 240,
+        "improved": 0,
+        "output_changed_cases": 10,
+        "regressed": 1
+      },
+      "oracle_step": {
+        "cases": 240,
+        "improved": 0,
+        "output_changed_cases": 51,
+        "regressed": 1
+      }
+    },
+    "H3": {
+      "external_state": {
+        "cases": 240,
+        "improved": 22,
+        "output_changed_cases": 101,
+        "regressed": 0
+      },
+      "oracle_step": {
+        "cases": 240,
+        "improved": 22,
+        "output_changed_cases": 182,
+        "regressed": 0
+      }
+    },
+    "H4": {
+      "external_state": {
+        "cases": 240,
+        "improved": 24,
+        "output_changed_cases": 135,
+        "regressed": 0
+      },
+      "oracle_step": {
+        "cases": 240,
+        "improved": 24,
+        "output_changed_cases": 188,
+        "regressed": 0
+      }
+    },
+    "H5": {
+      "external_state": {
+        "cases": 240,
+        "improved": 24,
+        "output_changed_cases": 163,
+        "regressed": 0
+      },
+      "oracle_step": {
+        "cases": 240,
+        "improved": 24,
+        "output_changed_cases": 192,
+        "regressed": 0
+      }
+    },
+    "historical_vs_fresh_H0": {
+      "external_state": {
+        "cases": 240,
+        "improved": 1,
+        "output_changed_cases": 14,
+        "regressed": 1
+      },
+      "oracle_step": {
+        "cases": 240,
+        "improved": 1,
+        "output_changed_cases": 45,
+        "regressed": 1
+      }
+    }
+  },
+  "original": {
+    "H0": {
+      "external_state": {
+        "cases": 240,
+        "improved": 0,
+        "output_changed_cases": 0,
+        "regressed": 0
+      },
+      "oracle_step": {
+        "cases": 240,
+        "improved": 0,
+        "output_changed_cases": 0,
+        "regressed": 0
+      }
+    },
+    "H1": {
+      "external_state": {
+        "cases": 240,
+        "improved": 21,
+        "output_changed_cases": 121,
+        "regressed": 0
+      },
+      "oracle_step": {
+        "cases": 240,
+        "improved": 21,
+        "output_changed_cases": 186,
+        "regressed": 0
+      }
+    },
+    "H2": {
+      "external_state": {
+        "cases": 240,
+        "improved": 0,
+        "output_changed_cases": 4,
+        "regressed": 2
+      },
+      "oracle_step": {
+        "cases": 240,
+        "improved": 0,
+        "output_changed_cases": 66,
+        "regressed": 2
+      }
+    },
+    "H3": {
+      "external_state": {
+        "cases": 240,
+        "improved": 21,
+        "output_changed_cases": 121,
+        "regressed": 0
+      },
+      "oracle_step": {
+        "cases": 240,
+        "improved": 21,
+        "output_changed_cases": 186,
+        "regressed": 0
+      }
+    },
+    "H4": {
+      "external_state": {
+        "cases": 240,
+        "improved": 23,
+        "output_changed_cases": 144,
+        "regressed": 0
+      },
+      "oracle_step": {
+        "cases": 240,
+        "improved": 23,
+        "output_changed_cases": 188,
+        "regressed": 0
+      }
+    },
+    "H5": {
+      "external_state": {
+        "cases": 240,
+        "improved": 23,
+        "output_changed_cases": 156,
+        "regressed": 0
+      },
+      "oracle_step": {
+        "cases": 240,
+        "improved": 23,
+        "output_changed_cases": 193,
+        "regressed": 0
+      }
+    },
+    "historical_vs_fresh_H0": {
+      "external_state": {
+        "cases": 240,
+        "improved": 1,
+        "output_changed_cases": 6,
+        "regressed": 0
+      },
+      "oracle_step": {
+        "cases": 240,
+        "improved": 1,
+        "output_changed_cases": 67,
+        "regressed": 0
+      }
+    }
+  }
+}

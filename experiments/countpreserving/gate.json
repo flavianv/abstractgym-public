@@ -1,0 +1,22 @@
+{
+  "model_calls": 0,
+  "passed": true,
+  "suites": {
+    "A": {
+      "labels": {
+        "accept": 120,
+        "reject": 120
+      },
+      "max_search_steps": 298,
+      "rows": 240
+    },
+    "B": {
+      "labels": {
+        "accept": 120,
+        "reject": 120
+      },
+      "max_search_steps": 190,
+      "rows": 240
+    }
+  }
+}

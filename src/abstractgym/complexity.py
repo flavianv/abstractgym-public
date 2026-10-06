@@ -166,3 +166,61 @@ def build_balanced_membership_suite(levels=(2,4,8,16),variants=4):
                     derivation_depth=max(len(s['observation']['stack'])-1 for s in steps))
                 rows.append(row)
     return rows
+
+
+def _cuefree_rules(family, level, a, b, c, positive):
+    n = level
+    if family == 'terminal_length':          # string a^n ; no: rule writes a^(n+1)
+        return [a] * n, [('S', tuple([a] * (n if positive else n + 1)))]
+    if family == 'chain_depth':              # string a ; no: the chain ends in a a
+        names = ['S'] + [f'N{i}' for i in range(1, n + 1)]
+        return [a], [(x, (y,)) for x, y in zip(names, names[1:])] + [(names[-1], (a,) if positive else (a, a))]
+    if family == 'alternatives':             # original yes: b | bb | ... | a on string a ; no: the last option is a a
+        return [a], [('S', tuple([b] * i)) for i in range(1, n)] + [('S', (a,) if positive else (a, a))]
+    if family == 'sequence':                 # string a^n ; no: n+1 placeholders
+        return [a] * n, [('S', tuple(['A'] * (n if positive else n + 1))), ('A', (a,))]
+    if family == 'recursion':                # string a^(n-1) c ; no: recursion adds two a's at a time, parity flipped
+        k = n - 1
+        if positive:
+            return [a] * k + [c], [('S', (a, 'S')), ('S', (c,))]
+        step = (a, a, 'S')
+        base = (c,) if k % 2 else (a, c)      # reaches only the other parity
+        return [a] * k + [c], [('S', step), ('S', base)]
+    if family == 'nesting':                  # string a^n c b^n ; no: each a needs two b's
+        return [a] * n + [c] + [b] * n, [('S', (a, 'S', b) if positive else (a, 'S', b, b)), ('S', (c,))]
+    raise ValueError(family)
+
+
+def build_cuefree_complexity_suite(levels=LEVELS, variants=4):
+    """Original yes rows verbatim; structurally rejecting partners without odd symbols.
+
+    Pair IDs retain the original pairing. Negative task IDs are distinct from the
+    old suite so saved outputs cannot silently join to changed grammars.
+    """
+    from copy import deepcopy
+    original = build_complexity_suite(levels, variants)
+    alphabets = list(itertools.permutations('abcd'))
+    random.Random(71).shuffle(alphabets)
+    rows = []
+    for old in original:
+        row = deepcopy(old)
+        positive = row['target_answer'] == 'accept'
+        a, b, c, d = alphabets[row['difficulty']['variant']]
+        tokens, rules = _cuefree_rules(row['family'], row['difficulty']['level'], a, b, c, positive)
+        grammar = Grammar('S', frozenset(lhs for lhs, _ in rules), frozenset((a,b,c,d)),
+                          tuple(Production(lhs, rhs) for lhs, rhs in rules))
+        assert accepts(grammar, tuple(tokens)) == positive
+        assert tokens == old['input']
+        if positive:
+            assert grammar.to_dict() == old['grammar']
+            assert row == old
+        else:
+            row['grammar'] = grammar.to_dict()
+            row['task_id'] = stable_id('cuefree_complexity', [old['task_id'], row['grammar']])
+            steps = teacher_trajectory(row)
+            row['difficulty'].update(search_steps=len(steps),
+                backtracks=sum(s['action']['op']=='BT' for s in steps),
+                derivation_depth=max(len(s['observation']['stack'])-1 for s in steps))
+        rows.append(row)
+    assert [r for r in rows if r['target_answer']=='accept'] == [r for r in original if r['target_answer']=='accept']
+    return rows
