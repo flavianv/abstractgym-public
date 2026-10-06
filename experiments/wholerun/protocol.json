@@ -1,0 +1,109 @@
+{
+  "arms": [
+    "fulltrace_sft",
+    "fulltrace_sft_matched",
+    "mixed_sft"
+  ],
+  "batch_policy": "X7 microbatch 8 and accumulation 4; no truncation; use checkpointing",
+  "bracket": "skipped: distinct action protocol; no new bracket training examples",
+  "epochs": 3,
+  "evaluation": {
+    "cases_per_suite": 240,
+    "context": 16384,
+    "direct_batch": 32,
+    "direct_tokens": 128,
+    "examples": 0,
+    "execution_batch": 1,
+    "max_calls": 512,
+    "modes": [
+      "direct",
+      "full_trace",
+      "external_state",
+      "oracle_step"
+    ],
+    "repairs": 0,
+    "retries": 0,
+    "step_tokens": 128,
+    "suites": [
+      "original",
+      "cuefree"
+    ],
+    "teacher_batch": 32,
+    "temperature": 0,
+    "thinking": false,
+    "top_k": -1,
+    "top_p": 1,
+    "trace_tokens": 4096
+  },
+  "historical_sha256": {
+    "docs/results/2026-10-04-x7/audit.json.gz": "38aa830fa346fda7a07ff8b782c5d8aaf588e86480e49d38898b6f7d7bb6d4c9",
+    "docs/results/2026-10-04-x7/metadata.json": "ec3df2ab7542a78622818d7b42319f69fdacca8ebe692f85f42217d727f62882",
+    "docs/results/2026-10-04-x7/summary.json": "c73af80859663ff9998431ebbdf1dfe0d96212dcce91e8c14ca8be015a23c028",
+    "docs/results/cuefree/audit.json.gz": "a12b52df24890a84055a2b976458e681a7aabca20366238862f0e233395cbe17",
+    "docs/results/cuefree/metadata.json": "18e789a74f7018c9d0687df9d82073b3c8d3664b7a5548ebd5e0b47f111a4c17",
+    "docs/results/cuefree/summary.json": "86b5cf000b20ee8e34d511114774c6d4f7653cf94bde5936d231ad03a6ea70f2"
+  },
+  "matched_by": "supervised target tokens including EOS, stopping at first effective batch reaching budget",
+  "matched_target_tokens": 295089,
+  "mixed_sampling": "all 11002 single-step examples plus 64 full traces, shuffled jointly each epoch",
+  "model": "Qwen/Qwen3-14B",
+  "references": [
+    "dfs_lora",
+    "zeroshot"
+  ],
+  "revision": "40c069824f4251a91eefaf281ebe4c544efd3e18",
+  "seed": 17,
+  "training": {
+    "adapter_parameter_dtypes": [
+      "torch.float32"
+    ],
+    "attention": "sdpa",
+    "balanced_membership_sampling": false,
+    "dtype": "bfloat16",
+    "effective_batch": 32,
+    "epochs": 3,
+    "gradient_accumulation": 4,
+    "gradient_checkpointing": true,
+    "gradient_clip": 1.0,
+    "initialization": "lora",
+    "last_train_loss": 1.0246359920529358e-06,
+    "lora_alpha": 32,
+    "lora_dropout": 0,
+    "lora_rank": 16,
+    "lr": 0.0002,
+    "max_length": 1125,
+    "micro_batch": 8,
+    "model": "Qwen/Qwen3-14B",
+    "optimizer": "AdamW",
+    "optimizer_updates": 1032,
+    "processed_token_budget": null,
+    "prompt_tokens_per_epoch": 9151740,
+    "response_only_loss": true,
+    "revision": "40c069824f4251a91eefaf281ebe4c544efd3e18",
+    "schedule": "cosine",
+    "scheduled_processed_tokens": 27750309,
+    "scheduled_supervised_tokens": 295089,
+    "seed": 17,
+    "serving": "native adapter on original base (LoRA) or matching residual base (PiSSA)",
+    "supervised_tokens_per_epoch": 98363,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ],
+    "tokenized_hash": "2451b2fe22253ed848c115614143cf58c1ff008800ec1bff3d20eaa3fb078923",
+    "total_parameters": 14832532480,
+    "trainable_parameters": 64225280,
+    "training_examples": 11002,
+    "training_hash": "d458e98967eeaf3622da11fbd1f44de5fa3e7b75cdb4bc82cb3cac604a4033cd",
+    "training_seconds": 6957.176677954965,
+    "training_task": "dfs",
+    "unique_prompts": 10450,
+    "warmup_fraction": 0.05,
+    "weight_decay": 0.01
+  }
+}

@@ -9,6 +9,8 @@ from copy import deepcopy
 from abstractgym.cfg import Grammar
 from abstractgym.trace import _apply_production, _classify_node, _leftmost_nonterminal
 
+HINT_FIELDS = ("untried_rules", "prefix_matches", "complete_match", "next_untried")
+
 PROTOCOL = '''Execute deterministic leftmost DFS in grammar production order.
 Return actions as JSON objects: {"op":"TRY","production":"p0"},
 {"op":"PRN","reason":"pref"}, {"op":"REJ","reason":"term"},
@@ -41,11 +43,32 @@ class ControllerEnv:
         self.outcome = None
         self.cut = False
 
-    def observation(self):
-        return deepcopy({"grammar": self.grammar.to_dict(), "input": list(self.tokens),
+    def observation(self, hints=None):
+        selected = set(HINT_FIELDS if hints is True else
+                       () if hints is None or hints is False else
+                       (hints,) if isinstance(hints, str) else hints)
+        if selected - set(HINT_FIELDS):
+            raise ValueError("unknown hint field")
+        observation = deepcopy({"grammar": self.grammar.to_dict(), "input": list(self.tokens),
                          "stack": self.stack, "steps": self.steps,
                          "max_steps": self.max_steps, "max_depth": self.max_depth,
                          "cut_seen": self.cut, "outcome": self.outcome})
+        if selected and observation["stack"]:
+            frame = observation["stack"][-1]
+            form = tuple(frame["form"])
+            index = _leftmost_nonterminal(self.grammar, form)
+            untried = ([] if index is None else
+                       [self.grammar.production_id(rule)
+                        for rule in self.grammar.productions_for(form[index])
+                        if self.grammar.production_id(rule) not in frame["tried"]])
+            # Ignore the depth cutoff when exposing a comparison, not an action.
+            classification = _classify_node(self.grammar, form, self.tokens, 0, None)
+            values = {"untried_rules": untried,
+                      "prefix_matches": classification != ("PRN", "pref"),
+                      "complete_match": index is None and form == self.tokens,
+                      "next_untried": untried[0] if untried else None}
+            frame.update({name: values[name] for name in HINT_FIELDS if name in selected})
+        return observation
 
     def reference_action(self):
         if self.outcome is not None:
@@ -98,11 +121,11 @@ class ControllerEnv:
         return self.observation()
 
 
-def teacher_trajectory(row):
+def teacher_trajectory(row, *, hints=None):
     env = ControllerEnv(row)
     trajectory = []
     while env.outcome is None:
-        observation = env.observation()
+        observation = env.observation(hints=hints)
         action = env.reference_action()
         trajectory.append({"observation": observation, "action": action})
         env.step(action)

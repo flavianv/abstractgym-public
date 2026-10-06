@@ -1,0 +1,3908 @@
+{
+  "A": {
+    "H0": {
+      "before_first_done": 205,
+      "examples": [
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "BT",
+            "reason": "no_prod"
+          },
+          "step": 2,
+          "substitution": "BT -> BT",
+          "target_answer": "reject",
+          "task_id": "count_a_3ec437ed3354"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "N1"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "family": "chain_depth",
+          "predicted": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "step": 1,
+          "substitution": "TRY -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "count_a_136505a0cdf1"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "e",
+              "d"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "chain_depth",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 2,
+          "substitution": "PRN -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "count_a_2874ed71f8bc"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "b",
+              "e",
+              "e",
+              "b"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "ACC"
+          },
+          "step": 1,
+          "substitution": "PRN -> ACC",
+          "target_answer": "reject",
+          "task_id": "count_a_770787886c57"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "N2"
+            ],
+            "phase": "expanding",
+            "tried": [
+              "p2"
+            ]
+          },
+          "expected": {
+            "op": "DONE"
+          },
+          "family": "chain_depth",
+          "predicted": {
+            "op": "TRY",
+            "production": "p2"
+          },
+          "step": 5,
+          "substitution": "DONE -> TRY_already_tried",
+          "target_answer": "reject",
+          "task_id": "count_a_60a107a873de"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "N2"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p2"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "chain_depth",
+          "predicted": {
+            "op": "TRY",
+            "production": "p2"
+          },
+          "step": 4,
+          "substitution": "BT -> TRY_already_tried",
+          "target_answer": "reject",
+          "task_id": "count_a_1007cc3a9ae3"
+        }
+      ],
+      "expected_operator": {
+        "BT": 41,
+        "DONE": 7,
+        "PRN": 46,
+        "TRY": 118
+      },
+      "failed_cases": 212,
+      "final_wrong_repeated_try": 10,
+      "substitutions": {
+        "BT -> BT": 11,
+        "BT -> DONE": 4,
+        "BT -> TRY_already_tried": 4,
+        "BT -> TRY_other_or_premature": 22,
+        "DONE -> REJ(pref)": 1,
+        "DONE -> TRY_already_tried": 6,
+        "PRN -> ACC": 2,
+        "PRN -> PRN(long)": 5,
+        "PRN -> TRY_other_or_premature": 39,
+        "TRY -> TRY_other_or_premature": 118
+      }
+    },
+    "H1": {
+      "before_first_done": 171,
+      "examples": [
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "DONE"
+          },
+          "step": 2,
+          "substitution": "BT -> DONE",
+          "target_answer": "reject",
+          "task_id": "count_a_3ec437ed3354"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "expanding",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "DONE"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "BT",
+            "reason": "no_prod"
+          },
+          "step": 3,
+          "substitution": "DONE -> BT",
+          "target_answer": "reject",
+          "task_id": "count_a_e335671ea504"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "b",
+              "a"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "chain_depth",
+          "predicted": {
+            "op": "ACC"
+          },
+          "step": 2,
+          "substitution": "PRN -> ACC",
+          "target_answer": "reject",
+          "task_id": "count_a_a6841b8a7bb0"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "b",
+              "e"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "chain_depth",
+          "predicted": {
+            "op": "REJ",
+            "reason": "term"
+          },
+          "step": 2,
+          "substitution": "PRN -> REJ(term)",
+          "target_answer": "reject",
+          "task_id": "count_a_51cd3a8214bf"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "b",
+              "A"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "sequence",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 2,
+          "substitution": "PRN -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "count_a_802d8a83b8f4"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "a",
+              "b",
+              "S"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "family": "recursion",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 1,
+          "substitution": "TRY -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "count_a_db16e0d13c0e"
+        }
+      ],
+      "expected_operator": {
+        "BT": 40,
+        "DONE": 5,
+        "PRN": 73,
+        "TRY": 58
+      },
+      "failed_cases": 176,
+      "final_wrong_repeated_try": 2,
+      "substitutions": {
+        "BT -> DONE": 17,
+        "BT -> PRN(long)": 1,
+        "BT -> TRY_already_tried": 1,
+        "BT -> TRY_other_or_premature": 21,
+        "DONE -> BT": 4,
+        "DONE -> TRY_already_tried": 1,
+        "PRN -> ACC": 14,
+        "PRN -> PRN(long)": 13,
+        "PRN -> REJ(term)": 1,
+        "PRN -> TRY_other_or_premature": 45,
+        "TRY -> TRY_other_or_premature": 58
+      }
+    },
+    "H2": {
+      "before_first_done": 204,
+      "examples": [
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "BT",
+            "reason": "no_prod"
+          },
+          "step": 2,
+          "substitution": "BT -> BT",
+          "target_answer": "reject",
+          "task_id": "count_a_3ec437ed3354"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "N1"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "family": "chain_depth",
+          "predicted": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "step": 1,
+          "substitution": "TRY -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "count_a_136505a0cdf1"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "e",
+              "d"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "chain_depth",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 2,
+          "substitution": "PRN -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "count_a_2874ed71f8bc"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "N2"
+            ],
+            "phase": "expanding",
+            "tried": [
+              "p2"
+            ]
+          },
+          "expected": {
+            "op": "DONE"
+          },
+          "family": "chain_depth",
+          "predicted": {
+            "op": "BT"
+          },
+          "step": 5,
+          "substitution": "DONE -> BT",
+          "target_answer": "reject",
+          "task_id": "count_a_60a107a873de"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "alternatives",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 2,
+          "substitution": "BT -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "count_a_10cb41af22ff"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "e",
+              "d",
+              "e"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "alternatives",
+          "predicted": {
+            "op": "PRN",
+            "reason": "long"
+          },
+          "step": 1,
+          "substitution": "PRN -> PRN(long)",
+          "target_answer": "reject",
+          "task_id": "count_a_edf958af2836"
+        }
+      ],
+      "expected_operator": {
+        "BT": 44,
+        "DONE": 5,
+        "PRN": 42,
+        "TRY": 118
+      },
+      "failed_cases": 209,
+      "final_wrong_repeated_try": 0,
+      "substitutions": {
+        "BT -> BT": 13,
+        "BT -> DONE": 6,
+        "BT -> TRY_other_or_premature": 25,
+        "DONE -> BT": 4,
+        "DONE -> REJ(pref)": 1,
+        "PRN -> ACC": 1,
+        "PRN -> PRN(long)": 4,
+        "PRN -> TRY_other_or_premature": 37,
+        "TRY -> TRY_other_or_premature": 118
+      }
+    },
+    "H3": {
+      "before_first_done": 170,
+      "examples": [
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "DONE"
+          },
+          "step": 2,
+          "substitution": "BT -> DONE",
+          "target_answer": "reject",
+          "task_id": "count_a_3ec437ed3354"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "expanding",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "DONE"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "BT",
+            "reason": "no_prod"
+          },
+          "step": 3,
+          "substitution": "DONE -> BT",
+          "target_answer": "reject",
+          "task_id": "count_a_e335671ea504"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "b",
+              "a"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "chain_depth",
+          "predicted": {
+            "op": "ACC"
+          },
+          "step": 2,
+          "substitution": "PRN -> ACC",
+          "target_answer": "reject",
+          "task_id": "count_a_a6841b8a7bb0"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "b",
+              "e"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "chain_depth",
+          "predicted": {
+            "op": "REJ",
+            "reason": "term"
+          },
+          "step": 2,
+          "substitution": "PRN -> REJ(term)",
+          "target_answer": "reject",
+          "task_id": "count_a_51cd3a8214bf"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "b",
+              "A"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "sequence",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 2,
+          "substitution": "PRN -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "count_a_802d8a83b8f4"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "a",
+              "b",
+              "S"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "family": "recursion",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 1,
+          "substitution": "TRY -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "count_a_db16e0d13c0e"
+        }
+      ],
+      "expected_operator": {
+        "BT": 39,
+        "DONE": 6,
+        "PRN": 73,
+        "TRY": 58
+      },
+      "failed_cases": 176,
+      "final_wrong_repeated_try": 0,
+      "substitutions": {
+        "BT -> DONE": 17,
+        "BT -> PRN(long)": 1,
+        "BT -> TRY_other_or_premature": 21,
+        "DONE -> BT": 6,
+        "PRN -> ACC": 14,
+        "PRN -> PRN(long)": 13,
+        "PRN -> REJ(term)": 1,
+        "PRN -> TRY_other_or_premature": 45,
+        "TRY -> TRY_other_or_premature": 58
+      }
+    },
+    "H4": {
+      "before_first_done": 171,
+      "examples": [
+        {
+          "current_frame": {
+            "form": [
+              "b",
+              "a"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "REJ",
+            "reason": "term"
+          },
+          "step": 1,
+          "substitution": "PRN -> REJ(term)",
+          "target_answer": "reject",
+          "task_id": "count_a_3ec437ed3354"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "e",
+              "d"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "step": 1,
+          "substitution": "PRN -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "count_a_e335671ea504"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "e",
+              "S"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "family": "recursion",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 1,
+          "substitution": "TRY -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "count_a_8edb3d14f946"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "ACC"
+          },
+          "step": 2,
+          "substitution": "BT -> ACC",
+          "target_answer": "reject",
+          "task_id": "count_a_5a2aaf4da9e1"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "REJ",
+            "reason": "pref"
+          },
+          "step": 2,
+          "substitution": "BT -> REJ(pref)",
+          "target_answer": "reject",
+          "task_id": "count_a_770787886c57"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "a",
+              "b",
+              "a",
+              "b"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "alternatives",
+          "predicted": {
+            "op": "BT"
+          },
+          "step": 1,
+          "substitution": "PRN -> BT",
+          "target_answer": "accept",
+          "task_id": "count_a_10cb41af22ff"
+        }
+      ],
+      "expected_operator": {
+        "BT": 28,
+        "DONE": 5,
+        "PRN": 104,
+        "TRY": 39
+      },
+      "failed_cases": 176,
+      "final_wrong_repeated_try": 5,
+      "substitutions": {
+        "BT -> ACC": 6,
+        "BT -> DONE": 9,
+        "BT -> REJ(pref)": 1,
+        "BT -> TRY_already_tried": 2,
+        "BT -> TRY_other_or_premature": 10,
+        "DONE -> REJ(no_prod)": 2,
+        "DONE -> TRY_already_tried": 3,
+        "PRN -> BT": 23,
+        "PRN -> REJ(term)": 19,
+        "PRN -> TRY_other_or_premature": 62,
+        "TRY -> TRY_other_or_premature": 39
+      }
+    },
+    "H5": {
+      "before_first_done": 159,
+      "examples": [
+        {
+          "current_frame": {
+            "form": [
+              "b",
+              "a"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "REJ",
+            "reason": "term"
+          },
+          "step": 1,
+          "substitution": "PRN -> REJ(term)",
+          "target_answer": "reject",
+          "task_id": "count_a_3ec437ed3354"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "e",
+              "d"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "step": 1,
+          "substitution": "PRN -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "count_a_e335671ea504"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "b",
+              "a"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "chain_depth",
+          "predicted": {
+            "op": "BT"
+          },
+          "step": 2,
+          "substitution": "PRN -> BT",
+          "target_answer": "reject",
+          "task_id": "count_a_a6841b8a7bb0"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "a",
+              "S",
+              "b"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "family": "nesting",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 1,
+          "substitution": "TRY -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "count_a_44542b193f40"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "S",
+              "e"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "nesting",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 3,
+          "substitution": "BT -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "count_a_d18391e64d59"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "step": 2,
+          "substitution": "BT -> TRY_already_tried",
+          "target_answer": "reject",
+          "task_id": "count_a_0323fdde1d3f"
+        }
+      ],
+      "expected_operator": {
+        "BT": 39,
+        "DONE": 17,
+        "PRN": 107,
+        "TRY": 13
+      },
+      "failed_cases": 176,
+      "final_wrong_repeated_try": 12,
+      "substitutions": {
+        "BT -> DONE": 3,
+        "BT -> TRY_already_tried": 6,
+        "BT -> TRY_other_or_premature": 30,
+        "DONE -> BT": 2,
+        "DONE -> REJ(no_prod)": 3,
+        "DONE -> TRY_already_tried": 6,
+        "DONE -> TRY_other_or_premature": 6,
+        "PRN -> BT": 34,
+        "PRN -> CUT(max_depth)": 1,
+        "PRN -> REJ(term)": 24,
+        "PRN -> TRY_other_or_premature": 48,
+        "TRY -> TRY_other_or_premature": 13
+      }
+    }
+  },
+  "B": {
+    "H0": {
+      "before_first_done": 236,
+      "examples": [
+        {
+          "current_frame": {
+            "form": [
+              "b",
+              "d"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "ACC"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "step": 1,
+          "substitution": "ACC -> PRN(pref)",
+          "target_answer": "accept",
+          "task_id": "count_b_5e445980d646"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 2,
+          "substitution": "BT -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "count_b_b600e58247d0"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 0,
+          "substitution": "TRY -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "count_b_f5565d30a17e"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "b",
+              "b",
+              "N5"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 1,
+          "substitution": "PRN -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "count_b_bcb40615998d"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "a",
+              "N1"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "BT",
+            "reason": "pref"
+          },
+          "step": 1,
+          "substitution": "PRN -> BT",
+          "target_answer": "reject",
+          "task_id": "count_b_4946df9196c0"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "a",
+              "N1",
+              "a"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "CUT",
+            "reason": "max_depth"
+          },
+          "step": 1,
+          "substitution": "PRN -> CUT(max_depth)",
+          "target_answer": "accept",
+          "task_id": "count_b_8d8b82f9a852"
+        }
+      ],
+      "expected_operator": {
+        "ACC": 5,
+        "BT": 59,
+        "PRN": 57,
+        "REJ": 5,
+        "TRY": 110
+      },
+      "failed_cases": 236,
+      "final_wrong_repeated_try": 0,
+      "substitutions": {
+        "ACC -> PRN(pref)": 5,
+        "BT -> TRY_other_or_premature": 59,
+        "PRN -> BT": 7,
+        "PRN -> CUT(max_depth)": 6,
+        "PRN -> PRN(long)": 4,
+        "PRN -> REJ(pref)": 5,
+        "PRN -> REJ(term)": 1,
+        "PRN -> TRY_other_or_premature": 34,
+        "REJ -> PRN(pref)": 5,
+        "TRY -> TRY_other_or_premature": 110
+      }
+    },
+    "H1": {
+      "before_first_done": 234,
+      "examples": [
+        {
+          "current_frame": {
+            "form": [
+              "b",
+              "d"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "ACC"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "step": 1,
+          "substitution": "ACC -> PRN(pref)",
+          "target_answer": "accept",
+          "task_id": "count_b_5e445980d646"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 2,
+          "substitution": "BT -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "count_b_b600e58247d0"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "c",
+              "S",
+              "c"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 1,
+          "substitution": "TRY -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "count_b_004855889f63"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "a",
+              "N1"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "BT",
+            "reason": "pref"
+          },
+          "step": 1,
+          "substitution": "PRN -> BT",
+          "target_answer": "accept",
+          "task_id": "count_b_207a9d0390ef"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "a",
+              "N1"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "REJ",
+            "reason": "pref"
+          },
+          "step": 1,
+          "substitution": "PRN -> REJ(pref)",
+          "target_answer": "reject",
+          "task_id": "count_b_4946df9196c0"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "c",
+              "d",
+              "N2",
+              "d"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "long"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "TRY",
+            "production": "p6"
+          },
+          "step": 1,
+          "substitution": "PRN -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "count_b_7e5c3f68603f"
+        }
+      ],
+      "expected_operator": {
+        "ACC": 5,
+        "BT": 66,
+        "PRN": 110,
+        "REJ": 5,
+        "TRY": 48
+      },
+      "failed_cases": 234,
+      "final_wrong_repeated_try": 0,
+      "substitutions": {
+        "ACC -> PRN(pref)": 5,
+        "BT -> TRY_other_or_premature": 66,
+        "PRN -> ACC": 5,
+        "PRN -> BT": 14,
+        "PRN -> CUT(max_depth)": 4,
+        "PRN -> PRN(long)": 5,
+        "PRN -> REJ(long)": 2,
+        "PRN -> REJ(pref)": 8,
+        "PRN -> TRY_other_or_premature": 72,
+        "REJ -> PRN(pref)": 5,
+        "TRY -> TRY_other_or_premature": 48
+      }
+    },
+    "H2": {
+      "before_first_done": 236,
+      "examples": [
+        {
+          "current_frame": {
+            "form": [
+              "b",
+              "d"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "ACC"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "step": 1,
+          "substitution": "ACC -> PRN(pref)",
+          "target_answer": "accept",
+          "task_id": "count_b_5e445980d646"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 2,
+          "substitution": "BT -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "count_b_b600e58247d0"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 0,
+          "substitution": "TRY -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "count_b_f5565d30a17e"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "b",
+              "b",
+              "N5"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 1,
+          "substitution": "PRN -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "count_b_bcb40615998d"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "a",
+              "N1"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "BT",
+            "reason": "pref"
+          },
+          "step": 1,
+          "substitution": "PRN -> BT",
+          "target_answer": "reject",
+          "task_id": "count_b_4946df9196c0"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "a",
+              "N1",
+              "a"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "CUT",
+            "reason": "max_depth"
+          },
+          "step": 1,
+          "substitution": "PRN -> CUT(max_depth)",
+          "target_answer": "accept",
+          "task_id": "count_b_8d8b82f9a852"
+        }
+      ],
+      "expected_operator": {
+        "ACC": 5,
+        "BT": 59,
+        "PRN": 57,
+        "REJ": 5,
+        "TRY": 110
+      },
+      "failed_cases": 236,
+      "final_wrong_repeated_try": 0,
+      "substitutions": {
+        "ACC -> PRN(pref)": 5,
+        "BT -> TRY_other_or_premature": 59,
+        "PRN -> BT": 7,
+        "PRN -> CUT(max_depth)": 6,
+        "PRN -> PRN(long)": 4,
+        "PRN -> REJ(pref)": 5,
+        "PRN -> REJ(term)": 1,
+        "PRN -> TRY_other_or_premature": 34,
+        "REJ -> PRN(pref)": 5,
+        "TRY -> TRY_other_or_premature": 110
+      }
+    },
+    "H3": {
+      "before_first_done": 234,
+      "examples": [
+        {
+          "current_frame": {
+            "form": [
+              "b",
+              "d"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "ACC"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "step": 1,
+          "substitution": "ACC -> PRN(pref)",
+          "target_answer": "accept",
+          "task_id": "count_b_5e445980d646"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 2,
+          "substitution": "BT -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "count_b_b600e58247d0"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "c",
+              "S",
+              "c"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 1,
+          "substitution": "TRY -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "count_b_004855889f63"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "a",
+              "N1"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "BT",
+            "reason": "pref"
+          },
+          "step": 1,
+          "substitution": "PRN -> BT",
+          "target_answer": "accept",
+          "task_id": "count_b_207a9d0390ef"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "a",
+              "N1"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "REJ",
+            "reason": "pref"
+          },
+          "step": 1,
+          "substitution": "PRN -> REJ(pref)",
+          "target_answer": "reject",
+          "task_id": "count_b_4946df9196c0"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "c",
+              "d",
+              "N2",
+              "d"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "long"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "TRY",
+            "production": "p6"
+          },
+          "step": 1,
+          "substitution": "PRN -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "count_b_7e5c3f68603f"
+        }
+      ],
+      "expected_operator": {
+        "ACC": 5,
+        "BT": 66,
+        "PRN": 110,
+        "REJ": 5,
+        "TRY": 48
+      },
+      "failed_cases": 234,
+      "final_wrong_repeated_try": 0,
+      "substitutions": {
+        "ACC -> PRN(pref)": 5,
+        "BT -> TRY_other_or_premature": 66,
+        "PRN -> ACC": 5,
+        "PRN -> BT": 14,
+        "PRN -> CUT(max_depth)": 4,
+        "PRN -> PRN(long)": 5,
+        "PRN -> REJ(long)": 2,
+        "PRN -> REJ(pref)": 8,
+        "PRN -> TRY_other_or_premature": 72,
+        "REJ -> PRN(pref)": 5,
+        "TRY -> TRY_other_or_premature": 48
+      }
+    },
+    "H4": {
+      "before_first_done": 229,
+      "examples": [
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 2,
+          "substitution": "BT -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "count_b_b600e58247d0"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "c",
+              "S",
+              "c"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 1,
+          "substitution": "PRN -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "count_b_f5565d30a17e"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "c",
+              "S",
+              "c"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 1,
+          "substitution": "TRY -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "count_b_004855889f63"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "a",
+              "N1"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "REJ",
+            "reason": "term"
+          },
+          "step": 1,
+          "substitution": "PRN -> REJ(term)",
+          "target_answer": "accept",
+          "task_id": "count_b_207a9d0390ef"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "a",
+              "N1"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "BT"
+          },
+          "step": 1,
+          "substitution": "PRN -> BT",
+          "target_answer": "reject",
+          "task_id": "count_b_4946df9196c0"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "c",
+              "N1"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "REJ",
+            "reason": "pref"
+          },
+          "step": 1,
+          "substitution": "PRN -> REJ(pref)",
+          "target_answer": "accept",
+          "task_id": "count_b_ef16ed1d7416"
+        }
+      ],
+      "expected_operator": {
+        "BT": 44,
+        "PRN": 148,
+        "REJ": 5,
+        "TRY": 32
+      },
+      "failed_cases": 229,
+      "final_wrong_repeated_try": 0,
+      "substitutions": {
+        "BT -> TRY_other_or_premature": 44,
+        "PRN -> BT": 51,
+        "PRN -> CUT(max_depth)": 8,
+        "PRN -> REJ(pref)": 8,
+        "PRN -> REJ(term)": 7,
+        "PRN -> TRY_other_or_premature": 74,
+        "REJ -> BT": 1,
+        "REJ -> PRN(pref)": 1,
+        "REJ -> TRY_other_or_premature": 3,
+        "TRY -> TRY_other_or_premature": 32
+      }
+    },
+    "H5": {
+      "before_first_done": 229,
+      "examples": [
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 2,
+          "substitution": "BT -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "count_b_b600e58247d0"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "a",
+              "c"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "BT"
+          },
+          "step": 1,
+          "substitution": "PRN -> BT",
+          "target_answer": "reject",
+          "task_id": "count_b_07f66f108abb"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "c",
+              "S",
+              "c"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 1,
+          "substitution": "PRN -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "count_b_f5565d30a17e"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "a",
+              "N1"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "REJ",
+            "reason": "term"
+          },
+          "step": 1,
+          "substitution": "PRN -> REJ(term)",
+          "target_answer": "accept",
+          "task_id": "count_b_207a9d0390ef"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "a",
+              "N1"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "REJ",
+            "reason": "pref"
+          },
+          "step": 1,
+          "substitution": "PRN -> REJ(pref)",
+          "target_answer": "reject",
+          "task_id": "count_b_4946df9196c0"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "family": "random_multi_rule",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 0,
+          "substitution": "TRY -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "count_b_2bdff0c9f54d"
+        }
+      ],
+      "expected_operator": {
+        "BT": 74,
+        "PRN": 139,
+        "REJ": 5,
+        "TRY": 11
+      },
+      "failed_cases": 229,
+      "final_wrong_repeated_try": 0,
+      "substitutions": {
+        "BT -> TRY_other_or_premature": 74,
+        "PRN -> BT": 79,
+        "PRN -> CUT(max_depth)": 9,
+        "PRN -> PRN(long)": 1,
+        "PRN -> REJ(pref)": 8,
+        "PRN -> REJ(term)": 11,
+        "PRN -> TRY_other_or_premature": 31,
+        "REJ -> BT": 4,
+        "REJ -> TRY_other_or_premature": 1,
+        "TRY -> TRY_other_or_premature": 11
+      }
+    }
+  },
+  "cuefree": {
+    "H0": {
+      "before_first_done": 200,
+      "examples": [
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "d"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "PRN",
+            "reason": "long"
+          },
+          "step": 1,
+          "substitution": "PRN -> PRN(long)",
+          "target_answer": "reject",
+          "task_id": "cuefree_complexity_83f705081147"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "N1"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "family": "chain_depth",
+          "predicted": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "step": 1,
+          "substitution": "TRY -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "complexity_ff0f856bc38a"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "d"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "sequence",
+          "predicted": {
+            "op": "ACC"
+          },
+          "step": 3,
+          "substitution": "PRN -> ACC",
+          "target_answer": "reject",
+          "task_id": "cuefree_complexity_5a3b28ff15de"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "b",
+              "S",
+              "a",
+              "a"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "family": "nesting",
+          "predicted": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "step": 1,
+          "substitution": "TRY -> PRN(pref)",
+          "target_answer": "reject",
+          "task_id": "cuefree_complexity_398eaff01087"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "a"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "alternatives",
+          "predicted": {
+            "op": "BT"
+          },
+          "step": 1,
+          "substitution": "PRN -> BT",
+          "target_answer": "reject",
+          "task_id": "cuefree_complexity_c05116d8ff27"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "d",
+              "S"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "recursion",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 1,
+          "substitution": "PRN -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "cuefree_complexity_35800cc2db4d"
+        }
+      ],
+      "expected_operator": {
+        "BT": 3,
+        "PRN": 98,
+        "TRY": 99
+      },
+      "failed_cases": 200,
+      "final_wrong_repeated_try": 0,
+      "substitutions": {
+        "BT -> TRY_other_or_premature": 3,
+        "PRN -> ACC": 21,
+        "PRN -> BT": 4,
+        "PRN -> CUT(max_depth)": 1,
+        "PRN -> PRN(long)": 26,
+        "PRN -> PRN(term)": 1,
+        "PRN -> REJ(term)": 2,
+        "PRN -> TRY_other_or_premature": 43,
+        "TRY -> PRN(pref)": 7,
+        "TRY -> TRY_other_or_premature": 92
+      }
+    },
+    "H1": {
+      "before_first_done": 178,
+      "examples": [
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "d"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "PRN",
+            "reason": "long"
+          },
+          "step": 1,
+          "substitution": "PRN -> PRN(long)",
+          "target_answer": "reject",
+          "task_id": "cuefree_complexity_83f705081147"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "d"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "sequence",
+          "predicted": {
+            "op": "ACC"
+          },
+          "step": 3,
+          "substitution": "PRN -> ACC",
+          "target_answer": "reject",
+          "task_id": "cuefree_complexity_5a3b28ff15de"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "family": "recursion",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 0,
+          "substitution": "TRY -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "complexity_553c15b93d77"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "recursion",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 2,
+          "substitution": "BT -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "cuefree_complexity_fe9a1be3b93c"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "d",
+              "S",
+              "a",
+              "a"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "nesting",
+          "predicted": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "step": 2,
+          "substitution": "PRN -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "complexity_20a7be0db426"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "a"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "alternatives",
+          "predicted": {
+            "op": "BT"
+          },
+          "step": 1,
+          "substitution": "PRN -> BT",
+          "target_answer": "accept",
+          "task_id": "complexity_e2860bf3b108"
+        }
+      ],
+      "expected_operator": {
+        "BT": 5,
+        "PRN": 93,
+        "TRY": 80
+      },
+      "failed_cases": 178,
+      "final_wrong_repeated_try": 3,
+      "substitutions": {
+        "BT -> TRY_already_tried": 3,
+        "BT -> TRY_other_or_premature": 2,
+        "PRN -> ACC": 22,
+        "PRN -> BT": 9,
+        "PRN -> PRN(long)": 37,
+        "PRN -> REJ(term)": 9,
+        "PRN -> TRY_other_or_premature": 16,
+        "TRY -> PRN(pref)": 4,
+        "TRY -> TRY_other_or_premature": 76
+      }
+    },
+    "H2": {
+      "before_first_done": 201,
+      "examples": [
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "d"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "PRN",
+            "reason": "long"
+          },
+          "step": 1,
+          "substitution": "PRN -> PRN(long)",
+          "target_answer": "reject",
+          "task_id": "cuefree_complexity_83f705081147"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "N1"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "family": "chain_depth",
+          "predicted": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "step": 1,
+          "substitution": "TRY -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "complexity_ff0f856bc38a"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "d"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "sequence",
+          "predicted": {
+            "op": "ACC"
+          },
+          "step": 3,
+          "substitution": "PRN -> ACC",
+          "target_answer": "reject",
+          "task_id": "cuefree_complexity_5a3b28ff15de"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "b",
+              "S",
+              "a",
+              "a"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "family": "nesting",
+          "predicted": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "step": 1,
+          "substitution": "TRY -> PRN(pref)",
+          "target_answer": "reject",
+          "task_id": "cuefree_complexity_398eaff01087"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "a"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "alternatives",
+          "predicted": {
+            "op": "BT"
+          },
+          "step": 1,
+          "substitution": "PRN -> BT",
+          "target_answer": "reject",
+          "task_id": "cuefree_complexity_c05116d8ff27"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "d",
+              "S"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "recursion",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 1,
+          "substitution": "PRN -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "cuefree_complexity_35800cc2db4d"
+        }
+      ],
+      "expected_operator": {
+        "BT": 2,
+        "PRN": 97,
+        "TRY": 102
+      },
+      "failed_cases": 201,
+      "final_wrong_repeated_try": 0,
+      "substitutions": {
+        "BT -> TRY_other_or_premature": 2,
+        "PRN -> ACC": 21,
+        "PRN -> BT": 4,
+        "PRN -> PRN(long)": 25,
+        "PRN -> PRN(term)": 1,
+        "PRN -> REJ(term)": 3,
+        "PRN -> TRY_other_or_premature": 43,
+        "TRY -> PRN(pref)": 8,
+        "TRY -> TRY_other_or_premature": 94
+      }
+    },
+    "H3": {
+      "before_first_done": 175,
+      "examples": [
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "d"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "PRN",
+            "reason": "long"
+          },
+          "step": 1,
+          "substitution": "PRN -> PRN(long)",
+          "target_answer": "reject",
+          "task_id": "cuefree_complexity_83f705081147"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "d"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "sequence",
+          "predicted": {
+            "op": "ACC"
+          },
+          "step": 3,
+          "substitution": "PRN -> ACC",
+          "target_answer": "reject",
+          "task_id": "cuefree_complexity_5a3b28ff15de"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "family": "recursion",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 0,
+          "substitution": "TRY -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "complexity_553c15b93d77"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "recursion",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 2,
+          "substitution": "BT -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "cuefree_complexity_fe9a1be3b93c"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "d",
+              "S",
+              "a",
+              "a"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "nesting",
+          "predicted": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "step": 2,
+          "substitution": "PRN -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "complexity_20a7be0db426"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "a"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "alternatives",
+          "predicted": {
+            "op": "BT"
+          },
+          "step": 1,
+          "substitution": "PRN -> BT",
+          "target_answer": "accept",
+          "task_id": "complexity_e2860bf3b108"
+        }
+      ],
+      "expected_operator": {
+        "BT": 2,
+        "DONE": 3,
+        "PRN": 93,
+        "TRY": 80
+      },
+      "failed_cases": 178,
+      "final_wrong_repeated_try": 0,
+      "substitutions": {
+        "BT -> TRY_other_or_premature": 2,
+        "DONE -> BT": 3,
+        "PRN -> ACC": 22,
+        "PRN -> BT": 9,
+        "PRN -> PRN(long)": 37,
+        "PRN -> REJ(term)": 9,
+        "PRN -> TRY_other_or_premature": 16,
+        "TRY -> PRN(pref)": 4,
+        "TRY -> TRY_other_or_premature": 76
+      }
+    },
+    "H4": {
+      "before_first_done": 176,
+      "examples": [
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "d"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "PRN",
+            "reason": "long"
+          },
+          "step": 1,
+          "substitution": "PRN -> PRN(long)",
+          "target_answer": "reject",
+          "task_id": "cuefree_complexity_83f705081147"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "PRN",
+            "reason": "long"
+          },
+          "step": 2,
+          "substitution": "BT -> PRN(long)",
+          "target_answer": "reject",
+          "task_id": "cuefree_complexity_060cdccd9674"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "d"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "chain_depth",
+          "predicted": {
+            "op": "REJ",
+            "reason": "term"
+          },
+          "step": 2,
+          "substitution": "PRN -> REJ(term)",
+          "target_answer": "reject",
+          "task_id": "cuefree_complexity_3dc994d06994"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "d"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "sequence",
+          "predicted": {
+            "op": "ACC"
+          },
+          "step": 3,
+          "substitution": "PRN -> ACC",
+          "target_answer": "reject",
+          "task_id": "cuefree_complexity_5a3b28ff15de"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "family": "recursion",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 0,
+          "substitution": "TRY -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "complexity_553c15b93d77"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "recursion",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 2,
+          "substitution": "BT -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "cuefree_complexity_af487baad1d0"
+        }
+      ],
+      "expected_operator": {
+        "BT": 11,
+        "PRN": 100,
+        "TRY": 65
+      },
+      "failed_cases": 176,
+      "final_wrong_repeated_try": 0,
+      "substitutions": {
+        "BT -> DONE": 4,
+        "BT -> PRN(long)": 6,
+        "BT -> TRY_other_or_premature": 1,
+        "PRN -> ACC": 17,
+        "PRN -> BT": 21,
+        "PRN -> PRN(long)": 14,
+        "PRN -> REJ(long)": 2,
+        "PRN -> REJ(term)": 17,
+        "PRN -> TRY_other_or_premature": 29,
+        "TRY -> TRY_other_or_premature": 65
+      }
+    },
+    "H5": {
+      "before_first_done": 171,
+      "examples": [
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "PRN",
+            "reason": "long"
+          },
+          "step": 2,
+          "substitution": "BT -> PRN(long)",
+          "target_answer": "reject",
+          "task_id": "cuefree_complexity_83f705081147"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "d"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "chain_depth",
+          "predicted": {
+            "op": "REJ",
+            "reason": "term"
+          },
+          "step": 2,
+          "substitution": "PRN -> REJ(term)",
+          "target_answer": "reject",
+          "task_id": "cuefree_complexity_3dc994d06994"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "d"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "sequence",
+          "predicted": {
+            "op": "ACC"
+          },
+          "step": 3,
+          "substitution": "PRN -> ACC",
+          "target_answer": "reject",
+          "task_id": "cuefree_complexity_5a3b28ff15de"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "family": "recursion",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 0,
+          "substitution": "TRY -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "complexity_553c15b93d77"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "d",
+              "S"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "recursion",
+          "predicted": {
+            "op": "BT"
+          },
+          "step": 1,
+          "substitution": "PRN -> BT",
+          "target_answer": "reject",
+          "task_id": "cuefree_complexity_fe9a1be3b93c"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "d",
+              "S",
+              "a",
+              "a"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "nesting",
+          "predicted": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "step": 2,
+          "substitution": "PRN -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "complexity_20a7be0db426"
+        }
+      ],
+      "expected_operator": {
+        "BT": 28,
+        "DONE": 5,
+        "PRN": 108,
+        "TRY": 35
+      },
+      "failed_cases": 176,
+      "final_wrong_repeated_try": 3,
+      "substitutions": {
+        "BT -> PRN(long)": 8,
+        "BT -> TRY_already_tried": 3,
+        "BT -> TRY_other_or_premature": 17,
+        "DONE -> BT": 4,
+        "DONE -> REJ(term)": 1,
+        "PRN -> ACC": 13,
+        "PRN -> BT": 36,
+        "PRN -> CUT(max_depth)": 3,
+        "PRN -> PRN(long)": 4,
+        "PRN -> REJ(long)": 3,
+        "PRN -> REJ(term)": 23,
+        "PRN -> TRY_other_or_premature": 26,
+        "TRY -> TRY_other_or_premature": 35
+      }
+    }
+  },
+  "original": {
+    "H0": {
+      "before_first_done": 199,
+      "examples": [
+        {
+          "current_frame": {
+            "form": [
+              "c"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "PRN",
+            "reason": "term"
+          },
+          "step": 1,
+          "substitution": "PRN -> PRN(term)",
+          "target_answer": "reject",
+          "task_id": "complexity_6324c5015229"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "step": 0,
+          "substitution": "TRY -> PRN(pref)",
+          "target_answer": "reject",
+          "task_id": "complexity_a5e3200df17e"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "N1"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "family": "chain_depth",
+          "predicted": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "step": 1,
+          "substitution": "TRY -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "complexity_ff0f856bc38a"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "S"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "recursion",
+          "predicted": {
+            "op": "REJ",
+            "reason": "pref"
+          },
+          "step": 1,
+          "substitution": "PRN -> REJ(pref)",
+          "target_answer": "reject",
+          "task_id": "complexity_619cc99369e7"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "recursion",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 2,
+          "substitution": "BT -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "complexity_9bd88232a9d1"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "c"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "PRN",
+            "reason": "long"
+          },
+          "step": 1,
+          "substitution": "PRN -> PRN(long)",
+          "target_answer": "reject",
+          "task_id": "complexity_db30055e631e"
+        }
+      ],
+      "expected_operator": {
+        "BT": 3,
+        "PRN": 68,
+        "TRY": 128
+      },
+      "failed_cases": 199,
+      "final_wrong_repeated_try": 0,
+      "substitutions": {
+        "BT -> TRY_other_or_premature": 3,
+        "PRN -> BT": 3,
+        "PRN -> PRN(long)": 14,
+        "PRN -> PRN(term)": 2,
+        "PRN -> REJ(pref)": 1,
+        "PRN -> REJ(term)": 8,
+        "PRN -> TRY_other_or_premature": 40,
+        "TRY -> PRN(pref)": 41,
+        "TRY -> TRY_other_or_premature": 87
+      }
+    },
+    "H1": {
+      "before_first_done": 168,
+      "examples": [
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "DONE"
+          },
+          "step": 2,
+          "substitution": "BT -> DONE",
+          "target_answer": "reject",
+          "task_id": "complexity_6324c5015229"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "REJ",
+            "reason": "term"
+          },
+          "step": 2,
+          "substitution": "BT -> REJ(term)",
+          "target_answer": "reject",
+          "task_id": "complexity_a5e3200df17e"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "c"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "REJ",
+            "reason": "term"
+          },
+          "step": 1,
+          "substitution": "PRN -> REJ(term)",
+          "target_answer": "reject",
+          "task_id": "complexity_ed3e66062d81"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "N1"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "family": "chain_depth",
+          "predicted": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "step": 1,
+          "substitution": "TRY -> PRN(pref)",
+          "target_answer": "reject",
+          "task_id": "complexity_27b500c2baed"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "family": "recursion",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 0,
+          "substitution": "TRY -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "complexity_553c15b93d77"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "recursion",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 2,
+          "substitution": "BT -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "complexity_619cc99369e7"
+        }
+      ],
+      "expected_operator": {
+        "BT": 12,
+        "DONE": 10,
+        "PRN": 62,
+        "TRY": 94
+      },
+      "failed_cases": 178,
+      "final_wrong_repeated_try": 0,
+      "substitutions": {
+        "BT -> DONE": 4,
+        "BT -> REJ(term)": 2,
+        "BT -> TRY_other_or_premature": 6,
+        "DONE -> BT": 9,
+        "DONE -> REJ(pref)": 1,
+        "PRN -> BT": 6,
+        "PRN -> PRN(long)": 15,
+        "PRN -> REJ(term)": 30,
+        "PRN -> TRY_other_or_premature": 11,
+        "TRY -> PRN(pref)": 17,
+        "TRY -> TRY_other_or_premature": 77
+      }
+    },
+    "H2": {
+      "before_first_done": 201,
+      "examples": [
+        {
+          "current_frame": {
+            "form": [
+              "c"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "PRN",
+            "reason": "term"
+          },
+          "step": 1,
+          "substitution": "PRN -> PRN(term)",
+          "target_answer": "reject",
+          "task_id": "complexity_6324c5015229"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "step": 0,
+          "substitution": "TRY -> PRN(pref)",
+          "target_answer": "reject",
+          "task_id": "complexity_a5e3200df17e"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "N1"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "family": "chain_depth",
+          "predicted": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "step": 1,
+          "substitution": "TRY -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "complexity_ff0f856bc38a"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "recursion",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 2,
+          "substitution": "BT -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "complexity_619cc99369e7"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "c"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "PRN",
+            "reason": "long"
+          },
+          "step": 1,
+          "substitution": "PRN -> PRN(long)",
+          "target_answer": "reject",
+          "task_id": "complexity_db30055e631e"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "c"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "chain_depth",
+          "predicted": {
+            "op": "REJ",
+            "reason": "term"
+          },
+          "step": 3,
+          "substitution": "PRN -> REJ(term)",
+          "target_answer": "reject",
+          "task_id": "complexity_526074b30e9d"
+        }
+      ],
+      "expected_operator": {
+        "BT": 4,
+        "PRN": 68,
+        "TRY": 129
+      },
+      "failed_cases": 201,
+      "final_wrong_repeated_try": 0,
+      "substitutions": {
+        "BT -> TRY_other_or_premature": 4,
+        "PRN -> BT": 3,
+        "PRN -> PRN(long)": 14,
+        "PRN -> PRN(term)": 2,
+        "PRN -> REJ(term)": 8,
+        "PRN -> TRY_other_or_premature": 41,
+        "TRY -> PRN(pref)": 42,
+        "TRY -> TRY_other_or_premature": 87
+      }
+    },
+    "H3": {
+      "before_first_done": 168,
+      "examples": [
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "DONE"
+          },
+          "step": 2,
+          "substitution": "BT -> DONE",
+          "target_answer": "reject",
+          "task_id": "complexity_6324c5015229"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "REJ",
+            "reason": "term"
+          },
+          "step": 2,
+          "substitution": "BT -> REJ(term)",
+          "target_answer": "reject",
+          "task_id": "complexity_a5e3200df17e"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "c"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "REJ",
+            "reason": "term"
+          },
+          "step": 1,
+          "substitution": "PRN -> REJ(term)",
+          "target_answer": "reject",
+          "task_id": "complexity_ed3e66062d81"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "N1"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "family": "chain_depth",
+          "predicted": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "step": 1,
+          "substitution": "TRY -> PRN(pref)",
+          "target_answer": "reject",
+          "task_id": "complexity_27b500c2baed"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "family": "recursion",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 0,
+          "substitution": "TRY -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "complexity_553c15b93d77"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "recursion",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 2,
+          "substitution": "BT -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "complexity_619cc99369e7"
+        }
+      ],
+      "expected_operator": {
+        "BT": 12,
+        "DONE": 10,
+        "PRN": 62,
+        "TRY": 94
+      },
+      "failed_cases": 178,
+      "final_wrong_repeated_try": 0,
+      "substitutions": {
+        "BT -> DONE": 4,
+        "BT -> REJ(term)": 2,
+        "BT -> TRY_other_or_premature": 6,
+        "DONE -> BT": 9,
+        "DONE -> REJ(pref)": 1,
+        "PRN -> BT": 6,
+        "PRN -> PRN(long)": 15,
+        "PRN -> REJ(term)": 30,
+        "PRN -> TRY_other_or_premature": 11,
+        "TRY -> PRN(pref)": 17,
+        "TRY -> TRY_other_or_premature": 77
+      }
+    },
+    "H4": {
+      "before_first_done": 165,
+      "examples": [
+        {
+          "current_frame": {
+            "form": [
+              "c"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "REJ",
+            "reason": "term"
+          },
+          "step": 1,
+          "substitution": "PRN -> REJ(term)",
+          "target_answer": "reject",
+          "task_id": "complexity_6324c5015229"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "c"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "BT"
+          },
+          "step": 1,
+          "substitution": "PRN -> BT",
+          "target_answer": "reject",
+          "task_id": "complexity_ed3e66062d81"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "family": "recursion",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 0,
+          "substitution": "TRY -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "complexity_553c15b93d77"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "S"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "recursion",
+          "predicted": {
+            "op": "REJ",
+            "reason": "pref"
+          },
+          "step": 1,
+          "substitution": "PRN -> REJ(pref)",
+          "target_answer": "reject",
+          "task_id": "complexity_619cc99369e7"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "recursion",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 2,
+          "substitution": "BT -> TRY_other_or_premature",
+          "target_answer": "reject",
+          "task_id": "complexity_bd0fd90c4570"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "d",
+              "S",
+              "a",
+              "a"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "nesting",
+          "predicted": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "step": 2,
+          "substitution": "PRN -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "complexity_20a7be0db426"
+        }
+      ],
+      "expected_operator": {
+        "BT": 3,
+        "DONE": 11,
+        "PRN": 82,
+        "TRY": 80
+      },
+      "failed_cases": 176,
+      "final_wrong_repeated_try": 0,
+      "substitutions": {
+        "BT -> DONE": 1,
+        "BT -> PRN(pref)": 1,
+        "BT -> TRY_other_or_premature": 1,
+        "DONE -> BT": 10,
+        "DONE -> REJ(term)": 1,
+        "PRN -> BT": 16,
+        "PRN -> REJ(long)": 1,
+        "PRN -> REJ(pref)": 4,
+        "PRN -> REJ(term)": 42,
+        "PRN -> TRY_other_or_premature": 19,
+        "TRY -> PRN(pref)": 7,
+        "TRY -> TRY_other_or_premature": 73
+      }
+    },
+    "H5": {
+      "before_first_done": 169,
+      "examples": [
+        {
+          "current_frame": {
+            "form": [
+              "c"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "REJ",
+            "reason": "term"
+          },
+          "step": 1,
+          "substitution": "PRN -> REJ(term)",
+          "target_answer": "reject",
+          "task_id": "complexity_6324c5015229"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "c"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "terminal_length",
+          "predicted": {
+            "op": "BT"
+          },
+          "step": 1,
+          "substitution": "PRN -> BT",
+          "target_answer": "reject",
+          "task_id": "complexity_ed3e66062d81"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "N1"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "family": "chain_depth",
+          "predicted": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "step": 1,
+          "substitution": "TRY -> PRN(pref)",
+          "target_answer": "reject",
+          "task_id": "complexity_27b500c2baed"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "family": "recursion",
+          "predicted": {
+            "op": "TRY",
+            "production": "p1"
+          },
+          "step": 0,
+          "substitution": "TRY -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "complexity_553c15b93d77"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "S"
+            ],
+            "phase": "await_bt",
+            "tried": [
+              "p0"
+            ]
+          },
+          "expected": {
+            "op": "BT"
+          },
+          "family": "recursion",
+          "predicted": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "step": 2,
+          "substitution": "BT -> PRN(pref)",
+          "target_answer": "reject",
+          "task_id": "complexity_bd0fd90c4570"
+        },
+        {
+          "current_frame": {
+            "form": [
+              "d",
+              "d",
+              "S",
+              "a",
+              "a"
+            ],
+            "phase": "entered",
+            "tried": []
+          },
+          "expected": {
+            "op": "PRN",
+            "reason": "pref"
+          },
+          "family": "nesting",
+          "predicted": {
+            "op": "TRY",
+            "production": "p0"
+          },
+          "step": 2,
+          "substitution": "PRN -> TRY_other_or_premature",
+          "target_answer": "accept",
+          "task_id": "complexity_20a7be0db426"
+        }
+      ],
+      "expected_operator": {
+        "BT": 25,
+        "DONE": 7,
+        "PRN": 91,
+        "TRY": 53
+      },
+      "failed_cases": 176,
+      "final_wrong_repeated_try": 0,
+      "substitutions": {
+        "BT -> PRN(pref)": 1,
+        "BT -> TRY_other_or_premature": 24,
+        "DONE -> BT": 7,
+        "PRN -> BT": 24,
+        "PRN -> CUT(max_depth)": 3,
+        "PRN -> REJ(pref)": 4,
+        "PRN -> REJ(term)": 45,
+        "PRN -> TRY_other_or_premature": 15,
+        "TRY -> PRN(pref)": 13,
+        "TRY -> TRY_other_or_premature": 40
+      }
+    }
+  }
+}

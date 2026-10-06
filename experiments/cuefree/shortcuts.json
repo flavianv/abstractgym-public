@@ -1,0 +1,454 @@
+{
+  "cuefree": {
+    "always yes": {
+      "by_family": {
+        "alternatives": [
+          20,
+          40
+        ],
+        "chain_depth": [
+          20,
+          40
+        ],
+        "nesting": [
+          20,
+          40
+        ],
+        "recursion": [
+          20,
+          40
+        ],
+        "sequence": [
+          20,
+          40
+        ],
+        "terminal_length": [
+          20,
+          40
+        ]
+      },
+      "overall": [
+        120,
+        240
+      ]
+    },
+    "grammar terminals subset of string symbols": {
+      "by_family": {
+        "alternatives": [
+          20,
+          40
+        ],
+        "chain_depth": [
+          20,
+          40
+        ],
+        "nesting": [
+          20,
+          40
+        ],
+        "recursion": [
+          20,
+          40
+        ],
+        "sequence": [
+          20,
+          40
+        ],
+        "terminal_length": [
+          20,
+          40
+        ]
+      },
+      "overall": [
+        120,
+        240
+      ]
+    },
+    "last rule, last terminal in string": {
+      "by_family": {
+        "alternatives": [
+          20,
+          40
+        ],
+        "chain_depth": [
+          20,
+          40
+        ],
+        "nesting": [
+          20,
+          40
+        ],
+        "recursion": [
+          20,
+          40
+        ],
+        "sequence": [
+          20,
+          40
+        ],
+        "terminal_length": [
+          20,
+          40
+        ]
+      },
+      "overall": [
+        120,
+        240
+      ]
+    },
+    "longest rule no longer than the string": {
+      "by_family": {
+        "alternatives": [
+          28,
+          40
+        ],
+        "chain_depth": [
+          40,
+          40
+        ],
+        "nesting": [
+          20,
+          40
+        ],
+        "recursion": [
+          24,
+          40
+        ],
+        "sequence": [
+          20,
+          40
+        ],
+        "terminal_length": [
+          40,
+          40
+        ]
+      },
+      "overall": [
+        172,
+        240
+      ]
+    },
+    "same symbol set": {
+      "by_family": {
+        "alternatives": [
+          20,
+          40
+        ],
+        "chain_depth": [
+          20,
+          40
+        ],
+        "nesting": [
+          20,
+          40
+        ],
+        "recursion": [
+          20,
+          40
+        ],
+        "sequence": [
+          20,
+          40
+        ],
+        "terminal_length": [
+          20,
+          40
+        ]
+      },
+      "overall": [
+        120,
+        240
+      ]
+    },
+    "some rule has as many terminals as the string": {
+      "by_family": {
+        "alternatives": [
+          24,
+          40
+        ],
+        "chain_depth": [
+          40,
+          40
+        ],
+        "nesting": [
+          16,
+          40
+        ],
+        "recursion": [
+          20,
+          40
+        ],
+        "sequence": [
+          20,
+          40
+        ],
+        "terminal_length": [
+          40,
+          40
+        ]
+      },
+      "overall": [
+        160,
+        240
+      ]
+    },
+    "string symbols subset of grammar terminals": {
+      "by_family": {
+        "alternatives": [
+          20,
+          40
+        ],
+        "chain_depth": [
+          20,
+          40
+        ],
+        "nesting": [
+          20,
+          40
+        ],
+        "recursion": [
+          20,
+          40
+        ],
+        "sequence": [
+          20,
+          40
+        ],
+        "terminal_length": [
+          20,
+          40
+        ]
+      },
+      "overall": [
+        120,
+        240
+      ]
+    }
+  },
+  "original": {
+    "always yes": {
+      "by_family": {
+        "alternatives": [
+          20,
+          40
+        ],
+        "chain_depth": [
+          20,
+          40
+        ],
+        "nesting": [
+          20,
+          40
+        ],
+        "recursion": [
+          20,
+          40
+        ],
+        "sequence": [
+          20,
+          40
+        ],
+        "terminal_length": [
+          20,
+          40
+        ]
+      },
+      "overall": [
+        120,
+        240
+      ]
+    },
+    "grammar terminals subset of string symbols": {
+      "by_family": {
+        "alternatives": [
+          24,
+          40
+        ],
+        "chain_depth": [
+          40,
+          40
+        ],
+        "nesting": [
+          40,
+          40
+        ],
+        "recursion": [
+          36,
+          40
+        ],
+        "sequence": [
+          40,
+          40
+        ],
+        "terminal_length": [
+          40,
+          40
+        ]
+      },
+      "overall": [
+        220,
+        240
+      ]
+    },
+    "last rule, last terminal in string": {
+      "by_family": {
+        "alternatives": [
+          40,
+          40
+        ],
+        "chain_depth": [
+          40,
+          40
+        ],
+        "nesting": [
+          40,
+          40
+        ],
+        "recursion": [
+          40,
+          40
+        ],
+        "sequence": [
+          40,
+          40
+        ],
+        "terminal_length": [
+          40,
+          40
+        ]
+      },
+      "overall": [
+        240,
+        240
+      ]
+    },
+    "longest rule no longer than the string": {
+      "by_family": {
+        "alternatives": [
+          20,
+          40
+        ],
+        "chain_depth": [
+          20,
+          40
+        ],
+        "nesting": [
+          20,
+          40
+        ],
+        "recursion": [
+          20,
+          40
+        ],
+        "sequence": [
+          20,
+          40
+        ],
+        "terminal_length": [
+          20,
+          40
+        ]
+      },
+      "overall": [
+        120,
+        240
+      ]
+    },
+    "same symbol set": {
+      "by_family": {
+        "alternatives": [
+          24,
+          40
+        ],
+        "chain_depth": [
+          40,
+          40
+        ],
+        "nesting": [
+          40,
+          40
+        ],
+        "recursion": [
+          36,
+          40
+        ],
+        "sequence": [
+          40,
+          40
+        ],
+        "terminal_length": [
+          40,
+          40
+        ]
+      },
+      "overall": [
+        220,
+        240
+      ]
+    },
+    "some rule has as many terminals as the string": {
+      "by_family": {
+        "alternatives": [
+          20,
+          40
+        ],
+        "chain_depth": [
+          20,
+          40
+        ],
+        "nesting": [
+          20,
+          40
+        ],
+        "recursion": [
+          20,
+          40
+        ],
+        "sequence": [
+          20,
+          40
+        ],
+        "terminal_length": [
+          20,
+          40
+        ]
+      },
+      "overall": [
+        120,
+        240
+      ]
+    },
+    "string symbols subset of grammar terminals": {
+      "by_family": {
+        "alternatives": [
+          40,
+          40
+        ],
+        "chain_depth": [
+          40,
+          40
+        ],
+        "nesting": [
+          40,
+          40
+        ],
+        "recursion": [
+          40,
+          40
+        ],
+        "sequence": [
+          40,
+          40
+        ],
+        "terminal_length": [
+          24,
+          40
+        ]
+      },
+      "overall": [
+        224,
+        240
+      ]
+    }
+  }
+}

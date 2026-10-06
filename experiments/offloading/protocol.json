@@ -1,0 +1,88 @@
+{
+  "baseline_gate": {
+    "baseline_source_commit": "3826395",
+    "completed_suites": [
+      "A",
+      "B"
+    ],
+    "completion_sha256": {
+      "A": "65d86e19583b976211b8a4d3feb7b2e778ae6f370df08e248adf4303e76a7ac0",
+      "B": "46a2d003ffaea8974d45f3731acfee2f6006c141d010ca29abcabfe44da3f870"
+    },
+    "replayed_cases": 3840
+  },
+  "conditions": {
+    "H0": {
+      "hints": [],
+      "legality_guard": false
+    },
+    "H1": {
+      "hints": [
+        "untried_rules"
+      ],
+      "legality_guard": false
+    },
+    "H2": {
+      "hints": [],
+      "legality_guard": true
+    },
+    "H3": {
+      "hints": [
+        "untried_rules"
+      ],
+      "legality_guard": true
+    },
+    "H4": {
+      "hints": [
+        "untried_rules",
+        "prefix_matches",
+        "complete_match"
+      ],
+      "legality_guard": false
+    },
+    "H5": {
+      "hints": [
+        "untried_rules",
+        "prefix_matches",
+        "complete_match",
+        "next_untried"
+      ],
+      "legality_guard": false
+    }
+  },
+  "scope": "zero-shot only; H0 fresh within each suite job; guard is live-only; no filtering or grading changes",
+  "settings": {
+    "batch_size": 32,
+    "context": 16384,
+    "direct_tokens": 128,
+    "dtype": "bfloat16",
+    "enable_lora": false,
+    "fulltrace_and_live_batch_size": 1,
+    "fulltrace_tokens": 4096,
+    "guard_in_teacher_checks": false,
+    "guard_note": "pK was already tried here",
+    "max_calls": 512,
+    "model": "Qwen/Qwen3-14B",
+    "modes": [
+      "external_state",
+      "oracle_step"
+    ],
+    "repair": false,
+    "retries": "one bookkeeping re-ask in guarded live conditions only",
+    "revision": "40c069824f4251a91eefaf281ebe4c544efd3e18",
+    "seed": 17,
+    "step_tokens": 128,
+    "teacher_batching": "within case, maximum 32",
+    "temperature": 0,
+    "thinking": false,
+    "top_k": -1,
+    "top_p": 1,
+    "training": "none"
+  },
+  "suite_hashes": {
+    "experiments/countpreserving/A.json": "c2e6a6fbb0b8189ec345c776948dad4b11e207b390ef2f965a266018ff855c6a",
+    "experiments/countpreserving/B.json": "41899656c07ab77b3b59ed624f57b47498080b4ea5c1401dd6bbe838ad9ed792",
+    "experiments/wholerun/cuefree.json": "5997887fdc756adb1a73ee71083ca255e6018e9ae374bc05ec3f8bda61ef2224",
+    "experiments/wholerun/original.json": "9a3a2fd89cec291d0ac6bbfd2ac0239c222d7f94de13b7071c2bc018f7d8b71b"
+  }
+}

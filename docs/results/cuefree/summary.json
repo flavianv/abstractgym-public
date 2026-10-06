@@ -1,0 +1,1924 @@
+{
+  "direct": {
+    "by_family": {
+      "alternatives": {
+        "correct": 40,
+        "failures": {},
+        "no": [
+          20,
+          20
+        ],
+        "total": 40,
+        "yes": [
+          20,
+          20
+        ]
+      },
+      "chain_depth": {
+        "correct": 40,
+        "failures": {},
+        "no": [
+          20,
+          20
+        ],
+        "total": 40,
+        "yes": [
+          20,
+          20
+        ]
+      },
+      "nesting": {
+        "correct": 32,
+        "failures": {
+          "incorrect_answer": 8
+        },
+        "no": [
+          16,
+          20
+        ],
+        "total": 40,
+        "yes": [
+          16,
+          20
+        ]
+      },
+      "recursion": {
+        "correct": 28,
+        "failures": {
+          "incorrect_answer": 12
+        },
+        "no": [
+          8,
+          20
+        ],
+        "total": 40,
+        "yes": [
+          20,
+          20
+        ]
+      },
+      "sequence": {
+        "correct": 32,
+        "failures": {
+          "incorrect_answer": 8
+        },
+        "no": [
+          12,
+          20
+        ],
+        "total": 40,
+        "yes": [
+          20,
+          20
+        ]
+      },
+      "terminal_length": {
+        "correct": 32,
+        "failures": {
+          "incorrect_answer": 8
+        },
+        "no": [
+          12,
+          20
+        ],
+        "total": 40,
+        "yes": [
+          20,
+          20
+        ]
+      }
+    },
+    "by_level": {
+      "1": {
+        "correct": 47,
+        "failures": {
+          "incorrect_answer": 1
+        },
+        "no": [
+          24,
+          24
+        ],
+        "total": 48,
+        "yes": [
+          23,
+          24
+        ]
+      },
+      "16": {
+        "correct": 34,
+        "failures": {
+          "incorrect_answer": 14
+        },
+        "no": [
+          10,
+          24
+        ],
+        "total": 48,
+        "yes": [
+          24,
+          24
+        ]
+      },
+      "2": {
+        "correct": 45,
+        "failures": {
+          "incorrect_answer": 3
+        },
+        "no": [
+          24,
+          24
+        ],
+        "total": 48,
+        "yes": [
+          21,
+          24
+        ]
+      },
+      "4": {
+        "correct": 44,
+        "failures": {
+          "incorrect_answer": 4
+        },
+        "no": [
+          20,
+          24
+        ],
+        "total": 48,
+        "yes": [
+          24,
+          24
+        ]
+      },
+      "8": {
+        "correct": 34,
+        "failures": {
+          "incorrect_answer": 14
+        },
+        "no": [
+          10,
+          24
+        ],
+        "total": 48,
+        "yes": [
+          24,
+          24
+        ]
+      }
+    },
+    "family_level": {
+      "alternatives": {
+        "1": {
+          "correct": 8,
+          "failures": {},
+          "no": [
+            4,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "16": {
+          "correct": 8,
+          "failures": {},
+          "no": [
+            4,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "2": {
+          "correct": 8,
+          "failures": {},
+          "no": [
+            4,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "4": {
+          "correct": 8,
+          "failures": {},
+          "no": [
+            4,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "8": {
+          "correct": 8,
+          "failures": {},
+          "no": [
+            4,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        }
+      },
+      "chain_depth": {
+        "1": {
+          "correct": 8,
+          "failures": {},
+          "no": [
+            4,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "16": {
+          "correct": 8,
+          "failures": {},
+          "no": [
+            4,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "2": {
+          "correct": 8,
+          "failures": {},
+          "no": [
+            4,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "4": {
+          "correct": 8,
+          "failures": {},
+          "no": [
+            4,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "8": {
+          "correct": 8,
+          "failures": {},
+          "no": [
+            4,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        }
+      },
+      "nesting": {
+        "1": {
+          "correct": 7,
+          "failures": {
+            "incorrect_answer": 1
+          },
+          "no": [
+            4,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            3,
+            4
+          ]
+        },
+        "16": {
+          "correct": 6,
+          "failures": {
+            "incorrect_answer": 2
+          },
+          "no": [
+            2,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "2": {
+          "correct": 5,
+          "failures": {
+            "incorrect_answer": 3
+          },
+          "no": [
+            4,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            1,
+            4
+          ]
+        },
+        "4": {
+          "correct": 8,
+          "failures": {},
+          "no": [
+            4,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "8": {
+          "correct": 6,
+          "failures": {
+            "incorrect_answer": 2
+          },
+          "no": [
+            2,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        }
+      },
+      "recursion": {
+        "1": {
+          "correct": 8,
+          "failures": {},
+          "no": [
+            4,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "16": {
+          "correct": 4,
+          "failures": {
+            "incorrect_answer": 4
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "2": {
+          "correct": 8,
+          "failures": {},
+          "no": [
+            4,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "4": {
+          "correct": 4,
+          "failures": {
+            "incorrect_answer": 4
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "8": {
+          "correct": 4,
+          "failures": {
+            "incorrect_answer": 4
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        }
+      },
+      "sequence": {
+        "1": {
+          "correct": 8,
+          "failures": {},
+          "no": [
+            4,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "16": {
+          "correct": 4,
+          "failures": {
+            "incorrect_answer": 4
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "2": {
+          "correct": 8,
+          "failures": {},
+          "no": [
+            4,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "4": {
+          "correct": 8,
+          "failures": {},
+          "no": [
+            4,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "8": {
+          "correct": 4,
+          "failures": {
+            "incorrect_answer": 4
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        }
+      },
+      "terminal_length": {
+        "1": {
+          "correct": 8,
+          "failures": {},
+          "no": [
+            4,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "16": {
+          "correct": 4,
+          "failures": {
+            "incorrect_answer": 4
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "2": {
+          "correct": 8,
+          "failures": {},
+          "no": [
+            4,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "4": {
+          "correct": 8,
+          "failures": {},
+          "no": [
+            4,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "8": {
+          "correct": 4,
+          "failures": {
+            "incorrect_answer": 4
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        }
+      }
+    },
+    "overall": {
+      "correct": 204,
+      "failures": {
+        "incorrect_answer": 36
+      },
+      "no": [
+        88,
+        120
+      ],
+      "total": 240,
+      "yes": [
+        116,
+        120
+      ]
+    }
+  },
+  "gym_memory": {
+    "by_family": {
+      "alternatives": {
+        "correct": 4,
+        "failures": {
+          "invalid_action": 36
+        },
+        "no": [
+          0,
+          20
+        ],
+        "total": 40,
+        "yes": [
+          4,
+          20
+        ]
+      },
+      "chain_depth": {
+        "correct": 4,
+        "failures": {
+          "invalid_action": 36
+        },
+        "no": [
+          0,
+          20
+        ],
+        "total": 40,
+        "yes": [
+          4,
+          20
+        ]
+      },
+      "nesting": {
+        "correct": 0,
+        "failures": {
+          "invalid_action": 40
+        },
+        "no": [
+          0,
+          20
+        ],
+        "total": 40,
+        "yes": [
+          0,
+          20
+        ]
+      },
+      "recursion": {
+        "correct": 0,
+        "failures": {
+          "invalid_action": 40
+        },
+        "no": [
+          0,
+          20
+        ],
+        "total": 40,
+        "yes": [
+          0,
+          20
+        ]
+      },
+      "sequence": {
+        "correct": 12,
+        "failures": {
+          "invalid_action": 28
+        },
+        "no": [
+          0,
+          20
+        ],
+        "total": 40,
+        "yes": [
+          12,
+          20
+        ]
+      },
+      "terminal_length": {
+        "correct": 20,
+        "failures": {
+          "invalid_action": 20
+        },
+        "no": [
+          0,
+          20
+        ],
+        "total": 40,
+        "yes": [
+          20,
+          20
+        ]
+      }
+    },
+    "by_level": {
+      "1": {
+        "correct": 8,
+        "failures": {
+          "invalid_action": 40
+        },
+        "no": [
+          0,
+          24
+        ],
+        "total": 48,
+        "yes": [
+          8,
+          24
+        ]
+      },
+      "16": {
+        "correct": 8,
+        "failures": {
+          "invalid_action": 40
+        },
+        "no": [
+          0,
+          24
+        ],
+        "total": 48,
+        "yes": [
+          8,
+          24
+        ]
+      },
+      "2": {
+        "correct": 12,
+        "failures": {
+          "invalid_action": 36
+        },
+        "no": [
+          0,
+          24
+        ],
+        "total": 48,
+        "yes": [
+          12,
+          24
+        ]
+      },
+      "4": {
+        "correct": 8,
+        "failures": {
+          "invalid_action": 40
+        },
+        "no": [
+          0,
+          24
+        ],
+        "total": 48,
+        "yes": [
+          8,
+          24
+        ]
+      },
+      "8": {
+        "correct": 4,
+        "failures": {
+          "invalid_action": 44
+        },
+        "no": [
+          0,
+          24
+        ],
+        "total": 48,
+        "yes": [
+          4,
+          24
+        ]
+      }
+    },
+    "family_level": {
+      "alternatives": {
+        "1": {
+          "correct": 4,
+          "failures": {
+            "invalid_action": 4
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "16": {
+          "correct": 0,
+          "failures": {
+            "invalid_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "2": {
+          "correct": 0,
+          "failures": {
+            "invalid_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "4": {
+          "correct": 0,
+          "failures": {
+            "invalid_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "8": {
+          "correct": 0,
+          "failures": {
+            "invalid_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        }
+      },
+      "chain_depth": {
+        "1": {
+          "correct": 0,
+          "failures": {
+            "invalid_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "16": {
+          "correct": 0,
+          "failures": {
+            "invalid_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "2": {
+          "correct": 4,
+          "failures": {
+            "invalid_action": 4
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "4": {
+          "correct": 0,
+          "failures": {
+            "invalid_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "8": {
+          "correct": 0,
+          "failures": {
+            "invalid_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        }
+      },
+      "nesting": {
+        "1": {
+          "correct": 0,
+          "failures": {
+            "invalid_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "16": {
+          "correct": 0,
+          "failures": {
+            "invalid_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "2": {
+          "correct": 0,
+          "failures": {
+            "invalid_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "4": {
+          "correct": 0,
+          "failures": {
+            "invalid_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "8": {
+          "correct": 0,
+          "failures": {
+            "invalid_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        }
+      },
+      "recursion": {
+        "1": {
+          "correct": 0,
+          "failures": {
+            "invalid_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "16": {
+          "correct": 0,
+          "failures": {
+            "invalid_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "2": {
+          "correct": 0,
+          "failures": {
+            "invalid_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "4": {
+          "correct": 0,
+          "failures": {
+            "invalid_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "8": {
+          "correct": 0,
+          "failures": {
+            "invalid_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        }
+      },
+      "sequence": {
+        "1": {
+          "correct": 0,
+          "failures": {
+            "invalid_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "16": {
+          "correct": 4,
+          "failures": {
+            "invalid_action": 4
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "2": {
+          "correct": 4,
+          "failures": {
+            "invalid_action": 4
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "4": {
+          "correct": 4,
+          "failures": {
+            "invalid_action": 4
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "8": {
+          "correct": 0,
+          "failures": {
+            "invalid_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        }
+      },
+      "terminal_length": {
+        "1": {
+          "correct": 4,
+          "failures": {
+            "invalid_action": 4
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "16": {
+          "correct": 4,
+          "failures": {
+            "invalid_action": 4
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "2": {
+          "correct": 4,
+          "failures": {
+            "invalid_action": 4
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "4": {
+          "correct": 4,
+          "failures": {
+            "invalid_action": 4
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "8": {
+          "correct": 4,
+          "failures": {
+            "invalid_action": 4
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        }
+      }
+    },
+    "overall": {
+      "correct": 40,
+      "failures": {
+        "invalid_action": 200
+      },
+      "no": [
+        0,
+        120
+      ],
+      "total": 240,
+      "yes": [
+        40,
+        120
+      ]
+    }
+  },
+  "written_algorithm": {
+    "by_family": {
+      "alternatives": {
+        "correct": 6,
+        "failures": {
+          "invalid_or_trailing_action": 34
+        },
+        "no": [
+          2,
+          20
+        ],
+        "total": 40,
+        "yes": [
+          4,
+          20
+        ]
+      },
+      "chain_depth": {
+        "correct": 4,
+        "failures": {
+          "call_or_parse_error": 3,
+          "invalid_or_trailing_action": 33
+        },
+        "no": [
+          0,
+          20
+        ],
+        "total": 40,
+        "yes": [
+          4,
+          20
+        ]
+      },
+      "nesting": {
+        "correct": 0,
+        "failures": {
+          "call_or_parse_error": 12,
+          "invalid_or_trailing_action": 28
+        },
+        "no": [
+          0,
+          20
+        ],
+        "total": 40,
+        "yes": [
+          0,
+          20
+        ]
+      },
+      "recursion": {
+        "correct": 0,
+        "failures": {
+          "call_or_parse_error": 13,
+          "invalid_or_trailing_action": 27
+        },
+        "no": [
+          0,
+          20
+        ],
+        "total": 40,
+        "yes": [
+          0,
+          20
+        ]
+      },
+      "sequence": {
+        "correct": 0,
+        "failures": {
+          "call_or_parse_error": 10,
+          "invalid_or_trailing_action": 30
+        },
+        "no": [
+          0,
+          20
+        ],
+        "total": 40,
+        "yes": [
+          0,
+          20
+        ]
+      },
+      "terminal_length": {
+        "correct": 20,
+        "failures": {
+          "invalid_or_trailing_action": 20
+        },
+        "no": [
+          0,
+          20
+        ],
+        "total": 40,
+        "yes": [
+          20,
+          20
+        ]
+      }
+    },
+    "by_level": {
+      "1": {
+        "correct": 12,
+        "failures": {
+          "invalid_or_trailing_action": 36
+        },
+        "no": [
+          0,
+          24
+        ],
+        "total": 48,
+        "yes": [
+          12,
+          24
+        ]
+      },
+      "16": {
+        "correct": 4,
+        "failures": {
+          "call_or_parse_error": 15,
+          "invalid_or_trailing_action": 29
+        },
+        "no": [
+          0,
+          24
+        ],
+        "total": 48,
+        "yes": [
+          4,
+          24
+        ]
+      },
+      "2": {
+        "correct": 4,
+        "failures": {
+          "call_or_parse_error": 3,
+          "invalid_or_trailing_action": 41
+        },
+        "no": [
+          0,
+          24
+        ],
+        "total": 48,
+        "yes": [
+          4,
+          24
+        ]
+      },
+      "4": {
+        "correct": 5,
+        "failures": {
+          "invalid_or_trailing_action": 43
+        },
+        "no": [
+          1,
+          24
+        ],
+        "total": 48,
+        "yes": [
+          4,
+          24
+        ]
+      },
+      "8": {
+        "correct": 5,
+        "failures": {
+          "call_or_parse_error": 20,
+          "invalid_or_trailing_action": 23
+        },
+        "no": [
+          1,
+          24
+        ],
+        "total": 48,
+        "yes": [
+          4,
+          24
+        ]
+      }
+    },
+    "family_level": {
+      "alternatives": {
+        "1": {
+          "correct": 4,
+          "failures": {
+            "invalid_or_trailing_action": 4
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "16": {
+          "correct": 0,
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "2": {
+          "correct": 0,
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "4": {
+          "correct": 1,
+          "failures": {
+            "invalid_or_trailing_action": 7
+          },
+          "no": [
+            1,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "8": {
+          "correct": 1,
+          "failures": {
+            "invalid_or_trailing_action": 7
+          },
+          "no": [
+            1,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        }
+      },
+      "chain_depth": {
+        "1": {
+          "correct": 4,
+          "failures": {
+            "invalid_or_trailing_action": 4
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "16": {
+          "correct": 0,
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "2": {
+          "correct": 0,
+          "failures": {
+            "call_or_parse_error": 3,
+            "invalid_or_trailing_action": 5
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "4": {
+          "correct": 0,
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "8": {
+          "correct": 0,
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        }
+      },
+      "nesting": {
+        "1": {
+          "correct": 0,
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "16": {
+          "correct": 0,
+          "failures": {
+            "call_or_parse_error": 7,
+            "invalid_or_trailing_action": 1
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "2": {
+          "correct": 0,
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "4": {
+          "correct": 0,
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "8": {
+          "correct": 0,
+          "failures": {
+            "call_or_parse_error": 5,
+            "invalid_or_trailing_action": 3
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        }
+      },
+      "recursion": {
+        "1": {
+          "correct": 0,
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "16": {
+          "correct": 0,
+          "failures": {
+            "call_or_parse_error": 6,
+            "invalid_or_trailing_action": 2
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "2": {
+          "correct": 0,
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "4": {
+          "correct": 0,
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "8": {
+          "correct": 0,
+          "failures": {
+            "call_or_parse_error": 7,
+            "invalid_or_trailing_action": 1
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        }
+      },
+      "sequence": {
+        "1": {
+          "correct": 0,
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "16": {
+          "correct": 0,
+          "failures": {
+            "call_or_parse_error": 2,
+            "invalid_or_trailing_action": 6
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "2": {
+          "correct": 0,
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "4": {
+          "correct": 0,
+          "failures": {
+            "invalid_or_trailing_action": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        },
+        "8": {
+          "correct": 0,
+          "failures": {
+            "call_or_parse_error": 8
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            0,
+            4
+          ]
+        }
+      },
+      "terminal_length": {
+        "1": {
+          "correct": 4,
+          "failures": {
+            "invalid_or_trailing_action": 4
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "16": {
+          "correct": 4,
+          "failures": {
+            "invalid_or_trailing_action": 4
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "2": {
+          "correct": 4,
+          "failures": {
+            "invalid_or_trailing_action": 4
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "4": {
+          "correct": 4,
+          "failures": {
+            "invalid_or_trailing_action": 4
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        },
+        "8": {
+          "correct": 4,
+          "failures": {
+            "invalid_or_trailing_action": 4
+          },
+          "no": [
+            0,
+            4
+          ],
+          "total": 8,
+          "yes": [
+            4,
+            4
+          ]
+        }
+      }
+    },
+    "overall": {
+      "correct": 30,
+      "failures": {
+        "call_or_parse_error": 38,
+        "invalid_or_trailing_action": 172
+      },
+      "no": [
+        2,
+        120
+      ],
+      "total": 240,
+      "yes": [
+        28,
+        120
+      ]
+    }
+  }
+}

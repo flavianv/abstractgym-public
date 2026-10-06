@@ -1,0 +1,202 @@
+{
+  "A": {
+    "H0": {
+      "activated_cases": 0,
+      "activations": 0,
+      "budget_blocked": 0,
+      "cases": 0,
+      "reasks": 0,
+      "second_correct": 0
+    },
+    "H1": {
+      "activated_cases": 0,
+      "activations": 0,
+      "budget_blocked": 0,
+      "cases": 0,
+      "reasks": 0,
+      "second_correct": 0
+    },
+    "H2": {
+      "activated_cases": 9,
+      "activations": 10,
+      "budget_blocked": 0,
+      "cases": 240,
+      "reasks": 10,
+      "second_correct": 4
+    },
+    "H3": {
+      "activated_cases": 2,
+      "activations": 3,
+      "budget_blocked": 0,
+      "cases": 240,
+      "reasks": 3,
+      "second_correct": 1
+    },
+    "H4": {
+      "activated_cases": 0,
+      "activations": 0,
+      "budget_blocked": 0,
+      "cases": 0,
+      "reasks": 0,
+      "second_correct": 0
+    },
+    "H5": {
+      "activated_cases": 0,
+      "activations": 0,
+      "budget_blocked": 0,
+      "cases": 0,
+      "reasks": 0,
+      "second_correct": 0
+    }
+  },
+  "B": {
+    "H0": {
+      "activated_cases": 0,
+      "activations": 0,
+      "budget_blocked": 0,
+      "cases": 0,
+      "reasks": 0,
+      "second_correct": 0
+    },
+    "H1": {
+      "activated_cases": 0,
+      "activations": 0,
+      "budget_blocked": 0,
+      "cases": 0,
+      "reasks": 0,
+      "second_correct": 0
+    },
+    "H2": {
+      "activated_cases": 0,
+      "activations": 0,
+      "budget_blocked": 0,
+      "cases": 240,
+      "reasks": 0,
+      "second_correct": 0
+    },
+    "H3": {
+      "activated_cases": 0,
+      "activations": 0,
+      "budget_blocked": 0,
+      "cases": 240,
+      "reasks": 0,
+      "second_correct": 0
+    },
+    "H4": {
+      "activated_cases": 0,
+      "activations": 0,
+      "budget_blocked": 0,
+      "cases": 0,
+      "reasks": 0,
+      "second_correct": 0
+    },
+    "H5": {
+      "activated_cases": 0,
+      "activations": 0,
+      "budget_blocked": 0,
+      "cases": 0,
+      "reasks": 0,
+      "second_correct": 0
+    }
+  },
+  "cuefree": {
+    "H0": {
+      "activated_cases": 0,
+      "activations": 0,
+      "budget_blocked": 0,
+      "cases": 0,
+      "reasks": 0,
+      "second_correct": 0
+    },
+    "H1": {
+      "activated_cases": 0,
+      "activations": 0,
+      "budget_blocked": 0,
+      "cases": 0,
+      "reasks": 0,
+      "second_correct": 0
+    },
+    "H2": {
+      "activated_cases": 0,
+      "activations": 0,
+      "budget_blocked": 0,
+      "cases": 240,
+      "reasks": 0,
+      "second_correct": 0
+    },
+    "H3": {
+      "activated_cases": 3,
+      "activations": 6,
+      "budget_blocked": 0,
+      "cases": 240,
+      "reasks": 6,
+      "second_correct": 3
+    },
+    "H4": {
+      "activated_cases": 0,
+      "activations": 0,
+      "budget_blocked": 0,
+      "cases": 0,
+      "reasks": 0,
+      "second_correct": 0
+    },
+    "H5": {
+      "activated_cases": 0,
+      "activations": 0,
+      "budget_blocked": 0,
+      "cases": 0,
+      "reasks": 0,
+      "second_correct": 0
+    }
+  },
+  "original": {
+    "H0": {
+      "activated_cases": 0,
+      "activations": 0,
+      "budget_blocked": 0,
+      "cases": 0,
+      "reasks": 0,
+      "second_correct": 0
+    },
+    "H1": {
+      "activated_cases": 0,
+      "activations": 0,
+      "budget_blocked": 0,
+      "cases": 0,
+      "reasks": 0,
+      "second_correct": 0
+    },
+    "H2": {
+      "activated_cases": 0,
+      "activations": 0,
+      "budget_blocked": 0,
+      "cases": 240,
+      "reasks": 0,
+      "second_correct": 0
+    },
+    "H3": {
+      "activated_cases": 0,
+      "activations": 0,
+      "budget_blocked": 0,
+      "cases": 240,
+      "reasks": 0,
+      "second_correct": 0
+    },
+    "H4": {
+      "activated_cases": 0,
+      "activations": 0,
+      "budget_blocked": 0,
+      "cases": 0,
+      "reasks": 0,
+      "second_correct": 0
+    },
+    "H5": {
+      "activated_cases": 0,
+      "activations": 0,
+      "budget_blocked": 0,
+      "cases": 0,
+      "reasks": 0,
+      "second_correct": 0
+    }
+  }
+}

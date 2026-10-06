@@ -1,0 +1,37 @@
+{
+  "direct_batch_size": 32,
+  "direct_tokens": 128,
+  "dtype": "bfloat16",
+  "enable_lora": false,
+  "examples": 0,
+  "execution_batch_size": 1,
+  "historical_sources": {
+    "build/cfg_controller_v1/ray/complexity/instances.jsonl": "0b7fa19f718fe3b26ec2f4229b479671fc521b1045ae2f3b58f50a8b8e9300aa",
+    "build/cfg_controller_v1/ray/complexity/membership/records.jsonl": "1ff5df4a33c5c0d4fde15fba81d6eb378f20e09013a497a99b7388a63abe17b3",
+    "build/cfg_controller_v1/ray/complexity/membership/runtime.json": "70f170da77ad37ef731c4b4513f673b3f849919680945d8de47b0848ebd155a8",
+    "build/cfg_controller_v1/ray/complexity/original/records.jsonl": "48f2865fd65cae0bd77010d2c29aa8b68f97473fe88de9f7e2e99e0a856935a8",
+    "build/cfg_controller_v1/ray/complexity/runtime.json": "b4319461b719a402560155827428f12ed6310dd6fb4222db0bcf6871290b4cd4"
+  },
+  "lanes": {
+    "gym_memory": "external_state",
+    "written_algorithm": "full_trace"
+  },
+  "max_calls": 512,
+  "max_model_len": 16384,
+  "model": "Qwen/Qwen3-14B",
+  "new_direct_cases": 240,
+  "new_execution_cases_per_lane": 120,
+  "prototype_comparison": "All 240 grammars/strings and seven shortcut predictions match.",
+  "prototype_sha256": "eb422b4bc99a89c01e52a7132e7efaaccfd9d72c31f613c9f0f56ffceae424f9",
+  "retries": 0,
+  "reused_yes_cases_per_execution_lane": 120,
+  "revision": "40c069824f4251a91eefaf281ebe4c544efd3e18",
+  "seed": 17,
+  "step_tokens": 128,
+  "temperature": 0,
+  "thinking": false,
+  "top_k": -1,
+  "top_p": 1.0,
+  "trace_tokens": 4096,
+  "training": "none"
+}

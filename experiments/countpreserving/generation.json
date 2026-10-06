@@ -1,0 +1,23 @@
+{
+  "attempts": 127,
+  "generation_policy": "random terminal/terminal-prefix single-child rules; rejection sampled",
+  "nonterminals": [
+    3,
+    6
+  ],
+  "rejected": {
+    "bounded_solver_disagreement_or_limit": 1,
+    "different_canonical_accepting_depth": 1,
+    "no_rejecting_swap": 5
+  },
+  "retained_pairs": 120,
+  "rules_per_nonterminal": [
+    2,
+    3
+  ],
+  "seed": 417,
+  "vocabulary": [
+    3,
+    4
+  ]
+}

@@ -1,0 +1,1536 @@
+{
+  "A": {
+    "H0": {
+      "ACC": {
+        "correct": 90,
+        "mistakes": {
+          "DONE": 7,
+          "PRN": 11,
+          "TRY": 12
+        },
+        "total": 120
+      },
+      "BT": {
+        "correct": 80,
+        "mistakes": {
+          "BT": 12,
+          "DONE": 64,
+          "TRY": 493,
+          "TRY_already_tried": 811
+        },
+        "total": 1460
+      },
+      "CUT": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "DONE": {
+        "correct": 49,
+        "mistakes": {
+          "BT": 15,
+          "CUT": 1,
+          "REJ": 1,
+          "TRY": 44,
+          "TRY_already_tried": 402
+        },
+        "total": 512
+      },
+      "PRN": {
+        "correct": 162,
+        "mistakes": {
+          "ACC": 3,
+          "BT": 48,
+          "CUT": 9,
+          "DONE": 1,
+          "PRN": 22,
+          "TRY": 823
+        },
+        "total": 1068
+      },
+      "REJ": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "TRY": {
+        "correct": 1522,
+        "mistakes": {
+          "ACC": 3,
+          "PRN": 4,
+          "TRY": 345,
+          "TRY_already_tried": 450
+        },
+        "total": 2324
+      }
+    },
+    "H1": {
+      "ACC": {
+        "correct": 115,
+        "mistakes": {
+          "PRN": 3,
+          "TRY": 2
+        },
+        "total": 120
+      },
+      "BT": {
+        "correct": 311,
+        "mistakes": {
+          "BT": 6,
+          "DONE": 92,
+          "PRN": 2,
+          "REJ": 1,
+          "TRY": 953,
+          "TRY_already_tried": 95
+        },
+        "total": 1460
+      },
+      "CUT": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "DONE": {
+        "correct": 81,
+        "mistakes": {
+          "BT": 61,
+          "CUT": 4,
+          "PRN": 28,
+          "REJ": 11,
+          "TRY": 18,
+          "TRY_already_tried": 309
+        },
+        "total": 512
+      },
+      "PRN": {
+        "correct": 256,
+        "mistakes": {
+          "ACC": 89,
+          "BT": 138,
+          "CUT": 4,
+          "DONE": 3,
+          "PRN": 39,
+          "REJ": 11,
+          "TRY": 528
+        },
+        "total": 1068
+      },
+      "REJ": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "TRY": {
+        "correct": 1763,
+        "mistakes": {
+          "TRY": 561
+        },
+        "total": 2324
+      }
+    },
+    "H2": {
+      "ACC": {
+        "correct": 90,
+        "mistakes": {
+          "DONE": 7,
+          "PRN": 11,
+          "TRY": 12
+        },
+        "total": 120
+      },
+      "BT": {
+        "correct": 85,
+        "mistakes": {
+          "BT": 13,
+          "DONE": 65,
+          "TRY": 493,
+          "TRY_already_tried": 804
+        },
+        "total": 1460
+      },
+      "CUT": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "DONE": {
+        "correct": 49,
+        "mistakes": {
+          "BT": 15,
+          "CUT": 1,
+          "REJ": 1,
+          "TRY": 44,
+          "TRY_already_tried": 402
+        },
+        "total": 512
+      },
+      "PRN": {
+        "correct": 164,
+        "mistakes": {
+          "ACC": 2,
+          "BT": 52,
+          "CUT": 7,
+          "PRN": 19,
+          "TRY": 824
+        },
+        "total": 1068
+      },
+      "REJ": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "TRY": {
+        "correct": 1508,
+        "mistakes": {
+          "ACC": 3,
+          "PRN": 4,
+          "TRY": 344,
+          "TRY_already_tried": 465
+        },
+        "total": 2324
+      }
+    },
+    "H3": {
+      "ACC": {
+        "correct": 115,
+        "mistakes": {
+          "PRN": 3,
+          "TRY": 2
+        },
+        "total": 120
+      },
+      "BT": {
+        "correct": 313,
+        "mistakes": {
+          "BT": 7,
+          "DONE": 91,
+          "PRN": 2,
+          "REJ": 1,
+          "TRY": 953,
+          "TRY_already_tried": 93
+        },
+        "total": 1460
+      },
+      "CUT": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "DONE": {
+        "correct": 81,
+        "mistakes": {
+          "BT": 63,
+          "CUT": 4,
+          "PRN": 25,
+          "REJ": 13,
+          "TRY": 19,
+          "TRY_already_tried": 307
+        },
+        "total": 512
+      },
+      "PRN": {
+        "correct": 252,
+        "mistakes": {
+          "ACC": 92,
+          "BT": 142,
+          "CUT": 3,
+          "DONE": 3,
+          "PRN": 39,
+          "REJ": 9,
+          "TRY": 528
+        },
+        "total": 1068
+      },
+      "REJ": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "TRY": {
+        "correct": 1762,
+        "mistakes": {
+          "TRY": 562
+        },
+        "total": 2324
+      }
+    },
+    "H4": {
+      "ACC": {
+        "correct": 117,
+        "mistakes": {
+          "DONE": 3
+        },
+        "total": 120
+      },
+      "BT": {
+        "correct": 365,
+        "mistakes": {
+          "ACC": 5,
+          "BT": 7,
+          "CUT": 1,
+          "DONE": 68,
+          "REJ": 1,
+          "TRY": 948,
+          "TRY_already_tried": 65
+        },
+        "total": 1460
+      },
+      "CUT": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "DONE": {
+        "correct": 62,
+        "mistakes": {
+          "ACC": 3,
+          "BT": 101,
+          "CUT": 11,
+          "REJ": 28,
+          "TRY": 11,
+          "TRY_already_tried": 296
+        },
+        "total": 512
+      },
+      "PRN": {
+        "correct": 179,
+        "mistakes": {
+          "ACC": 3,
+          "BT": 261,
+          "CUT": 6,
+          "REJ": 106,
+          "TRY": 513
+        },
+        "total": 1068
+      },
+      "REJ": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "TRY": {
+        "correct": 1945,
+        "mistakes": {
+          "TRY": 379
+        },
+        "total": 2324
+      }
+    },
+    "H5": {
+      "ACC": {
+        "correct": 116,
+        "mistakes": {
+          "DONE": 4
+        },
+        "total": 120
+      },
+      "BT": {
+        "correct": 386,
+        "mistakes": {
+          "BT": 3,
+          "DONE": 56,
+          "REJ": 2,
+          "TRY": 945,
+          "TRY_already_tried": 68
+        },
+        "total": 1460
+      },
+      "CUT": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "DONE": {
+        "correct": 73,
+        "mistakes": {
+          "BT": 202,
+          "CUT": 9,
+          "REJ": 61,
+          "TRY": 8,
+          "TRY_already_tried": 159
+        },
+        "total": 512
+      },
+      "PRN": {
+        "correct": 268,
+        "mistakes": {
+          "ACC": 2,
+          "BT": 293,
+          "CUT": 37,
+          "REJ": 194,
+          "TRY": 274
+        },
+        "total": 1068
+      },
+      "REJ": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "TRY": {
+        "correct": 2275,
+        "mistakes": {
+          "TRY": 49
+        },
+        "total": 2324
+      }
+    }
+  },
+  "B": {
+    "H0": {
+      "ACC": {
+        "correct": 20,
+        "mistakes": {
+          "PRN": 67,
+          "TRY": 33
+        },
+        "total": 120
+      },
+      "BT": {
+        "correct": 136,
+        "mistakes": {
+          "BT": 11,
+          "DONE": 1,
+          "PRN": 7,
+          "TRY": 1060,
+          "TRY_already_tried": 904
+        },
+        "total": 2119
+      },
+      "CUT": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "DONE": {
+        "correct": 0,
+        "mistakes": {
+          "BT": 3,
+          "CUT": 2,
+          "REJ": 1,
+          "TRY": 54,
+          "TRY_already_tried": 558
+        },
+        "total": 618
+      },
+      "PRN": {
+        "correct": 386,
+        "mistakes": {
+          "ACC": 5,
+          "BT": 43,
+          "CUT": 12,
+          "PRN": 29,
+          "REJ": 7,
+          "TRY": 1124
+        },
+        "total": 1606
+      },
+      "REJ": {
+        "correct": 0,
+        "mistakes": {
+          "BT": 1,
+          "PRN": 7,
+          "TRY": 7
+        },
+        "total": 15
+      },
+      "TRY": {
+        "correct": 1523,
+        "mistakes": {
+          "PRN": 17,
+          "TRY": 867,
+          "TRY_already_tried": 456
+        },
+        "total": 2863
+      }
+    },
+    "H1": {
+      "ACC": {
+        "correct": 77,
+        "mistakes": {
+          "CUT": 2,
+          "DONE": 1,
+          "PRN": 40
+        },
+        "total": 120
+      },
+      "BT": {
+        "correct": 470,
+        "mistakes": {
+          "BT": 15,
+          "CUT": 3,
+          "DONE": 67,
+          "PRN": 21,
+          "REJ": 1,
+          "TRY": 1495,
+          "TRY_already_tried": 47
+        },
+        "total": 2119
+      },
+      "CUT": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "DONE": {
+        "correct": 72,
+        "mistakes": {
+          "BT": 114,
+          "CUT": 61,
+          "PRN": 46,
+          "REJ": 16,
+          "TRY": 24,
+          "TRY_already_tried": 285
+        },
+        "total": 618
+      },
+      "PRN": {
+        "correct": 459,
+        "mistakes": {
+          "ACC": 183,
+          "BT": 114,
+          "CUT": 87,
+          "DONE": 7,
+          "PRN": 50,
+          "REJ": 55,
+          "TRY": 651
+        },
+        "total": 1606
+      },
+      "REJ": {
+        "correct": 0,
+        "mistakes": {
+          "ACC": 1,
+          "BT": 2,
+          "PRN": 11,
+          "TRY": 1
+        },
+        "total": 15
+      },
+      "TRY": {
+        "correct": 2707,
+        "mistakes": {
+          "PRN": 2,
+          "TRY": 154
+        },
+        "total": 2863
+      }
+    },
+    "H2": {
+      "ACC": {
+        "correct": 23,
+        "mistakes": {
+          "PRN": 65,
+          "TRY": 32
+        },
+        "total": 120
+      },
+      "BT": {
+        "correct": 137,
+        "mistakes": {
+          "BT": 11,
+          "DONE": 1,
+          "PRN": 7,
+          "TRY": 1062,
+          "TRY_already_tried": 901
+        },
+        "total": 2119
+      },
+      "CUT": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "DONE": {
+        "correct": 0,
+        "mistakes": {
+          "BT": 3,
+          "CUT": 2,
+          "REJ": 1,
+          "TRY": 54,
+          "TRY_already_tried": 558
+        },
+        "total": 618
+      },
+      "PRN": {
+        "correct": 387,
+        "mistakes": {
+          "ACC": 4,
+          "BT": 43,
+          "CUT": 12,
+          "PRN": 29,
+          "REJ": 7,
+          "TRY": 1124
+        },
+        "total": 1606
+      },
+      "REJ": {
+        "correct": 0,
+        "mistakes": {
+          "BT": 1,
+          "PRN": 7,
+          "TRY": 7
+        },
+        "total": 15
+      },
+      "TRY": {
+        "correct": 1530,
+        "mistakes": {
+          "PRN": 17,
+          "TRY": 866,
+          "TRY_already_tried": 450
+        },
+        "total": 2863
+      }
+    },
+    "H3": {
+      "ACC": {
+        "correct": 77,
+        "mistakes": {
+          "CUT": 2,
+          "DONE": 1,
+          "PRN": 40
+        },
+        "total": 120
+      },
+      "BT": {
+        "correct": 470,
+        "mistakes": {
+          "BT": 14,
+          "CUT": 4,
+          "DONE": 68,
+          "PRN": 20,
+          "REJ": 1,
+          "TRY": 1495,
+          "TRY_already_tried": 47
+        },
+        "total": 2119
+      },
+      "CUT": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "DONE": {
+        "correct": 72,
+        "mistakes": {
+          "BT": 115,
+          "CUT": 62,
+          "PRN": 45,
+          "REJ": 16,
+          "TRY": 25,
+          "TRY_already_tried": 283
+        },
+        "total": 618
+      },
+      "PRN": {
+        "correct": 453,
+        "mistakes": {
+          "ACC": 182,
+          "BT": 115,
+          "CUT": 93,
+          "DONE": 8,
+          "PRN": 51,
+          "REJ": 53,
+          "TRY": 651
+        },
+        "total": 1606
+      },
+      "REJ": {
+        "correct": 0,
+        "mistakes": {
+          "ACC": 1,
+          "BT": 2,
+          "PRN": 11,
+          "TRY": 1
+        },
+        "total": 15
+      },
+      "TRY": {
+        "correct": 2707,
+        "mistakes": {
+          "PRN": 2,
+          "TRY": 154
+        },
+        "total": 2863
+      }
+    },
+    "H4": {
+      "ACC": {
+        "correct": 119,
+        "mistakes": {
+          "TRY": 1
+        },
+        "total": 120
+      },
+      "BT": {
+        "correct": 545,
+        "mistakes": {
+          "BT": 19,
+          "DONE": 51,
+          "PRN": 1,
+          "REJ": 1,
+          "TRY": 1495,
+          "TRY_already_tried": 7
+        },
+        "total": 2119
+      },
+      "CUT": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "DONE": {
+        "correct": 54,
+        "mistakes": {
+          "BT": 173,
+          "CUT": 67,
+          "PRN": 13,
+          "REJ": 56,
+          "TRY": 23,
+          "TRY_already_tried": 232
+        },
+        "total": 618
+      },
+      "PRN": {
+        "correct": 396,
+        "mistakes": {
+          "ACC": 1,
+          "BT": 184,
+          "CUT": 212,
+          "PRN": 1,
+          "REJ": 180,
+          "TRY": 632
+        },
+        "total": 1606
+      },
+      "REJ": {
+        "correct": 0,
+        "mistakes": {
+          "BT": 3,
+          "PRN": 5,
+          "TRY": 7
+        },
+        "total": 15
+      },
+      "TRY": {
+        "correct": 2762,
+        "mistakes": {
+          "TRY": 101
+        },
+        "total": 2863
+      }
+    },
+    "H5": {
+      "ACC": {
+        "correct": 118,
+        "mistakes": {
+          "DONE": 2
+        },
+        "total": 120
+      },
+      "BT": {
+        "correct": 601,
+        "mistakes": {
+          "BT": 11,
+          "DONE": 14,
+          "REJ": 3,
+          "TRY": 1488,
+          "TRY_already_tried": 2
+        },
+        "total": 2119
+      },
+      "CUT": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "DONE": {
+        "correct": 37,
+        "mistakes": {
+          "BT": 348,
+          "CUT": 118,
+          "REJ": 80,
+          "TRY": 6,
+          "TRY_already_tried": 29
+        },
+        "total": 618
+      },
+      "PRN": {
+        "correct": 387,
+        "mistakes": {
+          "BT": 258,
+          "CUT": 256,
+          "DONE": 7,
+          "PRN": 2,
+          "REJ": 380,
+          "TRY": 316
+        },
+        "total": 1606
+      },
+      "REJ": {
+        "correct": 0,
+        "mistakes": {
+          "ACC": 1,
+          "BT": 8,
+          "CUT": 3,
+          "TRY": 3
+        },
+        "total": 15
+      },
+      "TRY": {
+        "correct": 2831,
+        "mistakes": {
+          "TRY": 32
+        },
+        "total": 2863
+      }
+    }
+  },
+  "cuefree": {
+    "H0": {
+      "ACC": {
+        "correct": 103,
+        "mistakes": {
+          "PRN": 11,
+          "TRY": 6
+        },
+        "total": 120
+      },
+      "BT": {
+        "correct": 93,
+        "mistakes": {
+          "BT": 3,
+          "DONE": 53,
+          "PRN": 11,
+          "REJ": 18,
+          "TRY": 363,
+          "TRY_already_tried": 391
+        },
+        "total": 932
+      },
+      "CUT": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "DONE": {
+        "correct": 48,
+        "mistakes": {
+          "PRN": 9,
+          "REJ": 16,
+          "TRY": 13,
+          "TRY_already_tried": 430
+        },
+        "total": 516
+      },
+      "PRN": {
+        "correct": 83,
+        "mistakes": {
+          "ACC": 27,
+          "BT": 163,
+          "CUT": 37,
+          "PRN": 74,
+          "REJ": 8,
+          "TRY": 144
+        },
+        "total": 536
+      },
+      "REJ": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "TRY": {
+        "correct": 1043,
+        "mistakes": {
+          "PRN": 7,
+          "TRY": 349,
+          "TRY_already_tried": 129
+        },
+        "total": 1528
+      }
+    },
+    "H1": {
+      "ACC": {
+        "correct": 111,
+        "mistakes": {
+          "PRN": 9
+        },
+        "total": 120
+      },
+      "BT": {
+        "correct": 376,
+        "mistakes": {
+          "ACC": 5,
+          "DONE": 61,
+          "PRN": 16,
+          "REJ": 22,
+          "TRY": 416,
+          "TRY_already_tried": 36
+        },
+        "total": 932
+      },
+      "CUT": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "DONE": {
+        "correct": 54,
+        "mistakes": {
+          "ACC": 14,
+          "BT": 75,
+          "CUT": 15,
+          "PRN": 65,
+          "REJ": 52,
+          "TRY": 4,
+          "TRY_already_tried": 237
+        },
+        "total": 516
+      },
+      "PRN": {
+        "correct": 98,
+        "mistakes": {
+          "ACC": 59,
+          "BT": 215,
+          "CUT": 3,
+          "PRN": 66,
+          "REJ": 22,
+          "TRY": 73
+        },
+        "total": 536
+      },
+      "REJ": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "TRY": {
+        "correct": 1199,
+        "mistakes": {
+          "PRN": 4,
+          "TRY": 325
+        },
+        "total": 1528
+      }
+    },
+    "H2": {
+      "ACC": {
+        "correct": 103,
+        "mistakes": {
+          "PRN": 11,
+          "TRY": 6
+        },
+        "total": 120
+      },
+      "BT": {
+        "correct": 94,
+        "mistakes": {
+          "BT": 3,
+          "DONE": 55,
+          "PRN": 10,
+          "REJ": 18,
+          "TRY": 362,
+          "TRY_already_tried": 390
+        },
+        "total": 932
+      },
+      "CUT": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "DONE": {
+        "correct": 48,
+        "mistakes": {
+          "PRN": 9,
+          "REJ": 16,
+          "TRY": 15,
+          "TRY_already_tried": 428
+        },
+        "total": 516
+      },
+      "PRN": {
+        "correct": 91,
+        "mistakes": {
+          "ACC": 28,
+          "BT": 156,
+          "CUT": 33,
+          "PRN": 71,
+          "REJ": 8,
+          "TRY": 149
+        },
+        "total": 536
+      },
+      "REJ": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "TRY": {
+        "correct": 1042,
+        "mistakes": {
+          "PRN": 8,
+          "TRY": 349,
+          "TRY_already_tried": 129
+        },
+        "total": 1528
+      }
+    },
+    "H3": {
+      "ACC": {
+        "correct": 111,
+        "mistakes": {
+          "PRN": 9
+        },
+        "total": 120
+      },
+      "BT": {
+        "correct": 376,
+        "mistakes": {
+          "ACC": 5,
+          "BT": 2,
+          "DONE": 59,
+          "PRN": 16,
+          "REJ": 22,
+          "TRY": 416,
+          "TRY_already_tried": 36
+        },
+        "total": 932
+      },
+      "CUT": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "DONE": {
+        "correct": 54,
+        "mistakes": {
+          "ACC": 14,
+          "BT": 74,
+          "CUT": 15,
+          "PRN": 66,
+          "REJ": 54,
+          "TRY": 4,
+          "TRY_already_tried": 235
+        },
+        "total": 516
+      },
+      "PRN": {
+        "correct": 101,
+        "mistakes": {
+          "ACC": 56,
+          "BT": 215,
+          "CUT": 3,
+          "PRN": 67,
+          "REJ": 21,
+          "TRY": 73
+        },
+        "total": 536
+      },
+      "REJ": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "TRY": {
+        "correct": 1201,
+        "mistakes": {
+          "PRN": 4,
+          "TRY": 323
+        },
+        "total": 1528
+      }
+    },
+    "H4": {
+      "ACC": {
+        "correct": 120,
+        "mistakes": {},
+        "total": 120
+      },
+      "BT": {
+        "correct": 378,
+        "mistakes": {
+          "ACC": 2,
+          "DONE": 55,
+          "PRN": 17,
+          "REJ": 12,
+          "TRY": 416,
+          "TRY_already_tried": 52
+        },
+        "total": 932
+      },
+      "CUT": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "DONE": {
+        "correct": 52,
+        "mistakes": {
+          "BT": 118,
+          "CUT": 2,
+          "PRN": 12,
+          "REJ": 93,
+          "TRY_already_tried": 239
+        },
+        "total": 516
+      },
+      "PRN": {
+        "correct": 150,
+        "mistakes": {
+          "ACC": 18,
+          "BT": 209,
+          "CUT": 5,
+          "PRN": 14,
+          "REJ": 56,
+          "TRY": 84
+        },
+        "total": 536
+      },
+      "REJ": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "TRY": {
+        "correct": 1322,
+        "mistakes": {
+          "TRY": 206
+        },
+        "total": 1528
+      }
+    },
+    "H5": {
+      "ACC": {
+        "correct": 120,
+        "mistakes": {},
+        "total": 120
+      },
+      "BT": {
+        "correct": 389,
+        "mistakes": {
+          "BT": 13,
+          "DONE": 40,
+          "PRN": 22,
+          "REJ": 9,
+          "TRY": 403,
+          "TRY_already_tried": 56
+        },
+        "total": 932
+      },
+      "CUT": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "DONE": {
+        "correct": 45,
+        "mistakes": {
+          "ACC": 3,
+          "BT": 188,
+          "CUT": 30,
+          "PRN": 8,
+          "REJ": 126,
+          "TRY_already_tried": 116
+        },
+        "total": 516
+      },
+      "PRN": {
+        "correct": 116,
+        "mistakes": {
+          "ACC": 16,
+          "BT": 208,
+          "CUT": 8,
+          "PRN": 4,
+          "REJ": 110,
+          "TRY": 74
+        },
+        "total": 536
+      },
+      "REJ": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "TRY": {
+        "correct": 1458,
+        "mistakes": {
+          "TRY": 70
+        },
+        "total": 1528
+      }
+    }
+  },
+  "original": {
+    "H0": {
+      "ACC": {
+        "correct": 103,
+        "mistakes": {
+          "PRN": 11,
+          "TRY": 6
+        },
+        "total": 120
+      },
+      "BT": {
+        "correct": 107,
+        "mistakes": {
+          "BT": 8,
+          "DONE": 40,
+          "PRN": 53,
+          "REJ": 34,
+          "TRY": 371,
+          "TRY_already_tried": 395
+        },
+        "total": 1008
+      },
+      "CUT": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "DONE": {
+        "correct": 19,
+        "mistakes": {
+          "BT": 29,
+          "PRN": 9,
+          "REJ": 42,
+          "TRY": 10,
+          "TRY_already_tried": 383
+        },
+        "total": 492
+      },
+      "PRN": {
+        "correct": 177,
+        "mistakes": {
+          "BT": 169,
+          "CUT": 15,
+          "PRN": 94,
+          "REJ": 58,
+          "TRY": 123
+        },
+        "total": 636
+      },
+      "REJ": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "TRY": {
+        "correct": 987,
+        "mistakes": {
+          "PRN": 77,
+          "REJ": 8,
+          "TRY": 325,
+          "TRY_already_tried": 207
+        },
+        "total": 1604
+      }
+    },
+    "H1": {
+      "ACC": {
+        "correct": 111,
+        "mistakes": {
+          "PRN": 9
+        },
+        "total": 120
+      },
+      "BT": {
+        "correct": 360,
+        "mistakes": {
+          "CUT": 1,
+          "DONE": 75,
+          "PRN": 38,
+          "REJ": 36,
+          "TRY": 479,
+          "TRY_already_tried": 19
+        },
+        "total": 1008
+      },
+      "CUT": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "DONE": {
+        "correct": 53,
+        "mistakes": {
+          "BT": 113,
+          "CUT": 7,
+          "PRN": 34,
+          "REJ": 71,
+          "TRY_already_tried": 214
+        },
+        "total": 492
+      },
+      "PRN": {
+        "correct": 159,
+        "mistakes": {
+          "ACC": 5,
+          "BT": 180,
+          "PRN": 135,
+          "REJ": 82,
+          "TRY": 75
+        },
+        "total": 636
+      },
+      "REJ": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "TRY": {
+        "correct": 1142,
+        "mistakes": {
+          "PRN": 52,
+          "TRY": 410
+        },
+        "total": 1604
+      }
+    },
+    "H2": {
+      "ACC": {
+        "correct": 103,
+        "mistakes": {
+          "PRN": 11,
+          "TRY": 6
+        },
+        "total": 120
+      },
+      "BT": {
+        "correct": 123,
+        "mistakes": {
+          "BT": 6,
+          "DONE": 40,
+          "PRN": 47,
+          "REJ": 34,
+          "TRY": 368,
+          "TRY_already_tried": 390
+        },
+        "total": 1008
+      },
+      "CUT": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "DONE": {
+        "correct": 20,
+        "mistakes": {
+          "BT": 29,
+          "PRN": 9,
+          "REJ": 41,
+          "TRY": 8,
+          "TRY_already_tried": 385
+        },
+        "total": 492
+      },
+      "PRN": {
+        "correct": 184,
+        "mistakes": {
+          "BT": 168,
+          "CUT": 13,
+          "PRN": 90,
+          "REJ": 56,
+          "TRY": 125
+        },
+        "total": 636
+      },
+      "REJ": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "TRY": {
+        "correct": 989,
+        "mistakes": {
+          "PRN": 77,
+          "REJ": 7,
+          "TRY": 328,
+          "TRY_already_tried": 203
+        },
+        "total": 1604
+      }
+    },
+    "H3": {
+      "ACC": {
+        "correct": 111,
+        "mistakes": {
+          "PRN": 9
+        },
+        "total": 120
+      },
+      "BT": {
+        "correct": 358,
+        "mistakes": {
+          "CUT": 1,
+          "DONE": 76,
+          "PRN": 40,
+          "REJ": 34,
+          "TRY": 479,
+          "TRY_already_tried": 20
+        },
+        "total": 1008
+      },
+      "CUT": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "DONE": {
+        "correct": 53,
+        "mistakes": {
+          "BT": 115,
+          "CUT": 5,
+          "PRN": 33,
+          "REJ": 71,
+          "TRY_already_tried": 215
+        },
+        "total": 492
+      },
+      "PRN": {
+        "correct": 158,
+        "mistakes": {
+          "ACC": 5,
+          "BT": 181,
+          "PRN": 132,
+          "REJ": 85,
+          "TRY": 75
+        },
+        "total": 636
+      },
+      "REJ": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "TRY": {
+        "correct": 1140,
+        "mistakes": {
+          "PRN": 52,
+          "TRY": 412
+        },
+        "total": 1604
+      }
+    },
+    "H4": {
+      "ACC": {
+        "correct": 120,
+        "mistakes": {},
+        "total": 120
+      },
+      "BT": {
+        "correct": 368,
+        "mistakes": {
+          "DONE": 48,
+          "PRN": 42,
+          "REJ": 45,
+          "TRY": 482,
+          "TRY_already_tried": 23
+        },
+        "total": 1008
+      },
+      "CUT": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "DONE": {
+        "correct": 49,
+        "mistakes": {
+          "BT": 139,
+          "CUT": 21,
+          "PRN": 8,
+          "REJ": 92,
+          "TRY_already_tried": 183
+        },
+        "total": 492
+      },
+      "PRN": {
+        "correct": 150,
+        "mistakes": {
+          "BT": 152,
+          "CUT": 4,
+          "PRN": 2,
+          "REJ": 240,
+          "TRY": 88
+        },
+        "total": 636
+      },
+      "REJ": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "TRY": {
+        "correct": 1286,
+        "mistakes": {
+          "PRN": 34,
+          "TRY": 284
+        },
+        "total": 1604
+      }
+    },
+    "H5": {
+      "ACC": {
+        "correct": 120,
+        "mistakes": {},
+        "total": 120
+      },
+      "BT": {
+        "correct": 353,
+        "mistakes": {
+          "BT": 14,
+          "DONE": 39,
+          "PRN": 79,
+          "REJ": 23,
+          "TRY": 439,
+          "TRY_already_tried": 61
+        },
+        "total": 1008
+      },
+      "CUT": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "DONE": {
+        "correct": 38,
+        "mistakes": {
+          "BT": 150,
+          "CUT": 47,
+          "PRN": 9,
+          "REJ": 86,
+          "TRY_already_tried": 162
+        },
+        "total": 492
+      },
+      "PRN": {
+        "correct": 195,
+        "mistakes": {
+          "BT": 149,
+          "CUT": 5,
+          "PRN": 4,
+          "REJ": 221,
+          "TRY": 62
+        },
+        "total": 636
+      },
+      "REJ": {
+        "correct": 0,
+        "mistakes": {},
+        "total": 0
+      },
+      "TRY": {
+        "correct": 1432,
+        "mistakes": {
+          "PRN": 62,
+          "TRY": 110
+        },
+        "total": 1604
+      }
+    }
+  }
+}

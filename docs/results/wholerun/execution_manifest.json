@@ -1,0 +1,1015 @@
+{
+  "abandoned_sequential_training": {
+    "completed": false,
+    "held_out_evaluation_started": false,
+    "plans": [],
+    "started": false
+  },
+  "analysis_source_sha256": {
+    "docs/wholerun_protocol.md": "b13320a37632a097b13a01f3b5034f3fd47553ce6827172eca6483360f7ec079",
+    "scripts/report_wholerun.py": "8b37e771740939cb971f7e2eef1bbace1706286a84062298bec5483698adddb8",
+    "src/abstractgym/wholerun.py": "ffd921334a01cf4c8901b1485ba3886f2e381f7965f56ce2abd976d0e95a3511"
+  },
+  "container_image": "ray-cuda-image@sha256:171d9f3f4f25dfecc304516f798aa4874087542b1a423281b1c3b4dfde86e1ee",
+  "handoff": {
+    "first_arm_completed": true,
+    "reason": "Other two arms run independently on dedicated workers; no evaluation call is retried.",
+    "stdout": "\u001b[34m\u256d\u2500\u001b[0m\u001b[34m\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u001b[0m\u001b[34m Ray job \u001b[0m\u001b[34m\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u001b[0m\u001b[34m\u2500\u256e\u001b[0m\n\u001b[34m\u2502\u001b[0m \u001b[1;36m        ID\u001b[0m\u001b[1;36m  \u001b[0mabstractgym-wholerun-20261005                                                                                    \u001b[34m\u2502\u001b[0m\n\u001b[34m\u2502\u001b[0m \u001b[1;36mRay job ID\u001b[0m\u001b[1;36m  \u001b[0m\u2014                                                                                                                \u001b[34m\u2502\u001b[0m\n\u001b[34m\u2502\u001b[0m \u001b[1;36m   Cluster\u001b[0m\u001b[1;36m  \u001b[0mabstractgym-cfg-pilot                                                                                            \u001b[34m\u2502\u001b[0m\n\u001b[34m\u2502\u001b[0m \u001b[1;36m     State\u001b[0m\u001b[1;36m  \u001b[0mSTOPPED                                                                                                          \u001b[34m\u2502\u001b[0m\n\u001b[34m\u2502\u001b[0m \u001b[1;36m       DIR\u001b[0m\u001b[1;36m  \u001b[0mexperiments/abstractgym/wholerun-20261005                                                                        \u001b[34m\u2502\u001b[0m\n\u001b[34m\u2502\u001b[0m \u001b[1;36m   Started\u001b[0m\u001b[1;36m  \u001b[0m2026-10-05T13:38:20.396000+00:00                                                                                 \u001b[34m\u2502\u001b[0m\n\u001b[34m\u2502\u001b[0m \u001b[1;36m     Ended\u001b[0m\u001b[1;36m  \u001b[0m2026-10-05T18:37:32.766000+00:00                                                                                 \u001b[34m\u2502\u001b[0m\n\u001b[34m\u2502\u001b[0m \u001b[1;36m Exit code\u001b[0m\u001b[1;36m  \u001b[0m\u2014                                                                                                                \u001b[34m\u2502\u001b[0m\n\u001b[34m\u2502\u001b[0m \u001b[1;36m   Message\u001b[0m\u001b[1;36m  \u001b[0mJob was intentionally stopped.                                                                                   \u001b[34m\u2502\u001b[0m\n\u001b[34m\u2502\u001b[0m \u001b[1;36mEntrypoint\u001b[0m\u001b[1;36m  \u001b[0mprintf '%s\\n' __RAY_CLI_JOB_START_abedba860db3ecb6ed1676da0b62c6aa__ && tmpdir=$(mktemp -d) &&                   \u001b[34m\u2502\u001b[0m\n\u001b[34m\u2502\u001b[0m \u001b[1;36m            \u001b[0mrecord=\"$tmpdir/abstractgym-wholerun-20261005-2026-10-05T13-38-20Z.json\" && trap 'rm -f \"$record\"; rmdir         \u001b[34m\u2502\u001b[0m\n\u001b[34m\u2502\u001b[0m \u001b[1;36m            \u001b[0m\"$tmpdir\"' EXIT && printf '%s\\n' '{\"cluster\": \"abstractgym-cfg-pilot\", \"dir\":                                    \u001b[34m\u2502\u001b[0m\n\u001b[34m\u2502\u001b[0m \u001b[1;36m            \u001b[0m\"experiments/abstractgym/wholerun-20261005\", \"id\": \"abstractgym-wholerun-20261005\", \"output_uri\":                \u001b[34m\u2502\u001b[0m\n\u001b[34m\u2502\u001b[0m \u001b[1;36m            \u001b[0m\"runs/wholerun-20261005\", \"owner\":            \u001b[34m\u2502\u001b[0m\n\u001b[34m\u2502\u001b[0m \u001b[1;36m            \u001b[0m\"owner\", \"ray_cli_revision\": \"de9e3105843a2b6db84e894f1ee11c34d7d9a9c8\", \"ray_cli_version\": \"0.4.0\",          \u001b[34m\u2502\u001b[0m\n\u001b[34m\u2502\u001b[0m \u001b[1;36m            \u001b[0m\"schema_version\": 2, \"submitted_at\": \"2026-10-05T13:38:20Z\"}' > \"$record\" && hdfs dfs -mkdir -p                  \u001b[34m\u2502\u001b[0m\n\u001b[34m\u2502\u001b[0m \u001b[1;36m            \u001b[0mruns/wholerun-20261005                        \u001b[34m\u2502\u001b[0m\n\u001b[34m\u2502\u001b[0m \u001b[1;36m            \u001b[0mruns/wholerun-20261005/.ray-cli/submissions   \u001b[34m\u2502\u001b[0m\n\u001b[34m\u2502\u001b[0m \u001b[1;36m            \u001b[0m&& hdfs dfs -put \"$record\"                                                                                       \u001b[34m\u2502\u001b[0m\n\u001b[34m\u2502\u001b[0m \u001b[1;36m            \u001b[0mruns/wholerun-20261005/.ray-cli/submissions   \u001b[34m\u2502\u001b[0m\n\u001b[34m\u2502\u001b[0m \u001b[1;36m            \u001b[0m&& rm -f \"$record\" && rmdir \"$tmpdir\" && trap - EXIT && exec bash scripts/run_ray_wholerun_all.sh                \u001b[34m\u2502\u001b[0m\n\u001b[34m\u2570\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u256f\u001b[0m\n\u001b[0m",
+    "stopped_sequential_launcher": true
+  },
+  "initial_launcher_status": "STOPPED after successful fulltrace_sft completion; no second-arm evaluation used",
+  "jobs": [
+    {
+      "arms": [
+        "fulltrace_sft"
+      ],
+      "launch_log_sha256": "b14a00f2947986f5baf3dfb4019e842bf426c80333e79b8f1233caa442319362",
+      "staging": {
+        "archive_sha256": "adff994824140eb5fcf8479342cd161390905808ff180b0918ec7e108cf7f96a",
+        "files": {
+          "experiments/wholerun/cuefree.json": "5997887fdc756adb1a73ee71083ca255e6018e9ae374bc05ec3f8bda61ef2224",
+          "experiments/wholerun/fulltrace.json": "2aa2c6e8b5f2a2196f25e1d4e269680f0989dd61002ef129fe9a03203d160f6b",
+          "experiments/wholerun/manifest.json": "28ee5b521c9130f20cf22bda833bef6b551ab0dedef7263026e64b59ce7f52be",
+          "experiments/wholerun/original.json": "9a3a2fd89cec291d0ac6bbfd2ac0239c222d7f94de13b7071c2bc018f7d8b71b",
+          "experiments/wholerun/protocol.json": "4c5d40afb58405f513c40f6819237c78e4401fff5e0c9a5a92ce1bafbb77eb82",
+          "experiments/wholerun/single_step.json.gz": "502ab4778389ede0f12f7348da76b6a60491b9001760e136d898c79a4ee274d7",
+          "scripts/a6_runtime_site/sitecustomize.py": "69d401feebe6e74ae01ba889127a11d799f0ff399718216f507e6ce89fb9cf94",
+          "scripts/analyze_a6_history_state.py": "5a391ff5eddbee4623b3a9e4893baf5bb4f37dd882faab59aa5a17bb4ec2ecac",
+          "scripts/analyze_a6_x9.py": "56166bfbefb783374272d7762751976ce5bc7f00bc71ee76bc22333d89a76ea0",
+          "scripts/analyze_brackets.py": "35a10c51599a3f4396297914084fdba21a15dc6f3ba3a23643591b146d3cb01d",
+          "scripts/analyze_complexity.py": "d901ff9625077bfc5ff38028dbbb2cf9be79ba17bc13cec6660cfaf830b8b65e",
+          "scripts/audit_a7_rollouts.py": "60f93f1a6746e9361b96244197a1a95ae438b1e61775f06b74b129e86e301072",
+          "scripts/audit_hf_payloads.py": "066227846254923f7d71b7c0f9793aded153c9a5de01d0d372d7ca5a5d699cb1",
+          "scripts/compare_a7_pairs.py": "24353a0f1a24998adca46494d1e96dc6b9f98d18053a079c91f856b6f79b57da",
+          "scripts/diagnose_a6_merge.py": "053d7894ea87c486b0032daa66d80ff0875496b732e04c6a706378089d82cf84",
+          "scripts/export_a6.py": "b5a9f9745c60a714b4d088ad29e2a9590268c08acc90cefaef2409c12ab54e40",
+          "scripts/export_a6_e2.py": "350e4ce56ab3d5c72b8b5e045f232aaab80a90b198c09430e6e26bb5448e3d2c",
+          "scripts/export_a6_followups.py": "efa9187c88dc797d507323ce4129ad566ca7e4deae27d5b40c0363c9aef6c9d6",
+          "scripts/export_a6_objectives.py": "67e8dfe8326abf02e530b58c46dcee317f65a66d69db080bc0d45d552620614e",
+          "scripts/export_a6_run_manifest.py": "aa4232cd6546d5f6e6ae7aeb2f5f83f3f213ffb26b8760af40bc82e692b5482b",
+          "scripts/export_a6_x10.py": "374ca16c04063b994334fe31d3b1890c9f4a9b42cab0dbf2e3d25e0328bb28cc",
+          "scripts/export_a6_x3.py": "4f9653f4ca1855e5bbf8bf7dfa7a13b47b04e0820188d950feb924a1d4788a39",
+          "scripts/export_a6_x45.py": "f6cd95c1d1547cf1f5c002aad71dc288130c3c1483e4274f4631ad117db089dc",
+          "scripts/export_a7.py": "3ad7b9d4aca90b97fa7608a44609798cd071901dbbb26ed9368d0d31e6e47e94",
+          "scripts/export_a7_runs.py": "f155bb31293ff65498939d4d837bb505ab0a35988eb8381f284778f0e1eaeaba",
+          "scripts/fetch_ray_artifacts.py": "3db0bb0a37c8d56c3e8b46435ae3b78dd4d269621515f93b553585664dc5388b",
+          "scripts/fetch_ray_binary_remote.py": "ef144fa0cded718d86c1944456c816aa5b5e61b8b2e18cc8726b977e1b392397",
+          "scripts/freeze_a7.py": "fa8937b088c8b3b4a2d61aeae8c57415292fca2453bde8264428e73dcc8858d6",
+          "scripts/freeze_cuefree.py": "c19a032756ba186a55e578fc6fe291922355180867f8f46169607a1dc0649d0e",
+          "scripts/freeze_wholerun.py": "cfcc0646a8b6692dc2f2f8d356f7e3988b27683a117676ffc6dc0edbb1daf1cf",
+          "scripts/plot_a6.py": "e6da8969b654ba74dcc4e80892e15933406232d6eeb73db5054a64aefe626c87",
+          "scripts/plot_a6_followups.py": "7ed7aab4ecef9855416a70fb1cd6aff107d9725ecb7f049795fa0e193f1a4c3b",
+          "scripts/plot_a7.py": "35544d199c228fd36e6cb683947eeffcd539caa7f2f6f6800fed693ee40e79e2",
+          "scripts/prepare_hf_cards.py": "c48571d5cfe7a904b503c6e72e5e748fe71f98ffde0d32cba677b315abe73ac1",
+          "scripts/prepare_hf_tiny.py": "b975681a1dcb009d5dbad287df2289eb1e20febdba4af01d4ea6cfa48636c68d",
+          "scripts/publish_hf_payloads.py": "664f23f1ccb8cf728effdb4e86c4588e7341ed433f9e521ff9aaef9bcd66bc75",
+          "scripts/ray_preflight.py": "441c7e2bf3a84d8a6c2355090bca4053a2c932f0c3713f8dddc579f9d7e9a980",
+          "scripts/report_a7.py": "7b505241b71d89ec0b8989207a8311a560008df25db3e3497519d8b1331850a4",
+          "scripts/report_cuefree.py": "ead30b580c965d97d07d54b9d5781f2c82f6e569ed7dcf9c09785fc6d9198ac8",
+          "scripts/report_hf_publication.py": "060e9f75cb1a0289659a9b18b3d5504a4ae20f38318e769dfc2eebccc9b283cb",
+          "scripts/resume_a6_e2_evaluation.py": "768fec7fc1a317851c2afece8d4f7ccbef7994534bd58a119ca5bde5b6b681eb",
+          "scripts/resume_a6_lora_only.py": "7ee456a8ff80c4fe5630f48656258a93fbb518ad17a6e79b559cbcd2dd96504d",
+          "scripts/run_a6_tiny.py": "62a632c65003a10c5f35b1a586f7a62cfae3605db0c39d9ae48914367ea7aa1e",
+          "scripts/run_a6_tiny_trace.py": "bcf51be1ed79826cf8fc82c265e08b0953f2e5c51e1446aa9c065e0e5c012ee4",
+          "scripts/run_a6_tiny_x5.py": "ac3ac6379dc0bdf5199d0c17eab97cc9934284fd20d75c2f3273fecfcf0ecd70",
+          "scripts/run_a6_x6.py": "b8ce548d5a55069483b46ed89da10f34bb9a3edf976b361069cd4d11692fd685",
+          "scripts/run_ray_a6_14b.sh": "2ef096f6f968a3938055dae998c985b02707b70425269af1ff7bfada05277bde",
+          "scripts/run_ray_a6_e2.py": "0ed956f3a2ffe8bb449f27436ed5f529218457a39ff5d5abd526d84c35b5c07b",
+          "scripts/run_ray_a6_e2.sh": "e32775e7d0012162fe8cb2055a7628fe2e1af560eb144b6d8ed2209df6369b73",
+          "scripts/run_ray_a6_e2_eval.sh": "64abca98a12414672e2dc8aeb9cb875398428e5d1513ee50bbf3a5799f1e51dc",
+          "scripts/run_ray_a6_lora_only.sh": "81fd3da523a645dfe71b6519db10b4ccd23c1e351105a64f4d136428a61924f9",
+          "scripts/run_ray_a6_objective.py": "9d2959066cf7a085cd3c1c16c2ebbef1ebf5fb73e346124d3500da35ed8f2b04",
+          "scripts/run_ray_a6_objective.sh": "89872ba4c2f24dc4eb8495aa9fe74f8606d7d79056507f59475515d8eabcf510",
+          "scripts/run_ray_a6_x10.py": "b3116935f91500209c38afe2a515de71943f21646db8937e6bbe613e36584d16",
+          "scripts/run_ray_a6_x10.sh": "4455fdbf3e4a6968cf0b2369b335c8e9974cf744090cc8dd19655ebab9101ea2",
+          "scripts/run_ray_a6_x12.py": "4037a98896feeafe1400fb24150c25e0517ec3dfaa646b424d400a970b25ec34",
+          "scripts/run_ray_a6_x12.sh": "06802b158ddd627cf981696884fb83c9ba5353b2df0d4311563de8200172db84",
+          "scripts/run_ray_a6_x3.py": "4235557a8bbe4bf83078c414d5328a50435af5c67471c54ba5b06fb4d1df667e",
+          "scripts/run_ray_a6_x3.sh": "8430c8c04966924c1d8d4d5939f16ba15d35bc903e44a0d6a4d85e51d9e9a496",
+          "scripts/run_ray_a6_x45.py": "28f7eadadf8fe5dce180c58416a765a06476fe44bdd67e8368259b3351e64d30",
+          "scripts/run_ray_a6_x45.sh": "1b6e38f7d6c25315833590cb56e8a2b10f488c09e5ddd3ee99688eca40b802d9",
+          "scripts/run_ray_a7.py": "32a04d2c9da7eb5361a50af8d31f3b1234826896f48dff1979c03c9b5008b761",
+          "scripts/run_ray_a7.sh": "130d25469061ec75c2f15d544aa751a5abc5fe2540edaf38f7225f361bfb090d",
+          "scripts/run_ray_a7_teacher_audit.py": "d2677ff5a89318d621525c234344c1ee508d8b2d9666634493fc01daf110a241",
+          "scripts/run_ray_a7_teacher_audit.sh": "10459be3ee53039f6ec1c4f08e7ed3eb88ff112d2676e39300126c160751482d",
+          "scripts/run_ray_brackets.py": "2e2961c38ff1cda85c3f72f430bcac87aa79eb3c4a9e95baeaf5f17246ef8f95",
+          "scripts/run_ray_calibration_pair.sh": "274cbbefd4eca5047044e2dcf48c0acfa776a3df562f4fb5d8181abbbe47712c",
+          "scripts/run_ray_cfg.py": "513cd0d6c8180b565bf47512c96d5d68b40a63f1f9a971d2e2ab4f29d6ddfad1",
+          "scripts/run_ray_cfg.sh": "7fa15bf36d5a0f6f295bfaf98a242525b3b3fd7c778735e3eb4d8005e1a9ea9c",
+          "scripts/run_ray_complexity.py": "22b2cbe8c118ae2a36c109756882b6c1cdddc87a810a6e7601e47cc818ca4b1a",
+          "scripts/run_ray_cuefree.py": "2a63bdb934803d525401c589498062835bd4c05c3abf24b8c577485f66db5ec7",
+          "scripts/run_ray_cuefree.sh": "2b519444f66933a6fdd5cc0d6df9fa9a24dd75746763e09f2d80cc577f053871",
+          "scripts/run_ray_elementary.py": "85fb77253ea56a0d417ffc1a2c824777525ef63c85bd1a5adbe8fc0f6ba1da9e",
+          "scripts/run_ray_membership.py": "89f6ee21a9cbe13f32eae8a4c0d9e8706450214096427b7c37a656c8712ea055",
+          "scripts/run_ray_micro.py": "e0baa119bb39c8b576cf874244e1f446fd97891291185045de67f9e49f4f2570",
+          "scripts/run_ray_small_14b.sh": "32ca59b147c23e1d683a95ff8ce2c263802ae3499901ade34523f10ad09937e2",
+          "scripts/run_ray_wholerun.py": "05f122259485d40341a42c6860e992a3fb11b00936e029b94d0c949031e08fdc",
+          "scripts/run_ray_wholerun.sh": "8605a401c76c410d4b514dd84ac30fa85322862aa8aad1a2443b0062fa0c4d7d",
+          "scripts/run_ray_wholerun_all.sh": "58b75363132740487796381e4d9d36717054b6e638fd81dd37de82ff8179d513",
+          "scripts/submit_wholerun.py": "fd66d744c145cfaef1a26d0fdad3e3a05c91f900da0b028c0ad94fa3e005128b",
+          "src/abstractgym/__init__.py": "d2a4552fddb57d8eabf052560f08e5250dae1b8edce775a0986efc4b2a53aeb5",
+          "src/abstractgym/a6.py": "975b3d76fc9503e11e8f0ad8c57aa27162250298d4316d949145e6df80dbbfe2",
+          "src/abstractgym/a6_followup.py": "051b94d91d3c647e05133194cd3ee901811ec8fb1f39fec069f5a1af21bad11e",
+          "src/abstractgym/a6_model.py": "d13c0b913ba39cd3c8371147d2495b185c24d8d15225cd68bc11e1aa2ebd72f7",
+          "src/abstractgym/a6_objectives.py": "4bd171c13f85361aba114585cef342e7d5c9bc415379808edad11d9cf07bc8ed",
+          "src/abstractgym/a6_raw.py": "df9c2be312f2290939871364baca738ac9a849dca855d049e304a6d0bb74e630",
+          "src/abstractgym/a6_replication.py": "3f56448d3bf2699e9d2529430b3dad352d4c43099d2ecdeb153fb391b86d5844",
+          "src/abstractgym/a6_sft.py": "631b2c5f6add86b9520e2c29ea9f5e09fc457850437cafb246aa055d145d2762",
+          "src/abstractgym/a6_trace.py": "328a1d922e0d6dda421406f2e332b14ab9a127ad0a1fa0e1ebf3b3948c55fe94",
+          "src/abstractgym/a7.py": "9d2411f64386a3cad512940cbd095b42f4620e6229de0ab40ced1b8c0c7574c7",
+          "src/abstractgym/batched_experiment.py": "4a5ddc8b7aa8fb6e389c4497ece5bd0b99f3b6d02745995bfed1211a5924941e",
+          "src/abstractgym/benchmark.py": "25223b808a7b8f52c09a0cc35401eacfc656ae9456ee8fe0e30b2d3a54197532",
+          "src/abstractgym/brackets.py": "9fa8b835c0aac8fa26177b032f1fc07e1bb0964f7ec01fd0f83ad11b74e0550f",
+          "src/abstractgym/cfg.py": "275d028e050215cb695bccc2ee9603f44f12acdbfa781a58f4d29282f59b544a",
+          "src/abstractgym/cli.py": "a4ff6b248553e829173887e62ce347a7125f78448d86530178fc77c5209f752e",
+          "src/abstractgym/complexity.py": "3913686a0f4d6cd1245afe79038e2459d456fb1082f235af7daa755ec44c9d03",
+          "src/abstractgym/controller.py": "4031bc38f95f6c40c219916975c3bd954e13f692cdc0145e619143d8482f0346",
+          "src/abstractgym/cuefree.py": "edf559708c99e6b2be57cff2160ea4e7ee26082f9ed6bdd60059fe3e68a2068a",
+          "src/abstractgym/dataset.py": "509236f5236190370cb1cf2871b65fa4fd0dc39cd9c2303a3773ef4b02fb6d55",
+          "src/abstractgym/elementary.py": "b70c0d9413cb3fb5a5e87324bff7f6a4ef4ef3d62ede97d40302b662f2408243",
+          "src/abstractgym/evaluate.py": "b358860d53c96d7dfe17cb8bd14b79a1c108c0bc00fa2d67e442ddc9ddd5e243",
+          "src/abstractgym/experiment.py": "7e3288a769484ca97563899e8470d4094ee5b043e4bf06055c242fe5403ee0de",
+          "src/abstractgym/micro.py": "4e1474642316adef684b651a6b97d5b1e8bdafaa0089b19f0ab584c90dc67edc",
+          "src/abstractgym/oracle.py": "1f6db7ecfdcc27fe4c32f0c009bb6f550947fa275bb3e5c90f1cc9068585baf7",
+          "src/abstractgym/prompting.py": "f3514865ff596c8f90bab95275de4668bf82d6a802a0135ee5bb343dfae82618",
+          "src/abstractgym/schema.py": "c7effd67811824154dae86194424be6f28d3f591738f331b23e0c75e8e4c8de7",
+          "src/abstractgym/trace.py": "912b5e25ce739485d4be5fedc91c63166cf5e85c3c3d1acdc535daf2503b0242",
+          "src/abstractgym/wholerun.py": "72002c358cfd73a1d41e0ab49b61af0c5133d5959e44063ac76dbc83fe8c5a50"
+        },
+        "remote": "/workspace/abstractgym-wholerun-20261005"
+      },
+      "status": {
+        "dir": "experiments/abstractgym/wholerun-20261005",
+        "driver_exit_code": null,
+        "driver_node_id": "9db42b55c6c228701f005f3bd22bef04f80eec58451afd457b39d519",
+        "duration_seconds": 17952.37,
+        "ended_at": "2026-10-05T18:37:32.766000+00:00",
+        "entrypoint": "printf '%s\\n' __RAY_CLI_JOB_START_abedba860db3ecb6ed1676da0b62c6aa__ && tmpdir=$(mktemp -d) && record=\"$tmpdir/abstractgym-wholerun-20261005-2026-10-05T13-38-20Z.json\" && trap 'rm -f \"$record\"; rmdir \"$tmpdir\"' EXIT && printf '%s\\n' '{\"cluster\": \"abstractgym-cfg-pilot\", \"dir\": \"experiments/abstractgym/wholerun-20261005\", \"id\": \"abstractgym-wholerun-20261005\", \"output_uri\": \"runs/wholerun-20261005\", \"owner\": \"owner\", \"ray_cli_revision\": \"de9e3105843a2b6db84e894f1ee11c34d7d9a9c8\", \"ray_cli_version\": \"0.4.0\", \"schema_version\": 2, \"submitted_at\": \"2026-10-05T13:38:20Z\"}' > \"$record\" && hdfs dfs -mkdir -p runs/wholerun-20261005 runs/wholerun-20261005/.ray-cli/submissions && hdfs dfs -put \"$record\" runs/wholerun-20261005/.ray-cli/submissions && rm -f \"$record\" && rmdir \"$tmpdir\" && trap - EXIT && exec bash scripts/run_ray_wholerun_all.sh",
+        "error_type": null,
+        "id": "abstractgym-wholerun-20261005",
+        "message": "Job was intentionally stopped.",
+        "output_dir": "runs/wholerun-20261005",
+        "ray_job_id": null,
+        "started_at": "2026-10-05T13:38:20.396000+00:00",
+        "status": "STOPPED",
+        "working_dir": "gcs://_ray_pkg_1f721739a08b62265c2e43a1e8c053de72f125bc.zip"
+      },
+      "submission_preview": {
+        "command": "job submit",
+        "data": {
+          "bootstrap_operations": [
+            "mkdir DIR",
+            "mkdir .ray-cli/submissions",
+            "put record without overwrite"
+          ],
+          "cluster": "abstractgym-cfg-pilot",
+          "driver_resources": {
+            "cpus": 8.0,
+            "gpus": 1.0
+          },
+          "entrypoint": "printf '%s\\n' __RAY_CLI_JOB_START_66c45783797446046e0f9032ef00b187__ && tmpdir=$(mktemp -d) && record=\"$tmpdir/abstractgym-wholerun-20261005-2026-10-05T13-38-17Z.json\" && trap 'rm -f \"$record\"; rmdir \"$tmpdir\"' EXIT && printf '%s\\n' '{\"cluster\": \"abstractgym-cfg-pilot\", \"dir\": \"experiments/abstractgym/wholerun-20261005\", \"id\": \"abstractgym-wholerun-20261005\", \"output_uri\": \"runs/wholerun-20261005\", \"owner\": \"owner\", \"ray_cli_revision\": \"de9e3105843a2b6db84e894f1ee11c34d7d9a9c8\", \"ray_cli_version\": \"0.4.0\", \"schema_version\": 2, \"submitted_at\": \"2026-10-05T13:38:17Z\"}' > \"$record\" && hdfs dfs -mkdir -p runs/wholerun-20261005 runs/wholerun-20261005/.ray-cli/submissions && hdfs dfs -put \"$record\" runs/wholerun-20261005/.ray-cli/submissions && rm -f \"$record\" && rmdir \"$tmpdir\" && trap - EXIT && exec bash scripts/run_ray_wholerun_all.sh",
+          "generated_id_is_preview": false,
+          "identity": {
+            "dir": "experiments/abstractgym/wholerun-20261005",
+            "id": "abstractgym-wholerun-20261005",
+            "id_source": "supplied",
+            "output_uri": "runs/wholerun-20261005",
+            "owner": "owner",
+            "submission_record_uri": "runs/wholerun-20261005/.ray-cli/submissions/abstractgym-wholerun-20261005-YYYY-MM-DDTHH-MM-SSZ.json"
+          },
+          "ray_metadata": {
+            "ray_cli_dir": "experiments/abstractgym/wholerun-20261005",
+            "ray_cli_id": "abstractgym-wholerun-20261005",
+            "ray_cli_output_dir": "runs/wholerun-20261005",
+            "ray_cli_owner": "owner"
+          },
+          "runtime_env": {
+            "env_vars": {
+              "LIBHDFS_OPTS": "-Dhadoop.root.logger=ERROR,console",
+              "RAY_CLI_ID": "abstractgym-wholerun-20261005",
+              "RAY_CLI_OUTPUT_DIR": "runs/wholerun-20261005",
+              "RAY_CLI_OWNER": "owner",
+              "RAY_TRAIN_V2_ENABLED": "1"
+            },
+            "working_dir": "/tmp/ray-cli-working-dir-17soi1gy/working_dir.zip"
+          },
+          "submission_record": {
+            "cluster": "abstractgym-cfg-pilot",
+            "dir": "experiments/abstractgym/wholerun-20261005",
+            "id": "abstractgym-wholerun-20261005",
+            "output_uri": "runs/wholerun-20261005",
+            "owner": "owner",
+            "ray_cli_revision": "de9e3105843a2b6db84e894f1ee11c34d7d9a9c8",
+            "ray_cli_version": "0.4.0",
+            "schema_version": 2,
+            "submitted_at": "2026-10-05T13:38:17Z"
+          },
+          "working_dir_archive": {
+            "archive_bytes": 2322128,
+            "excludes": [
+              ".git/"
+            ],
+            "file_count": 109,
+            "gitignore_files": [],
+            "included_ignored": [],
+            "largest_files": [
+              [
+                "experiments/wholerun/fulltrace.json",
+                482720
+              ],
+              [
+                "source.tar.gz",
+                402067
+              ],
+              [
+                "experiments/wholerun/single_step.json.gz",
+                339112
+              ],
+              [
+                "experiments/wholerun/cuefree.json",
+                298339
+              ],
+              [
+                "experiments/wholerun/original.json",
+                295255
+              ],
+              [
+                "src/abstractgym/trace.py",
+                20526
+              ],
+              [
+                "scripts/prepare_hf_cards.py",
+                20170
+              ],
+              [
+                "scripts/run_ray_a6_e2.py",
+                16556
+              ],
+              [
+                "scripts/report_a7.py",
+                15556
+              ],
+              [
+                "src/abstractgym/dataset.py",
+                15545
+              ]
+            ],
+            "limit_bytes": 104857600,
+            "remote": false,
+            "source": "/workspace/abstractgym-wholerun-20261005",
+            "uncompressed_bytes": 2307924,
+            "upload_path": "/tmp/ray-cli-working-dir-17soi1gy/working_dir.zip"
+          }
+        },
+        "schema_version": 2
+      }
+    },
+    {
+      "arms": [
+        "fulltrace_sft_matched"
+      ],
+      "launch_log_sha256": "7c4beba31cb296de93991076aaf196659e9208fa35defb0295ac1bdf82c4303a",
+      "staging": {
+        "archive_sha256": "119aabc676011105a81d19decda2c28e157063e5d198751486b40e46e00c9573",
+        "files": {
+          "experiments/wholerun/cuefree.json": "5997887fdc756adb1a73ee71083ca255e6018e9ae374bc05ec3f8bda61ef2224",
+          "experiments/wholerun/fulltrace.json": "2aa2c6e8b5f2a2196f25e1d4e269680f0989dd61002ef129fe9a03203d160f6b",
+          "experiments/wholerun/manifest.json": "28ee5b521c9130f20cf22bda833bef6b551ab0dedef7263026e64b59ce7f52be",
+          "experiments/wholerun/original.json": "9a3a2fd89cec291d0ac6bbfd2ac0239c222d7f94de13b7071c2bc018f7d8b71b",
+          "experiments/wholerun/protocol.json": "4c5d40afb58405f513c40f6819237c78e4401fff5e0c9a5a92ce1bafbb77eb82",
+          "experiments/wholerun/single_step.json.gz": "502ab4778389ede0f12f7348da76b6a60491b9001760e136d898c79a4ee274d7",
+          "scripts/a6_runtime_site/sitecustomize.py": "69d401feebe6e74ae01ba889127a11d799f0ff399718216f507e6ce89fb9cf94",
+          "scripts/analyze_a6_history_state.py": "5a391ff5eddbee4623b3a9e4893baf5bb4f37dd882faab59aa5a17bb4ec2ecac",
+          "scripts/analyze_a6_x9.py": "56166bfbefb783374272d7762751976ce5bc7f00bc71ee76bc22333d89a76ea0",
+          "scripts/analyze_brackets.py": "35a10c51599a3f4396297914084fdba21a15dc6f3ba3a23643591b146d3cb01d",
+          "scripts/analyze_complexity.py": "d901ff9625077bfc5ff38028dbbb2cf9be79ba17bc13cec6660cfaf830b8b65e",
+          "scripts/audit_a7_rollouts.py": "60f93f1a6746e9361b96244197a1a95ae438b1e61775f06b74b129e86e301072",
+          "scripts/audit_hf_payloads.py": "066227846254923f7d71b7c0f9793aded153c9a5de01d0d372d7ca5a5d699cb1",
+          "scripts/compare_a7_pairs.py": "24353a0f1a24998adca46494d1e96dc6b9f98d18053a079c91f856b6f79b57da",
+          "scripts/diagnose_a6_merge.py": "053d7894ea87c486b0032daa66d80ff0875496b732e04c6a706378089d82cf84",
+          "scripts/export_a6.py": "b5a9f9745c60a714b4d088ad29e2a9590268c08acc90cefaef2409c12ab54e40",
+          "scripts/export_a6_e2.py": "350e4ce56ab3d5c72b8b5e045f232aaab80a90b198c09430e6e26bb5448e3d2c",
+          "scripts/export_a6_followups.py": "efa9187c88dc797d507323ce4129ad566ca7e4deae27d5b40c0363c9aef6c9d6",
+          "scripts/export_a6_objectives.py": "67e8dfe8326abf02e530b58c46dcee317f65a66d69db080bc0d45d552620614e",
+          "scripts/export_a6_run_manifest.py": "aa4232cd6546d5f6e6ae7aeb2f5f83f3f213ffb26b8760af40bc82e692b5482b",
+          "scripts/export_a6_x10.py": "374ca16c04063b994334fe31d3b1890c9f4a9b42cab0dbf2e3d25e0328bb28cc",
+          "scripts/export_a6_x3.py": "4f9653f4ca1855e5bbf8bf7dfa7a13b47b04e0820188d950feb924a1d4788a39",
+          "scripts/export_a6_x45.py": "f6cd95c1d1547cf1f5c002aad71dc288130c3c1483e4274f4631ad117db089dc",
+          "scripts/export_a7.py": "3ad7b9d4aca90b97fa7608a44609798cd071901dbbb26ed9368d0d31e6e47e94",
+          "scripts/export_a7_runs.py": "f155bb31293ff65498939d4d837bb505ab0a35988eb8381f284778f0e1eaeaba",
+          "scripts/fetch_ray_artifacts.py": "3db0bb0a37c8d56c3e8b46435ae3b78dd4d269621515f93b553585664dc5388b",
+          "scripts/fetch_ray_binary_remote.py": "ef144fa0cded718d86c1944456c816aa5b5e61b8b2e18cc8726b977e1b392397",
+          "scripts/freeze_a7.py": "fa8937b088c8b3b4a2d61aeae8c57415292fca2453bde8264428e73dcc8858d6",
+          "scripts/freeze_cuefree.py": "c19a032756ba186a55e578fc6fe291922355180867f8f46169607a1dc0649d0e",
+          "scripts/freeze_wholerun.py": "cfcc0646a8b6692dc2f2f8d356f7e3988b27683a117676ffc6dc0edbb1daf1cf",
+          "scripts/plot_a6.py": "e6da8969b654ba74dcc4e80892e15933406232d6eeb73db5054a64aefe626c87",
+          "scripts/plot_a6_followups.py": "7ed7aab4ecef9855416a70fb1cd6aff107d9725ecb7f049795fa0e193f1a4c3b",
+          "scripts/plot_a7.py": "35544d199c228fd36e6cb683947eeffcd539caa7f2f6f6800fed693ee40e79e2",
+          "scripts/prepare_hf_cards.py": "c48571d5cfe7a904b503c6e72e5e748fe71f98ffde0d32cba677b315abe73ac1",
+          "scripts/prepare_hf_tiny.py": "b975681a1dcb009d5dbad287df2289eb1e20febdba4af01d4ea6cfa48636c68d",
+          "scripts/publish_hf_payloads.py": "664f23f1ccb8cf728effdb4e86c4588e7341ed433f9e521ff9aaef9bcd66bc75",
+          "scripts/ray_preflight.py": "441c7e2bf3a84d8a6c2355090bca4053a2c932f0c3713f8dddc579f9d7e9a980",
+          "scripts/report_a7.py": "7b505241b71d89ec0b8989207a8311a560008df25db3e3497519d8b1331850a4",
+          "scripts/report_cuefree.py": "ead30b580c965d97d07d54b9d5781f2c82f6e569ed7dcf9c09785fc6d9198ac8",
+          "scripts/report_hf_publication.py": "060e9f75cb1a0289659a9b18b3d5504a4ae20f38318e769dfc2eebccc9b283cb",
+          "scripts/report_wholerun.py": "ff8fb9a68bc0e99f47ebe8c6da325f417f66f88fd687d17435c28d077fcc92d9",
+          "scripts/resume_a6_e2_evaluation.py": "768fec7fc1a317851c2afece8d4f7ccbef7994534bd58a119ca5bde5b6b681eb",
+          "scripts/resume_a6_lora_only.py": "7ee456a8ff80c4fe5630f48656258a93fbb518ad17a6e79b559cbcd2dd96504d",
+          "scripts/run_a6_tiny.py": "62a632c65003a10c5f35b1a586f7a62cfae3605db0c39d9ae48914367ea7aa1e",
+          "scripts/run_a6_tiny_trace.py": "bcf51be1ed79826cf8fc82c265e08b0953f2e5c51e1446aa9c065e0e5c012ee4",
+          "scripts/run_a6_tiny_x5.py": "ac3ac6379dc0bdf5199d0c17eab97cc9934284fd20d75c2f3273fecfcf0ecd70",
+          "scripts/run_a6_x6.py": "b8ce548d5a55069483b46ed89da10f34bb9a3edf976b361069cd4d11692fd685",
+          "scripts/run_ray_a6_14b.sh": "2ef096f6f968a3938055dae998c985b02707b70425269af1ff7bfada05277bde",
+          "scripts/run_ray_a6_e2.py": "0ed956f3a2ffe8bb449f27436ed5f529218457a39ff5d5abd526d84c35b5c07b",
+          "scripts/run_ray_a6_e2.sh": "e32775e7d0012162fe8cb2055a7628fe2e1af560eb144b6d8ed2209df6369b73",
+          "scripts/run_ray_a6_e2_eval.sh": "64abca98a12414672e2dc8aeb9cb875398428e5d1513ee50bbf3a5799f1e51dc",
+          "scripts/run_ray_a6_lora_only.sh": "81fd3da523a645dfe71b6519db10b4ccd23c1e351105a64f4d136428a61924f9",
+          "scripts/run_ray_a6_objective.py": "9d2959066cf7a085cd3c1c16c2ebbef1ebf5fb73e346124d3500da35ed8f2b04",
+          "scripts/run_ray_a6_objective.sh": "89872ba4c2f24dc4eb8495aa9fe74f8606d7d79056507f59475515d8eabcf510",
+          "scripts/run_ray_a6_x10.py": "b3116935f91500209c38afe2a515de71943f21646db8937e6bbe613e36584d16",
+          "scripts/run_ray_a6_x10.sh": "4455fdbf3e4a6968cf0b2369b335c8e9974cf744090cc8dd19655ebab9101ea2",
+          "scripts/run_ray_a6_x12.py": "4037a98896feeafe1400fb24150c25e0517ec3dfaa646b424d400a970b25ec34",
+          "scripts/run_ray_a6_x12.sh": "06802b158ddd627cf981696884fb83c9ba5353b2df0d4311563de8200172db84",
+          "scripts/run_ray_a6_x3.py": "4235557a8bbe4bf83078c414d5328a50435af5c67471c54ba5b06fb4d1df667e",
+          "scripts/run_ray_a6_x3.sh": "8430c8c04966924c1d8d4d5939f16ba15d35bc903e44a0d6a4d85e51d9e9a496",
+          "scripts/run_ray_a6_x45.py": "28f7eadadf8fe5dce180c58416a765a06476fe44bdd67e8368259b3351e64d30",
+          "scripts/run_ray_a6_x45.sh": "1b6e38f7d6c25315833590cb56e8a2b10f488c09e5ddd3ee99688eca40b802d9",
+          "scripts/run_ray_a7.py": "32a04d2c9da7eb5361a50af8d31f3b1234826896f48dff1979c03c9b5008b761",
+          "scripts/run_ray_a7.sh": "130d25469061ec75c2f15d544aa751a5abc5fe2540edaf38f7225f361bfb090d",
+          "scripts/run_ray_a7_teacher_audit.py": "d2677ff5a89318d621525c234344c1ee508d8b2d9666634493fc01daf110a241",
+          "scripts/run_ray_a7_teacher_audit.sh": "10459be3ee53039f6ec1c4f08e7ed3eb88ff112d2676e39300126c160751482d",
+          "scripts/run_ray_brackets.py": "2e2961c38ff1cda85c3f72f430bcac87aa79eb3c4a9e95baeaf5f17246ef8f95",
+          "scripts/run_ray_calibration_pair.sh": "274cbbefd4eca5047044e2dcf48c0acfa776a3df562f4fb5d8181abbbe47712c",
+          "scripts/run_ray_cfg.py": "513cd0d6c8180b565bf47512c96d5d68b40a63f1f9a971d2e2ab4f29d6ddfad1",
+          "scripts/run_ray_cfg.sh": "7fa15bf36d5a0f6f295bfaf98a242525b3b3fd7c778735e3eb4d8005e1a9ea9c",
+          "scripts/run_ray_complexity.py": "22b2cbe8c118ae2a36c109756882b6c1cdddc87a810a6e7601e47cc818ca4b1a",
+          "scripts/run_ray_cuefree.py": "2a63bdb934803d525401c589498062835bd4c05c3abf24b8c577485f66db5ec7",
+          "scripts/run_ray_cuefree.sh": "2b519444f66933a6fdd5cc0d6df9fa9a24dd75746763e09f2d80cc577f053871",
+          "scripts/run_ray_elementary.py": "85fb77253ea56a0d417ffc1a2c824777525ef63c85bd1a5adbe8fc0f6ba1da9e",
+          "scripts/run_ray_membership.py": "89f6ee21a9cbe13f32eae8a4c0d9e8706450214096427b7c37a656c8712ea055",
+          "scripts/run_ray_micro.py": "e0baa119bb39c8b576cf874244e1f446fd97891291185045de67f9e49f4f2570",
+          "scripts/run_ray_small_14b.sh": "32ca59b147c23e1d683a95ff8ce2c263802ae3499901ade34523f10ad09937e2",
+          "scripts/run_ray_wholerun.py": "05f122259485d40341a42c6860e992a3fb11b00936e029b94d0c949031e08fdc",
+          "scripts/run_ray_wholerun.sh": "8605a401c76c410d4b514dd84ac30fa85322862aa8aad1a2443b0062fa0c4d7d",
+          "scripts/run_ray_wholerun_all.sh": "58b75363132740487796381e4d9d36717054b6e638fd81dd37de82ff8179d513",
+          "scripts/submit_wholerun.py": "1f650dae66a2f053c6eea324ab9f593fe72996bf45a8d8e159928f055647ba74",
+          "scripts/wholerun_handoff.py": "3db1cf32f45f8369a188bc9074cf53f80225539ee5cf955cc10cbdabaa28a278",
+          "src/abstractgym/__init__.py": "d2a4552fddb57d8eabf052560f08e5250dae1b8edce775a0986efc4b2a53aeb5",
+          "src/abstractgym/a6.py": "975b3d76fc9503e11e8f0ad8c57aa27162250298d4316d949145e6df80dbbfe2",
+          "src/abstractgym/a6_followup.py": "051b94d91d3c647e05133194cd3ee901811ec8fb1f39fec069f5a1af21bad11e",
+          "src/abstractgym/a6_model.py": "d13c0b913ba39cd3c8371147d2495b185c24d8d15225cd68bc11e1aa2ebd72f7",
+          "src/abstractgym/a6_objectives.py": "4bd171c13f85361aba114585cef342e7d5c9bc415379808edad11d9cf07bc8ed",
+          "src/abstractgym/a6_raw.py": "df9c2be312f2290939871364baca738ac9a849dca855d049e304a6d0bb74e630",
+          "src/abstractgym/a6_replication.py": "3f56448d3bf2699e9d2529430b3dad352d4c43099d2ecdeb153fb391b86d5844",
+          "src/abstractgym/a6_sft.py": "631b2c5f6add86b9520e2c29ea9f5e09fc457850437cafb246aa055d145d2762",
+          "src/abstractgym/a6_trace.py": "328a1d922e0d6dda421406f2e332b14ab9a127ad0a1fa0e1ebf3b3948c55fe94",
+          "src/abstractgym/a7.py": "9d2411f64386a3cad512940cbd095b42f4620e6229de0ab40ced1b8c0c7574c7",
+          "src/abstractgym/batched_experiment.py": "4a5ddc8b7aa8fb6e389c4497ece5bd0b99f3b6d02745995bfed1211a5924941e",
+          "src/abstractgym/benchmark.py": "25223b808a7b8f52c09a0cc35401eacfc656ae9456ee8fe0e30b2d3a54197532",
+          "src/abstractgym/brackets.py": "9fa8b835c0aac8fa26177b032f1fc07e1bb0964f7ec01fd0f83ad11b74e0550f",
+          "src/abstractgym/cfg.py": "275d028e050215cb695bccc2ee9603f44f12acdbfa781a58f4d29282f59b544a",
+          "src/abstractgym/cli.py": "a4ff6b248553e829173887e62ce347a7125f78448d86530178fc77c5209f752e",
+          "src/abstractgym/complexity.py": "3913686a0f4d6cd1245afe79038e2459d456fb1082f235af7daa755ec44c9d03",
+          "src/abstractgym/controller.py": "4031bc38f95f6c40c219916975c3bd954e13f692cdc0145e619143d8482f0346",
+          "src/abstractgym/cuefree.py": "edf559708c99e6b2be57cff2160ea4e7ee26082f9ed6bdd60059fe3e68a2068a",
+          "src/abstractgym/dataset.py": "509236f5236190370cb1cf2871b65fa4fd0dc39cd9c2303a3773ef4b02fb6d55",
+          "src/abstractgym/elementary.py": "b70c0d9413cb3fb5a5e87324bff7f6a4ef4ef3d62ede97d40302b662f2408243",
+          "src/abstractgym/evaluate.py": "b358860d53c96d7dfe17cb8bd14b79a1c108c0bc00fa2d67e442ddc9ddd5e243",
+          "src/abstractgym/experiment.py": "7e3288a769484ca97563899e8470d4094ee5b043e4bf06055c242fe5403ee0de",
+          "src/abstractgym/micro.py": "4e1474642316adef684b651a6b97d5b1e8bdafaa0089b19f0ab584c90dc67edc",
+          "src/abstractgym/oracle.py": "1f6db7ecfdcc27fe4c32f0c009bb6f550947fa275bb3e5c90f1cc9068585baf7",
+          "src/abstractgym/prompting.py": "f3514865ff596c8f90bab95275de4668bf82d6a802a0135ee5bb343dfae82618",
+          "src/abstractgym/schema.py": "c7effd67811824154dae86194424be6f28d3f591738f331b23e0c75e8e4c8de7",
+          "src/abstractgym/trace.py": "912b5e25ce739485d4be5fedc91c63166cf5e85c3c3d1acdc535daf2503b0242",
+          "src/abstractgym/wholerun.py": "7df9754aac48d9831b0261dd1e97c36eba1026634eaf594a51dfe05088a92c1b"
+        },
+        "remote": "/workspace/abstractgym-wholerun-matched-20261005"
+      },
+      "status": {
+        "dir": "experiments/abstractgym/wholerun-matched-20261005",
+        "driver_exit_code": 0,
+        "driver_node_id": "677b3ccd41ad68b06a548659363975cec0a8a37aa1024ea183fec657",
+        "duration_seconds": 19059.394,
+        "ended_at": "2026-10-05T19:13:22.380000+00:00",
+        "entrypoint": "printf '%s\\n' __RAY_CLI_JOB_START_4a61aeb2fd4257595ecd6ddd49c96f3c__ && tmpdir=$(mktemp -d) && record=\"$tmpdir/abstractgym-wholerun-matched-20261005-2026-10-05T13-55-42Z.json\" && trap 'rm -f \"$record\"; rmdir \"$tmpdir\"' EXIT && printf '%s\\n' '{\"cluster\": \"abstractgym-wholerun-1005\", \"dir\": \"experiments/abstractgym/wholerun-matched-20261005\", \"id\": \"abstractgym-wholerun-matched-20261005\", \"output_uri\": \"runs/wholerun-matched-20261005\", \"owner\": \"owner\", \"ray_cli_revision\": \"de9e3105843a2b6db84e894f1ee11c34d7d9a9c8\", \"ray_cli_version\": \"0.4.0\", \"schema_version\": 2, \"submitted_at\": \"2026-10-05T13:55:42Z\"}' > \"$record\" && hdfs dfs -mkdir -p runs/wholerun-matched-20261005 runs/wholerun-matched-20261005/.ray-cli/submissions && hdfs dfs -put \"$record\" runs/wholerun-matched-20261005/.ray-cli/submissions && rm -f \"$record\" && rmdir \"$tmpdir\" && trap - EXIT && exec bash scripts/run_ray_wholerun.sh --arm fulltrace_sft_matched",
+        "error_type": null,
+        "id": "abstractgym-wholerun-matched-20261005",
+        "message": "Job finished successfully.",
+        "output_dir": "runs/wholerun-matched-20261005",
+        "ray_job_id": null,
+        "started_at": "2026-10-05T13:55:42.986000+00:00",
+        "status": "SUCCEEDED",
+        "working_dir": "gcs://_ray_pkg_5eee1615d3bd286c1ec839088dea69d40b91a682.zip"
+      },
+      "submission_preview": {
+        "command": "job submit",
+        "data": {
+          "bootstrap_operations": [
+            "mkdir DIR",
+            "mkdir .ray-cli/submissions",
+            "put record without overwrite"
+          ],
+          "cluster": "abstractgym-wholerun-1005",
+          "driver_resources": {
+            "cpus": 8.0,
+            "gpus": 1.0
+          },
+          "entrypoint": "printf '%s\\n' __RAY_CLI_JOB_START_a981d6f1b2143c2adf44fe317d59550b__ && tmpdir=$(mktemp -d) && record=\"$tmpdir/abstractgym-wholerun-matched-20261005-2026-10-05T13-55-40Z.json\" && trap 'rm -f \"$record\"; rmdir \"$tmpdir\"' EXIT && printf '%s\\n' '{\"cluster\": \"abstractgym-wholerun-1005\", \"dir\": \"experiments/abstractgym/wholerun-matched-20261005\", \"id\": \"abstractgym-wholerun-matched-20261005\", \"output_uri\": \"runs/wholerun-matched-20261005\", \"owner\": \"owner\", \"ray_cli_revision\": \"de9e3105843a2b6db84e894f1ee11c34d7d9a9c8\", \"ray_cli_version\": \"0.4.0\", \"schema_version\": 2, \"submitted_at\": \"2026-10-05T13:55:40Z\"}' > \"$record\" && hdfs dfs -mkdir -p runs/wholerun-matched-20261005 runs/wholerun-matched-20261005/.ray-cli/submissions && hdfs dfs -put \"$record\" runs/wholerun-matched-20261005/.ray-cli/submissions && rm -f \"$record\" && rmdir \"$tmpdir\" && trap - EXIT && exec bash scripts/run_ray_wholerun.sh --arm fulltrace_sft_matched",
+          "generated_id_is_preview": false,
+          "identity": {
+            "dir": "experiments/abstractgym/wholerun-matched-20261005",
+            "id": "abstractgym-wholerun-matched-20261005",
+            "id_source": "supplied",
+            "output_uri": "runs/wholerun-matched-20261005",
+            "owner": "owner",
+            "submission_record_uri": "runs/wholerun-matched-20261005/.ray-cli/submissions/abstractgym-wholerun-matched-20261005-YYYY-MM-DDTHH-MM-SSZ.json"
+          },
+          "ray_metadata": {
+            "ray_cli_dir": "experiments/abstractgym/wholerun-matched-20261005",
+            "ray_cli_id": "abstractgym-wholerun-matched-20261005",
+            "ray_cli_output_dir": "runs/wholerun-matched-20261005",
+            "ray_cli_owner": "owner"
+          },
+          "runtime_env": {
+            "env_vars": {
+              "LIBHDFS_OPTS": "-Dhadoop.root.logger=ERROR,console",
+              "RAY_CLI_ID": "abstractgym-wholerun-matched-20261005",
+              "RAY_CLI_OUTPUT_DIR": "runs/wholerun-matched-20261005",
+              "RAY_CLI_OWNER": "owner",
+              "RAY_TRAIN_V2_ENABLED": "1"
+            },
+            "working_dir": "/tmp/ray-cli-working-dir-8viamg4g/working_dir.zip"
+          },
+          "submission_record": {
+            "cluster": "abstractgym-wholerun-1005",
+            "dir": "experiments/abstractgym/wholerun-matched-20261005",
+            "id": "abstractgym-wholerun-matched-20261005",
+            "output_uri": "runs/wholerun-matched-20261005",
+            "owner": "owner",
+            "ray_cli_revision": "de9e3105843a2b6db84e894f1ee11c34d7d9a9c8",
+            "ray_cli_version": "0.4.0",
+            "schema_version": 2,
+            "submitted_at": "2026-10-05T13:55:40Z"
+          },
+          "working_dir_archive": {
+            "archive_bytes": 2354827,
+            "excludes": [
+              ".git/"
+            ],
+            "file_count": 111,
+            "gitignore_files": [],
+            "included_ignored": [],
+            "largest_files": [
+              [
+                "experiments/wholerun/fulltrace.json",
+                482720
+              ],
+              [
+                "source.tar.gz",
+                408736
+              ],
+              [
+                "experiments/wholerun/single_step.json.gz",
+                339112
+              ],
+              [
+                "experiments/wholerun/cuefree.json",
+                298339
+              ],
+              [
+                "experiments/wholerun/original.json",
+                295255
+              ],
+              [
+                "scripts/report_wholerun.py",
+                23377
+              ],
+              [
+                "src/abstractgym/trace.py",
+                20526
+              ],
+              [
+                "scripts/prepare_hf_cards.py",
+                20170
+              ],
+              [
+                "scripts/run_ray_a6_e2.py",
+                16556
+              ],
+              [
+                "scripts/report_a7.py",
+                15556
+              ]
+            ],
+            "limit_bytes": 104857600,
+            "remote": false,
+            "source": "/workspace/abstractgym-wholerun-matched-20261005",
+            "uncompressed_bytes": 2340365,
+            "upload_path": "/tmp/ray-cli-working-dir-8viamg4g/working_dir.zip"
+          }
+        },
+        "schema_version": 2
+      }
+    },
+    {
+      "arms": [
+        "mixed_sft"
+      ],
+      "launch_log_sha256": "fdeeeeac52307bcddcb1836f86551d17c13fa749cf6667c58c4e0a4a53c4ae9a",
+      "staging": {
+        "archive_sha256": "119aabc676011105a81d19decda2c28e157063e5d198751486b40e46e00c9573",
+        "files": {
+          "experiments/wholerun/cuefree.json": "5997887fdc756adb1a73ee71083ca255e6018e9ae374bc05ec3f8bda61ef2224",
+          "experiments/wholerun/fulltrace.json": "2aa2c6e8b5f2a2196f25e1d4e269680f0989dd61002ef129fe9a03203d160f6b",
+          "experiments/wholerun/manifest.json": "28ee5b521c9130f20cf22bda833bef6b551ab0dedef7263026e64b59ce7f52be",
+          "experiments/wholerun/original.json": "9a3a2fd89cec291d0ac6bbfd2ac0239c222d7f94de13b7071c2bc018f7d8b71b",
+          "experiments/wholerun/protocol.json": "4c5d40afb58405f513c40f6819237c78e4401fff5e0c9a5a92ce1bafbb77eb82",
+          "experiments/wholerun/single_step.json.gz": "502ab4778389ede0f12f7348da76b6a60491b9001760e136d898c79a4ee274d7",
+          "scripts/a6_runtime_site/sitecustomize.py": "69d401feebe6e74ae01ba889127a11d799f0ff399718216f507e6ce89fb9cf94",
+          "scripts/analyze_a6_history_state.py": "5a391ff5eddbee4623b3a9e4893baf5bb4f37dd882faab59aa5a17bb4ec2ecac",
+          "scripts/analyze_a6_x9.py": "56166bfbefb783374272d7762751976ce5bc7f00bc71ee76bc22333d89a76ea0",
+          "scripts/analyze_brackets.py": "35a10c51599a3f4396297914084fdba21a15dc6f3ba3a23643591b146d3cb01d",
+          "scripts/analyze_complexity.py": "d901ff9625077bfc5ff38028dbbb2cf9be79ba17bc13cec6660cfaf830b8b65e",
+          "scripts/audit_a7_rollouts.py": "60f93f1a6746e9361b96244197a1a95ae438b1e61775f06b74b129e86e301072",
+          "scripts/audit_hf_payloads.py": "066227846254923f7d71b7c0f9793aded153c9a5de01d0d372d7ca5a5d699cb1",
+          "scripts/compare_a7_pairs.py": "24353a0f1a24998adca46494d1e96dc6b9f98d18053a079c91f856b6f79b57da",
+          "scripts/diagnose_a6_merge.py": "053d7894ea87c486b0032daa66d80ff0875496b732e04c6a706378089d82cf84",
+          "scripts/export_a6.py": "b5a9f9745c60a714b4d088ad29e2a9590268c08acc90cefaef2409c12ab54e40",
+          "scripts/export_a6_e2.py": "350e4ce56ab3d5c72b8b5e045f232aaab80a90b198c09430e6e26bb5448e3d2c",
+          "scripts/export_a6_followups.py": "efa9187c88dc797d507323ce4129ad566ca7e4deae27d5b40c0363c9aef6c9d6",
+          "scripts/export_a6_objectives.py": "67e8dfe8326abf02e530b58c46dcee317f65a66d69db080bc0d45d552620614e",
+          "scripts/export_a6_run_manifest.py": "aa4232cd6546d5f6e6ae7aeb2f5f83f3f213ffb26b8760af40bc82e692b5482b",
+          "scripts/export_a6_x10.py": "374ca16c04063b994334fe31d3b1890c9f4a9b42cab0dbf2e3d25e0328bb28cc",
+          "scripts/export_a6_x3.py": "4f9653f4ca1855e5bbf8bf7dfa7a13b47b04e0820188d950feb924a1d4788a39",
+          "scripts/export_a6_x45.py": "f6cd95c1d1547cf1f5c002aad71dc288130c3c1483e4274f4631ad117db089dc",
+          "scripts/export_a7.py": "3ad7b9d4aca90b97fa7608a44609798cd071901dbbb26ed9368d0d31e6e47e94",
+          "scripts/export_a7_runs.py": "f155bb31293ff65498939d4d837bb505ab0a35988eb8381f284778f0e1eaeaba",
+          "scripts/fetch_ray_artifacts.py": "3db0bb0a37c8d56c3e8b46435ae3b78dd4d269621515f93b553585664dc5388b",
+          "scripts/fetch_ray_binary_remote.py": "ef144fa0cded718d86c1944456c816aa5b5e61b8b2e18cc8726b977e1b392397",
+          "scripts/freeze_a7.py": "fa8937b088c8b3b4a2d61aeae8c57415292fca2453bde8264428e73dcc8858d6",
+          "scripts/freeze_cuefree.py": "c19a032756ba186a55e578fc6fe291922355180867f8f46169607a1dc0649d0e",
+          "scripts/freeze_wholerun.py": "cfcc0646a8b6692dc2f2f8d356f7e3988b27683a117676ffc6dc0edbb1daf1cf",
+          "scripts/plot_a6.py": "e6da8969b654ba74dcc4e80892e15933406232d6eeb73db5054a64aefe626c87",
+          "scripts/plot_a6_followups.py": "7ed7aab4ecef9855416a70fb1cd6aff107d9725ecb7f049795fa0e193f1a4c3b",
+          "scripts/plot_a7.py": "35544d199c228fd36e6cb683947eeffcd539caa7f2f6f6800fed693ee40e79e2",
+          "scripts/prepare_hf_cards.py": "c48571d5cfe7a904b503c6e72e5e748fe71f98ffde0d32cba677b315abe73ac1",
+          "scripts/prepare_hf_tiny.py": "b975681a1dcb009d5dbad287df2289eb1e20febdba4af01d4ea6cfa48636c68d",
+          "scripts/publish_hf_payloads.py": "664f23f1ccb8cf728effdb4e86c4588e7341ed433f9e521ff9aaef9bcd66bc75",
+          "scripts/ray_preflight.py": "441c7e2bf3a84d8a6c2355090bca4053a2c932f0c3713f8dddc579f9d7e9a980",
+          "scripts/report_a7.py": "7b505241b71d89ec0b8989207a8311a560008df25db3e3497519d8b1331850a4",
+          "scripts/report_cuefree.py": "ead30b580c965d97d07d54b9d5781f2c82f6e569ed7dcf9c09785fc6d9198ac8",
+          "scripts/report_hf_publication.py": "060e9f75cb1a0289659a9b18b3d5504a4ae20f38318e769dfc2eebccc9b283cb",
+          "scripts/report_wholerun.py": "ff8fb9a68bc0e99f47ebe8c6da325f417f66f88fd687d17435c28d077fcc92d9",
+          "scripts/resume_a6_e2_evaluation.py": "768fec7fc1a317851c2afece8d4f7ccbef7994534bd58a119ca5bde5b6b681eb",
+          "scripts/resume_a6_lora_only.py": "7ee456a8ff80c4fe5630f48656258a93fbb518ad17a6e79b559cbcd2dd96504d",
+          "scripts/run_a6_tiny.py": "62a632c65003a10c5f35b1a586f7a62cfae3605db0c39d9ae48914367ea7aa1e",
+          "scripts/run_a6_tiny_trace.py": "bcf51be1ed79826cf8fc82c265e08b0953f2e5c51e1446aa9c065e0e5c012ee4",
+          "scripts/run_a6_tiny_x5.py": "ac3ac6379dc0bdf5199d0c17eab97cc9934284fd20d75c2f3273fecfcf0ecd70",
+          "scripts/run_a6_x6.py": "b8ce548d5a55069483b46ed89da10f34bb9a3edf976b361069cd4d11692fd685",
+          "scripts/run_ray_a6_14b.sh": "2ef096f6f968a3938055dae998c985b02707b70425269af1ff7bfada05277bde",
+          "scripts/run_ray_a6_e2.py": "0ed956f3a2ffe8bb449f27436ed5f529218457a39ff5d5abd526d84c35b5c07b",
+          "scripts/run_ray_a6_e2.sh": "e32775e7d0012162fe8cb2055a7628fe2e1af560eb144b6d8ed2209df6369b73",
+          "scripts/run_ray_a6_e2_eval.sh": "64abca98a12414672e2dc8aeb9cb875398428e5d1513ee50bbf3a5799f1e51dc",
+          "scripts/run_ray_a6_lora_only.sh": "81fd3da523a645dfe71b6519db10b4ccd23c1e351105a64f4d136428a61924f9",
+          "scripts/run_ray_a6_objective.py": "9d2959066cf7a085cd3c1c16c2ebbef1ebf5fb73e346124d3500da35ed8f2b04",
+          "scripts/run_ray_a6_objective.sh": "89872ba4c2f24dc4eb8495aa9fe74f8606d7d79056507f59475515d8eabcf510",
+          "scripts/run_ray_a6_x10.py": "b3116935f91500209c38afe2a515de71943f21646db8937e6bbe613e36584d16",
+          "scripts/run_ray_a6_x10.sh": "4455fdbf3e4a6968cf0b2369b335c8e9974cf744090cc8dd19655ebab9101ea2",
+          "scripts/run_ray_a6_x12.py": "4037a98896feeafe1400fb24150c25e0517ec3dfaa646b424d400a970b25ec34",
+          "scripts/run_ray_a6_x12.sh": "06802b158ddd627cf981696884fb83c9ba5353b2df0d4311563de8200172db84",
+          "scripts/run_ray_a6_x3.py": "4235557a8bbe4bf83078c414d5328a50435af5c67471c54ba5b06fb4d1df667e",
+          "scripts/run_ray_a6_x3.sh": "8430c8c04966924c1d8d4d5939f16ba15d35bc903e44a0d6a4d85e51d9e9a496",
+          "scripts/run_ray_a6_x45.py": "28f7eadadf8fe5dce180c58416a765a06476fe44bdd67e8368259b3351e64d30",
+          "scripts/run_ray_a6_x45.sh": "1b6e38f7d6c25315833590cb56e8a2b10f488c09e5ddd3ee99688eca40b802d9",
+          "scripts/run_ray_a7.py": "32a04d2c9da7eb5361a50af8d31f3b1234826896f48dff1979c03c9b5008b761",
+          "scripts/run_ray_a7.sh": "130d25469061ec75c2f15d544aa751a5abc5fe2540edaf38f7225f361bfb090d",
+          "scripts/run_ray_a7_teacher_audit.py": "d2677ff5a89318d621525c234344c1ee508d8b2d9666634493fc01daf110a241",
+          "scripts/run_ray_a7_teacher_audit.sh": "10459be3ee53039f6ec1c4f08e7ed3eb88ff112d2676e39300126c160751482d",
+          "scripts/run_ray_brackets.py": "2e2961c38ff1cda85c3f72f430bcac87aa79eb3c4a9e95baeaf5f17246ef8f95",
+          "scripts/run_ray_calibration_pair.sh": "274cbbefd4eca5047044e2dcf48c0acfa776a3df562f4fb5d8181abbbe47712c",
+          "scripts/run_ray_cfg.py": "513cd0d6c8180b565bf47512c96d5d68b40a63f1f9a971d2e2ab4f29d6ddfad1",
+          "scripts/run_ray_cfg.sh": "7fa15bf36d5a0f6f295bfaf98a242525b3b3fd7c778735e3eb4d8005e1a9ea9c",
+          "scripts/run_ray_complexity.py": "22b2cbe8c118ae2a36c109756882b6c1cdddc87a810a6e7601e47cc818ca4b1a",
+          "scripts/run_ray_cuefree.py": "2a63bdb934803d525401c589498062835bd4c05c3abf24b8c577485f66db5ec7",
+          "scripts/run_ray_cuefree.sh": "2b519444f66933a6fdd5cc0d6df9fa9a24dd75746763e09f2d80cc577f053871",
+          "scripts/run_ray_elementary.py": "85fb77253ea56a0d417ffc1a2c824777525ef63c85bd1a5adbe8fc0f6ba1da9e",
+          "scripts/run_ray_membership.py": "89f6ee21a9cbe13f32eae8a4c0d9e8706450214096427b7c37a656c8712ea055",
+          "scripts/run_ray_micro.py": "e0baa119bb39c8b576cf874244e1f446fd97891291185045de67f9e49f4f2570",
+          "scripts/run_ray_small_14b.sh": "32ca59b147c23e1d683a95ff8ce2c263802ae3499901ade34523f10ad09937e2",
+          "scripts/run_ray_wholerun.py": "05f122259485d40341a42c6860e992a3fb11b00936e029b94d0c949031e08fdc",
+          "scripts/run_ray_wholerun.sh": "8605a401c76c410d4b514dd84ac30fa85322862aa8aad1a2443b0062fa0c4d7d",
+          "scripts/run_ray_wholerun_all.sh": "58b75363132740487796381e4d9d36717054b6e638fd81dd37de82ff8179d513",
+          "scripts/submit_wholerun.py": "1f650dae66a2f053c6eea324ab9f593fe72996bf45a8d8e159928f055647ba74",
+          "scripts/wholerun_handoff.py": "3db1cf32f45f8369a188bc9074cf53f80225539ee5cf955cc10cbdabaa28a278",
+          "src/abstractgym/__init__.py": "d2a4552fddb57d8eabf052560f08e5250dae1b8edce775a0986efc4b2a53aeb5",
+          "src/abstractgym/a6.py": "975b3d76fc9503e11e8f0ad8c57aa27162250298d4316d949145e6df80dbbfe2",
+          "src/abstractgym/a6_followup.py": "051b94d91d3c647e05133194cd3ee901811ec8fb1f39fec069f5a1af21bad11e",
+          "src/abstractgym/a6_model.py": "d13c0b913ba39cd3c8371147d2495b185c24d8d15225cd68bc11e1aa2ebd72f7",
+          "src/abstractgym/a6_objectives.py": "4bd171c13f85361aba114585cef342e7d5c9bc415379808edad11d9cf07bc8ed",
+          "src/abstractgym/a6_raw.py": "df9c2be312f2290939871364baca738ac9a849dca855d049e304a6d0bb74e630",
+          "src/abstractgym/a6_replication.py": "3f56448d3bf2699e9d2529430b3dad352d4c43099d2ecdeb153fb391b86d5844",
+          "src/abstractgym/a6_sft.py": "631b2c5f6add86b9520e2c29ea9f5e09fc457850437cafb246aa055d145d2762",
+          "src/abstractgym/a6_trace.py": "328a1d922e0d6dda421406f2e332b14ab9a127ad0a1fa0e1ebf3b3948c55fe94",
+          "src/abstractgym/a7.py": "9d2411f64386a3cad512940cbd095b42f4620e6229de0ab40ced1b8c0c7574c7",
+          "src/abstractgym/batched_experiment.py": "4a5ddc8b7aa8fb6e389c4497ece5bd0b99f3b6d02745995bfed1211a5924941e",
+          "src/abstractgym/benchmark.py": "25223b808a7b8f52c09a0cc35401eacfc656ae9456ee8fe0e30b2d3a54197532",
+          "src/abstractgym/brackets.py": "9fa8b835c0aac8fa26177b032f1fc07e1bb0964f7ec01fd0f83ad11b74e0550f",
+          "src/abstractgym/cfg.py": "275d028e050215cb695bccc2ee9603f44f12acdbfa781a58f4d29282f59b544a",
+          "src/abstractgym/cli.py": "a4ff6b248553e829173887e62ce347a7125f78448d86530178fc77c5209f752e",
+          "src/abstractgym/complexity.py": "3913686a0f4d6cd1245afe79038e2459d456fb1082f235af7daa755ec44c9d03",
+          "src/abstractgym/controller.py": "4031bc38f95f6c40c219916975c3bd954e13f692cdc0145e619143d8482f0346",
+          "src/abstractgym/cuefree.py": "edf559708c99e6b2be57cff2160ea4e7ee26082f9ed6bdd60059fe3e68a2068a",
+          "src/abstractgym/dataset.py": "509236f5236190370cb1cf2871b65fa4fd0dc39cd9c2303a3773ef4b02fb6d55",
+          "src/abstractgym/elementary.py": "b70c0d9413cb3fb5a5e87324bff7f6a4ef4ef3d62ede97d40302b662f2408243",
+          "src/abstractgym/evaluate.py": "b358860d53c96d7dfe17cb8bd14b79a1c108c0bc00fa2d67e442ddc9ddd5e243",
+          "src/abstractgym/experiment.py": "7e3288a769484ca97563899e8470d4094ee5b043e4bf06055c242fe5403ee0de",
+          "src/abstractgym/micro.py": "4e1474642316adef684b651a6b97d5b1e8bdafaa0089b19f0ab584c90dc67edc",
+          "src/abstractgym/oracle.py": "1f6db7ecfdcc27fe4c32f0c009bb6f550947fa275bb3e5c90f1cc9068585baf7",
+          "src/abstractgym/prompting.py": "f3514865ff596c8f90bab95275de4668bf82d6a802a0135ee5bb343dfae82618",
+          "src/abstractgym/schema.py": "c7effd67811824154dae86194424be6f28d3f591738f331b23e0c75e8e4c8de7",
+          "src/abstractgym/trace.py": "912b5e25ce739485d4be5fedc91c63166cf5e85c3c3d1acdc535daf2503b0242",
+          "src/abstractgym/wholerun.py": "7df9754aac48d9831b0261dd1e97c36eba1026634eaf594a51dfe05088a92c1b"
+        },
+        "remote": "/workspace/abstractgym-wholerun-mixed-20261005"
+      },
+      "status": {
+        "dir": "experiments/abstractgym/wholerun-mixed-20261005",
+        "driver_exit_code": 0,
+        "driver_node_id": "8e27dd0c5378db83ce731d10654dbee940f1115e837b40b5221bae9c",
+        "duration_seconds": 18171.667,
+        "ended_at": "2026-10-05T18:58:34.653000+00:00",
+        "entrypoint": "printf '%s\\n' __RAY_CLI_JOB_START_c090f4142760a68b7d5f38d5b436350d__ && tmpdir=$(mktemp -d) && record=\"$tmpdir/abstractgym-wholerun-mixed-20261005-2026-10-05T13-55-42Z.json\" && trap 'rm -f \"$record\"; rmdir \"$tmpdir\"' EXIT && printf '%s\\n' '{\"cluster\": \"abstractgym-wholerun-1005\", \"dir\": \"experiments/abstractgym/wholerun-mixed-20261005\", \"id\": \"abstractgym-wholerun-mixed-20261005\", \"output_uri\": \"runs/wholerun-mixed-20261005\", \"owner\": \"owner\", \"ray_cli_revision\": \"de9e3105843a2b6db84e894f1ee11c34d7d9a9c8\", \"ray_cli_version\": \"0.4.0\", \"schema_version\": 2, \"submitted_at\": \"2026-10-05T13:55:42Z\"}' > \"$record\" && hdfs dfs -mkdir -p runs/wholerun-mixed-20261005 runs/wholerun-mixed-20261005/.ray-cli/submissions && hdfs dfs -put \"$record\" runs/wholerun-mixed-20261005/.ray-cli/submissions && rm -f \"$record\" && rmdir \"$tmpdir\" && trap - EXIT && exec bash scripts/run_ray_wholerun.sh --arm mixed_sft",
+        "error_type": null,
+        "id": "abstractgym-wholerun-mixed-20261005",
+        "message": "Job finished successfully.",
+        "output_dir": "runs/wholerun-mixed-20261005",
+        "ray_job_id": null,
+        "started_at": "2026-10-05T13:55:42.986000+00:00",
+        "status": "SUCCEEDED",
+        "working_dir": "gcs://_ray_pkg_5eee1615d3bd286c1ec839088dea69d40b91a682.zip"
+      },
+      "submission_preview": {
+        "command": "job submit",
+        "data": {
+          "bootstrap_operations": [
+            "mkdir DIR",
+            "mkdir .ray-cli/submissions",
+            "put record without overwrite"
+          ],
+          "cluster": "abstractgym-wholerun-1005",
+          "driver_resources": {
+            "cpus": 8.0,
+            "gpus": 1.0
+          },
+          "entrypoint": "printf '%s\\n' __RAY_CLI_JOB_START_525a36b8e7bf039080833ca86df26725__ && tmpdir=$(mktemp -d) && record=\"$tmpdir/abstractgym-wholerun-mixed-20261005-2026-10-05T13-55-40Z.json\" && trap 'rm -f \"$record\"; rmdir \"$tmpdir\"' EXIT && printf '%s\\n' '{\"cluster\": \"abstractgym-wholerun-1005\", \"dir\": \"experiments/abstractgym/wholerun-mixed-20261005\", \"id\": \"abstractgym-wholerun-mixed-20261005\", \"output_uri\": \"runs/wholerun-mixed-20261005\", \"owner\": \"owner\", \"ray_cli_revision\": \"de9e3105843a2b6db84e894f1ee11c34d7d9a9c8\", \"ray_cli_version\": \"0.4.0\", \"schema_version\": 2, \"submitted_at\": \"2026-10-05T13:55:40Z\"}' > \"$record\" && hdfs dfs -mkdir -p runs/wholerun-mixed-20261005 runs/wholerun-mixed-20261005/.ray-cli/submissions && hdfs dfs -put \"$record\" runs/wholerun-mixed-20261005/.ray-cli/submissions && rm -f \"$record\" && rmdir \"$tmpdir\" && trap - EXIT && exec bash scripts/run_ray_wholerun.sh --arm mixed_sft",
+          "generated_id_is_preview": false,
+          "identity": {
+            "dir": "experiments/abstractgym/wholerun-mixed-20261005",
+            "id": "abstractgym-wholerun-mixed-20261005",
+            "id_source": "supplied",
+            "output_uri": "runs/wholerun-mixed-20261005",
+            "owner": "owner",
+            "submission_record_uri": "runs/wholerun-mixed-20261005/.ray-cli/submissions/abstractgym-wholerun-mixed-20261005-YYYY-MM-DDTHH-MM-SSZ.json"
+          },
+          "ray_metadata": {
+            "ray_cli_dir": "experiments/abstractgym/wholerun-mixed-20261005",
+            "ray_cli_id": "abstractgym-wholerun-mixed-20261005",
+            "ray_cli_output_dir": "runs/wholerun-mixed-20261005",
+            "ray_cli_owner": "owner"
+          },
+          "runtime_env": {
+            "env_vars": {
+              "LIBHDFS_OPTS": "-Dhadoop.root.logger=ERROR,console",
+              "RAY_CLI_ID": "abstractgym-wholerun-mixed-20261005",
+              "RAY_CLI_OUTPUT_DIR": "runs/wholerun-mixed-20261005",
+              "RAY_CLI_OWNER": "owner",
+              "RAY_TRAIN_V2_ENABLED": "1"
+            },
+            "working_dir": "/tmp/ray-cli-working-dir-lz0hfb53/working_dir.zip"
+          },
+          "submission_record": {
+            "cluster": "abstractgym-wholerun-1005",
+            "dir": "experiments/abstractgym/wholerun-mixed-20261005",
+            "id": "abstractgym-wholerun-mixed-20261005",
+            "output_uri": "runs/wholerun-mixed-20261005",
+            "owner": "owner",
+            "ray_cli_revision": "de9e3105843a2b6db84e894f1ee11c34d7d9a9c8",
+            "ray_cli_version": "0.4.0",
+            "schema_version": 2,
+            "submitted_at": "2026-10-05T13:55:40Z"
+          },
+          "working_dir_archive": {
+            "archive_bytes": 2354827,
+            "excludes": [
+              ".git/"
+            ],
+            "file_count": 111,
+            "gitignore_files": [],
+            "included_ignored": [],
+            "largest_files": [
+              [
+                "experiments/wholerun/fulltrace.json",
+                482720
+              ],
+              [
+                "source.tar.gz",
+                408736
+              ],
+              [
+                "experiments/wholerun/single_step.json.gz",
+                339112
+              ],
+              [
+                "experiments/wholerun/cuefree.json",
+                298339
+              ],
+              [
+                "experiments/wholerun/original.json",
+                295255
+              ],
+              [
+                "scripts/report_wholerun.py",
+                23377
+              ],
+              [
+                "src/abstractgym/trace.py",
+                20526
+              ],
+              [
+                "scripts/prepare_hf_cards.py",
+                20170
+              ],
+              [
+                "scripts/run_ray_a6_e2.py",
+                16556
+              ],
+              [
+                "scripts/report_a7.py",
+                15556
+              ]
+            ],
+            "limit_bytes": 104857600,
+            "remote": false,
+            "source": "/workspace/abstractgym-wholerun-mixed-20261005",
+            "uncompressed_bytes": 2340365,
+            "upload_path": "/tmp/ray-cli-working-dir-lz0hfb53/working_dir.zip"
+          }
+        },
+        "schema_version": 2
+      }
+    },
+    {
+      "arms": [
+        "dfs_lora",
+        "zeroshot"
+      ],
+      "launch_log_sha256": "90b396998fb89eadf4badcd484c498b96e1fd28624181732ab8ae047e171d308",
+      "staging": {
+        "archive_sha256": "5f8b9e71e1c37172766d8254c289fb3483d9bd4363914841fd8969fcc27d8229",
+        "files": {
+          "experiments/wholerun/cuefree.json": "5997887fdc756adb1a73ee71083ca255e6018e9ae374bc05ec3f8bda61ef2224",
+          "experiments/wholerun/fulltrace.json": "2aa2c6e8b5f2a2196f25e1d4e269680f0989dd61002ef129fe9a03203d160f6b",
+          "experiments/wholerun/manifest.json": "28ee5b521c9130f20cf22bda833bef6b551ab0dedef7263026e64b59ce7f52be",
+          "experiments/wholerun/original.json": "9a3a2fd89cec291d0ac6bbfd2ac0239c222d7f94de13b7071c2bc018f7d8b71b",
+          "experiments/wholerun/protocol.json": "4c5d40afb58405f513c40f6819237c78e4401fff5e0c9a5a92ce1bafbb77eb82",
+          "experiments/wholerun/single_step.json.gz": "502ab4778389ede0f12f7348da76b6a60491b9001760e136d898c79a4ee274d7",
+          "scripts/a6_runtime_site/sitecustomize.py": "69d401feebe6e74ae01ba889127a11d799f0ff399718216f507e6ce89fb9cf94",
+          "scripts/analyze_a6_history_state.py": "5a391ff5eddbee4623b3a9e4893baf5bb4f37dd882faab59aa5a17bb4ec2ecac",
+          "scripts/analyze_a6_x9.py": "56166bfbefb783374272d7762751976ce5bc7f00bc71ee76bc22333d89a76ea0",
+          "scripts/analyze_brackets.py": "35a10c51599a3f4396297914084fdba21a15dc6f3ba3a23643591b146d3cb01d",
+          "scripts/analyze_complexity.py": "d901ff9625077bfc5ff38028dbbb2cf9be79ba17bc13cec6660cfaf830b8b65e",
+          "scripts/audit_a7_rollouts.py": "60f93f1a6746e9361b96244197a1a95ae438b1e61775f06b74b129e86e301072",
+          "scripts/audit_hf_payloads.py": "066227846254923f7d71b7c0f9793aded153c9a5de01d0d372d7ca5a5d699cb1",
+          "scripts/compare_a7_pairs.py": "24353a0f1a24998adca46494d1e96dc6b9f98d18053a079c91f856b6f79b57da",
+          "scripts/diagnose_a6_merge.py": "053d7894ea87c486b0032daa66d80ff0875496b732e04c6a706378089d82cf84",
+          "scripts/export_a6.py": "b5a9f9745c60a714b4d088ad29e2a9590268c08acc90cefaef2409c12ab54e40",
+          "scripts/export_a6_e2.py": "350e4ce56ab3d5c72b8b5e045f232aaab80a90b198c09430e6e26bb5448e3d2c",
+          "scripts/export_a6_followups.py": "efa9187c88dc797d507323ce4129ad566ca7e4deae27d5b40c0363c9aef6c9d6",
+          "scripts/export_a6_objectives.py": "67e8dfe8326abf02e530b58c46dcee317f65a66d69db080bc0d45d552620614e",
+          "scripts/export_a6_run_manifest.py": "aa4232cd6546d5f6e6ae7aeb2f5f83f3f213ffb26b8760af40bc82e692b5482b",
+          "scripts/export_a6_x10.py": "374ca16c04063b994334fe31d3b1890c9f4a9b42cab0dbf2e3d25e0328bb28cc",
+          "scripts/export_a6_x3.py": "4f9653f4ca1855e5bbf8bf7dfa7a13b47b04e0820188d950feb924a1d4788a39",
+          "scripts/export_a6_x45.py": "f6cd95c1d1547cf1f5c002aad71dc288130c3c1483e4274f4631ad117db089dc",
+          "scripts/export_a7.py": "3ad7b9d4aca90b97fa7608a44609798cd071901dbbb26ed9368d0d31e6e47e94",
+          "scripts/export_a7_runs.py": "f155bb31293ff65498939d4d837bb505ab0a35988eb8381f284778f0e1eaeaba",
+          "scripts/export_wholerun_manifest.py": "67332f6e604c68db044be317068db9234e45072e45bcb45eb603bbce438649a2",
+          "scripts/fetch_ray_artifacts.py": "3db0bb0a37c8d56c3e8b46435ae3b78dd4d269621515f93b553585664dc5388b",
+          "scripts/fetch_ray_binary_remote.py": "ef144fa0cded718d86c1944456c816aa5b5e61b8b2e18cc8726b977e1b392397",
+          "scripts/freeze_a7.py": "fa8937b088c8b3b4a2d61aeae8c57415292fca2453bde8264428e73dcc8858d6",
+          "scripts/freeze_cuefree.py": "c19a032756ba186a55e578fc6fe291922355180867f8f46169607a1dc0649d0e",
+          "scripts/freeze_wholerun.py": "2df590cc5518a9630630e6c07951c78d345a75d90aa26cd4abbc775fe031b615",
+          "scripts/plot_a6.py": "e6da8969b654ba74dcc4e80892e15933406232d6eeb73db5054a64aefe626c87",
+          "scripts/plot_a6_followups.py": "7ed7aab4ecef9855416a70fb1cd6aff107d9725ecb7f049795fa0e193f1a4c3b",
+          "scripts/plot_a7.py": "35544d199c228fd36e6cb683947eeffcd539caa7f2f6f6800fed693ee40e79e2",
+          "scripts/prepare_hf_cards.py": "c48571d5cfe7a904b503c6e72e5e748fe71f98ffde0d32cba677b315abe73ac1",
+          "scripts/prepare_hf_tiny.py": "b975681a1dcb009d5dbad287df2289eb1e20febdba4af01d4ea6cfa48636c68d",
+          "scripts/publish_hf_payloads.py": "664f23f1ccb8cf728effdb4e86c4588e7341ed433f9e521ff9aaef9bcd66bc75",
+          "scripts/ray_preflight.py": "441c7e2bf3a84d8a6c2355090bca4053a2c932f0c3713f8dddc579f9d7e9a980",
+          "scripts/report_a7.py": "7b505241b71d89ec0b8989207a8311a560008df25db3e3497519d8b1331850a4",
+          "scripts/report_cuefree.py": "ead30b580c965d97d07d54b9d5781f2c82f6e569ed7dcf9c09785fc6d9198ac8",
+          "scripts/report_hf_publication.py": "060e9f75cb1a0289659a9b18b3d5504a4ae20f38318e769dfc2eebccc9b283cb",
+          "scripts/report_wholerun.py": "d181455135bb3ceba08356d0df62c5d399ba3513c95052af95684f379d47fd71",
+          "scripts/resume_a6_e2_evaluation.py": "768fec7fc1a317851c2afece8d4f7ccbef7994534bd58a119ca5bde5b6b681eb",
+          "scripts/resume_a6_lora_only.py": "7ee456a8ff80c4fe5630f48656258a93fbb518ad17a6e79b559cbcd2dd96504d",
+          "scripts/run_a6_tiny.py": "62a632c65003a10c5f35b1a586f7a62cfae3605db0c39d9ae48914367ea7aa1e",
+          "scripts/run_a6_tiny_trace.py": "bcf51be1ed79826cf8fc82c265e08b0953f2e5c51e1446aa9c065e0e5c012ee4",
+          "scripts/run_a6_tiny_x5.py": "ac3ac6379dc0bdf5199d0c17eab97cc9934284fd20d75c2f3273fecfcf0ecd70",
+          "scripts/run_a6_x6.py": "b8ce548d5a55069483b46ed89da10f34bb9a3edf976b361069cd4d11692fd685",
+          "scripts/run_ray_a6_14b.sh": "2ef096f6f968a3938055dae998c985b02707b70425269af1ff7bfada05277bde",
+          "scripts/run_ray_a6_e2.py": "0ed956f3a2ffe8bb449f27436ed5f529218457a39ff5d5abd526d84c35b5c07b",
+          "scripts/run_ray_a6_e2.sh": "e32775e7d0012162fe8cb2055a7628fe2e1af560eb144b6d8ed2209df6369b73",
+          "scripts/run_ray_a6_e2_eval.sh": "64abca98a12414672e2dc8aeb9cb875398428e5d1513ee50bbf3a5799f1e51dc",
+          "scripts/run_ray_a6_lora_only.sh": "81fd3da523a645dfe71b6519db10b4ccd23c1e351105a64f4d136428a61924f9",
+          "scripts/run_ray_a6_objective.py": "9d2959066cf7a085cd3c1c16c2ebbef1ebf5fb73e346124d3500da35ed8f2b04",
+          "scripts/run_ray_a6_objective.sh": "89872ba4c2f24dc4eb8495aa9fe74f8606d7d79056507f59475515d8eabcf510",
+          "scripts/run_ray_a6_x10.py": "b3116935f91500209c38afe2a515de71943f21646db8937e6bbe613e36584d16",
+          "scripts/run_ray_a6_x10.sh": "4455fdbf3e4a6968cf0b2369b335c8e9974cf744090cc8dd19655ebab9101ea2",
+          "scripts/run_ray_a6_x12.py": "4037a98896feeafe1400fb24150c25e0517ec3dfaa646b424d400a970b25ec34",
+          "scripts/run_ray_a6_x12.sh": "06802b158ddd627cf981696884fb83c9ba5353b2df0d4311563de8200172db84",
+          "scripts/run_ray_a6_x3.py": "4235557a8bbe4bf83078c414d5328a50435af5c67471c54ba5b06fb4d1df667e",
+          "scripts/run_ray_a6_x3.sh": "8430c8c04966924c1d8d4d5939f16ba15d35bc903e44a0d6a4d85e51d9e9a496",
+          "scripts/run_ray_a6_x45.py": "28f7eadadf8fe5dce180c58416a765a06476fe44bdd67e8368259b3351e64d30",
+          "scripts/run_ray_a6_x45.sh": "1b6e38f7d6c25315833590cb56e8a2b10f488c09e5ddd3ee99688eca40b802d9",
+          "scripts/run_ray_a7.py": "32a04d2c9da7eb5361a50af8d31f3b1234826896f48dff1979c03c9b5008b761",
+          "scripts/run_ray_a7.sh": "130d25469061ec75c2f15d544aa751a5abc5fe2540edaf38f7225f361bfb090d",
+          "scripts/run_ray_a7_teacher_audit.py": "d2677ff5a89318d621525c234344c1ee508d8b2d9666634493fc01daf110a241",
+          "scripts/run_ray_a7_teacher_audit.sh": "10459be3ee53039f6ec1c4f08e7ed3eb88ff112d2676e39300126c160751482d",
+          "scripts/run_ray_brackets.py": "2e2961c38ff1cda85c3f72f430bcac87aa79eb3c4a9e95baeaf5f17246ef8f95",
+          "scripts/run_ray_calibration_pair.sh": "274cbbefd4eca5047044e2dcf48c0acfa776a3df562f4fb5d8181abbbe47712c",
+          "scripts/run_ray_cfg.py": "513cd0d6c8180b565bf47512c96d5d68b40a63f1f9a971d2e2ab4f29d6ddfad1",
+          "scripts/run_ray_cfg.sh": "7fa15bf36d5a0f6f295bfaf98a242525b3b3fd7c778735e3eb4d8005e1a9ea9c",
+          "scripts/run_ray_complexity.py": "22b2cbe8c118ae2a36c109756882b6c1cdddc87a810a6e7601e47cc818ca4b1a",
+          "scripts/run_ray_cuefree.py": "2a63bdb934803d525401c589498062835bd4c05c3abf24b8c577485f66db5ec7",
+          "scripts/run_ray_cuefree.sh": "2b519444f66933a6fdd5cc0d6df9fa9a24dd75746763e09f2d80cc577f053871",
+          "scripts/run_ray_elementary.py": "85fb77253ea56a0d417ffc1a2c824777525ef63c85bd1a5adbe8fc0f6ba1da9e",
+          "scripts/run_ray_membership.py": "89f6ee21a9cbe13f32eae8a4c0d9e8706450214096427b7c37a656c8712ea055",
+          "scripts/run_ray_micro.py": "e0baa119bb39c8b576cf874244e1f446fd97891291185045de67f9e49f4f2570",
+          "scripts/run_ray_small_14b.sh": "32ca59b147c23e1d683a95ff8ce2c263802ae3499901ade34523f10ad09937e2",
+          "scripts/run_ray_wholerun.py": "05f122259485d40341a42c6860e992a3fb11b00936e029b94d0c949031e08fdc",
+          "scripts/run_ray_wholerun.sh": "8605a401c76c410d4b514dd84ac30fa85322862aa8aad1a2443b0062fa0c4d7d",
+          "scripts/run_ray_wholerun_all.sh": "58b75363132740487796381e4d9d36717054b6e638fd81dd37de82ff8179d513",
+          "scripts/run_ray_wholerun_refs.sh": "25f7826460223c6aaa6d7ebac6f0e68d360e449b52a4d095c99117a03938a56e",
+          "scripts/submit_wholerun.py": "35655cb46d711efdc70edc908ddd4466d5e2f06e3aa11bfbf7976df73fc9f0f6",
+          "scripts/watch_wholerun.py": "fa446a744dbb528cdaeb5f15ea3fc22a81ea01131d3407f24dd17c6140bb1d4f",
+          "scripts/wholerun_handoff.py": "3db1cf32f45f8369a188bc9074cf53f80225539ee5cf955cc10cbdabaa28a278",
+          "scripts/wholerun_health_remote.py": "a999babdba2c89eac64821e2345379c2ef049ae259437ac9493dc4222db89ea3",
+          "src/abstractgym/__init__.py": "d2a4552fddb57d8eabf052560f08e5250dae1b8edce775a0986efc4b2a53aeb5",
+          "src/abstractgym/a6.py": "975b3d76fc9503e11e8f0ad8c57aa27162250298d4316d949145e6df80dbbfe2",
+          "src/abstractgym/a6_followup.py": "051b94d91d3c647e05133194cd3ee901811ec8fb1f39fec069f5a1af21bad11e",
+          "src/abstractgym/a6_model.py": "d13c0b913ba39cd3c8371147d2495b185c24d8d15225cd68bc11e1aa2ebd72f7",
+          "src/abstractgym/a6_objectives.py": "4bd171c13f85361aba114585cef342e7d5c9bc415379808edad11d9cf07bc8ed",
+          "src/abstractgym/a6_raw.py": "df9c2be312f2290939871364baca738ac9a849dca855d049e304a6d0bb74e630",
+          "src/abstractgym/a6_replication.py": "3f56448d3bf2699e9d2529430b3dad352d4c43099d2ecdeb153fb391b86d5844",
+          "src/abstractgym/a6_sft.py": "631b2c5f6add86b9520e2c29ea9f5e09fc457850437cafb246aa055d145d2762",
+          "src/abstractgym/a6_trace.py": "328a1d922e0d6dda421406f2e332b14ab9a127ad0a1fa0e1ebf3b3948c55fe94",
+          "src/abstractgym/a7.py": "9d2411f64386a3cad512940cbd095b42f4620e6229de0ab40ced1b8c0c7574c7",
+          "src/abstractgym/batched_experiment.py": "4a5ddc8b7aa8fb6e389c4497ece5bd0b99f3b6d02745995bfed1211a5924941e",
+          "src/abstractgym/benchmark.py": "25223b808a7b8f52c09a0cc35401eacfc656ae9456ee8fe0e30b2d3a54197532",
+          "src/abstractgym/brackets.py": "9fa8b835c0aac8fa26177b032f1fc07e1bb0964f7ec01fd0f83ad11b74e0550f",
+          "src/abstractgym/cfg.py": "275d028e050215cb695bccc2ee9603f44f12acdbfa781a58f4d29282f59b544a",
+          "src/abstractgym/cli.py": "a4ff6b248553e829173887e62ce347a7125f78448d86530178fc77c5209f752e",
+          "src/abstractgym/complexity.py": "3913686a0f4d6cd1245afe79038e2459d456fb1082f235af7daa755ec44c9d03",
+          "src/abstractgym/controller.py": "4031bc38f95f6c40c219916975c3bd954e13f692cdc0145e619143d8482f0346",
+          "src/abstractgym/cuefree.py": "edf559708c99e6b2be57cff2160ea4e7ee26082f9ed6bdd60059fe3e68a2068a",
+          "src/abstractgym/dataset.py": "509236f5236190370cb1cf2871b65fa4fd0dc39cd9c2303a3773ef4b02fb6d55",
+          "src/abstractgym/elementary.py": "b70c0d9413cb3fb5a5e87324bff7f6a4ef4ef3d62ede97d40302b662f2408243",
+          "src/abstractgym/evaluate.py": "b358860d53c96d7dfe17cb8bd14b79a1c108c0bc00fa2d67e442ddc9ddd5e243",
+          "src/abstractgym/experiment.py": "7e3288a769484ca97563899e8470d4094ee5b043e4bf06055c242fe5403ee0de",
+          "src/abstractgym/micro.py": "4e1474642316adef684b651a6b97d5b1e8bdafaa0089b19f0ab584c90dc67edc",
+          "src/abstractgym/oracle.py": "1f6db7ecfdcc27fe4c32f0c009bb6f550947fa275bb3e5c90f1cc9068585baf7",
+          "src/abstractgym/prompting.py": "f3514865ff596c8f90bab95275de4668bf82d6a802a0135ee5bb343dfae82618",
+          "src/abstractgym/schema.py": "c7effd67811824154dae86194424be6f28d3f591738f331b23e0c75e8e4c8de7",
+          "src/abstractgym/trace.py": "912b5e25ce739485d4be5fedc91c63166cf5e85c3c3d1acdc535daf2503b0242",
+          "src/abstractgym/wholerun.py": "ffd921334a01cf4c8901b1485ba3886f2e381f7965f56ce2abd976d0e95a3511"
+        },
+        "remote": "/workspace/abstractgym-wholerun-refs-20261005"
+      },
+      "status": {
+        "dir": "experiments/abstractgym/wholerun-refs-20261005",
+        "driver_exit_code": 0,
+        "driver_node_id": "9db42b55c6c228701f005f3bd22bef04f80eec58451afd457b39d519",
+        "duration_seconds": 1748.47,
+        "ended_at": "2026-10-05T19:07:19.809000+00:00",
+        "entrypoint": "printf '%s\\n' __RAY_CLI_JOB_START_6da683d984c3946fa3629e910a40edb9__ && tmpdir=$(mktemp -d) && record=\"$tmpdir/abstractgym-wholerun-refs-20261005-2026-10-05T18-38-11Z.json\" && trap 'rm -f \"$record\"; rmdir \"$tmpdir\"' EXIT && printf '%s\\n' '{\"cluster\": \"abstractgym-cfg-pilot\", \"dir\": \"experiments/abstractgym/wholerun-refs-20261005\", \"id\": \"abstractgym-wholerun-refs-20261005\", \"output_uri\": \"runs/wholerun-refs-20261005\", \"owner\": \"owner\", \"ray_cli_revision\": \"de9e3105843a2b6db84e894f1ee11c34d7d9a9c8\", \"ray_cli_version\": \"0.4.0\", \"schema_version\": 2, \"submitted_at\": \"2026-10-05T18:38:11Z\"}' > \"$record\" && hdfs dfs -mkdir -p runs/wholerun-refs-20261005 runs/wholerun-refs-20261005/.ray-cli/submissions && hdfs dfs -put \"$record\" runs/wholerun-refs-20261005/.ray-cli/submissions && rm -f \"$record\" && rmdir \"$tmpdir\" && trap - EXIT && exec bash scripts/run_ray_wholerun_refs.sh",
+        "error_type": null,
+        "id": "abstractgym-wholerun-refs-20261005",
+        "message": "Job finished successfully.",
+        "output_dir": "runs/wholerun-refs-20261005",
+        "ray_job_id": null,
+        "started_at": "2026-10-05T18:38:11.339000+00:00",
+        "status": "SUCCEEDED",
+        "working_dir": "gcs://_ray_pkg_2cb7e6d712c00d51557edaa0c9b9cdead80a8f32.zip"
+      },
+      "submission_preview": {
+        "command": "job submit",
+        "data": {
+          "bootstrap_operations": [
+            "mkdir DIR",
+            "mkdir .ray-cli/submissions",
+            "put record without overwrite"
+          ],
+          "cluster": "abstractgym-cfg-pilot",
+          "driver_resources": {
+            "cpus": 8.0,
+            "gpus": 1.0
+          },
+          "entrypoint": "printf '%s\\n' __RAY_CLI_JOB_START_b92fbaca5465e0bf7ddbb54e999518c8__ && tmpdir=$(mktemp -d) && record=\"$tmpdir/abstractgym-wholerun-refs-20261005-2026-10-05T18-38-08Z.json\" && trap 'rm -f \"$record\"; rmdir \"$tmpdir\"' EXIT && printf '%s\\n' '{\"cluster\": \"abstractgym-cfg-pilot\", \"dir\": \"experiments/abstractgym/wholerun-refs-20261005\", \"id\": \"abstractgym-wholerun-refs-20261005\", \"output_uri\": \"runs/wholerun-refs-20261005\", \"owner\": \"owner\", \"ray_cli_revision\": \"de9e3105843a2b6db84e894f1ee11c34d7d9a9c8\", \"ray_cli_version\": \"0.4.0\", \"schema_version\": 2, \"submitted_at\": \"2026-10-05T18:38:08Z\"}' > \"$record\" && hdfs dfs -mkdir -p runs/wholerun-refs-20261005 runs/wholerun-refs-20261005/.ray-cli/submissions && hdfs dfs -put \"$record\" runs/wholerun-refs-20261005/.ray-cli/submissions && rm -f \"$record\" && rmdir \"$tmpdir\" && trap - EXIT && exec bash scripts/run_ray_wholerun_refs.sh",
+          "generated_id_is_preview": false,
+          "identity": {
+            "dir": "experiments/abstractgym/wholerun-refs-20261005",
+            "id": "abstractgym-wholerun-refs-20261005",
+            "id_source": "supplied",
+            "output_uri": "runs/wholerun-refs-20261005",
+            "owner": "owner",
+            "submission_record_uri": "runs/wholerun-refs-20261005/.ray-cli/submissions/abstractgym-wholerun-refs-20261005-YYYY-MM-DDTHH-MM-SSZ.json"
+          },
+          "ray_metadata": {
+            "ray_cli_dir": "experiments/abstractgym/wholerun-refs-20261005",
+            "ray_cli_id": "abstractgym-wholerun-refs-20261005",
+            "ray_cli_output_dir": "runs/wholerun-refs-20261005",
+            "ray_cli_owner": "owner"
+          },
+          "runtime_env": {
+            "env_vars": {
+              "LIBHDFS_OPTS": "-Dhadoop.root.logger=ERROR,console",
+              "RAY_CLI_ID": "abstractgym-wholerun-refs-20261005",
+              "RAY_CLI_OUTPUT_DIR": "runs/wholerun-refs-20261005",
+              "RAY_CLI_OWNER": "owner",
+              "RAY_TRAIN_V2_ENABLED": "1"
+            },
+            "working_dir": "/tmp/ray-cli-working-dir-zn5n_gwr/working_dir.zip"
+          },
+          "submission_record": {
+            "cluster": "abstractgym-cfg-pilot",
+            "dir": "experiments/abstractgym/wholerun-refs-20261005",
+            "id": "abstractgym-wholerun-refs-20261005",
+            "output_uri": "runs/wholerun-refs-20261005",
+            "owner": "owner",
+            "ray_cli_revision": "de9e3105843a2b6db84e894f1ee11c34d7d9a9c8",
+            "ray_cli_version": "0.4.0",
+            "schema_version": 2,
+            "submitted_at": "2026-10-05T18:38:08Z"
+          },
+          "working_dir_archive": {
+            "archive_bytes": 2372729,
+            "excludes": [
+              ".git/"
+            ],
+            "file_count": 115,
+            "gitignore_files": [],
+            "included_ignored": [],
+            "largest_files": [
+              [
+                "experiments/wholerun/fulltrace.json",
+                482720
+              ],
+              [
+                "source.tar.gz",
+                412706
+              ],
+              [
+                "experiments/wholerun/single_step.json.gz",
+                339112
+              ],
+              [
+                "experiments/wholerun/cuefree.json",
+                298339
+              ],
+              [
+                "experiments/wholerun/original.json",
+                295255
+              ],
+              [
+                "scripts/report_wholerun.py",
+                28110
+              ],
+              [
+                "src/abstractgym/trace.py",
+                20526
+              ],
+              [
+                "scripts/prepare_hf_cards.py",
+                20170
+              ],
+              [
+                "scripts/run_ray_a6_e2.py",
+                16556
+              ],
+              [
+                "scripts/report_a7.py",
+                15556
+              ]
+            ],
+            "limit_bytes": 104857600,
+            "remote": false,
+            "source": "/workspace/abstractgym-wholerun-refs-20261005",
+            "uncompressed_bytes": 2357713,
+            "upload_path": "/tmp/ray-cli-working-dir-zn5n_gwr/working_dir.zip"
+          }
+        },
+        "schema_version": 2
+      }
+    }
+  ],
+  "peak_experiment_gpus": 3
+}
