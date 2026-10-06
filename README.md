@@ -2,7 +2,7 @@
 
 A small RL-style environment that checks every step of reasoning. Each puzzle asks whether a context-free grammar generates a string; the correct procedure (a leftmost depth-first search with pruning and backtracking) is known exactly, so a model's work can be graded action by action, not just its final answer.
 
-- **Video:** [AbstractGym: Can an LLM Execute a Program?](https://www.youtube.com/watch?v=wmclSPZ40ro) (22 min)
+- **Videos:** [part 1: Can an LLM Execute a Program?](https://youtu.be/QIBMdjqpPAs) (19 min) · [part 2: Where LLM Execution Breaks](https://youtu.be/q38WEwK3fEI) (20 min)
 - **Written guide:** [flavianv.github.io/articles/abstractgym.html](https://flavianv.github.io/articles/abstractgym.html)
 - **Checkpoints:** [tiny controllers](https://huggingface.co/flavianv/abstractgym-tiny-controllers) · [Qwen3-14B bracket step](https://huggingface.co/flavianv/abstractgym-qwen3-14b-bracket-step) · [Qwen3-1.7B bracket step](https://huggingface.co/flavianv/abstractgym-qwen3-1.7b-bracket-step) · [Qwen3-14B DFS step](https://huggingface.co/flavianv/abstractgym-qwen3-14b-dfs-step) · [Qwen3-14B membership](https://huggingface.co/flavianv/abstractgym-qwen3-14b-membership) · [A7 arms](https://huggingface.co/flavianv/abstractgym-a7-arms)
 - **Companion series:** [Understanding Transformers](https://www.youtube.com/playlist?list=PLSQN85XNghpY), code in [ai-notes-code-public](https://github.com/flavianv/ai-notes-code-public)
